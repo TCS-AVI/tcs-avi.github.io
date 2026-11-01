@@ -3,6 +3,228 @@ window.CA_DATA = {
  "seenUrls": [],
  "mcqs": [
   {
+   "id": "aea6013827c",
+   "date": "2026-11-01",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Which Indian Naval Ship recently made a port call at Souda Bay in Greece?",
+   "options": [
+    "INS Vikrant",
+    "INS Trishul",
+    "INS Talwar",
+    "INS Tabar"
+   ],
+   "answer": 1,
+   "explain": "Indian Naval Ship (INS) Trishul made a visit to Souda Bay in Greece.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331089",
+   "verified": false
+  },
+  {
+   "id": "a72adffa2ee",
+   "date": "2026-11-01",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "In which city is the Ministry of Coal organizing the Star Rating Award ceremony to recognize achievements in coal and lignite mining?",
+   "options": [
+    "Ranchi",
+    "Raipur",
+    "Bhubaneswar",
+    "Nagpur"
+   ],
+   "answer": 1,
+   "explain": "The Ministry of Coal is organizing the Star Rating Award ceremony in Raipur on November 2.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331086",
+   "verified": false
+  },
+  {
+   "id": "ab82569c2ed",
+   "date": "2026-11-01",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "The President of India attended the flag-mast worship and flag hoisting ceremony of the Simhastha Mahakumbh in which city?",
+   "options": [
+    "Ujjain",
+    "Haridwar",
+    "Nashik",
+    "Prayagraj"
+   ],
+   "answer": 2,
+   "explain": "The President of India participated in the flag-mast worship and flag hoisting ceremony for the Simhastha Mahakumbh in Nashik.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331007",
+   "verified": false
+  },
+  {
+   "id": "a2df101a6a9",
+   "date": "2026-11-01",
+   "subject": "Economy & Banking",
+   "exams": [
+    "Banking",
+    "SSC",
+    "JKPSC"
+   ],
+   "q": "How much amount was released by the Central Government to state governments as an advance installment of tax devolution ahead of the festive season?",
+   "options": [
+    "₹1,09,019 crore",
+    "₹98,500 crore",
+    "₹1,25,000 crore",
+    "₹75,410 crore"
+   ],
+   "answer": 0,
+   "explain": "The Central Government released ₹1,09,019 crore to state governments as an installment of tax devolution.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331028",
+   "verified": false
+  },
+  {
+   "id": "a0e2bef84b7",
+   "date": "2026-11-01",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "JKPSC",
+    "Banking"
+   ],
+   "q": "How many POCSO Act courts and NDPS courts respectively has Tamil Nadu decided to establish?",
+   "options": [
+    "20 POCSO and 5 NDPS courts",
+    "26 POCSO and 4 NDPS courts",
+    "15 POCSO and 2 NDPS courts",
+    "30 POCSO and 6 NDPS courts"
+   ],
+   "answer": 1,
+   "explain": "Tamil Nadu is set to establish 26 POCSO Act courts and four NDPS courts.",
+   "source": "The Hindu",
+   "sourceUrl": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-to-set-up-26-pocso-act-courts-and-four-ndps-courts/article71652310.ece",
+   "verified": false
+  },
+  {
+   "id": "a450c050f1c",
+   "date": "2026-11-01",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "What percentage of district planning funds has Maharashtra earmarked to address fodder shortage?",
+   "options": [
+    "2%",
+    "5%",
+    "10%",
+    "15%"
+   ],
+   "answer": 1,
+   "explain": "Maharashtra has earmarked 5% of district planning funds to tackle fodder shortage.",
+   "source": "The Hindu",
+   "sourceUrl": "https://www.thehindu.com/news/national/maharashtra/maharashtra-earmarks-5-of-district-planning-funds-to-tackle-fodder-shortage/article71652199.ece",
+   "verified": false
+  },
+  {
+   "id": "a52c9e40ba5",
+   "date": "2026-11-01",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Which third-generation navigation satellite was successfully launched by ISRO?",
+   "options": [
+    "NVS-01",
+    "NVS-02",
+    "NVS-03",
+    "IRNSS-1J"
+   ],
+   "answer": 2,
+   "explain": "ISRO successfully launched the third-generation navigation satellite NVS-03.",
+   "source": "Greater Kashmir",
+   "sourceUrl": "https://www.greaterkashmir.com/national/isro-successfully-launches-3rd-generation-navigation-satellite-nvs-03-12772517",
+   "verified": false
+  },
+  {
+   "id": "a68513b35a2",
+   "date": "2026-11-01",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Under which edition of 'Fit India Freedom Run' did the Department of Pharmaceuticals organize a 'Plog Run' on Rashtriya Ekta Diwas?",
+   "options": [
+    "Fit India Freedom Run 4.0",
+    "Fit India Freedom Run 5.0",
+    "Fit India Freedom Run 6.0",
+    "Fit India Freedom Run 7.0"
+   ],
+   "answer": 3,
+   "explain": "The Department of Pharmaceuticals organized a 'Plog Run' under 'Fit India Freedom Run 7.0' on Rashtriya Ekta Diwas.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331060",
+   "verified": false
+  },
+  {
+   "id": "a20c7fcbc3a",
+   "date": "2026-11-01",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "What was the average Air Quality Index (AQI) recorded in Delhi in October, marking its lowest level in eight years?",
+   "options": [
+    "142",
+    "166",
+    "185",
+    "210"
+   ],
+   "answer": 1,
+   "explain": "Delhi recorded an average October AQI of 166, which is the lowest recorded in the past eight years.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331059",
+   "verified": false
+  },
+  {
+   "id": "a9362bc2610",
+   "date": "2026-11-01",
+   "subject": "Important Days",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "On the occasion of which birth anniversary of Sardar Vallabhbhai Patel did Prime Minister Narendra Modi attend the Rashtriya Ekta Diwas celebrations?",
+   "options": [
+    "148th",
+    "149th",
+    "150th",
+    "151st"
+   ],
+   "answer": 3,
+   "explain": "Prime Minister Narendra Modi attended the Rashtriya Ekta Diwas celebrations on the 151st birth anniversary of Sardar Vallabhbhai Patel.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331058",
+   "verified": false
+  },
+  {
    "id": "s008",
    "date": "2026-10-30",
    "subject": "Important Days",
@@ -53942,6 +54164,15 @@ window.CA_DATA = {
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
+   "id": "u823afcd132",
+   "date": "2026-10-31",
+   "exam": "AIIMS",
+   "type": "update",
+   "title": "AIIMS NORCET 11 City Slip 2026 Out: Download Exam City Intimation Slip at aiimsexams.ac.in - Shiksha.com",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMF9jaFlEMnJRZHVMU0UwdmdsQjhOemQyTVlZd19HWWhULXhWeW8wYnhOMDdJUXVIQXZLaDFzbGNpM3VOY0N4MXVocE9ETUZMMmZIV3ZfU21CR0dPQ3lsU3ZVWXgzRjVsLXQ2ek44RDctYTN1Z3FqWGZBc3pKaGZaNlJKU01MeS1YNW5ibnNDZkxReFI2d2xpUV9ySGxwbTZteTF4UXRRSnFSQmVkZkQtanBtX0N2ajFHRVZDRldoWjVUcXhnc2E5WVU0dE0zTWhIb1RCdkdHRQ?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
    "id": "u003",
    "date": "2026-10-30",
    "exam": "JKSSB",
@@ -54203,6 +54434,15 @@ window.CA_DATA = {
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
+   "id": "ue898570af9",
+   "date": "2026-10-26",
+   "exam": "SSC",
+   "type": "result",
+   "title": "SSC GD Revised Result 2026 Out, Download Updated Merit List PDF - Adda247",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WNEZDVGw1WXRrTU5tbGl5anIwZkktajRkM2pqT09LcGs0MFJKb1lMaFl0SUtyUFdVMS1oQTNNajVNc01zUmVQNURPNU1ScWZuTGw4b1BvWmNzRWExZmF6NUlnWjNSWUF5?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
    "id": "u330345453a",
    "date": "2026-10-24",
    "exam": "RRB",
@@ -54317,6 +54557,15 @@ window.CA_DATA = {
    "type": "notification",
    "title": "JKSSB JE Mechanical Notification Out 2026: Apply Online for 127 Junior Engineer Posts - PW",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vWHNRckF6T2EzdkE5Q3o4M1VSWHJNZVNyUW5XUmlrMm1rMmdYN3lPd0JValdEZzlMblpOMUpSYlphR2xyS3FkWU9HU2gtTXFBREFpM0dTa1BPRUN0d1pLTzVyUFFMVmtTbk0xNHBBMWN2RHVZ?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
+   "id": "udf07bcffa2",
+   "date": "2026-10-20",
+   "exam": "SBI",
+   "type": "admit-card",
+   "title": "SBI Clerk Mains Admit Card 2026 released for 1,538 backlog posts, exam on October 29 - The Times of India",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeXdtSDJFMHAySkxsU1VSQmFreXlCcE54SlNUU1NMZDgtVlA0N3RNZEVQQ1p2YmY3QlV5NlA4RndGNmV5Q2hZUTR0TmRCRGJlZVJPWXN3RlVIMFdRdzYzWDFiN1lYZnJLUnF0TGN2VTFrMFRiWVFMUUVLaEhDRjhkYU53MU9DMk1JbjhQVzFCa2N5d2U0ZkEtazU3OUx3U05BdnI1N1hicV9JZW9sQXpsaGQ4RzlMWl9XUkZrLWRfTldGeWdhSWFuMVE3X25nd2ZUQmt2NVJRNjlmT3FwaXh5emZrRnRGN0RzR29ac3VyRGnSAfYBQVVfeXFMT0d0VHBmZnIybUZBcVltVDFEZHAxYzBVUFdRWFZJZDBLeWZHUFR1aXhiRVctWEdtdUF5ckd2S1dyTm9vdVYtNDIzbHpja3VtRlB6S3JvU3dhRlRXR3Q5UnBaNTU5bWtmelk4YXBEVS16clFSSHotSXh4Um9KdFRSNkltVk15a0xJYVlqRF9GcGctU3EyTUthSHpaR3NVdGY3LWhUc3QzR0RoU083NHJzSmZJaFFZR1RiSjg3THVHZGNQTGF4WHZMdTlqelJTSlpRdUJHbGFQaHNPWlVPWVpCV2lyZFhwM3B0ZVlWRks4ZDdyWV9OdVNn?oc=5",
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
@@ -54939,6 +55188,216 @@ window.CA_DATA = {
    "date": "2026-11-01",
    "source": "Greater Kashmir",
    "id": "nca134c6b81"
+  },
+  {
+   "title": "Strengthening India’s Space Sovereignty - www.pib.gov.in",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTEZGZFUyR2RHVDFaYkRORF9SVzRjUnJsa2J0c0VNT09fUGdaY1JnaXZ0c2VMbXNfUmJ5ZEZFVlg4bjFvYmdwQ0JUVGU1YlVuQVJTS3kwVTJrRkYzb0JKX3FsWGx2ZWpzQmwtM1pOalpxNC05bmc?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n50e7f6703a"
+  },
+  {
+   "title": "News On AIR | October 31, 2026 10:45 AM - News On AIR",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUJYcmNSa0F4Qmw2eW02MElQcmlfQ1FhZXNfNUk5MXY5dmFCelhsRGtzTE1Jb21kWURHV2RHTkhlY0pJRV9ObGswN2lnejlJMER2aE0wa2xjd1ZmSmZ5ZHpmVlNsVktHRnBkdjNBLURpdmpNMm1ial93TDlzbExlc3ljbXB6Q3VRdkRtMkVlVnlQd2xpNGRTdlRnR2FDWkFzeFREZDdxSlpOeUx0eTRzbGl3?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "nf99610e71e"
+  },
+  {
+   "title": "Union Bank of India expands banking infrastructure in Uttar Pradesh, MD inaugurates new facilities - ET Government",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPb19VUi11YXdpSFkzdFNHMGhtQ2FlLTU3QkwyaVVzZi1vM3g2REtXNlJaTWRPRWxObWRRVkR2NjlHbmpMcjVVcjB6Q2R1aE1BbXBXMDdxamFhNHc1SUFocXM4cEhBR09IcWx5STNtZ1plSTFTNXNpYUJfZDVlRmllV0l0dEZ6WkRicU40d3RXUzhSMk9wdEUzSTBDbVNJNUM2NlJZekZyWGhRMHVrUUFnazVMUEVFYXNGS1FvUGlUTWdZVWI0MjNKZ252OXkxcVNjZk9iLUZnVmZTSkRBQ3hsVEV3YU1IQ1ZON3c4aEhUNGxUNUJJNERTamVabDXSAYACQVVfeXFMT1JCbXF1Mi1qNC1FSHhXUWFZZkNXdlo0X19IWEJLYXoxeUpiYy1DSEVMUDdzX2xOVExfQlBYel9oQXk2VDhXcUh0M2Rud2lUNE9yZ2tUejlkWDVYQWYxMWo2T0gzZEttWHZzS3hvVEJmVG1JTFBybTJySzFnZU82WFk5ckU0WGlwVkxiQjM5MHkwclBxdDNpRU1mblI4OVlzaDJXYVd1Sy1EOVpMV3pDTzBSU2Q0NGpWejBlbkZJejgzZTZWRGczdDRZWHpKTURITUUxUnQ0emFhZmNFOEJDS3VwZy1VaFpOYlJOVHp6bWp5RTBuV2VRVGdlMEpSUU1qLQ?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n175bdc3a49"
+  },
+  {
+   "title": "Social Media Takedowns in India: Speed vs Safeguards - Vajiram & Ravi",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUTljbmtQcVR4R0lpUDg4eDBWckoxci01R2Z5UTk3R0t5N1lDWUhXTnptZi1kcllZRExReUxBeDRSei1ITEdqYk85TmlCOHVYXzVoV0ZMTGVJQ1EteUhxUDh3UDcwWUR5NFBDTGV4azRRdFIwMHZDRzJvWFh1cmVPUg?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n687159b799"
+  },
+  {
+   "title": "India’s Congress Party Plans Mass Protest in New Delhi - The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUUxyZDlDU1ZkMVd1bDREUFVvWkFzZlJwN2dLNUxmWG1FRVJNeEhoaHlzTHBJRFFLRWRyZk5zRTYwb3FzMmZXbXZVS0FxRVBNRFpMMjZXTzIwTHFlX2VtSjBraEJvZmkwc2l1aUJRV0R6ZXZsSDM2NHYtSXN5QjZUNEsyc2JkMlZFdkFISWxYMjJ5Zw?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "ne62478205d"
+  },
+  {
+   "title": "India hopes for common ground by December G20 summit: EAM Jaishankar - TripuraTimes.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU0pfUm1yYURQTjBGMVZXQmttUnZ2bl91V1Y3MF9Sb0Qtellna1F2RURYNUstZ2JTZmU4VHhMNWZTWVJEYXRJYzhaS2UwWXFvWkxvT1hGaE5MRE9ZckdsZThhbmVLbWwzNFZxRzhQbU05ZVc5UTh0YXhRdXp1Q0pKMklNTVhzcE53aUF1eGh4d1g5dHFSeEk0OFpnMTZ4aHI0WDNpUXFsaFFqN2FKLUpF?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "na7fdf21552"
+  },
+  {
+   "title": "The New Era of Indian Agriculture and Allied Sectors - www.pib.gov.in",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUZxUkRCX05waVZTZThYT1g1a2h3NXFOTGlfSFFTS0lTTVBDcTl5eXhQZW03aHNzY0E2R0U1VWs3VXNzN2hYRkRpdTJWeGx6MXB0VEpPMGI2dkxzdmg5bmJnSFZhdDRKODlmLW1hb0wzbDh2N3lQQzNwaXRKWXhBbmlWY09ia2FJRXJvTW1Wd2NSMjhkcnYxTEhn?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "nf2204e18dd"
+  },
+  {
+   "title": "Ashok Gehlot calls INDIA bloc rally at Ramlila Maidan a defence of democracy - The News Mill",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWTRYSkNPOXo2S1NmS0VlODRUcm44eDVXWC1idlZ3TV90SzVib3pJdDQ1aFNBUmY0SjVWVVlRbnl4alRsbmJwOTYzQ2J4dmp1dUx0LVF3WEdscGdQb2YzcFlUZldzTFZXS2ZPdHJJdDVraDVFOUxMRDN4cW95VEcwcEpMbGN4NHJFTVctMWs2Vk9qcE1jOVhlbnhPdU54X2xzc3UxTkVKVXVSVERaVnc?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n73770b5e44"
+  },
+  {
+   "title": "Bank credit and interest rate trends for September show significant movements: RBI - News On AIR",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSTZad2hnQUJxYXFGaTY1QWszNkh4MENadkprWkFDRFBYdmw3aDVzeWVHMS1QSFBRTDhUSGdmTjN4OW01MjI1TmY1X2Z5NWpFcmY1dkQ4VlcyaHpQa3A3RzVBbUUzemVYNkZvYWRZR2I2dmU0R0pzVFZfTWF3RlZhcFNsWnF6V214dDJoOXZMd3h4SG5iMC1iV1FVZTlUaHRSZ1NLNTV3SmNCUmc?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n7ec2343523"
+  },
+  {
+   "title": "India’s sovereign AI push moves from foundational models to real-world applications for Bharat: Ganesh Ram.. - ET Government",
+   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNOC0wdFlMQnBTSnNTbS1RTHFBM21ka0JXYXVjMDd2WnJGVkRsTkM4ZzB1VUJCcGZRLTlod2p4SEczay1mS0hDSldxR1RzVDFfRUIwVmZnamZZTmlDbWxCNS1qQnBVMGk1V1M1cVU0MTN5NS1ENlFLYnllQVptbE94UkZFNXRIaGV2Wk1Bd09KMFhKX3gwa3VPZzFTdVdxdmViU0RrenQ5MU16TzNWRlRmS0RrWGJXNWFrU2JSU21rVVVIdzRlRWlManZhNWY3bTJjTzRFcnVmUF9tMnVSX3BfRVp5MG94YWJYNnd6SklYSUFoc1E5T1FHSU04ejhWNE9CTUZVbHM1Yi13czd3VHdtX1pEWG9QcVlvOEpoZnY2X1ZDaVJ6V0hfOFlqWVJaMUFjc0syOTk3aUVxOEJGcDFBMjNhQVhzWDY0WVVndTRjWdIBmgJBVV95cUxONzMxbXpmWXBaOXVNQ1BUQ2k4ajNnbWt0OEZjX2pzRFFhSXVjcTVxZVZ2Sko0WFF5c0pFdGYyZ0wzWDJVMFZTQjF4QUd6b3RMd0FlWXoyQW5OQW1qRGdKWGd2TUoxZ21XTC1teDY1MVdKLVpNcHNfWnBoWkg3WU9naktpNTlZUEcwVFFZenZmaThIRHRVbE5TQnVHZkFHQklUbnQ1cFJfaDU4MEVQeEF3bW85REVjTmFlMk1SYlc2aUxUTmUxMzllTlEtYmd4emg5VFZkQWZSSEw2MFlwVWZCRDlRaXNCV0RvcGY2aFBsVnNJc2hLS0lCUklOcURZRkdVOWpDVFJtQWNBRzYwMGRrQ2lRVGVZNjFXb3c?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n3744ff8a50"
+  },
+  {
+   "title": "NVS-03 Satellite: Reviving India’s NavIC System - Vajiram & Ravi",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Jc2ZhZWxwcy11XzlGZXl4dmZqZ2ZZY2xQNWZFdEFoMENSeGtjVXJWbGRNRHIxNXdhNHJ2MWx3MDZRYXAtdllwQnpIT19wZ1g1TklDeW5iaVgtbHRiQVc0cllvSmhTVHZBY3psR2pVbXA5V3AxbGFEMFpB?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "nf38af8d217"
+  },
+  {
+   "title": "Jammu Kashmir Govt Begins Budget Exercise For 2027-28, Discussions From November 16 - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMHVZdEFyVE5LXzgwTXRCWVhRVTQtQTNaVGkxX2dCTnJORVBIeFl2U0dRaWZrZ3g0cF9oUFBZOVd4LWtwRE1CNjI2a19lanp1X3JNTlR2cFpmYWxCaDUwVWVLbWw0VmxzMmFXcXlXMTVyMTZNVHB5SHVFcjROcEpxcFFjUTN2NGczT2F2bnZGZFk4eFE1ZV84U0oyQ3hBNzgwNDZjMmI3Ri0ycThlTk1CbWJTQnU?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "n5e984aae70"
+  },
+  {
+   "title": "J&K Transfers Six IAS/IPS Officers - Legend Officers",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JUmdFQm9ZbXB4a0tZVU1yNDdkaXpaR0NyeDBkZ0o3eGdwdUMzaGNsSm45eksza2R4S3A5U3VPTlpRUEtXOFg1U3VPbmxIWFFOeDZmc2o1ZHNDQ1Y0SDE0Nm80c2dDYkh0RXhfNjgzSTU0amluSVJqTVZmY2Q?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "nbbabcaf282"
+  },
+  {
+   "title": "Darbar Move Convoy Crosses Ramban Amid Tight Security - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLTA3YktZbm1sREZMdzk2eXYtZVh4bUx3LUF2UXVmY0x2M0FSeHVMTWlIdklibGJ1X3ZGLU1yMDdoc1hmcXE1RFRtMTU0akIwYkUta21FYkVLeW1tb1Q3NUJwajFzODA3VWJFOVNBRTB2WDNjZTBYbkl3a082dVZ6SzBFNHF5dG83bXR5WjFn?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "neb35667c7e"
+  },
+  {
+   "title": "GSLV-F18/NVS-03 MISSION - ISRO",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDNkFYM2JwMG8xYURPRFpqQkNyVDNwYjZPdVpjb3ROVG5pc28xM3cyRlhFeDBTTHhxM2l0aFBwTGxkLW1PcV9YaUprMUtvOVJMUVVmNVltaw?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News India",
+   "id": "n9f68191010"
+  },
+  {
+   "title": "ISRO NVS-03 launch: 5 things to know about India’s new navigation satellite - The Hindu",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR2paT0FIRjlFai1pUHJ4VG81bDNlTUFFVTdzRXVVa09vcl9UR0UtY3A0amRldGJ6UC1GRGlQd09MdmxiOGVnNmZGREhKc3RnYlpIS0xtZ2xfZXVNV2dOanFFMVR3YWJ0QzUzbHd2bXFpZkotdDhSNUtrWW1QTEtPdDhNaE0tblpXdlVnSlhhR19PTVpXZXN5RncwY3ItTmZQaG1aRTRWOXg1ZWFNNnlZbjdIMURtempiVVYyeXcxalBWMVVScFphZDlTRGRGNzNrb3ZHTjNfRU1iTzk5aEpOYWlueUU4Z3pFSlA00gHyAUFVX3lxTE95bjdvVEtXWm9CMlZTazladDJUaG1oa2JOZHBZMU9oMVZQR3pFOEtkVnh4VUpVdVpNOWRCc3N6YmdKOTRwT1VqM2ZPVlNHcDdHSkhqRkNlUndaUk1TR1NzOWlrVl9UYUEzeXVpYnlobFV5WHVaS3EzUldTV29ybGdjM3luUHRpUktiUFoyS2VOcFEtVmQxb25DRjBfQlFrY1otZXVqZkk5Sndad1ZUTFFfWjF3YVN1NFkwT2FabVhRNF9PS01GVkxVbjlELXJ5RUJiSEZJeUxBRUNvRUZfdTZYZWp5NUxnZ0dYUUNwNFA4WTdB?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News India",
+   "id": "n5844ddd2cf"
+  },
+  {
+   "title": "India’s polyalignment follows the money - East Asia Forum",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObWg2WUo5TkZqT1hoOWFONG1ETTd1RllyZXhqNXlVVXkxU204QmZyOVhDWk1HWFZxS3NvRjI3aFVOb1h3UUFzZ25Qc3BfNE5YUUhGbjUySzdFMUZUWkJreE9lcGxHLS1NNVRmbnRGNzBGSXZhcGZuWXlvdlNUNDFsZlVn?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News India",
+   "id": "n8afd88d87f"
+  },
+  {
+   "title": "Darbar Move : 174 officials to remain at Srinagar Secretariat during winter - Rising Kashmir",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQamZmbTFoTW92cXZfTHlKMWRLRExFYmtVWC1mT2syb0J3dUlKS0VERU1Pdk95X1BYeGJBeFpTbEhwd1ZTanExZ0F0MjY1YkstZTZ5OGg2VUhxUm52LUZoYjFpTEVJV1IxM2RYaWZTZDN2eGpiS0VyTzhGeUFER1h6QzZHVDJLQjJjWUVKLWp3YW5rb1FYRDBIS1VLMmVFb2VfNXktUnF5LW1meVVUQjFRdEY5U01RVm9jZVpVMWF3Nkxpd1RE?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "n70a3f35170"
+  },
+  {
+   "title": "Jammu University to establish Kashmir research centre for language and cultural preservation - Prop News Time",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNGJ5VFBrU2U2MVAwekxPVzNGeURjODJnbk1BNXRZT3h5TFFDVEkzdGk2NEtuazQyQW9VVFhCNEl2M0lJZVJWbGFnQzVXYkt4UVNhYWtObmc3dllKUHZOczVEQmNIQ3BEUkdqZTdqY2xGMXZKb1E5SmszbmZxclJyck9OaXlhSHVTd3F3REptSEgwTGxnekg0LXBWTnBIMEFvbnhsWnpIbUNYcEVrX05EYUV6enNmLURWSXhBWFZQUU5EQUp6U3ZucUk2Wnd2bGpWY0tYVWdBSk5EX1Zo?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "na8253e8571"
+  },
+  {
+   "title": "Jammu Readies For Durbar, Move Begins from Srinagar - Kashmir Observer",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNkdyOGpzb3ctcjZGeHJxZWJCb2ZYVWdDSEhVRW41LUwyaXl5MnczT1U0bnRRYi1KZEFYZnVzc1QxYjh6aV84QWVHMVUzdjdCM2ZUYmctTDM5am1sNDh1QU51RGlNOXpiemZEVGRicWY4VzlVQnhCeXdxQ0dkZWF1NEo1cXlnQ1NsM0daRGtTbWhNX3Ut?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "ne8df1c9698"
+  },
+  {
+   "title": "J&K govt orders major administrative reshuffle; 6 IAS, IPS officers assigned new responsibilities - Greater Kashmir",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMHpqaXN4RmpmNU0xSVpwZ2dnU0R3UnhsN0VGSUd3Yk5WLXpkem1aM3Ixb0RacHY1LXdSaU9hcG5UUi1FeGFnYy12bDVodUZCX2tNbkVTZ3NHY0NjdlVIZC1VcEMwUFE3NldTbno5eGZrbmw2RlpjNVQxcENNOEhNckstaE1VT2dXYVBSSWpqMFdHa1h5WTV4NllXSWc4STU3QUxwUTJsYVByZGpHS3ZpLWs3a2dNQi1DUFR0cU5CaHVrbHhRX2pldUx6T1F5UkRxcjUybHQxcExWdGYyUlVVemhn0gHnAUFVX3lxTFBrM2wwektZMV9ITy1qbWlGS1hJOHRtMUVtRUZwYnkyc0NHNlJ4Y3Q0TlJReVI5UmRpc3VhQUFiWE02aXNERVpJMEZnWFNRN2hfTldLbjRwQjI4dFEzR1dTM1JpdDV6OEVnSXkyTUhpOFYwb3BOM0lzNGtmcFVKdlNaSEhWY08wdGNfYUc1c1g2WWdIMWVjOVFDMEhqbHNwYlRTNVluaGh2Z2hmTlU5X0dQUXhyTHBtamtGVTJncElsLVhhdlp6aXVqZ0RRRGpNbm1TdkZaY3VzZnhIMldJMmx6eVc0dS1ZRQ?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "n3a17bbe153"
+  },
+  {
+   "title": "Jammu and Kashmir High Court strikes down water usage charges on hydropower projects under 2010 law - Bar and Bench",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM1VJRE5rZW9HM1dZVWJkYnVGR3RfU3BmcEh0SzZZUlgtM1J5VmxMZVdPWk5RVW43OHlvbVlPbzlqdkhBMkZ0WC02Y2c1WkNXc0FheGRGWXh2WHVmanBScXowdnFUanZ2MUc3S2xiaHMtSE5jSTk0emwtTUMyQnFRTElvNVc5Ykt5Z0ZjeG5zdnp0Qmo0THdEeXRBeGNiZ3hFazlacHBwdjNCMDlHdGpkOHVSZTJxbUg3LXNST3J2bDZ4Wld1eGlCZnV3Sjhrc3VRazJBcWxSTnFGQdIB2gFBVV95cUxOM1VJRE5rZW9HM1dZVWJkYnVGR3RfU3BmcEh0SzZZUlgtM1J5VmxMZVdPWk5RVW43OHlvbVlPbzlqdkhBMkZ0WC02Y2c1WkNXc0FheGRGWXh2WHVmanBScXowdnFUanZ2MUc3S2xiaHMtSE5jSTk0emwtTUMyQnFRTElvNVc5Ykt5Z0ZjeG5zdnp0Qmo0THdEeXRBeGNiZ3hFazlacHBwdjNCMDlHdGpkOHVSZTJxbUg3LXNST3J2bDZ4Wld1eGlCZnV3Sjhrc3VRazJBcWxSTnFGQQ?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "nfa30e8e3ca"
+  },
+  {
+   "title": "Darbar Move to reopen in Jammu on Nov 2 - Brighter Kashmir",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XWW9RQ0VpUGtIT1dQUG5nV0RNd3oyRDRBVWZzQl9tN21UcE5zSEhrVi13ZFY0QmNBYmRZenlxRDNpTVZENDdQQ29keXFLclpnR0lwSnYxdEV3aTFHRFMwSmN6Q1VvUTkydTdLYnZjWUlSejRMN3c?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "n68a3d50a6c"
+  },
+  {
+   "title": "JCMS demands modern fire hydrant systems for markets, relief for Shiv Market fire victims - Daily Excelsior",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdDgySnQxM2JXY3ladVRtc3I5QVMwYktLR1B1WTh5VUNuY180c2NyQ0Z0SjZwVnVNcjZDU1lVeTZEUkotOU1QdVFYVXRwdlAxZGlIck9NeDI2Qy1hNjNuWGE3X1dPTTlQRDc5dkdqWXd6aUNjVTRHVlJDcmRJVHJ1REFFOHFLNE9DbXAwT1RwR1VkbTU3X1cwc0NHV2NwYjFwVWQ2Zm1LcEFsS3NSMmtJSUF3SG1uM1BYWEYxV2ZTdlDSAcABQVVfeXFMTXQ4Mkp0MTNiV2N5WnVUbXNyOUFTMGJLS0dQdVk4eVVDbmNfNHNjckNGdEo2cFZ1TXI2Q1NZVXk2RFJKLTlNUHVRWFV0cHZQMWRpSHJPTXgyNkMtYTYzblhhN19XT005UEQ3OXZHall3emlDY1U0R1ZSQ3JkSVRydURBRThxSzRPQ21wME9UcEdVZG01N19XMHNDR1djcGIxcFVkNmZtS3BBbEtzUjJrSUlBd0htbjNQWFhGMVdmU3ZQ?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "nf0023319e8"
+  },
+  {
+   "title": "Jammu Kashmir Government Orders Transfers, Postings of JKAS Officers - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUVdsQmRaekF2TFMwUTdDQWo5SE52Q3RWdVYtYlVxSnZ0TEdqMHAxa09wd0tXenZFLXFHMVFoVUhKVm9UZllIcUx2NF9BLUdvbUpIZjd0aTFrVlVPRzVVdUY1cVlJckFkYlJWNmc1d3hlaWdvWjdhN3lCSi1XbWVEOG84TFdTN2tGRW9qR29wb2k2NUpfb2VoTndaN1VRenJO?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "nbd22e1f866"
+  },
+  {
+   "title": "Darbar Move: Jammu Kashmir Govt Retains 174 Officials at Srinagar Secretariat - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVZ2OHR0bnZGSmVoWHdzeV9wRlNZazRsUjRScGszc2UzMk5PTDlkMFNOUGZNMFd6bWI1TTR3WDZ2dnlzTXJVaVZyWDJpMDZmVDFrbDBXMExmRmcwRGM5U1Y4UERwSnVDb3liNkQ3LWtyanEwTkNaQWpxX2RLX2dYc21ROGctb3BfT3NBLWl3YVl0NEFkV0lsLXl5Q29HNUlLWUFGSVRBUWZvY241?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "n08cdbae0c9"
+  },
+  {
+   "title": "Jammu Kashmir Govt Assigns Additional Charges to Senior IAS, IPS Officers - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0FJWV92SlZXUUsxNDlhVW1KNC1GeGllTGZ0RWJtZmR4SGY5a0NUei1XWkxURkx5QUN0ci02Q0gzZnZLNTMxWVQ4X0hOcnRYZjFEX3FyTDRSVDNSanNvU2d2M3h2cjVrcTUxeUk2LUtqM3JGNGllTWswTmpONnVWREtQc0lFMjFyRHBUdGI1bGJSb2h3a2Qwc0otdllXTUtoZ09LWVZadw?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "n966be4f937"
+  },
+  {
+   "title": "IEI Jammu Kashmir State Centre Holds 61st Annual General Meeting in Srinagar - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUzNxVDFUb0RXZ1Z0WWZDeVBPY1k2cEJqblZIUlhHajZlNERYUTc0dE9iTFJTMjlVR2ptWkx1YjRmbGp1TTBsazlWVzlFbFp6azRDVU4wS2ZoaEgxRFVldnRjb1lxQjJnRm1uaHFMY3VBWjJYRThpODZCTmhzYUo2NHpFTE1ISmo4UnB3dFN4VkkzTUlocXY1VUNjcnZpNlJQa3E1WEdlRTN5Zlg1?oc=5",
+   "date": "2026-10-31",
+   "source": "Google News J&K",
+   "id": "n8f6d48e74b"
+  },
+  {
+   "title": "India's FX reserves dip for seventh straight week to hit over two-month low - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMVdhVU9LVWhlNTdlQmJFYjdoWS15Nzd4YW1uZFM0UDlDbTNUcnFQMmtLWFRtU3A0WWN3S2pjd25KR1Vfc3NucHBMSGs2UDZJSVRhM0dETTg0WDlQcjRVUjNfWXc0eG1hOVY2Yk9KNl9PX2swM3lpR0J3cWxXZklZUl9acDFsQng4aHR5bi1JUEpBeVpZZzhUMUtIMEZoRWF3Nnpkdzd1ZlQ5bjZZckxwRmtSeXBsUQ?oc=5",
+   "date": "2026-10-30",
+   "source": "Google News India",
+   "id": "n878a6e50ec"
+  },
+  {
+   "title": "J&K Govt Notifies New JKAS Probation And Examination Rules 2026; Seven Papers, 50% Qualifying Marks Made Mandatory - Daily Excelsior",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPN1Zjb3hDNjFuaGh0QnNST2llejlkblZ0c2REakU4YzVwd1REUmw3ZXAxX0tLbGpxUE5SU2Z0eC1XN1N2NE1nVWZ2Nm9JZkdHYm9acDcyQk1xTzZDQWl3bF9hVHYxbF9QMHR6ampYLXVGOEkwU09yUHJNVHBIS3RXbUhpSnZFX3pu0gGMAUFVX3lxTE43aWlFUkI4OF83YXZ4WlYzZlBiQlMwelJEWTY5RlZrSjc1TnlzTHNCZ1cxcjBxU1RTSDdNZ3lLd1MyZUUwWWcxc2FDMXdOcTNCWVhhOFlwbzJLRFJsNlV2aWxWWmlTanpfUkRTdGkwSzNYTTZWSzF5YjB1VnZ6dTc2blEzcUNudWtSV2Rw?oc=5",
+   "date": "2026-10-30",
+   "source": "Google News J&K",
+   "id": "n394f35354f"
   }
  ]
 };
