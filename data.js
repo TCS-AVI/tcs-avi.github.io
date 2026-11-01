@@ -54731,11 +54731,39 @@ window.CA_DATA = {
    "id": "nf8186aceb9"
   },
   {
+   "title": "Karnataka thinking of officially recognizing Kannada flag, Chief Minister D.K. Shivakumar",
+   "url": "https://www.thehindu.com/news/national/karnataka/karnataka-thinking-of-officially-recognizing-kannada-flag-chief-minister-dk-shivakumar/article71652336.ece",
+   "date": "2026-11-01",
+   "source": "The Hindu",
+   "id": "nf6e029a629"
+  },
+  {
+   "title": "Sonia, Rahul Gandhi, Mamata Banerjee among INDIA bloc leaders marching to Ramlila Maidan, demanding CEC's removal | LIVE",
+   "url": "https://www.thehindu.com/news/national/india-bloc-mega-delhi-rally-cec-gyanesh-kumar-impeachment-anti-cec-protests-sir-row-live-updates-november-1-2026/article71651970.ece",
+   "date": "2026-11-01",
+   "source": "The Hindu",
+   "id": "nda71589cbf"
+  },
+  {
    "title": "Andhra civic polls: TDP, YSRCP workers clash in Pulivendula; 22.08% turnout by 11 a.m. | LIVE",
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-urban-local-body-elections-polling-municipalities-corporation-results-november-1-2026-live-updates/article71651965.ece",
    "date": "2026-11-01",
    "source": "The Hindu",
    "id": "n3d21255088"
+  },
+  {
+   "title": "In Punjab, the highway to 2027",
+   "url": "https://www.thehindu.com/news/national/punjab/in-punjab-the-highway-to-2027/article71649073.ece",
+   "date": "2026-11-01",
+   "source": "The Hindu",
+   "id": "n1444a29633"
+  },
+  {
+   "title": "Four held from Malda as West Bengal STF busts interstate drug network",
+   "url": "https://www.thehindu.com/news/national/west-bengal/four-held-from-malda-as-west-bengal-stf-busts-interstate-drug-network/article71652327.ece",
+   "date": "2026-11-01",
+   "source": "The Hindu",
+   "id": "n6de7260449"
   },
   {
    "title": "Anantapur chainsaw attack: A.P. Minister Nara Lokesh says Class 10 girl stable after bleeding controlled",
@@ -54750,13 +54778,6 @@ window.CA_DATA = {
    "date": "2026-11-01",
    "source": "The Hindu",
    "id": "n546a7ff03e"
-  },
-  {
-   "title": "‘Chalo Delhi’ posters dominate as INDIA bloc prepares for mega rally at Ramlila Maidan | LIVE",
-   "url": "https://www.thehindu.com/news/national/india-bloc-mega-delhi-rally-cec-gyanesh-kumar-impeachment-anti-cec-protests-sir-row-live-updates-november-1-2026/article71651970.ece",
-   "date": "2026-11-01",
-   "source": "The Hindu",
-   "id": "nda71589cbf"
   },
   {
    "title": "How were the States formed and how has the Indian map changed since 1947?",
@@ -54813,27 +54834,6 @@ window.CA_DATA = {
    "date": "2026-11-01",
    "source": "The Hindu",
    "id": "nec40ce6fee"
-  },
-  {
-   "title": "Woman with disability dies in midnight fire at Korattur apartment",
-   "url": "https://www.thehindu.com/news/national/tamil-nadu/woman-with-disability-dies-in-midnight-fire-at-korattur-apartment/article71652193.ece",
-   "date": "2026-11-01",
-   "source": "The Hindu",
-   "id": "neac75ac0fa"
-  },
-  {
-   "title": "INDIA bloc holds symbolic ‘public impeachment’ of CEC Gyanesh Kumar on six charges",
-   "url": "https://www.thehindu.com/news/national/india-bloc-holds-symbolic-public-impeachment-of-cec-gyanesh-kumar-on-six-charges/article71650457.ece",
-   "date": "2026-11-01",
-   "source": "The Hindu",
-   "id": "ne9f7fd2497"
-  },
-  {
-   "title": "Every squadron, air defence unit, air warrior must be ready to respond at moment’s notice: IAF Chief Dixit",
-   "url": "https://www.thehindu.com/news/national/newly-appointed-chief-of-air-staff-air-chief-marshal-ashutosh-dixit/article71652223.ece",
-   "date": "2026-11-01",
-   "source": "The Hindu",
-   "id": "n27c4e45ada"
   },
   {
    "title": "Road crash in J-K's Kathua leaves boy dead",
