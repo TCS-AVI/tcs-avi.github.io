@@ -10,7 +10,7 @@
 Run:  python3 update.py
 Reads/writes data.js (a JS file that assigns window.CA_DATA).
 """
-import hashlib, json, os, re, sys, urllib.parse, urllib.request
+import hashlib, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -19,12 +19,17 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_JS = os.path.join(ROOT, "data.js")
 UA = {"User-Agent": "Mozilla/5.0 (ExamDaily updater)"}
 
+def _gn(q):
+    return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+        {"q": q + " when:2d", "hl": "en-IN", "gl": "IN", "ceid": "IN:en"})
+
+
 NEWS_FEEDS = [
     ("PIB", "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"),
     ("The Hindu", "https://www.thehindu.com/news/national/feeder/default.rss"),
-    ("Indian Express", "https://indianexpress.com/section/india/feed/"),
     ("Greater Kashmir", "https://www.greaterkashmir.com/feed"),
-    ("Daily Excelsior", "https://www.dailyexcelsior.com/feed/"),
+    ("Google News India", _gn("India government OR economy OR RBI OR defence OR ISRO OR summit OR award")),
+    ("Google News J&K", _gn("Jammu Kashmir OR Ladakh government OR JKSSB OR JKPSC OR university")),
 ]
 
 # (label shown in app, search query)
@@ -128,18 +133,63 @@ def collect_updates():
 def _post(url, headers, payload, timeout=120):
     req = urllib.request.Request(url, data=json.dumps(payload).encode(),
                                  headers={"content-type": "application/json", **headers})
-    return json.loads(urllib.request.urlopen(req, timeout=timeout).read())
+    try:
+        return json.loads(urllib.request.urlopen(req, timeout=timeout).read())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError("HTTP %s from %s: %s" % (e.code, url.split("?")[0], e.read()[:300].decode("utf-8", "replace")))
+
+
+def gemini_models(key):
+    """Ask Google which models this key can use, newest free-friendly 'flash' models first."""
+    names, token = [], None
+    for _ in range(3):
+        url = "https://generativelanguage.googleapis.com/v1beta/models?pageSize=100"
+        if token:
+            url += "&pageToken=" + urllib.parse.quote(token)
+        r = json.loads(fetch_h(url, {"x-goog-api-key": key}))
+        for m in r.get("models", []):
+            n = m.get("name", "").replace("models/", "")
+            if "generateContent" in m.get("supportedGenerationMethods", []) and "flash" in n:
+                if not any(w in n for w in ("image", "tts", "live", "audio", "embedding", "robotics", "computer", "thinking", "exp")):
+                    names.append(n)
+        token = r.get("nextPageToken")
+        if not token:
+            break
+
+    def rank(n):
+        v = re.search(r"(\d+(?:\.\d+)?)", n)
+        return ("preview" in n, -(float(v.group(1)) if v else 0), "lite" in n, n)
+    return sorted(set(names), key=rank)
+
+
+def fetch_h(url, headers, timeout=30):
+    req = urllib.request.Request(url, headers={**UA, **headers})
+    return urllib.request.urlopen(req, timeout=timeout).read()
 
 
 def call_llm(prompt):
     """Free options first: Gemini or Groq (free API keys), then Anthropic (paid). Returns text or None."""
     if os.environ.get("GEMINI_API_KEY"):
-        model = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
-        r = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                  {"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
-                  {"contents": [{"parts": [{"text": prompt}]}],
-                   "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}})
-        return r["candidates"][0]["content"]["parts"][0]["text"]
+        key = os.environ["GEMINI_API_KEY"]
+        wanted = os.environ.get("GEMINI_MODEL")
+        models = [wanted] if wanted else []
+        try:
+            models += [m for m in gemini_models(key) if m != wanted][:4]
+        except Exception as e:
+            print(f"[warn] could not list Gemini models: {e}", file=sys.stderr)
+            models += ["gemini-2.5-flash", "gemini-flash-latest"]
+        last = None
+        for model in models:
+            try:
+                r = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                          {"x-goog-api-key": key},
+                          {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.3}})
+                print(f"[info] drafted with Gemini model {model}")
+                return r["candidates"][0]["content"]["parts"][0]["text"]
+            except Exception as e:
+                last = e
+                print(f"[warn] Gemini model {model} failed: {e}", file=sys.stderr)
+        raise last or RuntimeError("no Gemini model available")
     if os.environ.get("GROQ_API_KEY"):
         model = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
         r = _post("https://api.groq.com/openai/v1/chat/completions",
