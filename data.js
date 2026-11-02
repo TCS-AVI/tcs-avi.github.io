@@ -1,7 +1,229 @@
 window.CA_DATA = {
- "generated": "2026-11-01",
+ "generated": "2026-11-02",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "a1d38da16f9",
+   "date": "2026-11-02",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Air Chief Marshal Ashutosh Dixit has assumed charge as which Chief of the Air Staff (CAS) of the Indian Air Force?",
+   "options": [
+    "27th",
+    "28th",
+    "29th",
+    "30th"
+   ],
+   "answer": 2,
+   "explain": "Air Chief Marshal Ashutosh Dixit took charge as the 29th Chief of the Air Staff of the Indian Air Force.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331270",
+   "verified": false
+  },
+  {
+   "id": "ae373f559de",
+   "date": "2026-11-02",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Union Minister Kiren Rijiju recently attended the establishment ceremony of 108 stupas in which neighbouring country?",
+   "options": [
+    "Nepal",
+    "Bhutan",
+    "Sri Lanka",
+    "Myanmar"
+   ],
+   "answer": 1,
+   "explain": "Union Minister Kiren Rijiju attended the ceremony marking the establishment of 108 stupas in Bhutan.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331263",
+   "verified": false
+  },
+  {
+   "id": "a229a972b34",
+   "date": "2026-11-02",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "The President of India attended the Diamond Jubilee celebrations marking the 60th year of the formation of which state in Kurukshetra?",
+   "options": [
+    "Punjab",
+    "Himachal Pradesh",
+    "Haryana",
+    "Gujarat"
+   ],
+   "answer": 2,
+   "explain": "The President of India attended the Diamond Jubilee celebrations in Kurukshetra marking the 60th year of the formation of Haryana.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331228",
+   "verified": false
+  },
+  {
+   "id": "a7ef73e8086",
+   "date": "2026-11-02",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Railways"
+   ],
+   "q": "Which Foundation Day was recently celebrated by the National Zoological Park?",
+   "options": [
+    "55th",
+    "60th",
+    "65th",
+    "67th"
+   ],
+   "answer": 3,
+   "explain": "The National Zoological Park celebrated its 67th Foundation Day with public awareness activities and bird walks.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331319",
+   "verified": false
+  },
+  {
+   "id": "a7948b63888",
+   "date": "2026-11-02",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Trials of 'Digi Yatra' for international passengers have been rolled out across how many airports?",
+   "options": [
+    "5",
+    "7",
+    "9",
+    "12"
+   ],
+   "answer": 1,
+   "explain": "Trials of the Digi Yatra facility for international passengers have commenced across seven airports.",
+   "source": "The Hindu",
+   "sourceUrl": "https://www.thehindu.com/news/national/digi-yatra-trials-start-at-7-airports-for-international-passengers/article71655283.ece",
+   "verified": false
+  },
+  {
+   "id": "a6ddde8143a",
+   "date": "2026-11-02",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "The Union Railway Minister recently flagged off the Vande Bharat Sleeper Express connecting which two cities?",
+   "options": [
+    "Bengaluru and Mumbai",
+    "New Delhi and Srinagar",
+    "Mumbai and Ahmedabad",
+    "Chennai and Bengaluru"
+   ],
+   "answer": 0,
+   "explain": "The Union Railway Minister flagged off the Vande Bharat Sleeper Express train connecting Bengaluru and Mumbai.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331353",
+   "verified": false
+  },
+  {
+   "id": "ab1ab9a5c1c",
+   "date": "2026-11-02",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Union Minister Mansukh Mandaviya rolled out EPFO services through which messaging platform?",
+   "options": [
+    "Telegram",
+    "Signal",
+    "WhatsApp",
+    "WeChat"
+   ],
+   "answer": 2,
+   "explain": "Union Minister Mandaviya launched Employees' Provident Fund Organisation (EPFO) services via WhatsApp.",
+   "source": "Greater Kashmir",
+   "sourceUrl": "https://www.greaterkashmir.com/national/mandaviya-rolls-out-epfo-services-through-whatsapp-12774573",
+   "verified": false
+  },
+  {
+   "id": "a6b9b3a726f",
+   "date": "2026-11-02",
+   "subject": "Economy & Banking",
+   "exams": [
+    "Banking",
+    "SSC",
+    "JKPSC"
+   ],
+   "q": "India's GST mop-up in October grew by 23% to surpass what milestone figure?",
+   "options": [
+    "Rs 1.85 lakh crore",
+    "Rs 2.05 lakh crore",
+    "Rs 2.31 lakh crore",
+    "Rs 2.50 lakh crore"
+   ],
+   "answer": 2,
+   "explain": "India's GST collections recorded a 23% growth in October, crossing Rs 2.31 lakh crore.",
+   "source": "Greater Kashmir",
+   "sourceUrl": "https://www.greaterkashmir.com/business/gst-mop-up-grows-23-to-over-rs-231-lakh-crore-in-october-12774578",
+   "verified": false
+  },
+  {
+   "id": "a01cb0fb608",
+   "date": "2026-11-02",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Railways",
+    "Defence"
+   ],
+   "q": "Who took charge as the Air Officer Commanding-in-Chief of the Eastern Air Command?",
+   "options": [
+    "Air Marshal Ashutosh Dixit",
+    "Air Marshal Mehtab Singh Deswal",
+    "Air Marshal Amar Preet Singh",
+    "Air Marshal VR Chaudhari"
+   ],
+   "answer": 1,
+   "explain": "Air Marshal Mehtab Singh Deswal assumed the role of Air Officer Commanding-in-Chief of Eastern Air Command.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331316",
+   "verified": false
+  },
+  {
+   "id": "a862c695bf4",
+   "date": "2026-11-02",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "The Chief Minister of Odisha announced a special package for families affected by which cyclone?",
+   "options": [
+    "Cyclone Dana",
+    "Cyclone Murasu",
+    "Cyclone Arnab",
+    "Cyclone Remal"
+   ],
+   "answer": 2,
+   "explain": "The Odisha Chief Minister announced a special relief package for families affected by Cyclone Arnab.",
+   "source": "The Hindu",
+   "sourceUrl": "https://www.thehindu.com/news/national/odisha/odisha-cm-announces-special-package-for-families-affected-by-cyclone-arnab/article71655182.ece",
+   "verified": false
+  },
   {
    "id": "aea6013827c",
    "date": "2026-11-01",
@@ -54236,6 +54458,24 @@ window.CA_DATA = {
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
+   "id": "u5ffb4443be",
+   "date": "2026-10-30",
+   "exam": "AIIMS",
+   "type": "notification",
+   "title": "AIIMS Faculty Recruitment 2026 Out for 260 Posts, Eligibility, Salary, Selection Process - Adda247",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02UlRIZFV4eC1ldUJYNERFazdmV28xcTVjbHc1eWlRZzlmV2Z3NTJ3QXIxa243V1NhQUY3bG05dEFqUE5oV3VrQUhPWW9rMTZJb1FBbk5nUGFpMHRGMGxJdnhQS291S3dnWllBUWl1aXhvYnZPNmRlN0VYZ1NfQ1U?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
+   "id": "ua9cca86e1d",
+   "date": "2026-10-30",
+   "exam": "NTA",
+   "type": "answer-key",
+   "title": "New Update On CSIR UGC NET Provisional Answer Key For June 2026 Exam - BioTecNika",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFekRTMFZSTjBhZGszQUxNZ0hva1lqRVZRVWtZNWlRcjZkVktJcDFuc0EwUzEwa05UWnNVdmlZV0pDa1dDak5VZjFjSXc1TjE3NEJ1aFdEbnpaU29kQUROTmtHUVlpM0t0ekFwNXVyOUZMbDhWQlNxSzlzZHNaQnc?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
    "id": "ubc1ff13d9f",
    "date": "2026-10-29",
    "exam": "JKSSB",
@@ -54251,6 +54491,15 @@ window.CA_DATA = {
    "type": "result",
    "title": "SBI Clerk Result 2026 for Regular Vacancies: Expected Date, Link, Cut Off - Adda247",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Fa3REVlNTSnBYUEpkQWc4Q0ZfT1dmMEdicFQwaXQ3R3NQbl9jWEJjM3N5cVZhVnZjdm9rcFl5U0hkUndfMWFhZ3NpeHRkc3Z5QmdZbFF6OXoxM21UcmhWakdJRkdwZjc1RTJVUjV3?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
+   "id": "ub06d2006ee",
+   "date": "2026-10-29",
+   "exam": "JKSSB",
+   "type": "answer-key",
+   "title": "KEA SWD Answer Key 2026 Out , Download Teachers Response Sheet at cetonline.karnataka.gov.in - Adda247",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ObU1QNFY4end6d0J0NVJjdTJyVWZ4VGdOZjdOajdQcnRCMGY1c2F2Umo3X1Y2ZFJLQ1FIX0tXZC1zeHZ1S2tsYWhlWWNPWkJ5eTNOTW5mTV9GRkVZc0pING1PM3NncTU4V0dFZ3JkeTB1Zw?oc=5",
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
@@ -54344,6 +54593,15 @@ window.CA_DATA = {
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
+   "id": "ua10baa7d53",
+   "date": "2026-10-28",
+   "exam": "NTA",
+   "type": "update",
+   "title": "UGC NET December 2026 registration deadline extended to October 31 - India Today",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeXg4V21hNDA4bGMyZWl3cFdvcGNtNXItYlpiYm80b0swNjUxdDhFeU4xUEFjZlF0TnRVRHBvajlsNXZuellHOFg0Y1plel9KS1hFd2Q3TkVjTXZGWl91RUZKVEdwR1ZiSFJ4RWh4X3o4d2dkN0lOU0RtN3BwOEtfMEhTMGNReFZYSEZyWVRYaEwtNUJSU0VSdU53SV9ES0dsT3hYRXQ1Z2ZBQjZTTUlWZ2xuLWhpSm5qc0hQWmpzSXhSME9QTVpId3J2SmxSSXps0gHWAUFVX3lxTFBVTTJ1QjZNN0tFcFhNNTNlek1ISks4WGNCNk52dUh6cUlLRFlOV3laRXJGNjNWcmhGNFUyMjRmZlZFUVRJNmpBYy1mTGREZmNlZnBpT2daNk5WMTNLVjN6b05ZQkRwUDF4YmRmVUJfaUNhTlBSdEJQeHJ0MHZGMTFwRWFueWR1X1pJX19RWmZWTDJIcU1tQk9Mc1FpYW92Y20yUjFBM0RoSXhwYXh1b2hja0V3SmNYMlZ4aXk0Ml9UX2U0eFRsV1l3aFhMN0FZR3hsQzVrNmc?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
    "id": "uf16b45e7e8",
    "date": "2026-10-27",
    "exam": "IBPS",
@@ -54416,6 +54674,24 @@ window.CA_DATA = {
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
+   "id": "uf95f61d2a5",
+   "date": "2026-10-27",
+   "exam": "SSC",
+   "type": "admit-card",
+   "title": "SSC CGL Admit Card 2026 Out, Tier 1 Hall Ticket Download Link Active - Adda247",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZYnVVSFcta1hUU0Y2dkRPcThwT2U3M0NtOUwyLVFTSXdBS2E3ZnNJNEdJa1psanowTEhpcHNyUmZRX0d5NTZ4c1p5OGJBZ2hoMml2ZE16QUNDTmNuMHg0TUkzSUJ2QTQxVlE?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
+   "id": "u4d038aefbb",
+   "date": "2026-10-27",
+   "exam": "NTA",
+   "type": "update",
+   "title": "CUET PG 2027 Registration: When did NTA open applications in the last three years? - EdexLive",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSFVvSmw0dU5XR1lPelYtTW1jRkdyWWRCQy1vMVh1YWNobnJqNzZUY2c4YnpSSXlxSDVOT1Jrb3BVVW8xN2tORkpkdmhSczl3NXV0TU5KSHp5ZDQtU1NrUEZKY2l0ckdyX1VsZC1VeXFhNWJOY1pMdjRKNktNMzY4UHZFTzZCb1VFVUZsMnhzTTBYbDV3RGdwOEVGeU9xQUMzdzE00gGwAUFVX3lxTE1INGV6Q2RoaVhlVGdJRDFCMXEyODkyNC0tR3JvRTFtS0tCZXhKMEJVV2c2Tl9ELTFFd21fSGFhNzFrZXNJMkQta1pqYTFHb1llR2NGNi1yZm1hdEJPNEFVZ180UTlvNEIwQzBtMU9ndFc0NjVWeXphcVVJYXVDWVVVWUxxWFBZVFdVX3g2eFNHM3REN3A2TExHSm5fWmRIRnUyY3FPWWNaMnFjMXk5MV90?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
    "id": "ue9c010ab21",
    "date": "2026-10-26",
    "exam": "RRB",
@@ -54440,6 +54716,15 @@ window.CA_DATA = {
    "type": "result",
    "title": "SSC GD Revised Result 2026 Out, Download Updated Merit List PDF - Adda247",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WNEZDVGw1WXRrTU5tbGl5anIwZkktajRkM2pqT09LcGs0MFJKb1lMaFl0SUtyUFdVMS1oQTNNajVNc01zUmVQNURPNU1ScWZuTGw4b1BvWmNzRWExZmF6NUlnWjNSWUF5?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
+   "id": "u3c1e501508",
+   "date": "2026-10-25",
+   "exam": "NTA",
+   "type": "admit-card",
+   "title": "JEE Main Admit Card 2027: Hall Ticket Release Date Out, Direct Link at jeemain.nta.nic.in - Careers360",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EdDhMWDc2cXBRcDNDZWM5ZUZsekRDNFI2U25EUWp3U29hSVFtdF81T0E2ZlBRWHJldm1KeFB1WXFHNFhGQk5DNlpPNDRzQnRHM0RsdGNSOGJVZUxYMDl1dGY5VnpjdWRmWGdSX0Z4enQ?oc=5",
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
@@ -54530,6 +54815,15 @@ window.CA_DATA = {
    "type": "exam",
    "title": "RRB Paramedical Exam Date 2026 Out, Check Exam Date and Schedule - Adda247",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ESjhfbVIwczJWcXRHTG5LWFR4SUlHSHlNMHBseFEtNDFtWXhNUUZwWmlXbm5hdUFhbWJIU3ZhWTR0VGJOekFtekMyOEFmU2V6cHJIMHlNNDNteEl2LWxHMGJDanhhOG00T1Fkd1E3QWhVaWFu?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
+   "id": "u64db2fc240",
+   "date": "2026-10-22",
+   "exam": "IBPS",
+   "type": "admit-card",
+   "title": "IBPS SO 2026 - Mains Admit card (Out), Dates, Exam Centres - Careers360",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PNGNjcUZaeWtFRVNPVEhlbmx6X29jWUJjaDBDTEp3UmhGYjJRRUVLc25xbTdqUXdoTnNtb3lncDYxRFZxcm4wclVZT2VJWXY2aW1fMXZ3Z25qdHQ4S1BFNUItZjlFX0E?oc=5",
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
@@ -54629,6 +54923,15 @@ window.CA_DATA = {
    "type": "exam",
    "title": "RRB Nursing Superintendent Exam Date 2026 Out , Check Exam Date & Schedule - Adda247",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSWRoT3F1NU1GVmNFNWJpTUQySGxJak52NTJUNGduU3EtTkZWRDFZRF80T3hEZkRla01FZmhoNHNjRDd4V3lQNW1KWDdROWNaTWtzOFlYeGdyZDlJM2ZBNjZlODFRSk5kZUFPQV9Sakg0YXJJdnd5anVvajludXBDdW1nRQ?oc=5",
+   "note": "Auto-collected headline. Confirm on the official website."
+  },
+  {
+   "id": "ueb8032611e",
+   "date": "2026-10-19",
+   "exam": "RRB",
+   "type": "exam",
+   "title": "RRB ALP Exam Date 2026 Out For CBT 1, Download Official Notice and Read - Adda247",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15d2NWLWhJelZKcWJHRndfTHhVck85a1lydVlZZGNtLXlaTExTQmUxWjA1eXppd05OOUh0dUk2blUxQ0FwX1pvVHpxUFpWMjRmSGVwSTB1RFVrTWNxRmUxVUFUTWJJeEhUUDNlNkl3T2twa290TlE?oc=5",
    "note": "Auto-collected headline. Confirm on the official website."
   },
   {
@@ -54875,417 +55178,508 @@ window.CA_DATA = {
  ],
  "news": [
   {
-   "title": "कोयला मंत्रालय 2 नवंबर को रायपुर में आयोजित स्टार रेटिंग पुरस्कार समारोह में कोयला और लिग्नाइट खनन क्षेत्र की उत्कृष्ट उपलब्धियों को मान्यता देगा",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331086",
-   "date": "2026-11-01",
+   "title": "प्रधानमंत्री श्री नरेन्द्र मोदी के 'हर घर स्वदेशी, घर घर स्वदेशी' के आह्वान को नई पीढ़ी (जेन-जी) तक पहुंचाने के उद्देश्य से दिल्ली के कनॉट प्लेस में 'खादी दिवाली उत्सव-2026' का आयोजन किया जा रहा है",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331375",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n8f88ad1106"
+   "id": "n7324a47233"
   },
   {
-   "title": "भारतीय नौसेना के पोत त्रिशूल का ग्रीस की सूडा खाड़ी में प्रवास",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331089",
-   "date": "2026-11-01",
+   "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने नई दिल्ली में अखिल विश्व गायत्री परिवार द्वारा आयोजित 'शताब्दी समारोह 2026' को संबोधित किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331363",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n428e345d09"
+   "id": "n5065ca94b6"
   },
   {
-   "title": "केंद्रीय पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय और इसके संगठनों ने 'विशेष अभियान 6' को सफलतापूर्वक संपन्न किया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331066",
-   "date": "2026-11-01",
+   "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने आज चंडीगढ़ प्रशासन की 258 करोड़ रूपए की विभिन्न परियोजनाओं का लोकार्पण एवं शिलान्यास किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331304",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n7bb323864c"
+   "id": "n7c5205826a"
   },
   {
-   "title": "वायु गुणवत्ता प्रबंधन आयोग की उच्च स्तरीय टीम ने पंजाब के संगरूर, पटियाला और मलेरकोटला में धान की पराली के प्रबंधन उपायों की समीक्षा की",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331063",
-   "date": "2026-11-01",
+   "title": "केन्द्रीय रेल मंत्री ने बेंगलुरु-मुंबई वंदे भारत स्लीपर एक्सप्रेस ट्रेन को हरी झंडी दिखाकर रवाना किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331353",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n9a36b948be"
+   "id": "ncf1bb321ad"
   },
   {
-   "title": "औषध विभाग ने राष्ट्रीय एकता दिवस पर 'फिट इंडिया फ्रीडम रन 7.0' के अंतर्गत 'प्लॉग रन' का आयोजन किया; राष्ट्रीय एकता, फिटनेस और स्वच्छता के लिए प्रतिबद्धता दोहराई",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331060",
-   "date": "2026-11-01",
+   "title": "रचनात्मक जन-जागरूकता गतिविधियों एवं पक्षी भ्रमण के साथ राष्ट्रीय प्राणी उद्यान का 67वाँ स्थापना दिवस मनाया गया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331319",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n34dc5357dc"
+   "id": "nf4444ba6d4"
   },
   {
-   "title": "एमवाई भारत-एनएसएस ने नशा मुक्त युवा अभियान के तहत राष्ट्रव्यापी साइक्लोथॉन और वॉकथॉन में 96,700 से अधिक युवाओं की भागीदारी सुनिश्चित की",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331065",
-   "date": "2026-11-01",
+   "title": "एयर मार्शल मेहताब सिंह देसवाल, एवीएसएम, वीएम ने पूर्वी वायु कमान के एयर ऑफिसर कमांडिंग-इन-चीफ के रूप में कार्यभार संभाला",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331316",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n56ecff5fcb"
+   "id": "n736de2f55d"
   },
   {
-   "title": "राष्ट्रीय एकता दिवस के दौरान प्रधानमंत्री के भाषण का मूल पाठ",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331036",
-   "date": "2026-11-01",
+   "title": "प्रधानमंत्री ने बेंगलुरु-मुंबई वंदे भारत स्लीपर ट्रेन को रेल संपर्क की दिशा में बड़ी पहल बताया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331339",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n710e42e065"
+   "id": "nfc6616732e"
   },
   {
-   "title": "प्रधानमंत्री श्री नरेन्द्र मोदी ने सरदार वल्लभभाई पटेल की 151वीं जयंती के अवसर पर आयोजित राष्ट्रीय एकता दिवस समारोह में भाग लिया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331058",
-   "date": "2026-11-01",
+   "title": "भारत की राष्ट्रपति कुरुक्षेत्र में स्वामी श्रद्धानंद जी के बलिदान शताब्दी समारोह में शामिल हुईं",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331242",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "nd3a7fe74a8"
+   "id": "nf335f973b3"
   },
   {
-   "title": "दिल्ली में अक्टूबर का औसत वायु गुणवत्ता सूचकांक (एक्यूआई) पिछले आठ वर्षों में सबसे कम 166 दर्ज किया गया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331059",
-   "date": "2026-11-01",
+   "title": "कोल इंडिया ने अक्टूबर 2026 में रिकॉर्ड तोड़ प्रदर्शन के साथ अपने 51 शानदार वर्षों का जश्न मनाया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331308",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n8265b642b8"
+   "id": "nb8d9d08c34"
   },
   {
-   "title": "लोकसभा अध्यक्ष का युवाओं से राष्ट्रीय एकता और अखंडता को बनाए रखने तथा विकसित भारत के निर्माण में योगदान देने का आह्वान",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331087",
-   "date": "2026-11-01",
+   "title": "भारत की राष्ट्रपति कुरुक्षेत्र में हरियाणा राज्य के गठन के 60वें वर्ष के उपलक्ष्य में आयोजित ‘हीरक जयंती’ समारोह में शामिल हुईं",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331228",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "ncd2483f53d"
+   "id": "n12ab81ff80"
   },
   {
-   "title": "भारत की राष्ट्रपति नासिक में सिंहस्थ महाकुंभ के ध्वज-स्तंभ पूजन, ध्वजा पूजन और ध्वजारोहण समारोह में सम्मिलित हुईं",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331007",
-   "date": "2026-11-01",
+   "title": "केंद्रीय संसदीय कार्य और अल्पसंख्यक कार्य मंत्री श्री किरेन रिजिजू ने भूटान में 108 स्तूपों की स्थापना समारोह में भाग लिया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331263",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n6270e0c79a"
+   "id": "n50bf391e68"
   },
   {
-   "title": "सामाजिक न्याय और अधिकारिता मंत्रालय ने 31 अक्टूबर, 2026 को सेंट्रल क्रॉनिकल (भोपाल) में प्रकाशित एक रिपोर्ट में प्रकाशित दावे के संबंध में तथ्यात्मक रिपोर्ट जारी की",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331062",
-   "date": "2026-11-01",
+   "title": "प्रधानमंत्री 2 नवंबर को ‘भारत नवीकरणीय ऊर्जा शिखर सम्मेलन एवं एक्सपो 2026’ का उद्घाटन करेंगे",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331293",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n212c92f05c"
+   "id": "n9d433c6325"
   },
   {
-   "title": "केंद्र सरकार ने राज्य सरकारों को कर हस्तांतरण के रूप में 1,09,019 करोड़ रुपये जारी किए। आगामी त्योहारों के मौसम को देखते हुए और राज्यों को पूंजीगत खर्च में तेजी लाने तथा विकास एवं कल्याण से जुड़े व्यय के लिए धन उपलब्ध कराने के उद्देश्य से केंद्र सरकार ने कर हस्तांतरण की अग्रिम किस्त जारी की है",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331028",
-   "date": "2026-11-01",
+   "title": "एयर चीफ मार्शल आशुतोष दीक्षित ने भारतीय वायुसेना के 29वें प्रमुख के रूप में कार्यभार ग्रहण किया; वायुसेना के भविष्य के लिए ‘वायु’ को मार्गदर्शक दृष्टिकोण के रूप में प्रस्तुत किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331270",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "nf533d88aab"
+   "id": "n9ebb270e72"
   },
   {
-   "title": "'माई भारत' के ‘विकसित भारत युवा संवाद: अपने वोट को जानें’ अभियान में 16 राज्यों/केंद्र शासित प्रदेशों में आयोजित 62 कार्यक्रमों के माध्यम से 11,000 से अधिक युवा जुड़े",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331030",
-   "date": "2026-11-01",
+   "title": "सात हवाई अड्डों पर अंतरराष्ट्रीय यात्रियों के लिए 'डिजी यात्रा' का ट्रायल शुरू",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331231",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "n2551ca77c8"
+   "id": "n2d7e3516b0"
   },
   {
-   "title": "सेंट्रल क्रीनिकल(Central Chronicle) भोपाल में प्रकाशित समाचार दिनांक 31 अक्तूबर 2026 के संबंध में तथ्यात्मक प्रतिवेदन।",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2330983",
-   "date": "2026-11-01",
+   "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने आज चंडीगढ़ पुलिस के हीरक जयंती स्थापना समारोह में भाग लिया और चंडीगढ़ पुलिस के राष्ट्रपति निशान अलंकरण समारोह में मुख्य अतिथि के रूप में शामिल हुए",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331194",
+   "date": "2026-11-02",
    "source": "PIB",
-   "id": "nf8186aceb9"
+   "id": "ne0511eecc8"
   },
   {
-   "title": "Karnataka thinking of officially recognizing Kannada flag, Chief Minister D.K. Shivakumar",
-   "url": "https://www.thehindu.com/news/national/karnataka/karnataka-thinking-of-officially-recognizing-kannada-flag-chief-minister-dk-shivakumar/article71652336.ece",
-   "date": "2026-11-01",
+   "title": "Writer-jurist Jinadatta Desai passes away at 93",
+   "url": "https://www.thehindu.com/news/national/karnataka/writer-jurist-jinadatta-desai-passes-away-at-93/article71652345.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "nf6e029a629"
+   "id": "nde9029b4ed"
   },
   {
-   "title": "Sonia, Rahul Gandhi, Mamata Banerjee among INDIA bloc leaders marching to Ramlila Maidan, demanding CEC's removal | LIVE",
-   "url": "https://www.thehindu.com/news/national/india-bloc-mega-delhi-rally-cec-gyanesh-kumar-impeachment-anti-cec-protests-sir-row-live-updates-november-1-2026/article71651970.ece",
-   "date": "2026-11-01",
+   "title": "Church attacked in West Bengal during inauguration ceremony",
+   "url": "https://www.thehindu.com/news/national/west-bengal/church-attacked-in-west-bengal-during-inauguration-ceremony/article71655288.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "nda71589cbf"
+   "id": "na28191afb1"
   },
   {
-   "title": "Andhra civic polls: TDP, YSRCP workers clash in Pulivendula; 22.08% turnout by 11 a.m. | LIVE",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-urban-local-body-elections-polling-municipalities-corporation-results-november-1-2026-live-updates/article71651965.ece",
-   "date": "2026-11-01",
+   "title": "Air quality worsens to ‘very poor’ category in Delhi, parts of north India",
+   "url": "https://www.thehindu.com/news/cities/Delhi/air-quality-worsens-to-very-poor-category-in-delhi-parts-of-north-india/article71655252.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n3d21255088"
+   "id": "nb1c0be0c49"
   },
   {
-   "title": "In Punjab, the highway to 2027",
-   "url": "https://www.thehindu.com/news/national/punjab/in-punjab-the-highway-to-2027/article71649073.ece",
-   "date": "2026-11-01",
+   "title": "Parcel explosion in Latur: Two gun shop owners among four booked",
+   "url": "https://www.thehindu.com/news/national/maharashtra/parcel-explosion-in-latur-two-gun-shop-owners-among-four-booked/article71655289.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n1444a29633"
+   "id": "n0fb253daf9"
   },
   {
-   "title": "Four held from Malda as West Bengal STF busts interstate drug network",
-   "url": "https://www.thehindu.com/news/national/west-bengal/four-held-from-malda-as-west-bengal-stf-busts-interstate-drug-network/article71652327.ece",
-   "date": "2026-11-01",
+   "title": "Digi Yatra trials start at 7 airports for international passengers",
+   "url": "https://www.thehindu.com/news/national/digi-yatra-trials-start-at-7-airports-for-international-passengers/article71655283.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n6de7260449"
+   "id": "n0e8d7dbf56"
   },
   {
-   "title": "Anantapur chainsaw attack: A.P. Minister Nara Lokesh says Class 10 girl stable after bleeding controlled",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/anantapur-chainsaw-attack-ap-minister-nara-lokesh-says-class-10-girl-stable-after-bleeding-controlled/article71651991.ece",
-   "date": "2026-11-01",
+   "title": "Slow recovery: On the ISRO’s GSLV-F18 mission",
+   "url": "https://www.thehindu.com/opinion/editorial/the-hindu-editorial-november-2-2026-slow-recovery-on-the-isros-gslv-f18-mission/article71654004.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n8c0da67527"
+   "id": "n72a136600c"
   },
   {
-   "title": "Uttarakhand chopper crash: Mortal remains of all six victims recovered, sent to Rishikesh AIIMS",
-   "url": "https://www.thehindu.com/news/national/uttarakhand/uttarakhand-chopper-crash-mortal-remains-of-all-six-victims-recovered-sent-to-rishikesh-aiims/article71652291.ece",
-   "date": "2026-11-01",
+   "title": "Cyclone Murasu LIVE updates: System intensifies into ‘Severe Cyclonic Storm’, to make landfall on Nov. 3 morning",
+   "url": "https://www.thehindu.com/news/national/murasu-cyclone-live-updates-on-november-2-2026-tamil-nadu-telangana-andhra-pradesh-odisha/article71654226.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n546a7ff03e"
+   "id": "n1fd8bb30af"
   },
   {
-   "title": "How were the States formed and how has the Indian map changed since 1947?",
-   "url": "https://www.thehindu.com/news/national/india-at-75-how-were-the-states-formed-and-how-has-the-indian-map-changed-since-1947/article65761062.ece",
-   "date": "2026-11-01",
+   "title": "Dwindling support: On the U.S. and the Cuban embargo",
+   "url": "https://www.thehindu.com/opinion/editorial/the-hindu-editorial-dwindling-support-on-the-us-and-the-cuban-embargo/article71654007.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n8f5e5e490d"
+   "id": "n73b04d67ff"
   },
   {
-   "title": "Tamil Nadu to set up 26 POCSO Act courts and four NDPS courts",
-   "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-to-set-up-26-pocso-act-courts-and-four-ndps-courts/article71652310.ece",
-   "date": "2026-11-01",
+   "title": "Even as unemployment falls, lack of ‘decent work’ in India",
+   "url": "https://www.thehindu.com/opinion/lead/even-as-unemployment-falls-lack-of-decent-work-in-india/article71653971.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n495e30b0ba"
+   "id": "n852485dc39"
   },
   {
-   "title": "Two newly-elected Bihar Independent MLCs now support BJP",
-   "url": "https://www.thehindu.com/news/national/bihar/two-newly-elected-bihar-independent-mlcs-now-support-bjp/article71652125.ece",
-   "date": "2026-11-01",
+   "title": "Bapatla administration gears up to tackle Cyclone Murasu",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/bapatla-administration-gears-up-to-tackle-cyclone-murasu/article71655155.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n3730a322be"
+   "id": "n9e9babf02b"
   },
   {
-   "title": "PM Modi greets people of six States on foundation day",
-   "url": "https://www.thehindu.com/news/national/pm-modi-greets-people-of-six-states-on-foundation-day/article71652205.ece",
-   "date": "2026-11-01",
+   "title": "Holiday declared for educational institutions in Guntur",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/holiday-declared-for-educational-institutions-in-guntur/article71655143.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n8c34ed39bb"
+   "id": "nac2a52f065"
   },
   {
-   "title": "How infant deaths in Keralam’s Attappady expose a deep-rooted health, social crisis",
-   "url": "https://www.thehindu.com/news/national/kerala/how-infant-deaths-in-keralams-attappady-expose-a-deep-rooted-health-social-crisis/article71648509.ece",
-   "date": "2026-11-01",
+   "title": "Keralam’s community study centres for tribal students must be evaluated beyond numbers",
+   "url": "https://www.thehindu.com/education/keralams-community-study-centres-for-tribal-students-must-be-evaluated-beyond-numbers/article71644326.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n141e607a3b"
+   "id": "neb9347260e"
   },
   {
-   "title": "Depression intensifies into deep depression over Bay of Bengal",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/bay-of-bengal-deep-depression-cyclonic-storm-andhra-pradesh-november-1-2026-updates/article71652131.ece",
-   "date": "2026-11-01",
+   "title": "Cyclonic storm Murasu to make landfall close to Ongole",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-murasu-to-make-landfall-close-to-ongole/article71654237.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "ndec4b97a73"
+   "id": "n9b3e3ea6ec"
   },
   {
-   "title": "Maharashtra earmarks 5% of district planning funds to tackle fodder shortage",
-   "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-earmarks-5-of-district-planning-funds-to-tackle-fodder-shortage/article71652199.ece",
-   "date": "2026-11-01",
+   "title": "Odisha CM announces special package for families affected by Cyclone Arnab",
+   "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-announces-special-package-for-families-affected-by-cyclone-arnab/article71655182.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "n1df3171b88"
+   "id": "nc06f4f11a1"
   },
   {
-   "title": "‘Unavailable in India’: Why are social media posts being blocked amid protests? | Explained",
-   "url": "https://www.thehindu.com/news/national/why-are-social-media-posts-being-blocked-in-india-amid-protests-explained/article71643710.ece",
-   "date": "2026-11-01",
+   "title": "AMU wants women on campus, not at the ballot box",
+   "url": "https://www.thehindu.com/news/national/uttar-pradesh/amus-wants-women-on-campus-not-at-the-ballot-box/article71653225.ece",
+   "date": "2026-11-02",
    "source": "The Hindu",
-   "id": "nec40ce6fee"
+   "id": "ne9e4083f15"
   },
   {
-   "title": "Road crash in J-K's Kathua leaves boy dead",
-   "url": "https://www.greaterkashmir.com/jammu/road-crash-in-j-ks-kathua-leaves-boy-dead-12772845",
-   "date": "2026-11-01",
+   "title": "Delhi's AQI enters 'very poor' category for first time this season at 312",
+   "url": "https://www.greaterkashmir.com/national/delhis-aqi-enters-very-poor-category-for-first-time-this-season-at-312-12774831",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n27b6968248"
+   "id": "n191ba0274d"
   },
   {
-   "title": "Anantnag Police register 525 NDPS cases, arrest 602 drug peddlers, destroys 2,000 Kg contraband in 10 months of 2026",
-   "url": "https://www.greaterkashmir.com/kashmir/anantnag-police-register-525-ndps-cases-arrest-602-drug-peddlers-destroys-2000-kg-contraband-in-10-months-of-2026-12772666",
-   "date": "2026-11-01",
+   "title": "Business jet carrying 9 people crashed in Florida neighborhood, erupting in a massive fireball",
+   "url": "https://www.greaterkashmir.com/world/business-jet-carrying-9-people-crashed-in-florida-neighborhood-erupting-in-a-massive-fireball-12774693",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n823f513de5"
+   "id": "n1a25c3ba45"
   },
   {
-   "title": "Global criticism during COVID-19 hardened China's attitude towards world: Foreign Secretary Misri",
-   "url": "https://www.greaterkashmir.com/national/global-criticism-during-covid-19-hardened-chinas-attitude-towards-world-foreign-secretary-misri-12772584",
-   "date": "2026-11-01",
+   "title": "CM Omar hosts farewell dinner in honour of former Chief Secretary Atal Dulloo",
+   "url": "https://www.greaterkashmir.com/jammu-kashmir/cm-omar-hosts-farewell-dinner-in-honour-of-former-chief-secretary-atal-dulloo-12774680",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n9ef9d791e4"
+   "id": "n86f1c40644"
   },
   {
-   "title": "Darbar Move convoy crosses Ramban amid tight security arrangements",
-   "url": "https://www.greaterkashmir.com/jammu/darbar-move-convoy-crosses-ramban-amid-tight-security-arrangements-12772536",
-   "date": "2026-11-01",
+   "title": "Forest fire erupts In Drabshalla area on Kishtwar-Doda border, containment efforts underway",
+   "url": "https://www.greaterkashmir.com/jammu/forest-fire-erupts-in-drabshalla-area-on-kishtwar-doda-border-containment-efforts-underway-12774668",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n1e04270d2c"
+   "id": "n9612e48206"
   },
   {
-   "title": "Amit Shah flags off ‘Run for Unity’ on Sardar Patel’s 151st birth anniversary",
-   "url": "https://www.greaterkashmir.com/national/amit-shah-flags-off-run-for-unity-on-sardar-patels-151st-birth-anniversary-12772523",
-   "date": "2026-11-01",
+   "title": "KTMF calls for unity, stronger trade representation in Kulgam",
+   "url": "https://www.greaterkashmir.com/business/ktmf-calls-for-unity-stronger-trade-representation-in-kulgam-12774579",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "nf5770a4771"
+   "id": "nfe3dbb6cf8"
   },
   {
-   "title": "INDIA bloc leaders pass motion seeking impeachment of Chief Election Commissioner",
-   "url": "https://www.greaterkashmir.com/national/india-bloc-leaders-pass-motion-seeking-impeachment-of-chief-election-commissioner-12772519",
-   "date": "2026-11-01",
+   "title": "GST mop-up grows 23 % to over Rs 2.31 lakh Crore in October",
+   "url": "https://www.greaterkashmir.com/business/gst-mop-up-grows-23-to-over-rs-231-lakh-crore-in-october-12774578",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n44522fa5b6"
+   "id": "n2d86a78d8b"
   },
   {
-   "title": "ISRO successfully launches 3rd-generation navigation satellite NVS-03",
-   "url": "https://www.greaterkashmir.com/national/isro-successfully-launches-3rd-generation-navigation-satellite-nvs-03-12772517",
-   "date": "2026-11-01",
+   "title": "FCIK urges J&K Bank to ensure fair property valuation",
+   "url": "https://www.greaterkashmir.com/business/fcik-urges-jk-bank-to-ensure-fair-property-valuation-12774576",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n7eb1088e9c"
+   "id": "n1671e8a86e"
   },
   {
-   "title": "North Zone-2 secures 2nd place in CBSE National Boys Cricket Championship",
-   "url": "https://www.greaterkashmir.com/sports/north-zone-2-secures-2nd-place-in-cbse-national-boys-cricket-championship-12772511",
-   "date": "2026-11-01",
+   "title": "Mandaviya rolls out EPFO services through WhatsApp",
+   "url": "https://www.greaterkashmir.com/national/mandaviya-rolls-out-epfo-services-through-whatsapp-12774573",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "nc81fab89ea"
+   "id": "n5d03668c33"
   },
   {
-   "title": "JKFA Election Process: J&K Sports Council calls stakeholders’ meeting on JKFA executive committee elections",
-   "url": "https://www.greaterkashmir.com/sports/jkfa-election-process-jk-sports-council-calls-stakeholders-meeting-on-jkfa-executive-committee-elections-12772509",
-   "date": "2026-11-01",
+   "title": "Kashmiri apple supplies fall short of Diwali demand amid fungal outbreak",
+   "url": "https://www.greaterkashmir.com/business/kashmiri-apple-supplies-fall-short-of-diwali-demand-amid-fungal-outbreak-12774568",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n6cc2a42883"
+   "id": "n6d8c557add"
   },
   {
-   "title": "Athwas Retail announces Diwali cashback offer in partnership with J&K Bank",
-   "url": "https://www.greaterkashmir.com/business/athwas-retail-announces-diwali-cashback-offer-in-partnership-with-jk-bank-12772506",
-   "date": "2026-11-01",
+   "title": "Rahul Gandhi’s PM dream will not be fulfilled: Amit Shah",
+   "url": "https://www.greaterkashmir.com/politics/rahul-gandhis-pm-dream-will-not-be-fulfilled-amit-shah-12774565",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n73fb7f9c09"
+   "id": "nbe44e60e42"
   },
   {
-   "title": "SBIOA urges MP Aga Ruhullah to take up 5-day banking demand with Centre",
-   "url": "https://www.greaterkashmir.com/business/sbioa-urges-mp-aga-ruhullah-to-take-up-5-day-banking-demand-with-centre-12772502",
-   "date": "2026-11-01",
+   "title": "Farooq Abdullah, Mehbooba Mufti attend INDIA BLOC Protest rally at Ramlila Maidan",
+   "url": "https://www.greaterkashmir.com/politics/farooq-abdullah-mehbooba-mufti-attend-india-bloc-protest-rally-at-ramlila-maidan-12774563",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "nf6eae8dc4d"
+   "id": "na969912c3d"
   },
   {
-   "title": "J&K Tourism bags 2 awards at IITM Mumbai",
-   "url": "https://www.greaterkashmir.com/business/jk-tourism-bags-2-awards-at-iitm-mumbai-12772488",
-   "date": "2026-11-01",
+   "title": "Rahul says Gyanesh Kumar would be removed, warns PM Modi, Shah they are next after CEC,",
+   "url": "https://www.greaterkashmir.com/politics/rahul-says-gyanesh-kumar-would-be-removed-warns-pm-modi-shah-they-are-next-after-cec-12774560",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "ne407e37542"
+   "id": "n967e247852"
   },
   {
-   "title": "J&K Bank bags top CGTMSE Award for highest guarantee coverage in J&K and Ladakh",
-   "url": "https://www.greaterkashmir.com/sports/jk-bank-bags-top-cgtmse-award-for-highest-guarantee-coverage-in-jk-and-ladakh-12772484",
-   "date": "2026-11-01",
+   "title": "BJP takes out protest march in West Delhi's Hari Nagar against anti-Sikh riots, seeks Cong's apology",
+   "url": "https://www.greaterkashmir.com/politics/bjp-takes-out-protest-march-in-west-delhis-hari-nagar-against-anti-sikh-riots-seeks-congs-apology-12774558",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "na9b7d61246"
+   "id": "na47691e4b5"
   },
   {
-   "title": "Quality sports infrastructure, modern training facilities essential for nurturing sporting talent: Secretary J&K Sports Council",
-   "url": "https://www.greaterkashmir.com/sports/quality-sports-infrastructure-modern-training-facilities-essential-for-nurturing-sporting-talent-secretary-jk-sports-council-12772482",
-   "date": "2026-11-01",
+   "title": "BJP calls INDIA bloc rally ‘super flop’, asks where 10 lakh people were",
+   "url": "https://www.greaterkashmir.com/national/bjp-calls-india-bloc-rally-super-flop-asks-where-10-lakh-people-were-12774553",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "n5c5ce59f8f"
+   "id": "n1e6cdc5851"
   },
   {
-   "title": "After weather-induced losses, saffron growers hope for better returns",
-   "url": "https://www.greaterkashmir.com/business/after-weather-induced-losses-saffron-growers-hope-for-better-returns-12772479",
-   "date": "2026-11-01",
+   "title": "JKP, Rotary Club organise medical camp for Police personnel, families",
+   "url": "https://www.greaterkashmir.com/jammu/jkp-rotary-club-organise-medical-camp-for-police-personnel-families-12774548",
+   "date": "2026-11-02",
    "source": "Greater Kashmir",
-   "id": "nca134c6b81"
+   "id": "n8f1e59c430"
   },
   {
-   "title": "Strengthening India’s Space Sovereignty - www.pib.gov.in",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTEZGZFUyR2RHVDFaYkRORF9SVzRjUnJsa2J0c0VNT09fUGdaY1JnaXZ0c2VMbXNfUmJ5ZEZFVlg4bjFvYmdwQ0JUVGU1YlVuQVJTS3kwVTJrRkYzb0JKX3FsWGx2ZWpzQmwtM1pOalpxNC05bmc?oc=5",
+   "title": "India: Government sponsored health insurance scheme for citizens above 70 completes two successful years - Asia Insurance Review",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZ2VqcUFkVUwyS1laSXB5Z3dKdm5yenBXczVoNUt0NjczcFBYb2tNX3U5RlV4ZHVuVXZxSlp1cGNUV29aUHdCam5TcUZ6WUtRcUl6Vk5DcVl1UzJmZzZlc0ZwSXB5dW1WV25fM3R5Q1ZMMHp3NHpEb3VycGxvQXF3VDlvbXFKZXZGU3lwVDdFbFlXZEdlczV1YzZvTlN0RmVsSjlkNnpSQVdMSldKdF9MM05iY09qNG1CRWVYOWJjQzZBLV8xVmt0RmFMSDdFakhRZnFXSFRrbGFJcEV5TmlBRnRnSW1qZ3BpMm0tb3RFdWNBWGpkR0NzcTZrZGp2Z2FnWHdCdHcxSThaLTB1U0R2YXBTTEt1Zw?oc=5",
+   "date": "2026-11-02",
+   "source": "Google News India",
+   "id": "n055cf7250e"
+  },
+  {
+   "title": "Manufacturing Momentum:Building a Self-Reliant India - www.pib.gov.in",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvRmtvLV9MbC1nX2RudWdiZ2xQUnpCRmtTTU0xNkF2eV96Zi1kUUhkVjlrMWNGUkVKZzZXRUdEQjN0eGZRS3AxSm1BWC0tbnVHOXU2LUJDNlR1eDVpY1B0N09Ga01xUG9XSzVRejNpOHRvREdBS3c?oc=5",
+   "date": "2026-11-02",
+   "source": "Google News India",
+   "id": "n47b92933e3"
+  },
+  {
+   "title": "India–Tanzania trade hits $9 Billion, new investments set to deepen economic ties: High Commissioner Anisa.. - ET Government",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPelVlUVNyUGE3UlE5S2dKY0JoLXZ1LThBNWNfMElGZGpIT1ZtUkRMc09mem4tOVlHaEZnUFVURE1vQVVIZ0xFME1xanlON3hoUE1xa3pCQU1ZNzBoTGRtbjJsLWphbXFMbC1nU0NxakpxbHFSWmhnSnByWWpqbHVQbF9MYkJ5a1NUZzBVaEJEWXlVa2FWa05IY1hjbkxxOFd3ZUQ2eTVtQ051dXktdkRsSzJjUHhzSTJXbVF3YnViQ1NPU1BzWWtmSDViRV9TMDNIUkQzTlF2MHhVZUp5WUlHSm5VRXZjcGlxbm1wVGd0NjBqQWJMM0w0UGhBMVVvOEgtemQ5ME80dUxWY2VKNzNV0gGTAkFVX3lxTFBvQmdjTnUwTVY4TnF3Zi12RlluRUpRSk5FRHlMWUIyeFVJazZOWFd4WFpYMFhIS0dsU0U0UlQwcUM4NUdyN3lXWlRTRl9YbW5jQVN0eFVFb0hfTjRZMWlZZ2plWlpQem9QY3dBa0xnZ2doZTV4US1FM3M0LWowOHQ1UC16LXpEUjVzeVJ2bVF0LXpaWk5ibm5NbUZmNWpjdklzdy1uTW5OQ0lkQ1BsUXk2cE9hcEx2M1ZBRTFEUHNmdkxjRnRPRGk1WERlUDBsU3l4X3dnMXFYOTNVYnc2djRhaXRqcFpGamlXTlBKY3hGVlpsOGNJVEFCSndBLUhZMjR2dVRJYjhhakRHTUtOU2ttWWdJ?oc=5",
+   "date": "2026-11-02",
+   "source": "Google News India",
+   "id": "n1a30132b06"
+  },
+  {
+   "title": "PM Modi to inaugurate Bharat Renewable Energy Summit & Expo 2026 in Delhi today - DD India",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd1hlUkd6ZHJTUXhKajRFa3pFTk1VdnExWHg1S3hXb3hFUk0zaUw3S3VaNlV4Z3UxYW95akUzeHBPZ0d3QXVwZVlNc2VHN3g3TzBGTmZ5RnQ2RGtpTkl0SmswbEljU2UtRnRFc2E3YjI5aUVLbUtlRkgwLW00RDNZdm95T2tOeWpvTDZUbGhkZm9EMkRHTFAyWElhYmVCSFJndDRpaWZWRENiWmNr?oc=5",
+   "date": "2026-11-02",
+   "source": "Google News India",
+   "id": "n5340dfec04"
+  },
+  {
+   "title": "Worried about expensive flights? Government gets power to intervene in airfares - India Today",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNMkUtcVQ4cjJXMW02YkhUNWV5Q1dxamt5MzVya2djNm9PX1Y2dkkzNkdaS01vTWR5TVNCTkpfQ3NnclZFaENodGpDUDZ3NHRCbVZkVWp2S1NqbGM5bXp4UTByUm5TVnl3WmxHcGxfdVdaVkJRbjhPLW4yNkV6X0E2c3RmbVFZdS1vXzV3dGRTZTMzalNSa3h5Vm11aXJ0ai14dmduR2pPYjd1cHpvdi1GR1lhQl9QcDVjV0RSLVNHXzF6QlpRWHRmMHZGSG1HazgtSTRMUm1CV0txb3huTVRlR05uZ2Y0TUpGQkJnY2N4Z9IB9AFBVV95cUxQSFZ4YlpKc1dVeEZ2T3BVNUpld3Q0YXdhd1pXT0trS0dYTVB0WXExOTFVbHdYU0tIOWFxWHIwUnp4WWJSQ21xSWE1M2dkVkFyUERlWUpDam9GR3hBSzg2RkFjaFhxVmp4SnR6XzhFbjhqQlhNN0s1dzNCbTFZeE1VVWlvWl9BQ01KbUthSUlxT0FHWGcxa281Y1hlT3RSc192ZFFxUXdSbVlsczBEN1ZOSmhZUi1JYnhXZ19CMkxfU1FLTjNqX3Y0UHJMVWFBM01wXy1tbnhtUDgtZUN0RmxTMmwydVFrVXhlWDh5M2RpZVQwZGVB?oc=5",
+   "date": "2026-11-02",
+   "source": "Google News India",
+   "id": "n17e50ebc36"
+  },
+  {
+   "title": "Pabitra Margherita to visit Spain from November 3–5 for Ibero-American Summit - DD India",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMURCUkl1NkN4WlpoMVI3MGV4NVNja3RHWXlwV19mX09HYkxHd2RZVVlOZ191a2xORGhETTNzQjZtd096dk91bW1GdmdnMzF1cWZnYmExZkRzamNxR0lUakNzZ09vcEplWFhSeG9WSWw1WUVFNnRJamk1aUY3T0Y3ZUNWXzJiQWo1SlBXMWxNcHAwTDFieHJZS2RJVTFqSU0xZ1pkM0ZieHRyMGxM?oc=5",
+   "date": "2026-11-02",
+   "source": "Google News India",
+   "id": "n1ba1f3fca2"
+  },
+  {
+   "title": "Darbar Move: Government Offices to Reopen in Jammu Today - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPT2JRa3NwbTBMd3lBbGwyOFAtQ2RtQ3ctaC1UTkdlejdyRm44SGQ1RHk1djA4NWdfenRIRHlUU1BwaUFWSndqQjdyM2NZMmVBR0Y4cnVzeVZmTC03SkhYd3lqZWFQTmsxOFI0a1BIV2lrTjJ3a2ZIM1BNTzdJTUVlRklscTBSSUczVVBNZTFNQno?oc=5",
+   "date": "2026-11-02",
+   "source": "Google News J&K",
+   "id": "n4dc0808fea"
+  },
+  {
+   "title": "India's Defence Strength Powering National Security through Self-Reliance - pib.gov.in",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pSFAtcXlILUJRaHdoSUwtVloydmVja21qQ3FlYVgzV3lrWHNYMjhYcjFtcEg0VTJRS3ZnTkt0c0g2cnRmTS1BR09RWWdOTTJ4dWs4ZHJfU0JtMnVJS0kyb0tuVVplRUNLc3Z6MUh1TXFCWTJ2dTNV?oc=5",
    "date": "2026-11-01",
    "source": "Google News India",
-   "id": "n50e7f6703a"
+   "id": "nac576bc026"
   },
   {
-   "title": "News On AIR | October 31, 2026 10:45 AM - News On AIR",
+   "title": "India Emerges as Third-Largest Arms Exporter to Europe: Defence Secretary - News On AIR",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU1k4UzY5a3RHV01oMGw3YnN5eUktYVNFVWNjTUdGSERsT0hGLXBNX1dPdV9iNmV2M2R5WVZpRWFTYWdfNjdyUTl6UTNWWUdhOS04b1E3WldKbWp5QjlOVV9iN3BkMmMyWG5PNkwxZG8xVFRxTDJUM2RMdEtQMUxjUTZBcE14WUp3TmZlWkhfTkJiX1liWXV2VXdaZThCUGs?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "ne915c18672"
+  },
+  {
+   "title": "PM to Inaugurate Bharat Renewable Energy Summit & Expo 2026 on 2nd November - PM India",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcWRvdDZRSS1BN3RKd01mU3JWQUpHNHZkNXVrb3k0WXI4cVdnYjZzcTRNdmhBY3hKclMxcnJFazRyYTVIZEJwb2VGU0d4Ti01RjlabTRIbEJKMHBhNGRESEdLTndRSU04WExxVF9qNHdVM0pOR0NDNWdYOWUwTlhoTEZlX3ZLOFl1Y3pJTlVFS3JGS2k1ZjZTbkVqSHZvZmE0cERybVB0b3hRS0s4M1ZmRjhWRHpORWpr?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n1471d8599c"
+  },
+  {
+   "title": "India-Australia defence ties: Advancing a vital Indo-Pacific partnership - Lowy Institute",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc29DeUx6SkswdDJ4TEZWQUZIUXoxZjk1U2xYNnB0d2RSRVNQVHBQYVhCSDNyZHF1Sng1ekgyZmVHdUluUTZFeDZlRV9OekE2ZDNXN1VqUkJqOUdsR0loeU95Ym5CRjRYSDFzb0NodFZBLWZtQ2Q2S2VNaEt4NDJjZV9mQjhCd19ZS0dvcXpUR01xUUM4LXFvT01iQTJnQVdYcGpNbVVadG1BbURxYXc3bXFQLVU?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n23262dfa50"
+  },
+  {
+   "title": "India’s Consumers Are Back, Its Stocks Aren’t - Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWh5U3FLMDNHaUZYcWhfQlNSenN0Y0wyaC00SmRDT1YyTzJLcUkyTnFSc095YnZhS1MtQ05xYVhVM2tGazl4azQweWlMaGh2MXpOUXpXRGw0UVFlRTZITWVWc2FneXNZUDhLZlhXVlU2VWdWdG9KODVIX2dBSkJseEkzbFlZbHJHZnA4c05FT1JzNEFxdmdUYk14ZzhSY29FeXotOWJPMzNrZEJWT0xr?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "n96b4415c14"
+  },
+  {
+   "title": "India and Myanmar hold 8th Army Staff Talks in Naypyidaw to enhance bilateral defence cooperation and training - Defence.in",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWmlVaXlGVzYwQjhOR3V2ZWRzTnBHVkpfaXVxSWUyOTRJem5VRll1MEZ4RWM1WmVpOWpUQ0pKOUwyT2dJQ2h4c2xGZXRvdzJfdmlLQVpYaEw2clFONHk4SkZOekJOVUEwZFNuZ2JfVHVRQUVNSDFLTVZiYm51X1h6bGNpMHVaSkFpbnJIM2VldWN4Q3p2eExmUFh0X1BmQTItLXk3TEtlLXBpSkMxNFM0ME9nZG5MTWo5M251RkFWT2RlR1AwOW5KSkZUVFZ6QjJkV3VPS3hFek1naW9M?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News India",
+   "id": "nbb9383c57a"
+  },
+  {
+   "title": "ISRO launches NVS | Akashvani News - News On AIR",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUJYcmNSa0F4Qmw2eW02MElQcmlfQ1FhZXNfNUk5MXY5dmFCelhsRGtzTE1Jb21kWURHV2RHTkhlY0pJRV9ObGswN2lnejlJMER2aE0wa2xjd1ZmSmZ5ZHpmVlNsVktHRnBkdjNBLURpdmpNMm1ial93TDlzbExlc3ljbXB6Q3VRdkRtMkVlVnlQd2xpNGRTdlRnR2FDWkFzeFREZDdxSlpOeUx0eTRzbGl3?oc=5",
    "date": "2026-11-01",
    "source": "Google News India",
    "id": "nf99610e71e"
   },
   {
-   "title": "Union Bank of India expands banking infrastructure in Uttar Pradesh, MD inaugurates new facilities - ET Government",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPb19VUi11YXdpSFkzdFNHMGhtQ2FlLTU3QkwyaVVzZi1vM3g2REtXNlJaTWRPRWxObWRRVkR2NjlHbmpMcjVVcjB6Q2R1aE1BbXBXMDdxamFhNHc1SUFocXM4cEhBR09IcWx5STNtZ1plSTFTNXNpYUJfZDVlRmllV0l0dEZ6WkRicU40d3RXUzhSMk9wdEUzSTBDbVNJNUM2NlJZekZyWGhRMHVrUUFnazVMUEVFYXNGS1FvUGlUTWdZVWI0MjNKZ252OXkxcVNjZk9iLUZnVmZTSkRBQ3hsVEV3YU1IQ1ZON3c4aEhUNGxUNUJJNERTamVabDXSAYACQVVfeXFMT1JCbXF1Mi1qNC1FSHhXUWFZZkNXdlo0X19IWEJLYXoxeUpiYy1DSEVMUDdzX2xOVExfQlBYel9oQXk2VDhXcUh0M2Rud2lUNE9yZ2tUejlkWDVYQWYxMWo2T0gzZEttWHZzS3hvVEJmVG1JTFBybTJySzFnZU82WFk5ckU0WGlwVkxiQjM5MHkwclBxdDNpRU1mblI4OVlzaDJXYVd1Sy1EOVpMV3pDTzBSU2Q0NGpWejBlbkZJejgzZTZWRGczdDRZWHpKTURITUUxUnQ0emFhZmNFOEJDS3VwZy1VaFpOYlJOVHp6bWp5RTBuV2VRVGdlMEpSUU1qLQ?oc=5",
+   "title": "India’s Economy Projected to Grow by 7.35% in Q2 FY27 - News On AIR",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wQzlqQ2U4Q1dZZ0lOQXlEZWJURE4zbE5NZFNQMHZ0dG9OUk1zYVA4SFJiWE1HUURrclVzQURmVzhmRF9vY2pyQTZELWx5OWRfdGk2THdLemVGUTVsMF9QU1htQllHOFpOUEtPZXVObElMb2txU09fWGM3azZudEk?oc=5",
    "date": "2026-11-01",
    "source": "Google News India",
-   "id": "n175bdc3a49"
+   "id": "n87554ba491"
   },
   {
-   "title": "Social Media Takedowns in India: Speed vs Safeguards - Vajiram & Ravi",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUTljbmtQcVR4R0lpUDg4eDBWckoxci01R2Z5UTk3R0t5N1lDWUhXTnptZi1kcllZRExReUxBeDRSei1ITEdqYk85TmlCOHVYXzVoV0ZMTGVJQ1EteUhxUDh3UDcwWUR5NFBDTGV4azRRdFIwMHZDRzJvWFh1cmVPUg?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "n687159b799"
-  },
-  {
-   "title": "India’s Congress Party Plans Mass Protest in New Delhi - The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUUxyZDlDU1ZkMVd1bDREUFVvWkFzZlJwN2dLNUxmWG1FRVJNeEhoaHlzTHBJRFFLRWRyZk5zRTYwb3FzMmZXbXZVS0FxRVBNRFpMMjZXTzIwTHFlX2VtSjBraEJvZmkwc2l1aUJRV0R6ZXZsSDM2NHYtSXN5QjZUNEsyc2JkMlZFdkFISWxYMjJ5Zw?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "ne62478205d"
-  },
-  {
-   "title": "India hopes for common ground by December G20 summit: EAM Jaishankar - TripuraTimes.com",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU0pfUm1yYURQTjBGMVZXQmttUnZ2bl91V1Y3MF9Sb0Qtellna1F2RURYNUstZ2JTZmU4VHhMNWZTWVJEYXRJYzhaS2UwWXFvWkxvT1hGaE5MRE9ZckdsZThhbmVLbWwzNFZxRzhQbU05ZVc5UTh0YXhRdXp1Q0pKMklNTVhzcE53aUF1eGh4d1g5dHFSeEk0OFpnMTZ4aHI0WDNpUXFsaFFqN2FKLUpF?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "na7fdf21552"
-  },
-  {
-   "title": "The New Era of Indian Agriculture and Allied Sectors - www.pib.gov.in",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUZxUkRCX05waVZTZThYT1g1a2h3NXFOTGlfSFFTS0lTTVBDcTl5eXhQZW03aHNzY0E2R0U1VWs3VXNzN2hYRkRpdTJWeGx6MXB0VEpPMGI2dkxzdmg5bmJnSFZhdDRKODlmLW1hb0wzbDh2N3lQQzNwaXRKWXhBbmlWY09ia2FJRXJvTW1Wd2NSMjhkcnYxTEhn?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "nf2204e18dd"
-  },
-  {
-   "title": "Ashok Gehlot calls INDIA bloc rally at Ramlila Maidan a defence of democracy - The News Mill",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWTRYSkNPOXo2S1NmS0VlODRUcm44eDVXWC1idlZ3TV90SzVib3pJdDQ1aFNBUmY0SjVWVVlRbnl4alRsbmJwOTYzQ2J4dmp1dUx0LVF3WEdscGdQb2YzcFlUZldzTFZXS2ZPdHJJdDVraDVFOUxMRDN4cW95VEcwcEpMbGN4NHJFTVctMWs2Vk9qcE1jOVhlbnhPdU54X2xzc3UxTkVKVXVSVERaVnc?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "n73770b5e44"
-  },
-  {
-   "title": "Bank credit and interest rate trends for September show significant movements: RBI - News On AIR",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSTZad2hnQUJxYXFGaTY1QWszNkh4MENadkprWkFDRFBYdmw3aDVzeWVHMS1QSFBRTDhUSGdmTjN4OW01MjI1TmY1X2Z5NWpFcmY1dkQ4VlcyaHpQa3A3RzVBbUUzemVYNkZvYWRZR2I2dmU0R0pzVFZfTWF3RlZhcFNsWnF6V214dDJoOXZMd3h4SG5iMC1iV1FVZTlUaHRSZ1NLNTV3SmNCUmc?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "n7ec2343523"
-  },
-  {
-   "title": "India’s sovereign AI push moves from foundational models to real-world applications for Bharat: Ganesh Ram.. - ET Government",
-   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNOC0wdFlMQnBTSnNTbS1RTHFBM21ka0JXYXVjMDd2WnJGVkRsTkM4ZzB1VUJCcGZRLTlod2p4SEczay1mS0hDSldxR1RzVDFfRUIwVmZnamZZTmlDbWxCNS1qQnBVMGk1V1M1cVU0MTN5NS1ENlFLYnllQVptbE94UkZFNXRIaGV2Wk1Bd09KMFhKX3gwa3VPZzFTdVdxdmViU0RrenQ5MU16TzNWRlRmS0RrWGJXNWFrU2JSU21rVVVIdzRlRWlManZhNWY3bTJjTzRFcnVmUF9tMnVSX3BfRVp5MG94YWJYNnd6SklYSUFoc1E5T1FHSU04ejhWNE9CTUZVbHM1Yi13czd3VHdtX1pEWG9QcVlvOEpoZnY2X1ZDaVJ6V0hfOFlqWVJaMUFjc0syOTk3aUVxOEJGcDFBMjNhQVhzWDY0WVVndTRjWdIBmgJBVV95cUxONzMxbXpmWXBaOXVNQ1BUQ2k4ajNnbWt0OEZjX2pzRFFhSXVjcTVxZVZ2Sko0WFF5c0pFdGYyZ0wzWDJVMFZTQjF4QUd6b3RMd0FlWXoyQW5OQW1qRGdKWGd2TUoxZ21XTC1teDY1MVdKLVpNcHNfWnBoWkg3WU9naktpNTlZUEcwVFFZenZmaThIRHRVbE5TQnVHZkFHQklUbnQ1cFJfaDU4MEVQeEF3bW85REVjTmFlMk1SYlc2aUxUTmUxMzllTlEtYmd4emg5VFZkQWZSSEw2MFlwVWZCRDlRaXNCV0RvcGY2aFBsVnNJc2hLS0lCUklOcURZRkdVOWpDVFJtQWNBRzYwMGRrQ2lRVGVZNjFXb3c?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "n3744ff8a50"
-  },
-  {
-   "title": "NVS-03 Satellite: Reviving India’s NavIC System - Vajiram & Ravi",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Jc2ZhZWxwcy11XzlGZXl4dmZqZ2ZZY2xQNWZFdEFoMENSeGtjVXJWbGRNRHIxNXdhNHJ2MWx3MDZRYXAtdllwQnpIT19wZ1g1TklDeW5iaVgtbHRiQVc0cllvSmhTVHZBY3psR2pVbXA5V3AxbGFEMFpB?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "nf38af8d217"
-  },
-  {
-   "title": "Jammu Kashmir Govt Begins Budget Exercise For 2027-28, Discussions From November 16 - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMHVZdEFyVE5LXzgwTXRCWVhRVTQtQTNaVGkxX2dCTnJORVBIeFl2U0dRaWZrZ3g0cF9oUFBZOVd4LWtwRE1CNjI2a19lanp1X3JNTlR2cFpmYWxCaDUwVWVLbWw0VmxzMmFXcXlXMTVyMTZNVHB5SHVFcjROcEpxcFFjUTN2NGczT2F2bnZGZFk4eFE1ZV84U0oyQ3hBNzgwNDZjMmI3Ri0ycThlTk1CbWJTQnU?oc=5",
+   "title": "Darbar Move: J&K Government offices reopen in Jammu on Nov 2 - The Tribune",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFJfZ0hkbnd6S3c4X1NmSzNTV1Y0eWhlcHJFRjlKOV94dUpIWUhrR1I2VXlyZ2V3LTBCaDh6X0JVbDFMZlJFaXJ6ZDY2b1hUZ2xvb05MNVJkSkEyNFNSSTY4QnpwOW1uSFlzODdGbzJac0dPX3FDMHF3TjY2M05PVDhUemVKTHZwSXhUb2NyOUxFZE42ZGVrRUVkQkpfUdIBogFBVV95cUxPdnEyckIxTUQxcEFpeXU0QjNCQXhWZHZRUHhPcjFXbGhYMG52TEFWRmdWa0NCR3E3emZqVTJIOHFxeWpILXpURjVKNlZnamF6UUdHUXFjWk5wWDdGZTAxT2xIRkhwOUpBZEp2dEl6SkkzekpocnRmdlU5Vk1WcGh4anZfM25UcU5PNEUyNWNuVktYc0p3cVlGa1hlWEhIbEhuTkE?oc=5",
    "date": "2026-11-01",
    "source": "Google News J&K",
-   "id": "n5e984aae70"
+   "id": "n1d8a700e52"
   },
   {
-   "title": "J&K Transfers Six IAS/IPS Officers - Legend Officers",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JUmdFQm9ZbXB4a0tZVU1yNDdkaXpaR0NyeDBkZ0o3eGdwdUMzaGNsSm45eksza2R4S3A5U3VPTlpRUEtXOFg1U3VPbmxIWFFOeDZmc2o1ZHNDQ1Y0SDE0Nm80c2dDYkh0RXhfNjgzSTU0amluSVJqTVZmY2Q?oc=5",
+   "title": "Omar reiterates focus on inclusive development - Daily Excelsior",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdmxYNUdKMlUyS2hyN01QdEd4bldKTENYSnZ1bHRjc2hDcUcwUkhWTEkyeHV3VGtGYWUwRnlvMWNWbDY3VTVOeF9aTkVUY2dNdEFWTXE0ZnpjSGhuRllxcTU1dk94ZmZLOFVuXzRISTMxWExTTS1MVE5KdndHTzVLV0pxOG95cFBR0gGIAUFVX3lxTE12bFg1R0oyVTJLaHI3TVB0R3huV0pMQ1hKdnVsdGNzaENxRzBSSFZMSTJ4dXdUa0ZhZTBGeW8xY1ZsNjdVNU54X1pORVRjZ010QVZNcTRmemNIaG5GWXFxNTV2T3hmZks4VW5fNEhJMzFYTFNNLUxUTkp2d0dPNUtXSnE4b3lwUFE?oc=5",
    "date": "2026-11-01",
    "source": "Google News J&K",
-   "id": "nbbabcaf282"
+   "id": "n218a30ff74"
   },
   {
-   "title": "Darbar Move Convoy Crosses Ramban Amid Tight Security - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLTA3YktZbm1sREZMdzk2eXYtZVh4bUx3LUF2UXVmY0x2M0FSeHVMTWlIdklibGJ1X3ZGLU1yMDdoc1hmcXE1RFRtMTU0akIwYkUta21FYkVLeW1tb1Q3NUJwajFzODA3VWJFOVNBRTB2WDNjZTBYbkl3a082dVZ6SzBFNHF5dG83bXR5WjFn?oc=5",
+   "title": "Sagar blames UT framework for delays in public welfare initiatives - thekashmirimages.com",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNWItNktoZkdKX2pwRGVSZ0NhT24xeUxCX3lEQURtS3VDS0NkdVpIYXhQckN4Z0Z1OE5zRXgxRENFbWxuWDh6Y2tIRjVxY3JyS3FnUGtKd2Vlc0YwWU5wQUZNemNDTEE3NlRkaFRDWU02V05NbE11eU4zZmJERXJaN3NwbEpXbHBibmU1bmJBM1pTemloVnd2UUhEMWFIMXFsbkoxUERfUk5fYms?oc=5",
    "date": "2026-11-01",
    "source": "Google News J&K",
-   "id": "neb35667c7e"
+   "id": "n0437883e73"
+  },
+  {
+   "title": "Shailendra Kumar to hold J&K Chief Secretary’s charge till Sajjan Yadav joins - Kashmir News Observer",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR0xqTFlzaUxZNk85LVRUSFlCN3djQkxpUFA2SDBUbGZ2S3F1ZlUzSXJjbXlxZjlhbFlqSjk5M2NGU3pWX0tzd2Z4WkxBcmF5UlJONnpHRkRZbGZhNFNFalUzdFdlYjgxTGYwZnpwY0M2dFJGMVBkSkhfcndBb1I5bUtpRVpxNFcwOW5FYTdRaUJLOEdXbm5VdnJUX0lBMU9mRnJSaUl0bVZWbGJJbEdlOFNuUGxFSGtEYWFwaVh0VmpQS0dqVFVNeW5tX3g5eWdhTkQxZw?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "nc1da3b8595"
+  },
+  {
+   "title": "Ahead of Durbar re-opening: CM says year marked by responsive, inclusive governance - Brighter Kashmir",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdlZ4ZWc4dkpNU0Y0OWJlVk0yaExEcE4xYl9TYmZkN0RsS053Unkza2lMUWdVS214REtrQTd5LTFQNERGT0ZmUDJMTjZibEN4aXRwaWQ0ZVNiZXJXRXBrSk5fa3NhN21iZ3Y2TnRHMExTTXlCWEdjb3B5NnpEdlZBclc4cURyb25hMGxoMFJ6a0ptRmpaRExpeGJsN2o5eHhNLVRaRGpGdHdTYmVBRnc?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "nd7949647e5"
+  },
+  {
+   "title": "Shailendra Kumar to Hold Additional Charge of Jammu Kashmir Chief Secretary - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcU9Zb3dFYUZzR1pWLVNVckxYZG53SHd3dzlNUkc1YXdiN2lzTTlXVy1iTWJWRml4YmZKWHRLeHduTndMVkM2NjVrbWNMZXA2OV9JT1NtSUNjdUUzMmFESFlxSmwyVklyQ3VzTjcwOFBGYVRvM29SSUxRNlRzRlc3Q3lONXoxWkFSY0hZU2lnbFBBcGRvTk9jYm1ZZmxJd2VvRkVPUlZRWFBWQk0?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "n058808c86f"
+  },
+  {
+   "title": "Public Welfare, development remain government’s top priorities: Sagar - boldnewsonline.com",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQThvaHN3N1pqTmJUT0FpUjZaRVdyZnppcnN3eWZHdVpCTl9ZRkFpS0pvVlMzckZwYlkyclE3cGRabVpRUDc0MEZpYWhnTWtiSkxOcTBpWVBFR0dpY3JpSHprTGlCdWdDaDBqZUlpVHFRMnRtUVpnZV80TGxJNUJPNlpyT3A4NEZXS2tFX0FsM3pOREpiQ1RxVnlaMjRzTTQ?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "na90e16824b"
+  },
+  {
+   "title": "Major Administrative Reshuffle In J&K: Shailendra Kumar Given Charge Of Chief Secretary; Six IAS Officers Get New Assignments - Daily Excelsior",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTDg4TlpmMlRBTlRwaDZLSlBpUFQzVGJOa2YzSWI4NFVKV1BrSlNGVjVCS3hhVTdvZUtfMXFDMFRmWDRMWmx3UjRJbTBqZkRNYjlkUjJNV1BBTjJCYjUwTW00STNKRy1SSGVjWlRXckJmYS1hY0FKemVPbDc2bUllOEd4bmRPM0IzWXpPSFBnaGswTnhwaU9FTjM0bVBYd3djMG9saTJXQdIBqwFBVV95cUxNR0ItYXhvQ1ItUjhSaEJBaFRldVpXa2JIRXljb0Zuamgwa0llNGJjVWJ5cnc1elNoMFJHRFVsUVB1aGZhWWNhTGVZRkhReTM5aGZRVHN5TUtYV1BHUk8zNk9aRVpBZng5d1Vsb0hkcXdsbXFkMm5wc1U0OWJGVkh1QkhIcFFGc1NXYTBZdkpKYXpGYjQxbXBRRjhoak9ORV9NWW8wOVZwVURUdGc?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "n9c631e5742"
+  },
+  {
+   "title": "The Darbar Move Circus: Why Not Make Jammu a Permanent Administrative Centre? - thekashmirimages.com",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVG1vVEFiamF2V2tiMm9CWmVoU1dUSDlHOEpLX3NSYXIwaDV5a0gwVFF5a2hWemo2TUlYRG9tUUFlOFU4cEozRXVoTjBaZ19SN0F6Nk9BbnVEek9jUzkzR2ZYU1ZNWDFxbVFFZk9nUkZEQkxIeUZVR3NpS1FHVFZXYW9nWTlvaWVObkc4b1E5VmI4bGNiVHBXMUFVN0RYZE13OHRvVE9HZUNMRkZEUk5vWXpSTTJMTWc?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "nba6a0982f6"
+  },
+  {
+   "title": "Govt Focused on People-Centric Governance Across Jammu Kashmir: CM Omar Abdullah - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMDFIcFhLa292VUpNWXktdldFRS1jSUM4UUkwSUNoNFF3ZFRaM0tNdF90cmVMd240NUpxSjBnc3JxV1UtUWQ2UEF1UWczeG9nLWt0SkxScF9mQjFfYWJELUlMTlF4bFRRelI5OHFycGJOek93ckVYaVdaSkNad1IxVmNkUHhUMEdOYzRLOTFrRzJVelhzSHNCcDRxaV9hWkplQ3h2WnUyTGI1UHdudzVVYg?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "nc6eda61522"
+  },
+  {
+   "title": "Shailender Kumar to look after CS post till Sajjan Kumar joins - thekashmirimages.com",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORGNsSGZpbGREbDNGLUtyM1RabzVCaTFsYnZGeHN0b3N6Z2ZiLUlWVjZ5QmtkdTBjcE1ZWkN4bEFfV2NWQkJYazhBYVhXZUtwdF9kcUVXMmRjeW55WmtrZzhLSHN3VHd3MEZIcHZVclBETTNzTjlJMzZVZEpBTjRMTFVjenZEMjc2LU1oLWFadXFCUV9ubmRxYkdoMmxNNnY5bXRKczZB?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "nc93b50c636"
+  },
+  {
+   "title": "Jammu Kashmir Govt Orders Transfers and Postings of IAS Officers - Kashmir Life",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1U0QmRCb0ZGU2puc3RqakJkREFfUVhPbEtJelNzX3VTb2tvenBDTl9LV0RqdnVKbjk5S2VGRnNWMlVPa25fV1RhU1VEUmsxbEZjMUdUY1BxSjh1bTZyRkFPcTZGMjY5SmF6UHdVZ2dYWktTMHNzMXZveVVrNW1ZZUI0MUhfX1AtT25UVFVmaGJqSVdTdWRkQS1tZlk?oc=5",
+   "date": "2026-11-01",
+   "source": "Google News J&K",
+   "id": "neff9a2cd33"
   },
   {
    "title": "GSLV-F18/NVS-03 MISSION - ISRO",
@@ -55295,48 +55689,6 @@ window.CA_DATA = {
    "id": "n9f68191010"
   },
   {
-   "title": "ISRO NVS-03 launch: 5 things to know about India’s new navigation satellite - The Hindu",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR2paT0FIRjlFai1pUHJ4VG81bDNlTUFFVTdzRXVVa09vcl9UR0UtY3A0amRldGJ6UC1GRGlQd09MdmxiOGVnNmZGREhKc3RnYlpIS0xtZ2xfZXVNV2dOanFFMVR3YWJ0QzUzbHd2bXFpZkotdDhSNUtrWW1QTEtPdDhNaE0tblpXdlVnSlhhR19PTVpXZXN5RncwY3ItTmZQaG1aRTRWOXg1ZWFNNnlZbjdIMURtempiVVYyeXcxalBWMVVScFphZDlTRGRGNzNrb3ZHTjNfRU1iTzk5aEpOYWlueUU4Z3pFSlA00gHyAUFVX3lxTE95bjdvVEtXWm9CMlZTazladDJUaG1oa2JOZHBZMU9oMVZQR3pFOEtkVnh4VUpVdVpNOWRCc3N6YmdKOTRwT1VqM2ZPVlNHcDdHSkhqRkNlUndaUk1TR1NzOWlrVl9UYUEzeXVpYnlobFV5WHVaS3EzUldTV29ybGdjM3luUHRpUktiUFoyS2VOcFEtVmQxb25DRjBfQlFrY1otZXVqZkk5Sndad1ZUTFFfWjF3YVN1NFkwT2FabVhRNF9PS01GVkxVbjlELXJ5RUJiSEZJeUxBRUNvRUZfdTZYZWp5NUxnZ0dYUUNwNFA4WTdB?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News India",
-   "id": "n5844ddd2cf"
-  },
-  {
-   "title": "India’s polyalignment follows the money - East Asia Forum",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObWg2WUo5TkZqT1hoOWFONG1ETTd1RllyZXhqNXlVVXkxU204QmZyOVhDWk1HWFZxS3NvRjI3aFVOb1h3UUFzZ25Qc3BfNE5YUUhGbjUySzdFMUZUWkJreE9lcGxHLS1NNVRmbnRGNzBGSXZhcGZuWXlvdlNUNDFsZlVn?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News India",
-   "id": "n8afd88d87f"
-  },
-  {
-   "title": "Darbar Move : 174 officials to remain at Srinagar Secretariat during winter - Rising Kashmir",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQamZmbTFoTW92cXZfTHlKMWRLRExFYmtVWC1mT2syb0J3dUlKS0VERU1Pdk95X1BYeGJBeFpTbEhwd1ZTanExZ0F0MjY1YkstZTZ5OGg2VUhxUm52LUZoYjFpTEVJV1IxM2RYaWZTZDN2eGpiS0VyTzhGeUFER1h6QzZHVDJLQjJjWUVKLWp3YW5rb1FYRDBIS1VLMmVFb2VfNXktUnF5LW1meVVUQjFRdEY5U01RVm9jZVpVMWF3Nkxpd1RE?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "n70a3f35170"
-  },
-  {
-   "title": "Jammu University to establish Kashmir research centre for language and cultural preservation - Prop News Time",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNGJ5VFBrU2U2MVAwekxPVzNGeURjODJnbk1BNXRZT3h5TFFDVEkzdGk2NEtuazQyQW9VVFhCNEl2M0lJZVJWbGFnQzVXYkt4UVNhYWtObmc3dllKUHZOczVEQmNIQ3BEUkdqZTdqY2xGMXZKb1E5SmszbmZxclJyck9OaXlhSHVTd3F3REptSEgwTGxnekg0LXBWTnBIMEFvbnhsWnpIbUNYcEVrX05EYUV6enNmLURWSXhBWFZQUU5EQUp6U3ZucUk2Wnd2bGpWY0tYVWdBSk5EX1Zo?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "na8253e8571"
-  },
-  {
-   "title": "Jammu Readies For Durbar, Move Begins from Srinagar - Kashmir Observer",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNkdyOGpzb3ctcjZGeHJxZWJCb2ZYVWdDSEhVRW41LUwyaXl5MnczT1U0bnRRYi1KZEFYZnVzc1QxYjh6aV84QWVHMVUzdjdCM2ZUYmctTDM5am1sNDh1QU51RGlNOXpiemZEVGRicWY4VzlVQnhCeXdxQ0dkZWF1NEo1cXlnQ1NsM0daRGtTbWhNX3Ut?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "ne8df1c9698"
-  },
-  {
-   "title": "J&K govt orders major administrative reshuffle; 6 IAS, IPS officers assigned new responsibilities - Greater Kashmir",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMHpqaXN4RmpmNU0xSVpwZ2dnU0R3UnhsN0VGSUd3Yk5WLXpkem1aM3Ixb0RacHY1LXdSaU9hcG5UUi1FeGFnYy12bDVodUZCX2tNbkVTZ3NHY0NjdlVIZC1VcEMwUFE3NldTbno5eGZrbmw2RlpjNVQxcENNOEhNckstaE1VT2dXYVBSSWpqMFdHa1h5WTV4NllXSWc4STU3QUxwUTJsYVByZGpHS3ZpLWs3a2dNQi1DUFR0cU5CaHVrbHhRX2pldUx6T1F5UkRxcjUybHQxcExWdGYyUlVVemhn0gHnAUFVX3lxTFBrM2wwektZMV9ITy1qbWlGS1hJOHRtMUVtRUZwYnkyc0NHNlJ4Y3Q0TlJReVI5UmRpc3VhQUFiWE02aXNERVpJMEZnWFNRN2hfTldLbjRwQjI4dFEzR1dTM1JpdDV6OEVnSXkyTUhpOFYwb3BOM0lzNGtmcFVKdlNaSEhWY08wdGNfYUc1c1g2WWdIMWVjOVFDMEhqbHNwYlRTNVluaGh2Z2hmTlU5X0dQUXhyTHBtamtGVTJncElsLVhhdlp6aXVqZ0RRRGpNbm1TdkZaY3VzZnhIMldJMmx6eVc0dS1ZRQ?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "n3a17bbe153"
-  },
-  {
    "title": "Jammu and Kashmir High Court strikes down water usage charges on hydropower projects under 2010 law - Bar and Bench",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM1VJRE5rZW9HM1dZVWJkYnVGR3RfU3BmcEh0SzZZUlgtM1J5VmxMZVdPWk5RVW43OHlvbVlPbzlqdkhBMkZ0WC02Y2c1WkNXc0FheGRGWXh2WHVmanBScXowdnFUanZ2MUc3S2xiaHMtSE5jSTk0emwtTUMyQnFRTElvNVc5Ykt5Z0ZjeG5zdnp0Qmo0THdEeXRBeGNiZ3hFazlacHBwdjNCMDlHdGpkOHVSZTJxbUg3LXNST3J2bDZ4Wld1eGlCZnV3Sjhrc3VRazJBcWxSTnFGQdIB2gFBVV95cUxOM1VJRE5rZW9HM1dZVWJkYnVGR3RfU3BmcEh0SzZZUlgtM1J5VmxMZVdPWk5RVW43OHlvbVlPbzlqdkhBMkZ0WC02Y2c1WkNXc0FheGRGWXh2WHVmanBScXowdnFUanZ2MUc3S2xiaHMtSE5jSTk0emwtTUMyQnFRTElvNVc5Ykt5Z0ZjeG5zdnp0Qmo0THdEeXRBeGNiZ3hFazlacHBwdjNCMDlHdGpkOHVSZTJxbUg3LXNST3J2bDZ4Wld1eGlCZnV3Sjhrc3VRazJBcWxSTnFGQQ?oc=5",
    "date": "2026-10-31",
@@ -55344,60 +55696,11 @@ window.CA_DATA = {
    "id": "nfa30e8e3ca"
   },
   {
-   "title": "Darbar Move to reopen in Jammu on Nov 2 - Brighter Kashmir",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XWW9RQ0VpUGtIT1dQUG5nV0RNd3oyRDRBVWZzQl9tN21UcE5zSEhrVi13ZFY0QmNBYmRZenlxRDNpTVZENDdQQ29keXFLclpnR0lwSnYxdEV3aTFHRFMwSmN6Q1VvUTkydTdLYnZjWUlSejRMN3c?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "n68a3d50a6c"
-  },
-  {
-   "title": "JCMS demands modern fire hydrant systems for markets, relief for Shiv Market fire victims - Daily Excelsior",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdDgySnQxM2JXY3ladVRtc3I5QVMwYktLR1B1WTh5VUNuY180c2NyQ0Z0SjZwVnVNcjZDU1lVeTZEUkotOU1QdVFYVXRwdlAxZGlIck9NeDI2Qy1hNjNuWGE3X1dPTTlQRDc5dkdqWXd6aUNjVTRHVlJDcmRJVHJ1REFFOHFLNE9DbXAwT1RwR1VkbTU3X1cwc0NHV2NwYjFwVWQ2Zm1LcEFsS3NSMmtJSUF3SG1uM1BYWEYxV2ZTdlDSAcABQVVfeXFMTXQ4Mkp0MTNiV2N5WnVUbXNyOUFTMGJLS0dQdVk4eVVDbmNfNHNjckNGdEo2cFZ1TXI2Q1NZVXk2RFJKLTlNUHVRWFV0cHZQMWRpSHJPTXgyNkMtYTYzblhhN19XT005UEQ3OXZHall3emlDY1U0R1ZSQ3JkSVRydURBRThxSzRPQ21wME9UcEdVZG01N19XMHNDR1djcGIxcFVkNmZtS3BBbEtzUjJrSUlBd0htbjNQWFhGMVdmU3ZQ?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "nf0023319e8"
-  },
-  {
    "title": "Jammu Kashmir Government Orders Transfers, Postings of JKAS Officers - Kashmir Life",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUVdsQmRaekF2TFMwUTdDQWo5SE52Q3RWdVYtYlVxSnZ0TEdqMHAxa09wd0tXenZFLXFHMVFoVUhKVm9UZllIcUx2NF9BLUdvbUpIZjd0aTFrVlVPRzVVdUY1cVlJckFkYlJWNmc1d3hlaWdvWjdhN3lCSi1XbWVEOG84TFdTN2tGRW9qR29wb2k2NUpfb2VoTndaN1VRenJO?oc=5",
    "date": "2026-10-31",
    "source": "Google News J&K",
    "id": "nbd22e1f866"
-  },
-  {
-   "title": "Darbar Move: Jammu Kashmir Govt Retains 174 Officials at Srinagar Secretariat - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVZ2OHR0bnZGSmVoWHdzeV9wRlNZazRsUjRScGszc2UzMk5PTDlkMFNOUGZNMFd6bWI1TTR3WDZ2dnlzTXJVaVZyWDJpMDZmVDFrbDBXMExmRmcwRGM5U1Y4UERwSnVDb3liNkQ3LWtyanEwTkNaQWpxX2RLX2dYc21ROGctb3BfT3NBLWl3YVl0NEFkV0lsLXl5Q29HNUlLWUFGSVRBUWZvY241?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "n08cdbae0c9"
-  },
-  {
-   "title": "Jammu Kashmir Govt Assigns Additional Charges to Senior IAS, IPS Officers - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0FJWV92SlZXUUsxNDlhVW1KNC1GeGllTGZ0RWJtZmR4SGY5a0NUei1XWkxURkx5QUN0ci02Q0gzZnZLNTMxWVQ4X0hOcnRYZjFEX3FyTDRSVDNSanNvU2d2M3h2cjVrcTUxeUk2LUtqM3JGNGllTWswTmpONnVWREtQc0lFMjFyRHBUdGI1bGJSb2h3a2Qwc0otdllXTUtoZ09LWVZadw?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "n966be4f937"
-  },
-  {
-   "title": "IEI Jammu Kashmir State Centre Holds 61st Annual General Meeting in Srinagar - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUzNxVDFUb0RXZ1Z0WWZDeVBPY1k2cEJqblZIUlhHajZlNERYUTc0dE9iTFJTMjlVR2ptWkx1YjRmbGp1TTBsazlWVzlFbFp6azRDVU4wS2ZoaEgxRFVldnRjb1lxQjJnRm1uaHFMY3VBWjJYRThpODZCTmhzYUo2NHpFTE1ISmo4UnB3dFN4VkkzTUlocXY1VUNjcnZpNlJQa3E1WEdlRTN5Zlg1?oc=5",
-   "date": "2026-10-31",
-   "source": "Google News J&K",
-   "id": "n8f6d48e74b"
-  },
-  {
-   "title": "India's FX reserves dip for seventh straight week to hit over two-month low - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMVdhVU9LVWhlNTdlQmJFYjdoWS15Nzd4YW1uZFM0UDlDbTNUcnFQMmtLWFRtU3A0WWN3S2pjd25KR1Vfc3NucHBMSGs2UDZJSVRhM0dETTg0WDlQcjRVUjNfWXc0eG1hOVY2Yk9KNl9PX2swM3lpR0J3cWxXZklZUl9acDFsQng4aHR5bi1JUEpBeVpZZzhUMUtIMEZoRWF3Nnpkdzd1ZlQ5bjZZckxwRmtSeXBsUQ?oc=5",
-   "date": "2026-10-30",
-   "source": "Google News India",
-   "id": "n878a6e50ec"
-  },
-  {
-   "title": "J&K Govt Notifies New JKAS Probation And Examination Rules 2026; Seven Papers, 50% Qualifying Marks Made Mandatory - Daily Excelsior",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPN1Zjb3hDNjFuaGh0QnNST2llejlkblZ0c2REakU4YzVwd1REUmw3ZXAxX0tLbGpxUE5SU2Z0eC1XN1N2NE1nVWZ2Nm9JZkdHYm9acDcyQk1xTzZDQWl3bF9hVHYxbF9QMHR6ampYLXVGOEkwU09yUHJNVHBIS3RXbUhpSnZFX3pu0gGMAUFVX3lxTE43aWlFUkI4OF83YXZ4WlYzZlBiQlMwelJEWTY5RlZrSjc1TnlzTHNCZ1cxcjBxU1RTSDdNZ3lLd1MyZUUwWWcxc2FDMXdOcTNCWVhhOFlwbzJLRFJsNlV2aWxWWmlTanpfUkRTdGkwSzNYTTZWSzF5YjB1VnZ6dTc2blEzcUNudWtSV2Rw?oc=5",
-   "date": "2026-10-30",
-   "source": "Google News J&K",
-   "id": "n394f35354f"
   }
  ]
 };
