@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Question review - The Computer Services</title>
+<style>
+:root{--bg:#f6f5f1;--fg:#1c1b19;--mut:#625e56;--card:#fff;--line:#dedad0;--acc:#0b3b8c;--ok:#176b35;--okbg:#e2f3e7;--bad:#a4380a;--badbg:#fdeadb}
+@media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#ece9e1;--mut:#9a958a;--card:#1e1d1a;--line:#36342f;--acc:#8db6ff;--ok:#7bd49a;--okbg:#17301f;--bad:#ffa86a;--badbg:#3b2411}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px 16px 60px}h1{font-size:1.3rem;margin:0 0 4px}
+.sub,.hint{color:var(--mut);font-size:.9rem}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
+button,select,input,textarea{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+button{cursor:pointer}button.pri{background:var(--acc);color:var(--bg);border-color:var(--acc)}button.good{background:var(--okbg);color:var(--ok);border-color:var(--ok)}button.fix{background:var(--badbg);color:var(--bad);border-color:var(--bad)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.opt{padding:8px 10px;border:1px solid var(--line);border-radius:8px;margin:6px 0}.opt.ans{background:var(--okbg);border-color:var(--ok);font-weight:600}
+textarea{width:100%;min-height:90px;font-family:ui-monospace,monospace;font-size:.8rem}.tag{font-size:.75rem;border:1px solid var(--line);border-radius:99px;padding:1px 8px;color:var(--mut)}
+a{color:var(--acc)}
+</style></head><body><main>
+<h1>Question review</h1>
+<p class="sub">For teachers and trusted reviewers. Read each question, check the marked answer (highlighted green) against a reliable source, then tap one button. Nothing is sent anywhere; your choices stay on this device until you export them.</p>
+<div class="card"><div class="row">
+<label>Subject <select id="sub"></select></label>
+<label><input type="checkbox" id="inc"> Include computed maths questions</label>
+</div>
+<div class="row" style="margin-top:8px"><input id="find" placeholder="Paste a question ID from an error report" style="flex:1;min-width:200px"><button id="go">Find</button></div>
+<p class="hint" id="stat"></p></div>
+<div id="q"></div>
+<div class="card"><b>Export your decisions</b>
+<p class="hint">When you have reviewed a batch, press Export. Send the text to the site owner, or (owner) paste it over the whole of <code>reviewed.js</code> on GitHub.</p>
+<div class="row"><button id="exp" class="pri">Export</button><button id="cp">Copy</button><button id="dl">Download reviewed.js</button><button id="clr">Clear my decisions</button></div>
+<textarea id="out" readonly aria-label="Export text" placeholder="reviewed.js text appears here"></textarea>
+<p class="hint">Fix notes for the owner:</p><textarea id="notes" readonly aria-label="Fix notes"></textarea></div>
+</main>
+<script src="bank.js"></script><script src="data.js"></script><script src="reviewed.js"></script>
+<script>
+(function(){
+var D=window.CA_DATA||{mcqs:[]},all=(D.mcqs||[]).slice(),have={};all.forEach(function(m){have[m.id]=1});
+((window.CA_BANK||{}).mcqs||[]).forEach(function(m){if(!have[m.id]){all.push(m);have[m.id]=1}});
+var RV=window.CA_REVIEW||{ok:[],hide:[]},base={ok:{},hide:{}};(RV.ok||[]).forEach(function(i){base.ok[i]=1});(RV.hide||[]).forEach(function(i){base.hide[i]=1});
+var KEY="rv_dec",dec={};try{dec=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(dec))}catch(e){}}
+var $=function(i){return document.getElementById(i)};
+var subs=[];all.forEach(function(m){if(subs.indexOf(m.subject)<0)subs.push(m.subject)});subs.sort();
+$("sub").innerHTML='<option value="">All subjects</option>'+subs.map(function(s){return '<option>'+s.replace(/&/g,"&amp;")+'</option>'}).join("");
+var cur=null,skipped={};
+function isComputed(m){return m.static&&m.subject==="Quant"}
+function pending(){return all.filter(function(m){return !dec[m.id]&&!base.ok[m.id]&&!base.hide[m.id]&&(!$("sub").value||m.subject===$("sub").value)&&($("inc").checked||!isComputed(m))})}
+function stat(){var n=Object.keys(dec).length,ok=Object.keys(dec).filter(function(k){return dec[k].s==="ok"}).length;
+ $("stat").textContent=pending().length+" waiting in this view. You marked "+ok+" correct and "+(n-ok)+" needing a fix. Already reviewed on the site: "+Object.keys(base.ok).length+"."}
+function show(m){cur=m;var q=$("q");q.innerHTML="";
+ if(!m){q.innerHTML='<div class="card">Nothing waiting in this view. Try another subject, or export your decisions below.</div>';stat();return}
+ var c=document.createElement("div");c.className="card";
+ var h='<div class="row"><span class="tag">'+esc(m.subject)+'</span><span class="tag">ID '+esc(m.id)+'</span>'+(isComputed(m)?'<span class="tag">computed</span>':'')+'</div><p><b>'+esc(m.q)+'</b></p>';
+ m.options.forEach(function(o,i){h+='<div class="opt'+(i===m.answer?' ans':'')+'">'+"ABCD".charAt(i)+") "+esc(o)+(i===m.answer?" &nbsp;(marked answer)":"")+'</div>'});
+ h+='<p class="hint">Explanation: '+esc(m.explain||"none")+'</p>';
+ h+='<textarea id="note" placeholder="If something is wrong, say what (optional)" style="min-height:60px"></textarea>';
+ h+='<div class="row" style="margin-top:8px"><button class="good" id="b1">Correct</button><button class="fix" id="b2">Needs a fix (hide it)</button><button id="b3">Skip</button></div>';
+ c.innerHTML=h;q.appendChild(c);
+ $("b1").onclick=function(){dec[m.id]={s:"ok"};save();next()};
+ $("b2").onclick=function(){dec[m.id]={s:"fix",n:$("note").value.trim().slice(0,300)};save();next()};
+ $("b3").onclick=function(){skipped[m.id]=1;next()};stat()}
+function next(){var p=pending().filter(function(m){return !skipped[m.id]});show(p[0]||null)}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+$("sub").onchange=$("inc").onchange=function(){skipped={};next()};
+$("go").onclick=function(){var id=$("find").value.trim(),m=all.filter(function(x){return x.id===id})[0];if(!m){alert("No question with that ID.");return}show(m)};
+function build(){var ok={},hide={};Object.keys(base.ok).forEach(function(k){ok[k]=1});Object.keys(base.hide).forEach(function(k){hide[k]=1});
+ Object.keys(dec).forEach(function(k){if(dec[k].s==="ok"){ok[k]=1;delete hide[k]}else{hide[k]=1;delete ok[k]}});
+ return 'window.CA_REVIEW='+JSON.stringify({ok:Object.keys(ok).sort(),hide:Object.keys(hide).sort()})+';\n'}
+$("exp").onclick=function(){$("out").value=build();var by={};all.forEach(function(m){by[m.id]=m});
+ $("notes").value=Object.keys(dec).filter(function(k){return dec[k].s==="fix"}).map(function(k){var m=by[k]||{};return "ID "+k+" | "+(m.q||"")+" | marked answer: "+(m.options?m.options[m.answer]:"")+" | note: "+(dec[k].n||"-")}).join("\n")||"No fixes flagged."};
+$("cp").onclick=function(){if(!$("out").value)$("exp").onclick();var t=$("out").value+"\n\nFIX NOTES\n"+$("notes").value;try{navigator.clipboard.writeText(t).then(function(){$("cp").textContent="Copied"})}catch(e){$("out").select()}};
+$("dl").onclick=function(){if(!$("out").value)$("exp").onclick();var a=document.createElement("a");a.href=URL.createObjectURL(new Blob([$("out").value],{type:"text/javascript"}));a.download="reviewed.js";a.click()};
+$("clr").onclick=function(){if(confirm("Clear all decisions saved on this device?")){dec={};save();$("out").value="";$("notes").value="";next()}};
+next();
+})();
+</script></body></html>

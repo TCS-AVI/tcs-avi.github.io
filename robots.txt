@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /review.html
+Disallow: /share/
+Sitemap: https://tcs-avi.github.io/sitemap.xml

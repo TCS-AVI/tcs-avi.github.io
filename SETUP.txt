@@ -1,0 +1,21 @@
+UPGRADE THE LIVE SITE (v3)
+==========================
+Repo: tcs-avi.github.io
+
+A. Upload files (Add file > Upload files, then Commit changes)
+   index.html, sw.js, review.html, reviewed.js, build_pages.py, update.py, robots.txt, sitemap.xml
+   DO NOT upload data.js or bank.js (data.js holds the bot's latest work; bank.js has not changed).
+
+B. Replace the workflow
+   Open .github/workflows/update.yml, click the pencil, replace everything with the text of update.yml.txt, commit.
+
+C. Build the new pages now
+   Actions > Daily update > Run workflow. Wait for the green tick (about 1 minute).
+   The folders practice/, exams/ and share/ then appear in the repo.
+
+D. Check
+   https://tcs-avi.github.io/practice/   https://tcs-avi.github.io/exams/
+   https://tcs-avi.github.io/share/      https://tcs-avi.github.io/review.html
+
+E. Tell Google (free, optional but recommended)
+   Go to search.google.com/search-console, add https://tcs-avi.github.io/ and submit sitemap.xml.

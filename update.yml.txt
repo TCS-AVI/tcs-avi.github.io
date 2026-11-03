@@ -1,0 +1,38 @@
+name: Daily update
+on:
+  schedule:
+    - cron: "47 0 * * *"    # about 06:17 IST
+    - cron: "17 6 * * *"    # about 11:47 IST
+    - cron: "47 11 * * *"   # about 17:17 IST
+    - cron: "17 17 * * *"   # about 22:47 IST
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 update.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      - name: Build pages and share kit
+        continue-on-error: true
+        run: |
+          pip install pillow
+          python3 build_pages.py
+      - name: Commit changes
+        run: |
+          git config user.name "examdaily-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.js practice exams share sitemap.xml robots.txt
+          git diff --cached --quiet || git commit -m "Data update"
+          git pull --rebase origin main || true
+          git push

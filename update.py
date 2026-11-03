@@ -17,6 +17,7 @@ from email.utils import parsedate_to_datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_JS = os.path.join(ROOT, "data.js")
+BANK_JS = os.path.join(ROOT, "bank.js")
 UA = {"User-Agent": "Mozilla/5.0 (ExamDaily updater)"}
 
 def _gn(q):
@@ -24,15 +25,13 @@ def _gn(q):
         {"q": q + " when:2d", "hl": "en-IN", "gl": "IN", "ceid": "IN:en"})
 
 
+# Only the Press Information Bureau (Government of India) feed is used. PIB's copyright policy allows free reproduction
+# with accurate context and a prominent acknowledgement of the source. Other publishers' feeds were removed on purpose.
 NEWS_FEEDS = [
     ("PIB", "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"),
-    ("The Hindu", "https://www.thehindu.com/news/national/feeder/default.rss"),
-    ("Greater Kashmir", "https://www.greaterkashmir.com/feed"),
-    ("Google News India", _gn("India government OR economy OR RBI OR defence OR ISRO OR summit OR award")),
-    ("Google News J&K", _gn("Jammu Kashmir OR Ladakh government OR JKSSB OR JKPSC OR university")),
 ]
 
-# (label shown in app, search query)
+# Exam labels (used for page names). Third-party news searches are NOT run any more; exam updates link to official sites only.
 EXAM_QUERIES = [
     ("SSC", "SSC CGL OR CHSL OR MTS OR GD answer key OR result OR admit card"),
     ("IBPS", "IBPS PO OR Clerk OR SO notification OR result OR admit card"),
@@ -116,18 +115,8 @@ def collect_news():
 
 
 def collect_updates():
-    items = []
-    for label, q in EXAM_QUERIES:
-        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-            {"q": q + " when:14d", "hl": "en-IN", "gl": "IN", "ceid": "IN:en"})
-        try:
-            for it in parse_rss(fetch(url))[:6]:
-                items.append({"id": sid("u", it["url"]), "date": it["date"], "exam": label,
-                              "type": classify(it["title"]), "title": it["title"],
-                              "url": it["url"], "note": "Auto-collected headline. Confirm on the official website."})
-        except Exception as e:
-            print(f"[warn] exam query failed {label}: {e}", file=sys.stderr)
-    return items
+    """Disabled on purpose: exam notices are no longer pulled from third-party news searches."""
+    return []
 
 
 def _post(url, headers, payload, timeout=120):
@@ -206,29 +195,67 @@ def call_llm(prompt):
     return None
 
 
-def parse_mcqs(text, headlines):
-    """Turn model output into validated MCQ dicts. Bad items are skipped."""
+BAD_OPTIONS = ("all of the above", "none of the above", "both a and b", "all of these", "none of these", "both of the above")
+
+
+def words(t):
+    return set(re.findall(r"[a-z0-9]+", t.lower()))
+
+
+def too_similar(q, others, limit=0.8):
+    a = words(q)
+    for o in others:
+        b = words(o)
+        if a and b and len(a & b) / len(a | b) >= limit:
+            return True
+    return False
+
+
+def good_mcq(q, opts, ans, explain):
+    """Simple quality gate for AI-drafted questions."""
+    if not (15 <= len(q) <= 300):
+        return False
+    if any(len(o) == 0 or len(o) > 120 for o in opts):
+        return False
+    if any(o.lower().strip(". ") in BAD_OPTIONS for o in opts):
+        return False
+    if len(explain) < 8:
+        return False
+    # the answer should not simply be written inside the question
+    if opts[ans].lower() in q.lower() and len(opts[ans]) > 3:
+        return False
+    return True
+
+
+def parse_mcqs(text, headlines, existing=()):
+    """Turn model output into validated MCQ dicts. Weak or duplicate items are skipped."""
     arr = json.loads(text[text.index("["): text.rindex("]") + 1])
     out = []
     today = datetime.now(timezone.utc).date().isoformat()
+    seen_q = list(existing)
     for m in arr:
         try:
             h = headlines[int(m["h"])]
             opts = [str(o).strip() for o in m["options"]]
             ans = int(m["answer"])
-            if len(opts) != 4 or not 0 <= ans <= 3 or len(set(opts)) != 4 or not m["q"].strip():
+            q = str(m["q"]).strip()
+            explain = str(m.get("explain", "")).strip()
+            if len(opts) != 4 or not 0 <= ans <= 3 or len(set(opts)) != 4:
                 continue
-            out.append({"id": sid("a", m["q"]), "date": h["date"] or today,
+            if not good_mcq(q, opts, ans, explain) or too_similar(q, seen_q):
+                continue
+            seen_q.append(q)
+            out.append({"id": sid("a", q), "date": h["date"] or today,
                         "subject": m.get("subject") if m.get("subject") in SUBJECTS else "National",
-                        "exams": m.get("exams") or ["SSC", "Banking"], "q": m["q"].strip(), "options": opts,
-                        "answer": ans, "explain": str(m.get("explain", "")).strip(), "source": h["source"],
+                        "exams": m.get("exams") or ["SSC", "Banking"], "q": q, "options": opts,
+                        "answer": ans, "explain": explain, "source": h["source"],
                         "sourceUrl": h["url"], "verified": False})
         except Exception:
             continue
     return out
 
 
-def draft_mcqs(headlines, limit=12):
+def draft_mcqs(headlines, existing=(), limit=12):
     """Draft MCQs from headlines with an LLM. Skipped silently if no key is configured."""
     if not headlines or not (os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")
                              or os.environ.get("ANTHROPIC_API_KEY")):
@@ -244,7 +271,7 @@ def draft_mcqs(headlines, limit=12):
         % (limit, json.dumps(SUBJECTS), lines))
     try:
         text = call_llm(prompt)
-        return parse_mcqs(text, headlines) if text else []
+        return parse_mcqs(text, headlines, existing) if text else []
     except Exception as e:
         print(f"[warn] MCQ drafting failed: {e}", file=sys.stderr)
         return []
@@ -260,21 +287,34 @@ def merge(old, new, keep_days=None, cap=None, key="id"):
     return merged[:cap] if cap else merged
 
 
+IST = timezone(timedelta(hours=5, minutes=30))
+
+
 def main():
     data = load()
+    today = datetime.now(IST).date().isoformat()
     news = collect_news()
     for n in news:
         n["id"] = sid("n", n["url"])
-    data["news"] = merge([], news, keep_days=7, cap=80)
-    data["updates"] = merge(data.get("updates", []), collect_updates(), keep_days=120, cap=300)
-    new_mcqs = draft_mcqs(news)
+    if news:  # if every feed failed, keep yesterday's PIB headlines instead of wiping them
+        data["news"] = merge([], news, keep_days=7, cap=80)
+    else:
+        data["news"] = [n for n in data.get("news", []) if n.get("source") == "PIB"]
+    # drop anything auto-collected from third-party searches earlier; keep hand-written entries
+    data["updates"] = [u for u in data.get("updates", []) if not str(u.get("note", "")).startswith("Auto-collected")]
+    new_mcqs = []
+    if data.get("drafted_on") != today:  # draft new questions only once per day
+        new_mcqs = draft_mcqs(news, [m["q"] for m in data.get("mcqs", [])][-300:])
+        if new_mcqs:
+            data["drafted_on"] = today
     static = [m for m in data.get("mcqs", []) if m.get("static")]
     dynamic = [m for m in data.get("mcqs", []) if not m.get("static")]
     dynamic = merge(dynamic, new_mcqs, keep_days=180, cap=1500)
-    data["mcqs"] = dynamic + static
-    data["generated"] = datetime.now(timezone.utc).date().isoformat()
+    # when bank.js exists the static questions live there; keep data.js small
+    data["mcqs"] = dynamic if os.path.exists(BANK_JS) else dynamic + static
+    data["generated"] = today
     save(data)
-    print(f"news={len(data['news'])} updates={len(data['updates'])} mcqs={len(data['mcqs'])} (+{len(new_mcqs)} new)")
+    print(f"news={len(data.get('news', []))} updates={len(data['updates'])} mcqs={len(data['mcqs'])} (+{len(new_mcqs)} new)")
 
 
 if __name__ == "__main__":

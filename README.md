@@ -1,36 +1,24 @@
-# The Computer Services
+# The Computer Services (v3)
 
-Static web app (no server needed) for current affairs MCQs, interesting questions and exam updates (SSC, IBPS, RRB, SBI/RBI, JKSSB, JKPSC/JKAS, AIIMS, NTA, universities).
+Free static exam-prep web app, hosted on GitHub Pages and updated by GitHub Actions.
 
-## Run locally
-```
-python3 -m http.server 8000     # open http://localhost:8000
-```
+## Files
+- index.html - the app. bank.js - static question bank. data.js - bot-written daily content.
+- reviewed.js - which questions a person has checked (and which are hidden until fixed).
+- review.html - the review tool for teachers and reviewers (not linked from the app, not indexed).
+- build_pages.py - builds practice/ (one page per subject), exams/ (one per exam body), share/ (daily WhatsApp post and Status image), sitemap.xml, robots.txt. Run automatically after update.py.
+- update.py, update.yml.txt (-> .github/workflows/update.yml), sw.js, manifest, icons.
 
-## Host free (GitHub Pages)
-1. Push this folder to a GitHub repo.
-2. Settings > Pages > deploy from branch `main`, folder `/ (root)`.
-3. (Optional, free) Auto-drafted MCQs: get a free key from Google AI Studio (Gemini) or Groq, then in your repo go to Settings > Secrets and variables > Actions > New secret, and add it as `GEMINI_API_KEY` or `GROQ_API_KEY`. Free-tier limits and model names change; if drafting stops working, set the `GEMINI_MODEL` / `GROQ_MODEL` environment variable in the workflow to a current free model.
+## Reviewing questions
+1. Open https://tcs-avi.github.io/review.html (reviewers can do this on a phone).
+2. For each question press Correct or Needs a fix. Computed maths questions are skipped (their answers come from calculation).
+3. Press Export, then send the text to the owner (or paste it over the whole of reviewed.js on GitHub).
+4. Reviewed questions show a "reviewed" tick. "Needs a fix" questions are hidden from the whole site until fixed; the export lists fix notes.
+5. In Practice, "Reviewed or computed only" filters to checked questions.
 
-The workflow in `.github/workflows/update.yml` runs `update.py` daily at 06:00 IST and commits fresh `data.js`.
+## Daily share kit
+Open https://tcs-avi.github.io/share/ on your phone: copy the post text for the WhatsApp channel, download the image for your Status. It refreshes automatically.
 
-## What updates automatically
-- News headlines from PIB, The Hindu, Indian Express, Greater Kashmir, Daily Excelsior.
-- Exam updates (notifications, admit cards, results, answer keys) via Google News searches per exam.
-- MCQs drafted from headlines, only if `GEMINI_API_KEY` or `GROQ_API_KEY` is set (both have free tiers). They are labelled "auto-generated".
-
-Edit `EXAM_QUERIES` / `NEWS_FEEDS` in `update.py` to add exams or sources.
-
-## Important notes
-- **Answer keys:** official answer keys are published only on each board's portal (login-based for SSC/IBPS). The app links to sources and does not republish them.
-- **Accuracy:** auto-generated MCQs can be wrong. Review them before relying on them; set `"verified": true` in `data.js` for ones you have checked.
-- **Content rights:** the seed MCQs are original rewrites of facts, with source links. Do not bulk copy coaching-site question banks.
-- Check each site's terms before adding scrapers; RSS feeds are used here.
-
-## Install as an app / share
-- On a phone, open the site in Chrome and tap **Install app** (or the browser menu > Add to Home screen). It then opens like an app and works offline with the last-loaded questions.
-- Every question and exam update has a WhatsApp share button. Questions are shared without the answer.
-- `sw.js` caches the site. `data.js` is always fetched fresh first, so daily updates appear when online.
-
-## Mock tests
-The **Mock Test** tab offers SSC-style, Banking-style and J&K-exam-style timed tests (drawn at random from the bank), plus a custom test. It has a countdown timer, question palette, mark-for-review, negative marking, a section-wise score and an answer review. Results are kept only in the visitor's browser.
+## Notes
+- Official answer keys are only linked, never republished.
+- Progress is stored only in the visitor's browser.

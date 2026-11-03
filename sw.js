@@ -1,9 +1,11 @@
-// Service worker: lets the site open offline and installs as an app.
-// data.js is fetched network-first so the daily updates show up; everything else is cache-first.
-var V = "tcs-v1";
-var CORE = ["./", "index.html", "data.js", "logo.png", "icon-192.png", "manifest.webmanifest"];
+// Service worker: opens the site offline and lets it install as an app.
+// Pages and data are fetched network-first (so daily updates show up); images are cache-first.
+var V = "tcs-v6";
+var CORE = ["./", "index.html", "data.js", "bank.js", "reviewed.js", "thoughts.js", "feedback.js", "logo.png", "icon-192.png", "manifest.webmanifest"];
 self.addEventListener("install", function (e) {
-  e.waitUntil(caches.open(V).then(function (c) { return c.addAll(CORE); }));
+  e.waitUntil(caches.open(V).then(function (c) {
+    return Promise.all(CORE.map(function (u) { return c.add(u).catch(function () { return null; }); }));
+  }));
   self.skipWaiting();
 });
 self.addEventListener("activate", function (e) {
@@ -13,14 +15,13 @@ self.addEventListener("activate", function (e) {
   self.clients.claim();
 });
 self.addEventListener("fetch", function (e) {
-  var req = e.request;
-  if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
-  var fresh = /data\.js$|index\.html$|\/$/.test(new URL(req.url).pathname);
-  if (fresh) {
+  var req = e.request, url = new URL(req.url);
+  if (req.method !== "GET" || url.origin !== location.origin) return;
+  if (/\.(png|webmanifest)$/.test(url.pathname)) {
+    e.respondWith(caches.match(req).then(function (m) { return m || fetch(req); }));
+  } else {
     e.respondWith(fetch(req).then(function (r) {
       var copy = r.clone(); caches.open(V).then(function (c) { c.put(req, copy); }); return r;
     }).catch(function () { return caches.match(req).then(function (m) { return m || caches.match("index.html"); }); }));
-  } else {
-    e.respondWith(caches.match(req).then(function (m) { return m || fetch(req); }));
   }
 });
