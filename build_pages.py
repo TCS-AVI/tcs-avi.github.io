@@ -125,40 +125,7 @@ def main():
           f'<h1>Practice MCQs by subject</h1><ul class="l">{idx}</ul>'))
     urls.append(("/practice/", None))
 
-    # ---------- exam update pages ----------
-    try:
-        sys.path.insert(0, ROOT)
-        from update import EXAM_QUERIES
-        labels = [l for l, _ in EXAM_QUERIES]
-    except Exception:
-        labels = EXAM_LABELS
-    ups = data.get("updates", [])
-    for lab in labels:
-        items = sorted([u for u in ups if u.get("exam") == lab], key=lambda u: u.get("date", ""), reverse=True)[:30]
-        full = LABEL_FULL.get(lab, lab)
-        links = []
-        for ex in data.get("exams", []):
-            if lab.lower() in (ex.get("group", "") + " " + ex.get("id", "") + " " + ex.get("name", "")).lower():
-                for l in ex.get("links", []):
-                    links.append(f'<li><a href="{e(l["url"])}" rel="noopener">{e(ex.get("name",""))}: {e(l.get("label","Official site"))}</a></li>')
-        lis = "".join(f'<li><span class="tag">{e(u.get("type","update"))}</span> {e(u.get("date",""))}: '
-                      f'<a href="{e(u["url"])}" rel="nofollow noopener">{e(u["title"])}</a>'
-                      f'{("<br><span class=mut>"+e(u["note"])+"</span>") if u.get("note") else ""}</li>' for u in items)
-        pe = LABEL_TO_EXAM.get(lab, "")
-        body = (f"<h1>{e(full)}: latest notifications, admit cards and results</h1>"
-                f'<p class="mut">Updated {TODAY.isoformat()}. We link to official websites. Confirm every date on the official notification.</p>'
-                + (f'<div class="card"><b>Official sites</b><ul class="l">{"".join(links)}</ul></div>' if links else "")
-                + (f'<h2>Recent updates</h2><ul class="l">{lis}</ul>' if lis else "<p>We do not copy exam notices. Please check the official website above for the latest notification, admit card, result and answer key.</p>")
-                + f'<p><a class="btn" href="/#tab=practice&exam={quote(pe)}">Practise MCQs for this exam</a></p>')
-        rel = f"exams/{slug(lab)}.html"
-        write(rel, page(rel, f"{full} Notification, Admit Card, Result and Answer Key Updates | The Computer Services",
-                        f"Latest {lab} notifications, admit card, result and answer key headlines with links to official sources.", body))
-        urls.append(("/" + rel, None))
-    li = "".join(f'<li><a href="/exams/{slug(l)}.html">{e(LABEL_FULL.get(l,l))}</a></li>' for l in labels)
-    write("exams/index.html", page("exams/index.html", "Exam Updates: SSC, IBPS, RRB, JKSSB, JKPSC | The Computer Services",
-          "Latest exam notifications, admit cards and results collected daily, with links to official sites.",
-          f'<h1>Exam updates</h1><ul class="l">{li}</ul>'))
-    urls.append(("/exams/", None))
+    labels = []  # exam-update pages removed on purpose
 
     # ---------- sitemap ----------
     lm = TODAY.isoformat()

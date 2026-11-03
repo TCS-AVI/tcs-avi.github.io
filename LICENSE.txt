@@ -1,0 +1,7 @@
+Copyright (c) 2026 Neeraj Kumar Dabgotra, trading as The Computer Services, Jakh, Samba, Jammu and Kashmir, India. All rights reserved.
+
+The questions, explanations, passages, design, logo and code in this repository and on tcs-avi.github.io are protected by copyright.
+No permission is given to copy, scrape, republish, resell, host elsewhere or build on them without written permission from the owner.
+Personal study use of the website and Touch app is allowed.
+
+Contact: baglajakh@gmail.com

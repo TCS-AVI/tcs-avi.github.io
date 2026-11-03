@@ -313,6 +313,7 @@ def main():
     # when bank.js exists the static questions live there; keep data.js small
     data["mcqs"] = dynamic if os.path.exists(BANK_JS) else dynamic + static
     data["generated"] = today
+    data["news"] = []  # headlines are used only to draft questions and are not published
     save(data)
     print(f"news={len(data.get('news', []))} updates={len(data['updates'])} mcqs={len(data['mcqs'])} (+{len(new_mcqs)} new)")
 
