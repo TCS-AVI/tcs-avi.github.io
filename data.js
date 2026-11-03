@@ -1,7 +1,215 @@
 window.CA_DATA = {
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "ad2b9857730",
+   "date": "2026-11-03",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC",
+    "JKSSB"
+   ],
+   "q": "केंद्रीय स्वास्थ्य और परिवार कल्याण मंत्रालय ने हाल ही में किन उत्पादों के लिए अधिकृत आयात गेटवे के विस्तार का प्रस्ताव रखा है?",
+   "options": [
+    "दवाओं, चिकित्सा उपकरणों और सौंदर्य प्रसाधनों",
+    "इलेक्ट्रॉनिक सामान और सेमीकंडक्टर",
+    "खाद्यान्न और कृषि उर्वरक",
+    "वस्त्र और हस्तशिल्प उत्पाद"
+   ],
+   "answer": 0,
+   "explain": "केंद्रीय स्वास्थ्य और परिवार कल्याण मंत्रालय ने दवाओं, चिकित्सा उपकरणों और सौंदर्य प्रसाधनों के लिए अधिकृत आयात गेटवे के विस्तार का प्रस्ताव रखा है।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331915",
+   "verified": false
+  },
+  {
+   "id": "a69b07c480f",
+   "date": "2026-11-03",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC",
+    "JKSSB"
+   ],
+   "q": "भारतीय नौसेना ने सोमालिया के तट के पास समुद्री लुटेरों से किस अपहृत मछली पकड़ने वाले जहाज को सफलतापूर्वक मुक्त कराया?",
+   "options": [
+    "अजिनी",
+    "अरिहंत",
+    "सागरिका",
+    "वरुण"
+   ],
+   "answer": 0,
+   "explain": "भारतीय नौसेना ने सोमालिया के तट के पास अपहृत मछली पकड़ने वाले जहाज 'अजिनी' को समुद्री लुटेरों से सफलतापूर्वक मुक्त कराया।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331903",
+   "verified": false
+  },
+  {
+   "id": "a7822dd9ee3",
+   "date": "2026-11-03",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "JKPSC",
+    "JKSSB",
+    "Universities & Entrances"
+   ],
+   "q": "ई-कोर्ट मिशन मोड परियोजना के अंतर्गत हाल ही में किस विषय पर कार्यशाला का आयोजन किया गया?",
+   "options": [
+    "ई-फाइलिंग 3.0: प्रक्रिया से व्यवहार तक",
+    "डिजिटल कोर्ट 2.0: न्याय की ओर",
+    "सुगम न्याय प्रणाली 2026",
+    "ई-अदालत: प्रक्रिया और प्रौद्योगिकी"
+   ],
+   "answer": 0,
+   "explain": "ई-कोर्ट मिशन मोड परियोजना के अंतर्गत 'ई-फाइलिंग 3.0: प्रक्रिया से व्यवहार तक' विषय पर कार्यशाला का आयोजन किया गया।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331878",
+   "verified": false
+  },
+  {
+   "id": "ad4a15fe0dd",
+   "date": "2026-11-03",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC",
+    "JKSSB"
+   ],
+   "q": "अंतरराष्ट्रीय बौद्ध परिसंघ द्वारा 'बौद्ध धर्मः हिमालयी क्षेत्र और उससे आगे प्रसार' विषय पर अंतरराष्ट्रीय सम्मेलन कहाँ आयोजित किया गया?",
+   "options": [
+    "तवांग (अरुणाचल प्रदेश)",
+    "गंगटोक (सिक्किम)",
+    "लेह (लद्दाख)",
+    "धर्मशाला (हिमाचल प्रदेश)"
+   ],
+   "answer": 0,
+   "explain": "संस्कृति मंत्रालय और अरुणाचल प्रदेश सरकार के सहयोग से तवांग में 'बौद्ध धर्मः हिमालयी क्षेत्र और उससे आगे प्रसार' विषय पर अंतरराष्ट्रीय सम्मेलन आयोजित किया गया।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331877",
+   "verified": false
+  },
+  {
+   "id": "a3c47bf89ee",
+   "date": "2026-11-03",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "पारंपरिक ज्ञान के संचार एवं प्रसार (CDTK) के तीसरे संस्करण (2026) का आयोजन किस संस्थान द्वारा किया गया?",
+   "options": [
+    "सीएसआईआर-निस्पर (CSIR-NIScPR)",
+    "डीआरडीओ (DRDO)",
+    "आईसीएआर (ICAR)",
+    "इसरो (ISRO)"
+   ],
+   "answer": 0,
+   "explain": "सीएसआईआर-राष्ट्रीय विज्ञान संचार एवं नीति अनुसंधान संस्थान (सीएसआईआर-निस्पर) ने पारंपरिक ज्ञान के संचार एवं प्रसार पर तीसरे संस्करण (CDTK 2026) का आयोजन किया।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331852",
+   "verified": false
+  },
+  {
+   "id": "a7ffcb53439",
+   "date": "2026-11-03",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "नशा मुक्त युवा अभियान के सातवें सप्ताह के दौरान MY Bharat ने कितने राज्यों/केंद्र शासित प्रदेशों में 93,000 से अधिक प्रतिभागियों की भागीदारी दर्ज की?",
+   "options": [
+    "30 राज्यों/केंद्र शासित प्रदेशों में",
+    "20 राज्यों/केंद्र शासित प्रदेशों में",
+    "15 राज्यों/केंद्र शासित प्रदेशों में",
+    "28 राज्यों/केंद्र शासित प्रदेशों में"
+   ],
+   "answer": 0,
+   "explain": "नशा मुक्त युवा अभियान के सातवें सप्ताह के दौरान MY Bharat ने 30 राज्यों/केंद्र शासित प्रदेशों में 93,000 से अधिक प्रतिभागियों की भागीदारी दर्ज की।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331874",
+   "verified": false
+  },
+  {
+   "id": "af58c0cc967",
+   "date": "2026-11-03",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "'भारत नवीकरणीय ऊर्जा शिखर सम्मेलन और प्रदर्शनी 2026' का उद्घाटन किसके द्वारा किया गया?",
+   "options": [
+    "प्रधानमंत्री श्री नरेन्द्र मोदी",
+    "केंद्रीय पर्यावरण मंत्री",
+    "केंद्रीय ऊर्जा मंत्री",
+    "राष्ट्रपति श्रीमती द्रौपदी मुर्मू"
+   ],
+   "answer": 0,
+   "explain": "प्रधानमंत्री श्री नरेन्द्र मोदी ने 'भारत नवीकरणीय ऊर्जा शिखर सम्मेलन और प्रदर्शनी 2026' का उद्घाटन किया।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331871",
+   "verified": false
+  },
+  {
+   "id": "afc07a91e53",
+   "date": "2026-11-03",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "कोयला मंत्रालय द्वारा स्टार रेटिंग प्रोग्राम (वित्त वर्ष-2024-25) के तहत कितनी कोयला खदानों को फाइव-स्टार (5-Star) रेटिंग प्रदान की गई है?",
+   "options": [
+    "50 खदानों को",
+    "25 खदानों को",
+    "75 खदानों को",
+    "100 खदानों को"
+   ],
+   "answer": 0,
+   "explain": "कोयला मंत्रालय के स्टार रेटिंग प्रोग्राम (वित्त वर्ष 2024-25) के तहत 50 कोयला खदानों को फाइव-स्टार रेटिंग प्राप्त हुई है।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331826",
+   "verified": false
+  },
+  {
+   "id": "a231b75995a",
+   "date": "2026-11-03",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "कौशल विकास एवं उद्यमिता मंत्रालय (MSDE) ने कितने संस्थानों को 'कौशल उत्कृष्टता केंद्रों' के रूप में पैनलबद्ध किया है?",
+   "options": [
+    "19 संस्थानों को",
+    "12 संस्थानों को",
+    "25 संस्थानों को",
+    "30 संस्थानों को"
+   ],
+   "answer": 0,
+   "explain": "एमएसडीई (MSDE) ने 19 संस्थानों को कौशल उत्कृष्टता केंद्रों के रूप में पैनलबद्ध किया है।",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331823",
+   "verified": false
+  },
   {
    "id": "a1d38da16f9",
    "date": "2026-11-02",
@@ -54551,96 +54759,6 @@ window.CA_DATA = {
  ],
  "updates": [
   {
-   "id": "u68bf85e33c",
-   "date": "2026-11-01",
-   "exam": "IBPS RRB",
-   "type": "notification",
-   "title": "RRB Station Master Recruitment 2026 Out, Apply Online Starts For 1265 Posts - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT2lXaFFWb1oxdHRwZGRZQUhhXzg2YTc1aUdwSGhHSENVd0w3VWd3eFJUSks2ejVDMkFXYmNFc0hkTTZfR0JlOUVmNUZjS1NiTFlxT0Zva3loR2kzckZBOEJ0M1pkRDREbTFuUUhhSm9xSEUxYnBqYmJHQTluc19SOFkxUQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u0b34ecbb11",
-   "date": "2026-11-01",
-   "exam": "AIIMS",
-   "type": "update",
-   "title": "AIIMS opens NORCET 11 institute stage II choice filling, details - Medical Dialogues",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdnQzckNMWVlueHg4MXNaUGlGb083SnZmWmlBb2M1QXRUOWN3cDVtb2J2ajRZQzQ4N2hSRHFwNEt4SW05Y1M0Um1rSWNDWUtvekkzN3pSOUNUTkxRVXNQS0RuUEtUcVhldERheGE5MTRKWEcwRzB5a0VFT1JIYzBkbC1namk1N2lMV3B1UHFCTW5Fb1FrYy1Td1Y2WHd4dWJUcmIwM1A2ejN5czB2NzM4TmtHTWY1d9IBtgFBVV95cUxPdnQzckNMWVlueHg4MXNaUGlGb083SnZmWmlBb2M1QXRUOWN3cDVtb2J2ajRZQzQ4N2hSRHFwNEt4SW05Y1M0Um1rSWNDWUtvekkzN3pSOUNUTkxRVXNQS0RuUEtUcVhldERheGE5MTRKWEcwRzB5a0VFT1JIYzBkbC1namk1N2lMV3B1UHFCTW5Fb1FrYy1Td1Y2WHd4dWJUcmIwM1A2ejN5czB2NzM4TmtHTWY1dw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u16672c8826",
-   "date": "2026-11-01",
-   "exam": "NTA",
-   "type": "answer-key",
-   "title": "UGC NET 2026 Answer Key Delayed? Candidates Demand Official Update From NTA - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWmVHYWhXeEhiVlktS0t3d1d5T1VZSEhuVkZxcGVhUEFKdVNaUWlIVFl2RkdZYl9CR1c4WHZJdG0tejNHM2IxUkJ1bzh3T09USmw1NkVDMk11a3lnRVU1Z3dsODVGVUFqQTB1SWVOTkVfWVl1dllELUl6R2sxeVFLZm5vYW5YMmZGRmo1MzljbTBvQzlqdlFmeU5kQVdDMEc3bm9WM2pjcEpaaDdBT3lOSHBZQmJuOUUwSlY4dWc1dkdlMWdQS0xsWm1Xaw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ucd9fce9156",
-   "date": "2026-10-31",
-   "exam": "AIIMS",
-   "type": "admit-card",
-   "title": "SGPGI Nursing Officer Admit Card 2026 Out @sgpgims.org.in. Download Hall Ticket PDF - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYXhMdFhCaFNpcmpIeUNqNk1nZHd0Q1duUEtxelFhMGlHSDlDeVJWNTJRUVp0NDZybUhOeE1RbDZfRmxCa0pFZ1hZT2FLUWk5c2NManA2bDIyeGlFNHFYcmFsVTcxdW5tX3V6NVdiTUtHSUlRUjlQZlh5NnBDQ0Z4WC13?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ua4c57253be",
-   "date": "2026-10-31",
-   "exam": "NTA",
-   "type": "answer-key",
-   "title": "UGC NET Answer Key 2026 Releasing This Week; NTA Confirms - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzk3c0pWWHROYkJxdno1ekgtcm8taFMyRGpaMU1mRmtXWGs1RWZ3bUltQy1HTlB4eTBKdkpXd2NDS0NES2pZS1NtNXJrOEpmLVpwakJiSGVEVFJjQUNvWm04TGhnSU5weEZRdnZ2ZXRDbE03am1ZaW1KV1VKZUlPZEszbHg4cFlfTzRHbjNfRG5rRkRSRkVpWHdwNHh1Q01iOTVzWXB5WG5wRFlkWDFMS2pTSQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u31f83438e9",
-   "date": "2026-10-31",
-   "exam": "NTA",
-   "type": "answer-key",
-   "title": "NTA's X Post Creates Confusion: Is the JEE Mains 2026 Answer Keys & Response Sheet OUT? - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcnZ0dTVROTJOZ1pGYjRFZ0xxb013bE9hWV9RRFNBS25pZlFYMDVvSVZaV0RadHotWjYyZ3g5b1Jja0pOSFBVQWxHM1VCNjlZUHQ3WV81TmdDbEt6YlRwc2laWl9MQk1CcVRYS0I4Z2dSZFRrNEh6RldLcEtyVXVaVGUyTGpLWkg3NXJXbDhEYVFuV3lGUmhIbVhpY0xMNWlac21uaW9nanVXaERKdE9sQUFrWjFGY2RXT3dUWVNzZGI3V2hCT3Vpd3V0MDBZNW1wSUYwZA?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uf8c92f9fe9",
-   "date": "2026-10-31",
-   "exam": "NTA",
-   "type": "answer-key",
-   "title": "UGC NET Answer Key Challenge 2026: NTA Says One Valid Objection Can Change Results for All - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSFBQbVIyeVFmLXJDSFNEYXl3bHBEM1BRRlF4dEtabDd2SU5BRHUzRFVPWXNSa1l3TXhGcm1mdzRadEs3aXQtMVJWSG53cWhHVk1BLW0xZTdfeF96N1JvU1lzQkMyV0J0S1djVGxndEFoamV1czNtRk1NMjFHSmxrTnRWWmMzWHdFa2ZJMHUtSzEta3ZldEgzY1RvTmxubG5GSzZXNXMtUWQ2czg4VmZNOFBWYlNXcl96bUREZnh2WGJxNkk5VDI2ZXpnY3ZFTzFxWkVjNG5hU1lXMjJqV0FJ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ud771145deb",
-   "date": "2026-10-31",
-   "exam": "NTA",
-   "type": "answer-key",
-   "title": "UGC NET 2026 Provisional Answer Key Soon @ugcnet.nta.nic.in: Check Steps to Download - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaklpdDN4dGtzcjJ3bkt0bFJpMzhueldGdHc4T0dtaVhjQVU3MHhCRjhEaHctSmxuZjF4Z1FseVZ2WmhKejlFWFZBYmR2S1FmaWUwdF9wQ0FRaTJpajZ5SnhrQzVYMkpoVlhybmc1MWVJZ3JheEI3UldQaW5pZW1neWFMdktqYXJFUm52eTVqTzZBRy1jN2dWekp0SWVvOUN4VktFTy1YNnczQWpDSjhWUkl1M2xwMTNBeTFnZDh4aHhqMTZHa0s5Qzh5M3JiNG1FY2VjZkV3?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ufe7c3a37c2",
-   "date": "2026-10-31",
-   "exam": "Universities",
-   "type": "result",
-   "title": "Kashmir University Result 2026 Out @ kashmiruniversity.net, Check B.Sc Degree Qualifying Status - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbWE0WGozZUx3b3hRb0dkWHVoRklkYXlmNXJLTzN2MzhZclpmYS1RNExNaGk0dVdnOGFDNHJCUHlHNW1WTGtKcEFxajd4OU1CbkVQS3B2dUlQYWJVX18tV0lubk4waG9oOTVFd0dtSnhkSWNvZm9sZWttNkp2X09oT01zYnFiUGFkQl9HRnY1a05lVkZvdUk1Q1ZhN0s4NmZXQWJ1MXhTdzdYYzNqWUt1TE5YWEpiYzZkSS15Nk11NXprbDNDbnZ5ck5SdkVldE5uSnc?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u823afcd132",
-   "date": "2026-10-31",
-   "exam": "AIIMS",
-   "type": "update",
-   "title": "AIIMS NORCET 11 City Slip 2026 Out: Download Exam City Intimation Slip at aiimsexams.ac.in - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMF9jaFlEMnJRZHVMU0UwdmdsQjhOemQyTVlZd19HWWhULXhWeW8wYnhOMDdJUXVIQXZLaDFzbGNpM3VOY0N4MXVocE9ETUZMMmZIV3ZfU21CR0dPQ3lsU3ZVWXgzRjVsLXQ2ek44RDctYTN1Z3FqWGZBc3pKaGZaNlJKU01MeS1YNW5ibnNDZkxReFI2d2xpUV9ySGxwbTZteTF4UXRRSnFSQmVkZkQtanBtX0N2ajFHRVZDRldoWjVUcXhnc2E5WVU0dE0zTWhIb1RCdkdHRQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
    "id": "u003",
    "date": "2026-10-30",
    "exam": "JKSSB",
@@ -54675,519 +54793,6 @@ window.CA_DATA = {
    "title": "SSC CGL (2026 cycle) provisional response sheet reportedly expected in first week of Nov 2026",
    "url": "https://www.pw.live/ssc/exams/ssc-cgl-answer-key-2026",
    "note": "Expectation only, not an official date. Watch ssc.gov.in."
-  },
-  {
-   "id": "u2da5fea538",
-   "date": "2026-10-30",
-   "exam": "SSC",
-   "type": "answer-key",
-   "title": "SSC CGL Tier 1 Answer Key 2026 Soon at ssc.gov.in: Check Expected Release Date Here - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTVfeHkzY0JWRWJURENnQVdVQ0tZdnFyN3hiYWJZdzExbGVzaGxfOHh5SnhTaUR4V1otNGFMSThjWjRoemhjMkZmZEF5NFRTZE96MXVKaFBFb2VZNmY3a3VBTlFCb1ZheUgxc19pSUJRMGdnUDZHdmlrQ0VHMV80QkFWMlNrTnNPMjMtZzd4NThGdm4yeTN0bVRfTy02SlBsUlhjUWZ2SW1jSExVcVdZNnJxeno5TW9fRmFnOXBTeFc5YzRHS044d0RPRXBhSk9SeXFJSjh3?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uafc8411579",
-   "date": "2026-10-30",
-   "exam": "RRB",
-   "type": "notification",
-   "title": "RRB NTPC Apply Online 2026 Starts (Graduate and UG), Check Link, Fee and Last Date - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTkF1ZjVUamZhYW94Wmp1R3Z1LUtJeEs0WUQycUJhd1lib0RVSHN6NzVGMC1OYlE2WmlDdEhFcDM3TWtWOGc5VkQ1dEs5NG93Vl9YTVlBVEVyMWV6REtpY3F2Y1JFRFczUGRCT2ZSMkdDZHZDcWZ2SzZmOHY5S3NmWm1vRU9NV1dHbXBBMnNLU3lGMlotbEUw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u9ad28a73a5",
-   "date": "2026-10-30",
-   "exam": "AIIMS",
-   "type": "update",
-   "title": "NORCET 11 Seat Allotment 2026, Choice Filling (Started), Counselling & Updates - PW",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pYUU3cVV2YVlNaENQQUM3MGZRSzBOVmhGLWJUVGkzQmhQSG02djBjSlhldlk5M2RLa05DYjAxdEdvQ3k1Yk15c195bXFzd0QyRjB5MEFHRUN5R3FzRmJoMUV4TjFnYVMxcVZNbnRvb3o?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u5ffb4443be",
-   "date": "2026-10-30",
-   "exam": "AIIMS",
-   "type": "notification",
-   "title": "AIIMS Faculty Recruitment 2026 Out for 260 Posts, Eligibility, Salary, Selection Process - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02UlRIZFV4eC1ldUJYNERFazdmV28xcTVjbHc1eWlRZzlmV2Z3NTJ3QXIxa243V1NhQUY3bG05dEFqUE5oV3VrQUhPWW9rMTZJb1FBbk5nUGFpMHRGMGxJdnhQS291S3dnWllBUWl1aXhvYnZPNmRlN0VYZ1NfQ1U?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ua9cca86e1d",
-   "date": "2026-10-30",
-   "exam": "NTA",
-   "type": "answer-key",
-   "title": "New Update On CSIR UGC NET Provisional Answer Key For June 2026 Exam - BioTecNika",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFekRTMFZSTjBhZGszQUxNZ0hva1lqRVZRVWtZNWlRcjZkVktJcDFuc0EwUzEwa05UWnNVdmlZV0pDa1dDak5VZjFjSXc1TjE3NEJ1aFdEbnpaU29kQUROTmtHUVlpM0t0ekFwNXVyOUZMbDhWQlNxSzlzZHNaQnc?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ubc1ff13d9f",
-   "date": "2026-10-29",
-   "exam": "JKSSB",
-   "type": "result",
-   "title": "JKSSB Driver Result 2026 OUT: Direct PDF Link - PW",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBtS1cwSV9ZQjh3VUFzU3RlSnZUb3YwUXljMldLWEJleUlEakQyeW8xWm5SVHlNR01WQTYwcTlhRE1jaW04UWZuV2JKS1RWdkg1elJjakRUcDNXeE5QVXh2dEtYaw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u60380016a2",
-   "date": "2026-10-29",
-   "exam": "SBI",
-   "type": "result",
-   "title": "SBI Clerk Result 2026 for Regular Vacancies: Expected Date, Link, Cut Off - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Fa3REVlNTSnBYUEpkQWc4Q0ZfT1dmMEdicFQwaXQ3R3NQbl9jWEJjM3N5cVZhVnZjdm9rcFl5U0hkUndfMWFhZ3NpeHRkc3Z5QmdZbFF6OXoxM21UcmhWakdJRkdwZjc1RTJVUjV3?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ub06d2006ee",
-   "date": "2026-10-29",
-   "exam": "JKSSB",
-   "type": "answer-key",
-   "title": "KEA SWD Answer Key 2026 Out , Download Teachers Response Sheet at cetonline.karnataka.gov.in - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ObU1QNFY4end6d0J0NVJjdTJyVWZ4VGdOZjdOajdQcnRCMGY1c2F2Umo3X1Y2ZFJLQ1FIX0tXZC1zeHZ1S2tsYWhlWWNPWkJ5eTNOTW5mTV9GRkVZc0pING1PM3NncTU4V0dFZ3JkeTB1Zw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ue9be339096",
-   "date": "2026-10-28",
-   "exam": "SSC",
-   "type": "notification",
-   "title": "SSC MTS 2027 - Notification, Application, Vacancy, Syllabus, Eligibility - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Va29GbFZYYUQyYjZFdDlfR2dQVFJuWXVEd1pEMGZFX0J2M0lhZ3ZtRl9USzVmbWhINjNRLXFyZXRXWGw1WEVnN2JNSGJnZXY2UXpGNmxHN2NPRFRXM1lZeGMxeFZZTWs?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uc77e69178d",
-   "date": "2026-10-28",
-   "exam": "SSC",
-   "type": "admit-card",
-   "title": "SSC CHSL 2027 - Notification, Application form, Syllabus, Eligibility, Admit card - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWZzRYWHl2Wkt2djBVWGo2Ql9zdVdkRWk3UDUyRzlOSV9FSlNtTmQwVGxuTW9USmNURHdMOG05UzFza2RSSXdldmNfbTJSZnduMHhsa2pzWUU4eG95aU5iVzJRbUFqalYw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u08d43aee95",
-   "date": "2026-10-28",
-   "exam": "IBPS",
-   "type": "result",
-   "title": "IBPS PO 2027- Application, Eligibility, Cutoff, Result, Salary - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLQVh0SV83cG9FV0JNbHg5bTJER1hXTl84TndFWHF3X2RjQ0U5dXFYSXR0QVczbHZ1ZDlqMk9rVVR2S25oZzZmaFE1NGVGWFVrbDVzdkFKWm4yOFg3LVhJUi02TDdPZzA?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u040204a1cd",
-   "date": "2026-10-28",
-   "exam": "IBPS RRB",
-   "type": "result",
-   "title": "IBPS RRB 2027- Notification, Application, Exam Dates, Eligibility, Syllabus, Cutoff, Result & Salary - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lVkdPVjU5dDVCb1NWYnZmZmh1VnRiZDFUR01xTWwwdjFsLTRVQUJ2MWZjTndkV1hDcTROU2hUdTZJMGpRMlFvdlBqLTU0T2F3S1JfZTMtTEVJVk12SE55Y3ZiV1pVQXVu?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u37e70c3eaa",
-   "date": "2026-10-28",
-   "exam": "IBPS RRB",
-   "type": "notification",
-   "title": "RRB NTPC Notification 2026 Out For 5,236 UG and Graduate Posts, Eligibility, Application Dates - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GN2c4N1VvM1pnNjRIOTBBYXFfSGtaSUtiZVZ1clZvSm1BcFc1dlRYaFpEajB1ekFBRlNOR1IyaDh0THFjSl9jZ0tTVDQtNWNFXy1wbzl6OTZZMnRtdWZ1Q0xCSUkxc0d2N0V5MA?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ua34904ff16",
-   "date": "2026-10-28",
-   "exam": "JKSSB",
-   "type": "notification",
-   "title": "JKSSB JE Civil Recruitment 2026: 458 vacancies announced, applications open November 30 - The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNLXZpdWhUUDgwaUpMZ1hPcFpPd0FiS2o0RjdkLTRBYkk1WGFhZDkyazFoUWRHSTh3d0hKM0FOZlI1emFBblh5SnZWNkJsT2NJQzBvbHBzOWhYUjJzeHZFM29FVXpXN0lYeDBiRzN5ekp2UEgtaWFRZ0dhb3VNejZUTnlETFFZOWZKZlpuYUFmZ3p1UEVLM3U0RENGWlVEYlNMYzh2dnFxYXBhOFZzbGM3TkY3S201WURDVnRmSkZxeXZBbERSZ2tjWUpuSGloWjJEMXdJb0hwZlFqX2NOWWhObWNnR3dsNDBTNU1SbEFuaV8zQmpI0gH6AUFVX3lxTE9EOHRlTjVHeDNfalloRlJUTVRQcGFtNVR0R01lRURwaXlvLWkzejJscHNHSFZwR3UxMUE0QlhURW9WeUxDb1JOVGl3cDI2NUtudk5Tc2dhdXk2R0JWOWp1RjFfM0s3UnJvWnl2SFV1QXNqSnBTQUtkWUFHd01YV2FaT0xJWFkzSUtabUlCcTktWUlQSUtkZVRVWjFaX2N3T2QzMi04RzVKaXBySnFONGZOSEdrYk5KN2c0QUlGWElNVTBGWC1NQmNDV0ZadEdJTzdva1dQOE1WOHd3SktvNDAzX2NUYzYzTGFFMmQ5VjNIR2Fydnpla1otX3c?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ucc5580be17",
-   "date": "2026-10-28",
-   "exam": "JKSSB",
-   "type": "notification",
-   "title": "JKSSB JE Recruitment 2026 Notification Out, Apply Online for 585 Civil & Mechanical Vacancies - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BOV9Zc2YxaGVKbkhqdTB0OWx1bEVaTWdVQjc0U0ItOWl4QzRUczZzN2UyVUdlZ0ZmWTlvdmFIc3F3VFBoX0lOOGI2cnlNaV9seUJYTnZlUkU0azlnTTcwMWYzOFZUcnlxX3lqZ0ZUVzJUSmgwNmc?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u4ca2c98137",
-   "date": "2026-10-28",
-   "exam": "SBI",
-   "type": "notification",
-   "title": "SBI Clerk Application Form 2027 - How to Apply Online, Fees, Link - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVT2dYVHF3SDZaM05Fd0VBSEpjd3lYMVFGeUpkVWdOMjEzaEpJOHUzbDh4UEZkZmlvT043UkJuM1RBNjJnbFZUdVVBaWkxLS1FRmV6bnVWR2JpRnU0elVsVEY3RUctTnlBalNLclJZcERGTjJQcV9GRzBB?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u8313988213",
-   "date": "2026-10-28",
-   "exam": "SBI",
-   "type": "result",
-   "title": "SBI Clerk Prelims Result 2026: Expected Date, Link, Steps - PW",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbUdGZldVRnpHMDNQUWdlTk16U1BjSTBpbGNVRTQ3YU5ScElEbUY1elg4bjgtZVFYelVJWXVqel9vYXlCZVA3X3owVVJuZjNSNVlUWjlHaG1ESVdaMzRTZTZna3Z5OGFpNXQ3Zm9WVGJVRUMtWjQ3MTl2SmdRbXhVeGlEYWZOWEwwN3FZRGJTMGw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ub041f2abec",
-   "date": "2026-10-28",
-   "exam": "SBI",
-   "type": "result",
-   "title": "SBI Clerk Prelims Result 2026 Soon: Documents and Details to Keep Ready Before Checking Result - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMzBHaWFLYkYxaDVjOGZXblRJQk5aSGtxTWgyVG5SWFp4NDlrVUVlNGQ3ckY1TXBBbHZOU3RERTYwenhiV1hoN1NjWk5pMGJoX2Zpd3A0WnpLMFk5Skd5d3JuTTJpbGYyM2xlZ2lpOWRMRDFyYkpVc0ZTcVhUZ2Jvam9lM0RmT3phQnJLUFJqUnZET0tZTWJ5T3BpU0hqdk5QX01FNE90OFdsUVFzaFJuODFaOHdtQ1JCRkZkczJKQkFqTU4zT2FmMGJ4ZV9ldDlIWkY0MFJXUXhncjBHelRjY0JxWm4?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ua10baa7d53",
-   "date": "2026-10-28",
-   "exam": "NTA",
-   "type": "update",
-   "title": "UGC NET December 2026 registration deadline extended to October 31 - India Today",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeXg4V21hNDA4bGMyZWl3cFdvcGNtNXItYlpiYm80b0swNjUxdDhFeU4xUEFjZlF0TnRVRHBvajlsNXZuellHOFg0Y1plel9KS1hFd2Q3TkVjTXZGWl91RUZKVEdwR1ZiSFJ4RWh4X3o4d2dkN0lOU0RtN3BwOEtfMEhTMGNReFZYSEZyWVRYaEwtNUJSU0VSdU53SV9ES0dsT3hYRXQ1Z2ZBQjZTTUlWZ2xuLWhpSm5qc0hQWmpzSXhSME9QTVpId3J2SmxSSXps0gHWAUFVX3lxTFBVTTJ1QjZNN0tFcFhNNTNlek1ISks4WGNCNk52dUh6cUlLRFlOV3laRXJGNjNWcmhGNFUyMjRmZlZFUVRJNmpBYy1mTGREZmNlZnBpT2daNk5WMTNLVjN6b05ZQkRwUDF4YmRmVUJfaUNhTlBSdEJQeHJ0MHZGMTFwRWFueWR1X1pJX19RWmZWTDJIcU1tQk9Mc1FpYW92Y20yUjFBM0RoSXhwYXh1b2hja0V3SmNYMlZ4aXk0Ml9UX2U0eFRsV1l3aFhMN0FZR3hsQzVrNmc?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uf16b45e7e8",
-   "date": "2026-10-27",
-   "exam": "IBPS",
-   "type": "exam",
-   "title": "SBI Clerk Mains Exam Date 2026 Out: Backlog on 29 Oct, Regular on 23 Nov - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mNXZNY1puZVMyUUlBVm9hdmFHZ2lSbkNTRVZDWGMzc3BLYUVYYW0tbjRsaTJKekcxV3dlMGV4b1pIWWhZS3FBYTY3MUltQUdU?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uf16b45e7e8",
-   "date": "2026-10-27",
-   "exam": "IBPS RRB",
-   "type": "exam",
-   "title": "SBI Clerk Mains Exam Date 2026 Out: Backlog on 29 Oct, Regular on 23 Nov - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mNXZNY1puZVMyUUlBVm9hdmFHZ2lSbkNTRVZDWGMzc3BLYUVYYW0tbjRsaTJKekcxV3dlMGV4b1pIWWhZS3FBYTY3MUltQUdU?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u5e0ebb66f5",
-   "date": "2026-10-27",
-   "exam": "RRB",
-   "type": "update",
-   "title": "RRB Group D Application Status - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVjlaWXRYSU8zbDJkVE40ejR4T1VEVnhkOEJoTy0zVTFGNGFCS2lEYzd6RzY2MzFSeXUxSkx0U251WXJSSTc4b21MU1BfOVYwbTFWMXVRRnVMbE9GeFh0OUJ3TURnSUxvTThaQWVLanFYN3NDM2ZmcnB0R1lfVlJxaW43Rl84U3pvWVh5cF8xdE8zdDNrN3c?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uf16b45e7e8",
-   "date": "2026-10-27",
-   "exam": "SBI",
-   "type": "exam",
-   "title": "SBI Clerk Mains Exam Date 2026 Out: Backlog on 29 Oct, Regular on 23 Nov - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mNXZNY1puZVMyUUlBVm9hdmFHZ2lSbkNTRVZDWGMzc3BLYUVYYW0tbjRsaTJKekcxV3dlMGV4b1pIWWhZS3FBYTY3MUltQUdU?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u5abddb3a25",
-   "date": "2026-10-27",
-   "exam": "NTA",
-   "type": "answer-key",
-   "title": "NTA says, ‘answer key challenge’ system designed to be fair to all students; Rejects concerns of being expensive - News On AIR",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVi0yREhLY3dzSjdGeTFwdGRiUktsbG9GajFvRkZabWxSWWt3RWNiQXFjeTlnaVpkb2tFS0tpSHlVdTFkYXR1TzQ3ZGVrc0VkNGgwTEhQbGF3V0Vwb0tHbEdIUlM0Vk9ieDZkYWhURnFoM1RacVBQc29ta05PQ1o1ZHdCRDhqUnFNRFNyaU5oMGZTSnNmVmtFblFkX1lUSVN1MU1VRHpBUmw2akVRcWNCOXc5QQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u3a01a0d8ef",
-   "date": "2026-10-27",
-   "exam": "Universities",
-   "type": "answer-key",
-   "title": "JK SET answer key 2026 expected soon at jujkset.in: Check download link, question paper and marking schem - The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNLVB3UDlYeVhldHRhWU9FVFFZZzNfeE81ZkFWVG53UE53R3EtVmlLWG9jNVNNU1VSbG1sb3k4elZZQ1hHUHBEcUEtWm9wbVB3R3Rfd3ZLYzd1elo1Q3V4YTYycGlJMUxYVzRHTlg5c3BMQllibmVmbUJERjM4NTdOYlZUYVhBUUNYbzVMVVpWeHh6TnNzX3BHeXVCQkhLbWJ4ZGcwZFRESW5oYUdwVENvQnE3eDluX2VZVGZjeXhmT25iX2hPU2F0YXpVTXdjUGZwZXI0akZDaVdKMW16QzNkeW40TXNvaG1vUXM1bnZmX25oUjlDLXZobndRWXhLdzNraDFaTnZXdFZvTk9MblHSAZMCQVVfeXFMTUZQSVhXZzhOSUw4NERpWGdWd3Z5U1pTdlI5X0lUNkoxRDcxTmpOSmlMcnU2T1ZvUDhIUEtLSnFMWnZWVDZRT1QwWXJVbE5qeFI2dmJ1VHFDUzg1SkJ6U05Qb1N3TGI3Y3dZdDh4NWltN1R5eThmbGExNHFObmxEWm1RQm13YkJmd05jazBQU1N2WHdLVUNsLUhueXBldDlVdmJnbUI5a0EycnZjUGxzNkotbjQyNk45QTctYmJ5bHpoS3FhWE1EdHZPUmtMVFJjTjhBWnpBMDZrdkZDaGFVZGF3aFY2TlFPTFN1RlBxbE5kWS1SeXctUXZ0R3lMOS05cEFvUkFGWVF0WERXN2hjN290TDA?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u68f9872464",
-   "date": "2026-10-27",
-   "exam": "Universities",
-   "type": "notification",
-   "title": "CUET UG Central Universities List 2027: Check Admission Process; How to Apply - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOendZSUZrVzBLRzhtcmVhR3pvQmZSUTlkblYxeWN4aDN2WFZYdnlyRnJBeC1QcUE0d1NjZW5wSjFNQXR0OFM0OTVCaWJaRGJMTC1UdFRZbm5oOHh6WDRDLW9KVHR4cW5EX1ZhanQwMzlub0NBRGt1YUlQcW5EMmp4aG9Yd3ZTWUFKT0ZjUWVKUTMzVVJsTXc?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u5b58f7b712",
-   "date": "2026-10-27",
-   "exam": "Universities",
-   "type": "answer-key",
-   "title": "JK SET answer key 2026 expected soon at jujkset.in, check details here - India Today",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRGxwakVGZnpnakpjS2s5SVg1MFp3anE2NlFHUjlRTml1ZnBkTWhKRnhkaGhGYjFJdmRyaF8zNWJ0cjEzek5CX2RNWlRpendITUdURVJpLWd4WmNMZ1Iwdzc3QTRDRkNUSEIzTXlYU05lYkNOZUh0TUJGa3AxQnZqWU41WllMOW9pbWkxLWtlOXNSS3hZaVR4bHI5UkJoREVSNU1DQTduQktsT2dKc3VlbjN0RjhOLXRxZmhYbF9B?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uf95f61d2a5",
-   "date": "2026-10-27",
-   "exam": "SSC",
-   "type": "admit-card",
-   "title": "SSC CGL Admit Card 2026 Out, Tier 1 Hall Ticket Download Link Active - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZYnVVSFcta1hUU0Y2dkRPcThwT2U3M0NtOUwyLVFTSXdBS2E3ZnNJNEdJa1psanowTEhpcHNyUmZRX0d5NTZ4c1p5OGJBZ2hoMml2ZE16QUNDTmNuMHg0TUkzSUJ2QTQxVlE?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u4d038aefbb",
-   "date": "2026-10-27",
-   "exam": "NTA",
-   "type": "update",
-   "title": "CUET PG 2027 Registration: When did NTA open applications in the last three years? - EdexLive",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSFVvSmw0dU5XR1lPelYtTW1jRkdyWWRCQy1vMVh1YWNobnJqNzZUY2c4YnpSSXlxSDVOT1Jrb3BVVW8xN2tORkpkdmhSczl3NXV0TU5KSHp5ZDQtU1NrUEZKY2l0ckdyX1VsZC1VeXFhNWJOY1pMdjRKNktNMzY4UHZFTzZCb1VFVUZsMnhzTTBYbDV3RGdwOEVGeU9xQUMzdzE00gGwAUFVX3lxTE1INGV6Q2RoaVhlVGdJRDFCMXEyODkyNC0tR3JvRTFtS0tCZXhKMEJVV2c2Tl9ELTFFd21fSGFhNzFrZXNJMkQta1pqYTFHb1llR2NGNi1yZm1hdEJPNEFVZ180UTlvNEIwQzBtMU9ndFc0NjVWeXphcVVJYXVDWVVVWUxxWFBZVFdVX3g2eFNHM3REN3A2TExHSm5fWmRIRnUyY3FPWWNaMnFjMXk5MV90?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ue9c010ab21",
-   "date": "2026-10-26",
-   "exam": "RRB",
-   "type": "result",
-   "title": "RRB NTPC Under Graduate CBT 1 Result 2026 OUT: Check Cut Off (07/2025) & Direct Link Here - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aa0pjYy1NODNMSG9ySHRjMHhqRmI0RVM0QnFWbkc5b0xkazJZbEdqellSQWoydkszQ2RvZlJwZmtjVkFaMUJrcWtmZG5abmRITFUyaDVEV1pCWjhnX3FrUQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ub7540c5bae",
-   "date": "2026-10-26",
-   "exam": "Universities",
-   "type": "update",
-   "title": "26 October 2026 Holiday: What’s Open and What’s Closed? Check State-Wise Update - Jagran Josh",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZFFoQlU2VjFtZVBSWWdfaGJpVHUzdHJNcm1pbDRVSTBMWjBQWW1ieUIxSXhfRGFIYVluYXdEbG5mWVN0Z014R1V5MUVfZkNrRXpQRGFOd0UtVkVETHRnVk1CWXVadHVNdUtjcEczNkJfd2lxNVUtMGdIeFE4Uld2c3owUnZISmxKU2NqcWgtOGpRdlZnbEM5V1VMU2lPdmV1MVNYXzFWUWdsWWlwNUJVMm9xTlV5MTM1NkRXT2w0T3lQVi1RZG1lMURReTjSAdMBQVVfeXFMT2IwZ1lSOUlBTy1TVkI2amd4UHdGcVZpQ0tJVVBRNm5MdVZKX3hiSWNyaFRDMWdaMElrbk9vSGo2OUpXcUt1WWltYVYtNjlzY1lpLVp5WUtfYTBvZXM4Y0dRV0dXQnpTRVVFMEJTQ1FrczhRc3ZIZk5EQ0VieEVXNVJXUXh4TXQtTEJvaUFfcGFibW1YLU9HaHhoTmQycUdUT2czTVBjUGNVNGNid25yUWh0MG1yeEU1ZGxDS0hIRUtOWGZpZTVQd0lmZEpsX0NjS3BQRQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ue898570af9",
-   "date": "2026-10-26",
-   "exam": "SSC",
-   "type": "result",
-   "title": "SSC GD Revised Result 2026 Out, Download Updated Merit List PDF - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WNEZDVGw1WXRrTU5tbGl5anIwZkktajRkM2pqT09LcGs0MFJKb1lMaFl0SUtyUFdVMS1oQTNNajVNc01zUmVQNURPNU1ScWZuTGw4b1BvWmNzRWExZmF6NUlnWjNSWUF5?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u3c1e501508",
-   "date": "2026-10-25",
-   "exam": "NTA",
-   "type": "admit-card",
-   "title": "JEE Main Admit Card 2027: Hall Ticket Release Date Out, Direct Link at jeemain.nta.nic.in - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EdDhMWDc2cXBRcDNDZWM5ZUZsekRDNFI2U25EUWp3U29hSVFtdF81T0E2ZlBRWHJldm1KeFB1WXFHNFhGQk5DNlpPNDRzQnRHM0RsdGNSOGJVZUxYMDl1dGY5VnpjdWRmWGdSX0Z4enQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u330345453a",
-   "date": "2026-10-24",
-   "exam": "RRB",
-   "type": "update",
-   "title": "RRB ALP CBT 1 City Intimation Slip 2026 Out: Check Exam City, Date & Download Link - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdWJPTDh0ejBHVGI2N0hxRWxXcEcyTG40dlVCdElfWFBjS2pFdm11Ti1IN2gwTWZRWXA3X1lxX0pUMVBta1ZMeWtrcklpSVpLOTFtNGJ5eUcwS1VzN180d2d4bGcxcTNhY1JscXQxTFdVR1dCRGlhTVRXSTBsa3BqUFNJdEFzZG9YQ2czY1dVUlo3eHRLZjFCNVFiZGxDLVI1dzFQaGozMVRRaE16aEVtTGtZUjRHTHZvYXI0T0dkem5keGhr?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u31db3fd624",
-   "date": "2026-10-24",
-   "exam": "Universities",
-   "type": "update",
-   "title": "Jamia Millia Islamia moves classes online amid row over student protests, safety concerns - The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYy1VZEhHeUdzVHRvSXM4Y2U1aVNLNWc4NDFZWnFvNTA2bFdjY0o5OS1FbFAwd0doUW1Mc3kzTmJCNUh2U0dBZGhRTXc0ODlBU3E3V1dpLWdTd1g4UEhEQXRGbkVtUFpsQWhZeFlNWWtwaktwcnNoYmZMTFBSdWNIbk5acktpc0JWckJTS3BCNzlKLURtSkhPZm1icm42dzZtQnFKSEFKRU9KUWw4YzVEc1o0SlN2NEhkVllLakwtZVo4SVFfQ3VzSWV4YzVPcHB1a1lZM2NoazR6TkwzUmFUZXo0M3B6cGE1UG9QZFMxTUl1cURnbFo4U9IB_gFBVV95cUxQb3c4NzMzWEtTSU9EaU1jdGI3YnZPNnpIYkhzQjRNajA0OS0zUG1XZVpxU0dyYUtFaXJtbXkxMkZpam52Vl9aRVdDNEJubFVZOFg0bFJtNldTOEVZdjFnTFVJZzV3ZjdIaUtVamFFMUZOb2NtNnZiNWU2SkMzRnY3MmY1dWEzc0NkYUtFaHEzdVBnODFyU1VSZHFZaFYwX0NfYlNsU2l5Tk11bVVIelJIUnF0OTYtZ2pQaHFtVVVLWm5rbFEtakF6SmdSbzJpekdwSTI4SVotc0pIcXlfSzl1NG9DbjhEclpheC0wWS1TMnQ5a0ZELVRGaE0taDNNUQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u85d5263f6f",
-   "date": "2026-10-23",
-   "exam": "SSC",
-   "type": "result",
-   "title": "SSC GD Constable revised result 2026 released, check category-wise merit list and PET/PST shortlist - The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNaXFtdVFPdVdmOUlXV0gzeElPOU1yNXl4WVpNdl9fREZuZ3RJdXdKOVZJLTNIa3JzbUV2eThmdW9KbWFYdWNwS2hYdVZmVURpZjFEUEpyVlB4WW9OUFNWaWdVVjd2eEZTT3Q3N1JpekZXUGtHN0VzaVJPVVB5QVJGN3lNeDIyMnh0TldJOEgzQjFUMUVJVWxlcU0yeGNCb1JRNEFYd3lxN1lHV3JxekRPalFWVlp3bmhlZ3NqNEZNQlNoY0EyNVhCVEYtTXdMenFVMEZ0UENpVzRMZTNMZGlrT0J1bVpnVHd1b1M2all4TmNYZEtIWVdRN0NzMWpOYUNJcFpqOVFn0gGLAkFVX3lxTE8tYUFNZExmbWVJYS1sS1VhbzcyOGZ2Q2xOTmdhbEhiM28zcC1ZVDIxdkVHYWRpalJXSkdSOHVxWHlhZzU3V096eUIwR0tWMWFUWFoyTXpUNFI2TUEyWW4tNVZrS2dJWGZCQ1pUN04zOWhDNEhCaEFFUXpRX2lVWUo4RGRYZ0ljc3ptb29IdW1odE5wUHFna1FLdGUtZXdSZXFaRVJTb3I2bjhKSzVfWEVnaDBnUVFxcE90UkNUQ1R0bVhWODZzejNZT0pxaDRIeTZpZFhRQ3VQdTFWLXNBaVl1M29yR28tT0x1Vkt3WWlFb0R0bnR5M3pCcW9aYzJWSThqRTJjZU9fWElKZw?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uf146473510",
-   "date": "2026-10-23",
-   "exam": "RRB",
-   "type": "update",
-   "title": "RRB NTPC Exam Pattern 2026 Explained: CBT 1 and CBT 2 Details - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wcnBEN0RENnFMQS1hMWZPX3gzQnByWDlNRzVHV2ZhdUVLOHJ3SWVYVVlnRjUzYmJGZUo4OWxyRlFuWTVKY2FCblNYWElma2JYX01qLWFJMlJTaV9RYjFUeQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u4170996042",
-   "date": "2026-10-23",
-   "exam": "AIIMS",
-   "type": "result",
-   "title": "AIIMS NORCET 11 Exam 2026: Mains Result (OUT), Cutoff - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BdDdoRm9jeC00cnpWcmNFMTZjTkkwaTZOWmk1WDRXbUdhNW0tZk1XU1ZiYkw1SEM3MlZ6QTN5MWJEWFBFTG1jSlpsNG10T2U4aGdkanpOYTdsSVhZS0xr?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u0f5ae4e0be",
-   "date": "2026-10-23",
-   "exam": "Universities",
-   "type": "result",
-   "title": "IOQM 2026 CutOff - Expected Cut‑Off, Check Region-wise Analysis - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LYjhSNGEzRXN1T25IZE5HRHBqcW9uQUM2WFhvclNPZ2NBaDd5TjlERU5nWE0yQWd1S2NPYnNQUVQ3RDlNd0t1ZmNYa2IxZmFYaEJHSnJQUnozc0hxMUJaeg?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uaea47ca030",
-   "date": "2026-10-22",
-   "exam": "IBPS",
-   "type": "admit-card",
-   "title": "IBPS SO Mains admit card 2026 released at ibps.in for 1,035 Specialist Officer posts, exam on November 1: - The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOeHNBTDJ1YTBGQ1A5T1VsQ0VnTjFlWElFSDhKTXBwUldaVnNlVTM5Ync5eWhWYnRVY3k1MjdwQzNhaUNOQ1laYWEwdW8xVTZOOXJLbm12WU5iSHFvVzNlRVc5NWpaVmFhUjI4ZXNfdm53UzJod0Nob01tZ3VzbVhCRGdOUmdndEg2cW9pcjFJYUs2UnZGYWpkek9sSlNhQl90dkp0MFJ0T0tha3lZbXRFU1dxU1BRYVkxMjVZYVN0LXN3bmg3SmJuUy0zYmtZUlpuaXpQaXNsTWxhaHpDOGs1VHh0ckxzSjBMeGU4YVgtZnFla0M4eU53OVd5TzdXRFhJdk1VSldwNmJuYjk0eVU3YklhanZ5SVZBd2Nwc2ZBRlNYWENuMjA5clNqSEZSQVdheTVSU0RQcWNzd1hVakV3T1dRM3FEV0dpeTc00gHQAkFVX3lxTFBKd2JjYU44NUpXU3RUeXNXR0VGMmtnNEJjeUdxZmNrcHJ6NGdOZ01mMWRvTmVHQWdQS3QyYXpsRWptUUdHRXUxZDh0Z0dOUlFxcEJwRW1FWnVidnpISmRXc3RUeE1HaWJPWHctQXVuM3dJNmx1R0tQWTdOQnNEbWkwaWVKQ1hYejJoSTM0RU5fYUYxMklFcVhXbGlzeGZ0LTNwTzZ2aE42aHZqVDBUOEZwZWhON1JwX05ZS0pCcUNKSmtTY2F0ak5xSWMyQkxLeXdKTkpYenQzR2hGcVN4NlR0ZTdQN1FpRS1RQk1uZ2N2bmpRV29yT0dWYUZjTk5tVlVSTjMwcFRhV1htLTA0RHAtd1FnOFhUTTJ2UnQweVo5aTRQZmpnMFI0eFlpLUhsV1c1bW1VM1o4VGI4U2lfQjhtZ21GOUU3Z3loOUFhNTExcQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u34be7a509e",
-   "date": "2026-10-22",
-   "exam": "IBPS",
-   "type": "admit-card",
-   "title": "IBPS SO Mains Admit Card 2026 Released at ibps.in; Exam on November 1 - Telegraph India",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONW9SdUQ1OXBDSlVHZFl3SnQwY0pUTmlWUjJuSDNVS0I0VEdXeENvc21DXzk3Yk43cGRLMHhsV1pHenRMamxxelBhdkZPMGJ1dGxxUlpzNFRnekZRN0JKbnQxaDlxZWN6WnptYzlWYTRpUnNyLWQwcVJiT00wOW1wVDhXRDkwel9EZVVDc0ZhcDJJRlVmVU1MTUxlN3h1WUJ1ZElkOFFVOFVNaW5tM3ZTaUhmTFVFYjRSSjZCN0gzRG1Pc3fSAcgBQVVfeXFMTnFqYmVuRTRmUlVhd3ZTZUp4dHgyZUE5OFN6SlhQa0Q4ZE1TV05oU2RLS29iN2hqSThaZWs1UWpCalRmV251Y3M2ZmJFcmk2ZnZQTjVSLW9fcUt4dUlQcmNRdm95T2ZUalFzREotS2hoZWdMRV9tcWZzLUI4UGRiTnZId0dBeVNmQVZMckh2U3F4Rjg4cTVBMUNZSEN4Qlh3Z1JYZm0yUm1Qd0tQbzl0RjR5SFdURVZDWEpyclhDYjFNYkx5SU14a18?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u3061edf3ea",
-   "date": "2026-10-22",
-   "exam": "IBPS",
-   "type": "admit-card",
-   "title": "SBI PO Admit Card 2026 out at ibpsreg.ibps.in, exam on Aug 1; more details - Business Standard",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMjFkNEFiY2FiUzVEYUdDU3htUHJVS1Y5RnFYM3FEcnZKdnc1cU5GMG1hQkFZYUdFM3J4cFY0bk5iOWFPd1hJZElQTzZya2R2RFdtZHRKNkRRWUlwWFBRSmY2REhhNUN0YjQzeFpkYTlUWmJkNFMyS29mQWxLbGVoSnJ2Z0ZOTWZua0NUVlFXZllRVmZxQXNaVVNrbGFVUVlvM0Z3V0RIbnhhNjZCQWFMNkFxcnlnWkxTcURheldxRUo2RjDSAcgBQVVfeXFMUFgzeVYxUk5WT1NVQ01tU2lRSjZJNXZwTmY0X2c4TWdpQ2poNmZuSVdJTVdpeGVIam13ZWxJSHJIMVV1VHU3MjVaelVDMjM2eHNGTi1UUG5CWTlBUmdabUIwMjRKMmRZX2lNM2R5VUg5elI3N3NXNkI5SDZ3cTNfeU45WmJiU0J3RmR0eEVEdlZ4aXhTY2Vkc0ZkT1JxQk1TbGMxTGg4X3BwaXh6TjE3YWM0WmFEZl9sZEkwOElCT3g5RU16NFZVVHU?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u43dfe6625d",
-   "date": "2026-10-22",
-   "exam": "IBPS",
-   "type": "admit-card",
-   "title": "IBPS SO Mains Admit Card 2026 released at ibps.in, download link here | Competitive Exams - Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSzZiOWt6Qmt1MVNBS1ZoWG5xcWw1dVQ2VmUxd1hxRDdESEZxWlZ4Tkk1YWFzRUFxU2cxSmR2Z2dzVjJDamdya2drTm9pRWlkVFh4bnlXX3J0R1JMMlF5dER6eXg2VFBocGlqVTc4aWtxOUJBZzJ0UTlvb2JVbnZ3aEhWSHVwaklickxlWEU2VzJTeDdNOF9QUkNkdzdhWTJ3YXdHRjhyeTNsQXJPWHFRMVVKaUZxeUFsX241RFR1bGd1ZWJtWVZMWHEwVXV3TjRMMEhyZU5PeU5WblBYRVRwMEN30gHnAUFVX3lxTE4zS0ZJNEppNXIyTHdtR0V3NFdpU1Vpbm5zVS1vMFdHYkwzVF9yZWtWalF2UWRtREdLcFNyUHBROFk5SHUxeXk3eTRXeWlfMU5IOWRKUVdLSW9QemttbWwzWldKQmVnREhITlg1STZJTG5oUWd5WXhBcDd3UnI2bXRwMEFkbmFxbzFwaVNGRnd4WlhFdDNhNkpWT2doaEJBaF83UVBHeE1QR2xQaHlHZjY3Q0FUQmpkd2JHX0RXV2RGU1VVcTlWbG1nbXlvS3dDMXUyb3FOSjBHTFROZ3pnNHgzcVFEcFVKVQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u2a62b39e08",
-   "date": "2026-10-22",
-   "exam": "IBPS RRB",
-   "type": "exam",
-   "title": "RRB Paramedical Exam Date 2026 Out, Check Exam Date and Schedule - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ESjhfbVIwczJWcXRHTG5LWFR4SUlHSHlNMHBseFEtNDFtWXhNUUZwWmlXbm5hdUFhbWJIU3ZhWTR0VGJOekFtekMyOEFmU2V6cHJIMHlNNDNteEl2LWxHMGJDanhhOG00T1Fkd1E3QWhVaWFu?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u64db2fc240",
-   "date": "2026-10-22",
-   "exam": "IBPS",
-   "type": "admit-card",
-   "title": "IBPS SO 2026 - Mains Admit card (Out), Dates, Exam Centres - Careers360",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PNGNjcUZaeWtFRVNPVEhlbmx6X29jWUJjaDBDTEp3UmhGYjJRRUVLc25xbTdqUXdoTnNtb3lncDYxRFZxcm4wclVZT2VJWXY2aW1fMXZ3Z25qdHQ4S1BFNUItZjlFX0E?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ub9d1e07c76",
-   "date": "2026-10-21",
-   "exam": "SSC",
-   "type": "update",
-   "title": "SSC CGL Previous Year Question Paper PDF, Download PDF Tier 1 and Tier 2 All Shifts - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mSWRQQ2phbVlWeXFTc1ZnYlZSbjNVTGRwWUNCQnpkZ2U2Y1pDQUM0QWxVWmNGblk5NEdZVnczQ3o5OXlBbWx6NUIzRnFOcWVuM29GdlRaSk1STTkwam8yaFJQQi0yZXE3MmJyeUV4X2VsM2Jt?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ude839206d1",
-   "date": "2026-10-21",
-   "exam": "SSC",
-   "type": "result",
-   "title": "SSC MTS Cut Off 2026, Check Past Years Category wise Cut Off Marks - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jd01xSU5ZSXBsZ1ZPNnN5UV9vXy1ScUdMU0I1SlppZldyV0NnVlNIUzNhWlRrMFhDTEJJZ3kxLTlZM2dpR1o5cW9QRWxsd3Z3YThZczZvLTY?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u9fa9d6b71e",
-   "date": "2026-10-21",
-   "exam": "JKSSB",
-   "type": "notification",
-   "title": "JKSSB JE Mechanical Notification Out 2026: Apply Online for 127 Junior Engineer Posts - PW",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vWHNRckF6T2EzdkE5Q3o4M1VSWHJNZVNyUW5XUmlrMm1rMmdYN3lPd0JValdEZzlMblpOMUpSYlphR2xyS3FkWU9HU2gtTXFBREFpM0dTa1BPRUN0d1pLTzVyUFFMVmtTbk0xNHBBMWN2RHVZ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "udf07bcffa2",
-   "date": "2026-10-20",
-   "exam": "SBI",
-   "type": "admit-card",
-   "title": "SBI Clerk Mains Admit Card 2026 released for 1,538 backlog posts, exam on October 29 - The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeXdtSDJFMHAySkxsU1VSQmFreXlCcE54SlNUU1NMZDgtVlA0N3RNZEVQQ1p2YmY3QlV5NlA4RndGNmV5Q2hZUTR0TmRCRGJlZVJPWXN3RlVIMFdRdzYzWDFiN1lYZnJLUnF0TGN2VTFrMFRiWVFMUUVLaEhDRjhkYU53MU9DMk1JbjhQVzFCa2N5d2U0ZkEtazU3OUx3U05BdnI1N1hicV9JZW9sQXpsaGQ4RzlMWl9XUkZrLWRfTldGeWdhSWFuMVE3X25nd2ZUQmt2NVJRNjlmT3FwaXh5emZrRnRGN0RzR29ac3VyRGnSAfYBQVVfeXFMT0d0VHBmZnIybUZBcVltVDFEZHAxYzBVUFdRWFZJZDBLeWZHUFR1aXhiRVctWEdtdUF5ckd2S1dyTm9vdVYtNDIzbHpja3VtRlB6S3JvU3dhRlRXR3Q5UnBaNTU5bWtmelk4YXBEVS16clFSSHotSXh4Um9KdFRSNkltVk15a0xJYVlqRF9GcGctU3EyTUthSHpaR3NVdGY3LWhUc3QzR0RoU083NHJzSmZJaFFZR1RiSjg3THVHZGNQTGF4WHZMdTlqelJTSlpRdUJHbGFQaHNPWlVPWVpCV2lyZFhwM3B0ZVlWRks4ZDdyWV9OdVNn?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ubdc5d8f0fd",
-   "date": "2026-10-19",
-   "exam": "IBPS RRB",
-   "type": "exam",
-   "title": "RRB Nursing Superintendent Exam Date 2026 Out , Check Exam Date & Schedule - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSWRoT3F1NU1GVmNFNWJpTUQySGxJak52NTJUNGduU3EtTkZWRDFZRF80T3hEZkRla01FZmhoNHNjRDd4V3lQNW1KWDdROWNaTWtzOFlYeGdyZDlJM2ZBNjZlODFRSk5kZUFPQV9Sakg0YXJJdnd5anVvajludXBDdW1nRQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ua9b5ba0aab",
-   "date": "2026-10-19",
-   "exam": "RRB",
-   "type": "answer-key",
-   "title": "RRB Technician Answer Key 2026 Out for Grade 1 and 2, Raise Objection Till 21 October - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZmNtd0c4cm15NlhzRUxHb21tdUhIVXNtSks4MEp0cEt6bHkwOTBPNy00cVpsQ0N6TllmVFUtSGpVeWowd0xqX2lNY3dWRVU5eHZ0S3RGUm5NWmRKV2VkTUtGUXhraFY2N0NRNXp0LTBtdlFqckktWkZxWWRqQU1XUUJtVQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u1e41a30e0a",
-   "date": "2026-10-19",
-   "exam": "JKSSB",
-   "type": "notification",
-   "title": "UPSSSC Inter Level Recruitment 2026 Notification Out For 1784 Posts, Apply Online - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wMEZXcmt0YzhOb3g2M2JxQWdNM2ZmUkR0UWM0YlA0c3R2Ykc4UUZkMXRIQkZEQnozZkc1V0xsZkk1eWZYQk11ZFhnTjZraVA1Z29XaFdVSXNjVUZwRjFuN1dXRW1mdmlmUFNoUjJGSFdnZkxRX1ZfZQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "u269fd48050",
-   "date": "2026-10-19",
-   "exam": "JKSSB",
-   "type": "answer-key",
-   "title": "JKSSB Driver Answer Key 2026 Out: Download Grade II Response Sheet And Raise Objection Link PDF at jkssb.nic.in - Jagran Josh",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNemJwbUktNzFacGxJa2dBR3ZtVVdMX3UzcTNMSWl0akJyUnVGRFprcEJEc3JiN2x3MnExVGpEQ0pDejEtelJ6eDY4Z3NCYXktNkFCdHlQcDJUNk95RXgwOWxrTlpIWnk3amVOWHBBRkg0VEx5N2llNXplMkJWQURLM0FiNkhQNURONDJ2NXVkb0lrakt6bUxoWE1IODFYMWhGZzJxaDF5bFZmWm5xb2I4NmtudDZWTkgydGdfQW9iUmZZd3d1MnVlRldBZlVjXzVzbkVEUzNkbWtrT1pGd0VfME5ibGVwLWljUmhMdmF30gH0AUFVX3lxTE5sN1VQZ3czeDhuM29ISUhYaDdzWVozcUhpN0hYMWpvNUhRcDF2V280MkJwd0dOMnhDRncyVmNlVVZfRS1Zczk3MXVFOExuSEZfSVk4MmFxeGVHY1lleFdLLWluN1liNWdndHNxSS14SVpSajNSWjEyYVdXNWVIZnRUbUVISmFVWXJIcENGQ1Z4aTI1YVoxTmFwbkJ5TGdfb1dPaDF3am1zdy1tRUxHM19ra3BCbEp6Y1JWYlk0THk5VUQ0NmpFWTIwVzFlZVREdzZxcXdGSDk2MmhBSmVsZVI4bjZkM3NtZFdjYmJDYVVEcTZqRDI?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ube8ba30ed5",
-   "date": "2026-10-19",
-   "exam": "SBI",
-   "type": "result",
-   "title": "SBI Clerk Prelims Result 2026 Expected DATE for Regular Vacancies; Mains Exam Likely in November - Shiksha.com",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVGZ0WmdOSGVmYU41Y1plVjZLV1JraU9nbnZGczdJLVFNaEpZbDBMZmU1ay1zYmJHQjh2aDFuM2F6TllrYnYxMGk0THF1ZjM1YkN1SHNCZWVRRVpld0VGWlhaUHdMWWxHcUxkazRfVXJzSXZHLWxHcjZVdmNtRTVfdnQxbUlISkFYZEZNTlRETFRPX3FSMXltQ0lXMmd3SHI1OU04YW5oU0R3c0ZyUjdDdnBDdF9LMk5VMGlYRkJmYVU5SDlNRzhRdzVXeEtvaUlLNi1vNnZDczdYQ0dLWjJ1NEw4QXlsSjA?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "uc9e8bc9998",
-   "date": "2026-10-19",
-   "exam": "AIIMS",
-   "type": "exam",
-   "title": "PGIMER Chandigarh Nursing Officer Exam Date 2026 Out, Check New Exam Date - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSkxWRm8xVjdWYURWUGM2WGJkWjh4ekd0VUJ2bWcyVVNvTGwyZ1I2aExsc1dKNkJnd3c4QUhiWm1qUE5VU2JXWnFmb0VWYlFTbmY0Y0FydU5EcENJVG56MUhoWlVXZkctSmNFZmpzZVZfWUoyZmpfb2Mta0FiSXpGWVhwYmN3eU9FUW9IckJnSFg?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ubdc5d8f0fd",
-   "date": "2026-10-19",
-   "exam": "AIIMS",
-   "type": "exam",
-   "title": "RRB Nursing Superintendent Exam Date 2026 Out , Check Exam Date & Schedule - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSWRoT3F1NU1GVmNFNWJpTUQySGxJak52NTJUNGduU3EtTkZWRDFZRF80T3hEZkRla01FZmhoNHNjRDd4V3lQNW1KWDdROWNaTWtzOFlYeGdyZDlJM2ZBNjZlODFRSk5kZUFPQV9Sakg0YXJJdnd5anVvajludXBDdW1nRQ?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
-  },
-  {
-   "id": "ueb8032611e",
-   "date": "2026-10-19",
-   "exam": "RRB",
-   "type": "exam",
-   "title": "RRB ALP Exam Date 2026 Out For CBT 1, Download Official Notice and Read - Adda247",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15d2NWLWhJelZKcWJHRndfTHhVck85a1lydVlZZGNtLXlaTExTQmUxWjA1eXppd05OOUh0dUk2blUxQ0FwX1pvVHpxUFpWMjRmSGVwSTB1RFVrTWNxRmUxVUFUTWJJeEhUUDNlNkl3T2twa290TlE?oc=5",
-   "note": "Auto-collected headline. Confirm on the official website."
   },
   {
    "id": "u002",
@@ -55433,529 +55038,110 @@ window.CA_DATA = {
  ],
  "news": [
   {
-   "title": "ग्रामीण विकास मंत्रालय ने वीबी-जी राम जी अधिनियम के तहत शिकायत निवारण नियम, 2026 अधिसूचित किए",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331400",
-   "date": "2026-11-02",
+   "title": "केंद्रीय स्वास्थ्य और परिवार कल्याण मंत्रालय ने दवाओं, चिकित्सा उपकरणों और सौंदर्य प्रसाधनों के लिए अधिकृत आयात गेटवे के विस्तार का प्रस्ताव रखा",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331915",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n17d36a4cde"
+   "id": "n7b4f01eb32"
   },
   {
-   "title": "खेत बचाओ अभियान - रबी 2026",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331387",
-   "date": "2026-11-02",
+   "title": "भारतीय नौसेना ने सोमालिया के तट के पास अपहृत मछली पकड़ने वाला जहाज ‘अजिनी’ को सफलतापूर्वक समुद्री लुटेरों से मुक्त कराया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331903",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n192d3b3c55"
+   "id": "n48c48de8f8"
   },
   {
-   "title": "वाणिज्य सचिव श्री राजेश अग्रवाल ने ब्रुसेल्स में यूरोपीय आयोग के अधिकारियों और उद्योग प्रतिनिधियों के साथ उच्च स्तरीय बैठकें कीं",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331382",
-   "date": "2026-11-02",
+   "title": "ई-कोर्ट मिशन मोड परियोजना के अंतर्गत एक पहल ‘ई-फाइलिंग 3.0: प्रक्रिया से व्यवहार तक’ विषय पर कार्यशाला",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331878",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n27d3f37665"
+   "id": "ne90ac061cc"
   },
   {
-   "title": "माननीय केंद्रीय मंत्री श्री राजीव रंजन सिंह 2–3 नवंबर, 2026 को सिक्किम के गंगटोक और मंगन जिलों का दौरा करेंगे",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331381",
-   "date": "2026-11-02",
+   "title": "प्रधानमंत्री ने एक संस्कृत सुभाषितम् साझा किया, जिसमें संयमित वाणी और मन, तप, आत्म-त्याग और सत्यनिष्ठा के महत्व पर प्रकाश डाला गया है",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331896",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "ne128287ac0"
+   "id": "n08f1b182f6"
   },
   {
-   "title": "प्रधानमंत्री श्री नरेन्द्र मोदी के 'हर घर स्वदेशी, घर घर स्वदेशी' के आह्वान को नई पीढ़ी (जेन-जी) तक पहुंचाने के उद्देश्य से दिल्ली के कनॉट प्लेस में 'खादी दिवाली उत्सव-2026' का आयोजन किया जा रहा है",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331375",
-   "date": "2026-11-02",
+   "title": "भारत सरकार के संस्कृति मंत्रालय और अरुणाचल प्रदेश सरकार के सहयोग से अरुणाचल प्रदेश के तवांग में आज अंतरराष्ट्रीय बौद्ध परिसंघ की ओर से बौद्ध धर्मः हिमालयी क्षेत्र और उससे आगे प्रसार विषय पर अंतरराष्ट्रीय सम्मेलन का आयोजन किया गया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331877",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n7324a47233"
+   "id": "ne5c635ae59"
   },
   {
-   "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने नई दिल्ली में अखिल विश्व गायत्री परिवार द्वारा आयोजित 'शताब्दी समारोह 2026' को संबोधित किया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331363",
-   "date": "2026-11-02",
+   "title": "5 केंद्रीय मंत्री श्री राजीव रंजन सिंह उर्फ ललन सिंह ने दो दिवसीय दौरे के दौरान सिक्किम में डेयरी और पशुपालन क्षेत्र में किए गए उपक्रमों की समीक्षा की",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331876",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n5065ca94b6"
+   "id": "na24262f940"
   },
   {
-   "title": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने आज चंडीगढ़ प्रशासन की 258 करोड़ रूपए की विभिन्न परियोजनाओं का लोकार्पण एवं शिलान्यास किया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331304",
-   "date": "2026-11-02",
+   "title": "सीएसआईआर-राष्‍ट्रीय विज्ञान संचार एवं नीति अनुसंधान संस्‍थान (सीएसआईआर-निस्‍पर) ने पारंपरिक ज्ञान के संचार एवं प्रसार पर तीसरे संस्करण (सीडीटीके) 2026 का आयोजन किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331852",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n7c5205826a"
+   "id": "n2aedd868be"
   },
   {
-   "title": "केन्द्रीय रेल मंत्री ने बेंगलुरु-मुंबई वंदे भारत स्लीपर एक्सप्रेस ट्रेन को हरी झंडी दिखाकर रवाना किया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331353",
-   "date": "2026-11-02",
+   "title": "नशा मुक्त युवा अभियान के सातवें सप्ताह के दौरान MY Bharat ने 30 राज्यों/केंद्र शासित प्रदेशों में 93,000 से अधिक प्रतिभागियों की भागीदारी दर्ज की",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331874",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "ncf1bb321ad"
+   "id": "n0c7dd00516"
   },
   {
-   "title": "रचनात्मक जन-जागरूकता गतिविधियों एवं पक्षी भ्रमण के साथ राष्ट्रीय प्राणी उद्यान का 67वाँ स्थापना दिवस मनाया गया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331319",
-   "date": "2026-11-02",
+   "title": "प्रधानमंत्री श्री नरेन्द्र मोदी ने 'भारत नवीकरणीय ऊर्जा शिखर सम्मेलन और प्रदर्शनी 2026' का उद्घाटन किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331871",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "nf4444ba6d4"
+   "id": "n31fb34ed00"
   },
   {
-   "title": "एयर मार्शल मेहताब सिंह देसवाल, एवीएसएम, वीएम ने पूर्वी वायु कमान के एयर ऑफिसर कमांडिंग-इन-चीफ के रूप में कार्यभार संभाला",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331316",
-   "date": "2026-11-02",
+   "title": "संघ लोक सेवा आयोग संयुक्त रक्षा सेवा परीक्षा (I), 2026 — का अंतिम परिणाम घोषित",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331828",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n736de2f55d"
+   "id": "n39c59ced09"
   },
   {
-   "title": "प्रधानमंत्री ने बेंगलुरु-मुंबई वंदे भारत स्लीपर ट्रेन को रेल संपर्क की दिशा में बड़ी पहल बताया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331339",
-   "date": "2026-11-02",
+   "title": "कोयला मंत्रालय ने स्टार रेटिंग प्रोग्राम (वित्त वर्ष-2024-25) के तहत कोयला खदानों के उत्कृष्ट प्रदर्शन को सराहा; 50 खदानों को फाइव-स्टार रेटिंग प्राप्त हुई",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331826",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "nfc6616732e"
+   "id": "n36f9caf716"
   },
   {
-   "title": "भारत की राष्ट्रपति कुरुक्षेत्र में स्वामी श्रद्धानंद जी के बलिदान शताब्दी समारोह में शामिल हुईं",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331242",
-   "date": "2026-11-02",
+   "title": "माय भारत के विकसित भारत युवा संवाद: अपना वोट जानें अभियान के तहत 20 राज्यों और केंद्रशासित प्रदेशों में 60 कार्यक्रमों के माध्यम से 11,800 से अधिक युवा जुड़े",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331825",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "nf335f973b3"
+   "id": "n2c2c08be54"
   },
   {
-   "title": "कोल इंडिया ने अक्टूबर 2026 में रिकॉर्ड तोड़ प्रदर्शन के साथ अपने 51 शानदार वर्षों का जश्न मनाया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331308",
-   "date": "2026-11-02",
+   "title": "डॉ. वीरेंद्र कुमार ने आज शाम राष्ट्रीय राजधानी के ‘दिल्ली हाट’ में ‘शिल्प समागम मेला 2026’ का उद्घाटन किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331873",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "nb8d9d08c34"
+   "id": "n408780a4b6"
   },
   {
-   "title": "भारत की राष्ट्रपति कुरुक्षेत्र में हरियाणा राज्य के गठन के 60वें वर्ष के उपलक्ष्य में आयोजित ‘हीरक जयंती’ समारोह में शामिल हुईं",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331228",
-   "date": "2026-11-02",
+   "title": "एमएसडीई ने 19 संस्थानों को कौशल उत्कृष्टता केंद्रों के रूप में पैनलबद्ध किया",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331823",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n12ab81ff80"
+   "id": "nc6ae56c3c0"
   },
   {
-   "title": "केंद्रीय संसदीय कार्य और अल्पसंख्यक कार्य मंत्री श्री किरेन रिजिजू ने भूटान में 108 स्तूपों की स्थापना समारोह में भाग लिया",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331263",
-   "date": "2026-11-02",
+   "title": "भारी उद्योग मंत्रालय तथा उसके केंद्रीय सार्वजनिक क्षेत्र के उद्यमों और स्वायत्त निकायों में बकाया मामलों के निपटान के लिए ‘विशेष अभियान 6’ संपन्न",
+   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331824",
+   "date": "2026-11-03",
    "source": "PIB",
-   "id": "n50bf391e68"
-  },
-  {
-   "title": "Cyclonic storm Murasu to make landfall close to Ongole",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-murasu-to-make-landfall-close-to-ongole/article71654237.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n9b3e3ea6ec"
-  },
-  {
-   "title": "Six Indian tourists stranded in Nepal's National Park rescued safely",
-   "url": "https://www.thehindu.com/news/national/six-indian-tourists-stranded-in-nepals-national-park-rescued-safely/article71655445.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n3ce065b1d0"
-  },
-  {
-   "title": "Three AAP MLAs join BJP in Punjab",
-   "url": "https://www.thehindu.com/news/national/punjab/three-aap-mlas-join-bjp-in-punjab/article71655539.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "neba8d925bf"
-  },
-  {
-   "title": "Cyclone Murasu | Telangana’s Nagarkurnool administration releases do’s and don’ts",
-   "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-telanganas-nagarkurnool-administration-releases-dos-and-donts/article71655531.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n3406507efe"
-  },
-  {
-   "title": "AMU wants women on campus, not at the ballot box",
-   "url": "https://www.thehindu.com/news/national/uttar-pradesh/amus-wants-women-on-campus-not-at-the-ballot-box/article71653225.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "ne9e4083f15"
-  },
-  {
-   "title": "Cyclone Murasu: List of flights cancelled to and from Chennai",
-   "url": "https://www.thehindu.com/news/national/cyclone-murasu-full-list-of-flights-cancelled-and-affected/article71655519.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n88bddb347d"
-  },
-  {
-   "title": "ED registers money laundering case against Subhash Chandra",
-   "url": "https://www.thehindu.com/news/national/ed-registers-money-laundering-case-against-subhash-chandra/article71655520.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "nb114b88bd5"
-  },
-  {
-   "title": "Agitators clash with security forces in Manipur's Kangpokpi after recovery of missing youths' bodies",
-   "url": "https://www.thehindu.com/news/national/manipur/agitators-clash-with-security-forces-in-manipurs-kangpokpi-after-recovery-of-missing-youths-bodies/article71655499.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "nea9f76d814"
-  },
-  {
-   "title": "Cyclone Murasu LIVE updates: Eleven flights cancelled at Chennai airport amid heavy rain",
-   "url": "https://www.thehindu.com/news/national/murasu-cyclone-live-updates-on-november-2-2026-tamil-nadu-telangana-andhra-pradesh-odisha/article71654226.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n1fd8bb30af"
-  },
-  {
-   "title": "‘Murasu’ strengthens into Severe Cyclonic Storm",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-live-updates-november-2-2026/article71655112.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n5028bed140"
-  },
-  {
-   "title": "Why Kashmir’s oldest party National Conference stares at rare upheaval | Explained",
-   "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/why-kashmirs-oldest-party-national-conference-stares-at-rare-upheaval-explained/article71655436.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n223abd007c"
-  },
-  {
-   "title": "Delhi Police personnel protest against transfers of ACP, SHO after Shahdara police station scuffle",
-   "url": "https://www.thehindu.com/news/cities/Delhi/delhi-police-personnel-protest-against-transfers-of-acp-sho-after-shahdara-police-station-scuffle/article71655486.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "n7cf6096a80"
-  },
-  {
-   "title": "IndiGo sees a lot of opportunities; current industry situation challenging: CEO Willie Walsh",
-   "url": "https://www.thehindu.com/business/Industry/indigo-ceo-willie-walsh-first-interaction-with-media/article71655487.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "nbb21cc394f"
-  },
-  {
-   "title": "How can drug menace issue cast shadow on Punjab 2027 Assembly polls | Explained",
-   "url": "https://www.thehindu.com/news/national/punjab/how-can-drug-menace-issue-cast-shadow-on-punjab-2027-assembly-polls-explained/article71655380.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "nc422ea31fc"
-  },
-  {
-   "title": "CCB probe into ‘sting video’ points to HDK’s Delhi residence, says Police Commissioner",
-   "url": "https://www.thehindu.com/news/national/karnataka/ccb-probe-into-fake-siddaramaiah-sting-video-points-to-kumaraswamys-delhi-residence-two-aides-absconding/article71652476.ece",
-   "date": "2026-11-02",
-   "source": "The Hindu",
-   "id": "nb6dd903dd0"
-  },
-  {
-   "title": "CM receives warm welcome as Civil Secretariat reopens in Jammu",
-   "url": "https://www.greaterkashmir.com/videos/cm-receives-warm-welcome-as-civil-secretariat-reopens-in-jammu-12775305",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "nfe09e7b8d0"
-  },
-  {
-   "title": "CM Omar receives guard of honour as Durbar Move offices reopen in Jammu",
-   "url": "https://www.greaterkashmir.com/jammu/durbar-move-offices-reopen-in-jammu-cm-omar-receives-guard-of-honour-12775020",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n15ec9334b2"
-  },
-  {
-   "title": "Tucker Carlson claims Netanyahu pushing Trump towards nuclear strike on Iran",
-   "url": "https://www.greaterkashmir.com/world/tucker-carlson-claims-netanyahu-pushing-trump-towards-nuclear-strike-on-iran-12774961",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n89149cf3de"
-  },
-  {
-   "title": "Delhi's AQI enters 'very poor' category for first time this season at 312",
-   "url": "https://www.greaterkashmir.com/national/delhis-aqi-enters-very-poor-category-for-first-time-this-season-at-312-12774831",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n191ba0274d"
-  },
-  {
-   "title": "Business jet carrying 9 people crashed in Florida neighborhood, erupting in a massive fireball",
-   "url": "https://www.greaterkashmir.com/world/business-jet-carrying-9-people-crashed-in-florida-neighborhood-erupting-in-a-massive-fireball-12774693",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n1a25c3ba45"
-  },
-  {
-   "title": "CM Omar hosts farewell dinner in honour of former Chief Secretary Atal Dulloo",
-   "url": "https://www.greaterkashmir.com/jammu-kashmir/cm-omar-hosts-farewell-dinner-in-honour-of-former-chief-secretary-atal-dulloo-12774680",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n86f1c40644"
-  },
-  {
-   "title": "Forest fire erupts In Drabshalla area on Kishtwar-Doda border, containment efforts underway",
-   "url": "https://www.greaterkashmir.com/jammu/forest-fire-erupts-in-drabshalla-area-on-kishtwar-doda-border-containment-efforts-underway-12774668",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n9612e48206"
-  },
-  {
-   "title": "KTMF calls for unity, stronger trade representation in Kulgam",
-   "url": "https://www.greaterkashmir.com/business/ktmf-calls-for-unity-stronger-trade-representation-in-kulgam-12774579",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "nfe3dbb6cf8"
-  },
-  {
-   "title": "GST mop-up grows 23 % to over Rs 2.31 lakh Crore in October",
-   "url": "https://www.greaterkashmir.com/business/gst-mop-up-grows-23-to-over-rs-231-lakh-crore-in-october-12774578",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n2d86a78d8b"
-  },
-  {
-   "title": "FCIK urges J&K Bank to ensure fair property valuation",
-   "url": "https://www.greaterkashmir.com/business/fcik-urges-jk-bank-to-ensure-fair-property-valuation-12774576",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n1671e8a86e"
-  },
-  {
-   "title": "Mandaviya rolls out EPFO services through WhatsApp",
-   "url": "https://www.greaterkashmir.com/national/mandaviya-rolls-out-epfo-services-through-whatsapp-12774573",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n5d03668c33"
-  },
-  {
-   "title": "Kashmiri apple supplies fall short of Diwali demand amid fungal outbreak",
-   "url": "https://www.greaterkashmir.com/business/kashmiri-apple-supplies-fall-short-of-diwali-demand-amid-fungal-outbreak-12774568",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n6d8c557add"
-  },
-  {
-   "title": "Rahul Gandhi’s PM dream will not be fulfilled: Amit Shah",
-   "url": "https://www.greaterkashmir.com/politics/rahul-gandhis-pm-dream-will-not-be-fulfilled-amit-shah-12774565",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "nbe44e60e42"
-  },
-  {
-   "title": "Farooq Abdullah, Mehbooba Mufti attend INDIA BLOC Protest rally at Ramlila Maidan",
-   "url": "https://www.greaterkashmir.com/politics/farooq-abdullah-mehbooba-mufti-attend-india-bloc-protest-rally-at-ramlila-maidan-12774563",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "na969912c3d"
-  },
-  {
-   "title": "Rahul says Gyanesh Kumar would be removed, warns PM Modi, Shah they are next after CEC,",
-   "url": "https://www.greaterkashmir.com/politics/rahul-says-gyanesh-kumar-would-be-removed-warns-pm-modi-shah-they-are-next-after-cec-12774560",
-   "date": "2026-11-02",
-   "source": "Greater Kashmir",
-   "id": "n967e247852"
-  },
-  {
-   "title": "India-US defence ties has big ambitions. New Delhi must turn them into military strength - ThePrint",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUjN2RWlXckc2Mmc4SHRiODdCVmlMbEJJaTZlSFdTYVIwdjhUc29UWl9zcEJuSHJncEdNNFAycHgySllnSFlwLUk3ek1zNF9zZWRKcnZJY1E0d0FzWnJaal9qY21ON3Z2RFN4RlNtRUJUcXR4bXJPTE5MMnE3eklkNFl4Vk1OaW1iRW1yUlgtc3IxSFBMTEFDQTJ0dDd5YzB0RkNQRVFvcmh6Z9IBrwFBVV95cUxNSDNyRVlPaHJtTnBycmhFQTd1S0xJVElYZ2xUbDBVbU9BbU5aQ012eEU2NzlVeVJLLW83YXpjVGdRUkhSTlR6X0RyN0s4T3N4ZU5jOTI4cHZFT215YWM5VWJuVEZRRHhudU9oSF92MVUwTDE0RnUwM2FBVUFtOUQwZzkwMklmUXc3b09WcHVHeHlLMl9XT2tzbUpqWXNEdS0zUE9VWk1Ma0M4c2YtYWVv?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "n926c7f3fbd"
-  },
-  {
-   "title": "India: Government sponsored health insurance scheme for citizens above 70 completes two successful years - Asia Insurance Review",
-   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNS01ZZ3BJVzhUdkVhRFk2Z3M5MmVWSEl2cHBRaWFVZXBDWnpjY2dPdThRZjNGNlRBNkt5ZEVoWGhoZTI5dkxWMnIzaWhtaUh0czVqMHlEUFJUbWlfcU44RDgyZGZrYlNnUGV4NHl6WVF5dDBENDJsYWVXY3ZMczJhZ1ZxRloxVHZzZWJSUVQwMHlVT3FNU3pUMmZ6Uk56RW13TThLWXp3dzNQR3JodHVwbHNYU0VLVm9TbkVSV0NxQm1QdzZ1bzBTWFZkdXRqSFhKZWNRZWpHeGRaRjVYOUVXYVNwREpwOVFISmRpNk9GZ2hJTFY0dFAya1NuQjM3VU5QUFRRUG1KQ0FvMGdLQnJpeA?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "n8117b4b12e"
-  },
-  {
-   "title": "Union Bank of India expands banking infrastructure in Uttar Pradesh, MD inaugurates new facilities - ET Government",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPb19VUi11YXdpSFkzdFNHMGhtQ2FlLTU3QkwyaVVzZi1vM3g2REtXNlJaTWRPRWxObWRRVkR2NjlHbmpMcjVVcjB6Q2R1aE1BbXBXMDdxamFhNHc1SUFocXM4cEhBR09IcWx5STNtZ1plSTFTNXNpYUJfZDVlRmllV0l0dEZ6WkRicU40d3RXUzhSMk9wdEUzSTBDbVNJNUM2NlJZekZyWGhRMHVrUUFnazVMUEVFYXNGS1FvUGlUTWdZVWI0MjNKZ252OXkxcVNjZk9iLUZnVmZTSkRBQ3hsVEV3YU1IQ1ZON3c4aEhUNGxUNUJJNERTamVabDXSAYACQVVfeXFMT1JCbXF1Mi1qNC1FSHhXUWFZZkNXdlo0X19IWEJLYXoxeUpiYy1DSEVMUDdzX2xOVExfQlBYel9oQXk2VDhXcUh0M2Rud2lUNE9yZ2tUejlkWDVYQWYxMWo2T0gzZEttWHZzS3hvVEJmVG1JTFBybTJySzFnZU82WFk5ckU0WGlwVkxiQjM5MHkwclBxdDNpRU1mblI4OVlzaDJXYVd1Sy1EOVpMV3pDTzBSU2Q0NGpWejBlbkZJejgzZTZWRGczdDRZWHpKTURITUUxUnQ0emFhZmNFOEJDS3VwZy1VaFpOYlJOVHp6bWp5RTBuV2VRVGdlMEpSUU1qLQ?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "n175bdc3a49"
-  },
-  {
-   "title": "India-France defence ties poised for new phase, with 114 Rafales in focus - The Economic Times",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSVlhajBrM3NYZ3NiVmRZSE5JX3E0Q0dMU1NCUTg3STF5bGVoal9na2Z1OUV0RzlHRnFzbmJtWDgyV2hTOWRrdGwwZWszZmQtZE41SUtsNzVmUGVDamo2blgyUi1pWDJLSjl4UGhwSkUxRGVlakltRFpNQ2NLV3BNNDF5X0JPUDk5SHNaTUMxWTJydFJnTGZYZm5XZThjcV9jdVh4RVJEWHVCVjRNQ3drYzZmclhsWjhYUk9wa3VTZ0pGT2JDSDA0cHFydHVkRVdzMndteTBR0gHbAUFVX3lxTE4xNjNEMDU2ZWxvR0lwSks4S19QUnJmdlUzdS1GVWF5UFBvRlRzckhKdE0xVjB6MThFWGxRakc0ZmVfNFpyRHJKeWF2eWxLMGU1a25fODMzMWx2RWE5UjZJOXNibHVpU1ZNRjY1dm1IREloNWN3c3hlZmZWUlQxaTI5OXVlSjlPWXl2RW1kaDU1aXVqRzg2dWduamdSMFgtT1hOTXRHcGNpQzk1bXFRTGlWaVY1WTh1OXdDWWNRclNtN0hObnFwQ3gxNlYyZnZqaGc3SC1XZ21kNjBBTQ?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "na8fedae991"
-  },
-  {
-   "title": "PM Modi to Inaugurate Bharat Renewable Energy Summit and Expo 2026 on November 2 - Energetica India Magazine",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ1BzSjZ4anlNOXhrRmdYSGNzN0ZubkVqTXVXZTFSRnRtZUFKclgzcDZzMXdvNGF3MlUxR3BIdTVMNGJpdWJpaHM2WmtHcGFGSkxFbERKTldDVGRRWEpYRDVmeTJTU0ZCaWU3NzdLbTdjVy1LUmoxd0NKU0N4b0k0dks2M3lES2NJWXd3TjFSWWJZb2k2VGE1enRYQzdRWVg2REF4OE1VdDhiQU9CN2ZKZUFhNjkxUnNrNWc?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "n24f5287f9b"
-  },
-  {
-   "title": "India government report flags NMDC Chhattisgarh slurry pipeline Phase-1 commissioned at 5,427 crore rupees - Shanghai Metals Market",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOW5nOWRWR1l0LTdIWG02bGpEaVZTZ29IODNRcG5IRjFvaG1fTkxuUDNTSURMbDgtSndMRjNjNXlrcWtJOHZObDhMbUkweFJ3SFpXY3o0eFRGQUNjdUhES3dQZmNkQmFFa3gzVVpBdjBlZFlyV3ZkZ2Ywc0phejFMM0NFOGZYbVhkX1Q3dXMtNXZTRXNpVjRHeFZGTU95bUJKYm44cTJETkxNZE16RXhMUXdiQ2NiTk1DaHdSeDM3UlJoN2lrLUNBWkZqMTVfMmRsb0dZelR6SzBJdDZmSElTdTExbFE?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "nb665a33532"
-  },
-  {
-   "title": "Worried about expensive flights? Government gets power to intervene in airfares - India Today",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNMkUtcVQ4cjJXMW02YkhUNWV5Q1dxamt5MzVya2djNm9PX1Y2dkkzNkdaS01vTWR5TVNCTkpfQ3NnclZFaENodGpDUDZ3NHRCbVZkVWp2S1NqbGM5bXp4UTByUm5TVnl3WmxHcGxfdVdaVkJRbjhPLW4yNkV6X0E2c3RmbVFZdS1vXzV3dGRTZTMzalNSa3h5Vm11aXJ0ai14dmduR2pPYjd1cHpvdi1GR1lhQl9QcDVjV0RSLVNHXzF6QlpRWHRmMHZGSG1HazgtSTRMUm1CV0txb3huTVRlR05uZ2Y0TUpGQkJnY2N4Z9IB9AFBVV95cUxQSFZ4YlpKc1dVeEZ2T3BVNUpld3Q0YXdhd1pXT0trS0dYTVB0WXExOTFVbHdYU0tIOWFxWHIwUnp4WWJSQ21xSWE1M2dkVkFyUERlWUpDam9GR3hBSzg2RkFjaFhxVmp4SnR6XzhFbjhqQlhNN0s1dzNCbTFZeE1VVWlvWl9BQ01KbUthSUlxT0FHWGcxa281Y1hlT3RSc192ZFFxUXdSbVlsczBEN1ZOSmhZUi1JYnhXZ19CMkxfU1FLTjNqX3Y0UHJMVWFBM01wXy1tbnhtUDgtZUN0RmxTMmwydVFrVXhlWDh5M2RpZVQwZGVB?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "n17e50ebc36"
-  },
-  {
-   "title": "Rupee Rebounds on RBI Support - TradingView",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQmdqYW1aekNyb3VBalhiR2lxajJQeEFFZGxvUkpXRU9yb01EWkpMcHRyU0ZpaGh5Z3RnTWdKMHVuejM3OTRlUVh0QVJ2TnZSYUpaRFAwMkp6MHFpMndSNzY5RU9zZmNrZFlZZTBqcGZzTC1nd1ZDdkRPUUNBQW5QVkVwMGVYMFU?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "n9ff1cbbbdc"
-  },
-  {
-   "title": "PM Modi to inaugurate Bharat Renewable Energy Summit & Expo 2026 in Delhi today - DD India",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd1hlUkd6ZHJTUXhKajRFa3pFTk1VdnExWHg1S3hXb3hFUk0zaUw3S3VaNlV4Z3UxYW95akUzeHBPZ0d3QXVwZVlNc2VHN3g3TzBGTmZ5RnQ2RGtpTkl0SmswbEljU2UtRnRFc2E3YjI5aUVLbUtlRkgwLW00RDNZdm95T2tOeWpvTDZUbGhkZm9EMkRHTFAyWElhYmVCSFJndDRpaWZWRENiWmNr?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News India",
-   "id": "n5340dfec04"
-  },
-  {
-   "title": "Jammu and Kashmir government shifts to winter capital as Darbar Move offices reopen - National Herald",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRGFXTkMweGxYY29mY2JWVWh2aWZ5Z0tDUFZMU25hNExmY3FVOFM2QUEwRlBPU2JZZkJhLWczMmFxb0wtNF9jSUxHQU92M1JBMTl2UnBBQUxrWmtHVUpkcVJOeVhUdWNjRG40bnE1ZHdWQVhZdWh4UFlpX21UUVo2T3JvT2gtZ21qTkF2c3BlQjdndEY4OGdlSkpGbHpoQjE0ZHVzbDh1LXpBWW5yU0g1blFGNkNRSkZ5V0llU0JhSWcxRkY3M3VJ0gHUAUFVX3lxTE4zUGVLSy13dHZkME4tck12SmpoaVpHck1tMHpRTFB4X0dScmp6OUQxb0FlQ1BYMm80RXhSNDlsN3pXakdtV2lIZ3ZuRnBQUzdTSkRjYm9mMTZfVmRlWUhOY3o4RVVJMHVuWUVrQzNYMGxnaXM1VjNPaEhoMTZqb2JUX3dTZU9lNkx4ZElRQmZ1d2VhSFY1cjFWeEdjRHdrVGRMZXVraDlMRXB4ZWJZS0VKQ3lxbEZsb3hJVzAzZjhRbC0wc3FrWWNfME1rN2RVSkxweFNW?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n8e2a18e200"
-  },
-  {
-   "title": "Darbar Move: Government Offices to Reopen in Jammu Today - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPT2JRa3NwbTBMd3lBbGwyOFAtQ2RtQ3ctaC1UTkdlejdyRm44SGQ1RHk1djA4NWdfenRIRHlUU1BwaUFWSndqQjdyM2NZMmVBR0Y4cnVzeVZmTC03SkhYd3lqZWFQTmsxOFI0a1BIV2lrTjJ3a2ZIM1BNTzdJTUVlRklscTBSSUczVVBNZTFNQno?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n4dc0808fea"
-  },
-  {
-   "title": "Jammu takes over as J&K's winter capital as 154-year-old Darbar Move returns - India Today",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNN1I4bFhlUlNYbUd5YWNXMHBJeWVPdGhzRUk0Tk1oOG5iR1dUV2p1aWN1cTlYRHl4U3N6YkpPMkJDM3ZkWHMwLThzN3JyUE5qQkVnZXFTaklnUG1VV1dwWEg0RTVSdUlzUjhWRDJNS0tieGJTTXU3M1VELUlxQjdYMVg5R1U5bEN0bS1odHJzYW10LW8wQWNHS0dFLTZGNFZoM1B4NGZaeW1WM3Y2cUtadGNfaC15RDEwOGt4dXhVcTVkdVhmUE5GUWU1YU5kU3lEMnBN0gHYAUFVX3lxTFB2RFJhWUQtMk5QeEpmaHpEM3FHV3Rub0FWTy1XckhCUDk0SktfdnpZSHMxTzBBMDNXa3lqQXc4OGNlSUkxUUdIc1JCZVJiQmsxdktzaTRqZE51LUNYeUNRUlhKVHE1OWliVnRzNGVybjJjdjJrcDhoNzhkbEQ2dlF1ZlFqYkVmcTNXQlJMbmdzR2oxcWoyOUF2VURxcmRrWGM0LTlJaUJ3UExYVWtzNnkydXZOanprbkFleXJQaUxLMDQ3Vk9uOEtaZ2RCX2ZRalNRNGk3RmFxcA?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n4e394e39c6"
-  },
-  {
-   "title": "Durbar Move: Civil Secretariat Reopens In Jammu - Kashmir Observer",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcFkyMjVuaXNQang2ald4b0k5dWhHMDNfMEtRYkhZOVBxRDg3aXluMHE3c2twRjdXb3RsODM4WVYzckFENkh5dTBwWnE2VkxBV3JmU3pnNlV2Tk0tZFp0QzI2MXR3Nm1reXJfLVU1YnVIbFFDbElhRGltVWVpdno5YjFpc0p2ZlVsSDUtdnJPWQ?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n1e8a97e24d"
-  },
-  {
-   "title": "Sinha Lays Foundation Stone for University of Jammu Regional Centre - Construction World",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVVViTUxZdm9jdWdDOW1LVnFDUDZOcEFzVERvSE9zMlBtMTJhUEdvdVFNc2tnU0MycXh4X1J2WmpPNmo5WjlQVkxWZWh6ZHl6THp4M0FxanllcTI0akhQbURBNHJYTGdLbVdQSFg4NmRUc0hoTURJTVB1VEZza2FFN3g1RUNzMDBkT0xPalNpNWtRZkRqS2k1TjdiaEs0OFhmVUVmdzhGcUFMZkJfU3NuZlJmMlBmeFRESDdyb1V5SmY1eWMyV081RVJVa3hjVkxLMnZZOFdB?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n2bfb1f6ea8"
-  },
-  {
-   "title": "CM Omar Abdullah receives Guard of Honour as Darbar Move offices reopen in Jammu - Kashmir News Service",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbUJDWnBjNXg1WENKRW5SQzFselRfN2lMcTg5RXJjOUhJVnN4bm56VXJIWnBSbkx6T1NLc2NhSUtGNzd1dWdidkYyaWJra1gyZTQtTGZISXZJaG5oR0lyWjNBNGRJQlk0b1h0aldCek9nMFlEdE1SY3AxTlAxTVFxOUJtSVY1ZG1QSzZUWG1STGEycVdxU1ZPbW13SWFYWE1rTlFSSnQ3STQyXzVfeFFVMXQ3Q3M?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n7baf76251b"
-  },
-  {
-   "title": "Why Has the JKPSC Been Left Without a Chairman for Months? - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWnV5LU1WcUo4TDZLUmU0ZXNVUG5GSlNvbV9ubGU3aEpISE1YX2Yzek1ENUUyaVVnSzE1UFBuYkRFV09TbXhRc044VldFblRRQ2Z6emlsSFo1T1JfZ0xJY1MyWGVUSlEzMGR2dDRVSFVDaWdGUnozUGtfcFREcUNWd0J0VnVMbGZIR0cxV3drZEFVWGM?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n187411d983"
-  },
-  {
-   "title": "Omar Abdullah Receives Guard of Honour as Darbar Move Offices Reopen in Jammu - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZjEtdkx3ak5QdXVxVE9MODZyRjBhSk9MNU9fMFFsMVEyWl9IU3owbjd1RE9qQmFaRVlTb0J3YkhfNnF5d3MwR3BMWkhFMGdTZWd1aGlHblJhd0FaSlktc1lkT1lBdXBkLW90Nzc0SWJPQjJKQjJTWHB6UFVLd3ZGX2VHY1k5TmFoRmZoT0llMFhXVFFSYmFnY3dpUk5LbExXcDYwSENpbm80cjR3QXc?oc=5",
-   "date": "2026-11-02",
-   "source": "Google News J&K",
-   "id": "n3961760a73"
-  },
-  {
-   "title": "India's Defence Strength Powering National Security through Self-Reliance - pib.gov.in",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pSFAtcXlILUJRaHdoSUwtVloydmVja21qQ3FlYVgzV3lrWHNYMjhYcjFtcEg0VTJRS3ZnTkt0c0g2cnRmTS1BR09RWWdOTTJ4dWs4ZHJfU0JtMnVJS0kyb0tuVVplRUNLc3Z6MUh1TXFCWTJ2dTNV?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "nac576bc026"
-  },
-  {
-   "title": "ISRO launches NVS | Akashvani News - News On AIR",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUJYcmNSa0F4Qmw2eW02MElQcmlfQ1FhZXNfNUk5MXY5dmFCelhsRGtzTE1Jb21kWURHV2RHTkhlY0pJRV9ObGswN2lnejlJMER2aE0wa2xjd1ZmSmZ5ZHpmVlNsVktHRnBkdjNBLURpdmpNMm1ial93TDlzbExlc3ljbXB6Q3VRdkRtMkVlVnlQd2xpNGRTdlRnR2FDWkFzeFREZDdxSlpOeUx0eTRzbGl3?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "nf99610e71e"
-  },
-  {
-   "title": "India-Australia defence ties: Advancing a vital Indo-Pacific partnership - Lowy Institute",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc29DeUx6SkswdDJ4TEZWQUZIUXoxZjk1U2xYNnB0d2RSRVNQVHBQYVhCSDNyZHF1Sng1ekgyZmVHdUluUTZFeDZlRV9OekE2ZDNXN1VqUkJqOUdsR0loeU95Ym5CRjRYSDFzb0NodFZBLWZtQ2Q2S2VNaEt4NDJjZV9mQjhCd19ZS0dvcXpUR01xUUM4LXFvT01iQTJnQVdYcGpNbVVadG1BbURxYXc3bXFQLVU?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "n23262dfa50"
-  },
-  {
-   "title": "Protesters accuse India's government of rigging voter rolls - DW.com",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYXN1ekRWOGpsOGJOUUQtMkphYkgyemFkRFVIQm9vRGhXLUxRMkJMOXF5ZGlCQ1BJWUh4Rng1THhoMkJlQlBPajNjcHM0S3ZvRDFWWTNUb2NFaEpmblNwb21OVUFwTzc3ZS1fcWk5M2hmTG9pYUhTVEhxakdiNDhWUzkwUXNJaGNfRkNDMmtyX0xBMDhLd09FS1h5SQ?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "nc86d56e7cf"
-  },
-  {
-   "title": "India’s Consumers Are Back, Its Stocks Aren’t - Bloomberg",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWh5U3FLMDNHaUZYcWhfQlNSenN0Y0wyaC00SmRDT1YyTzJLcUkyTnFSc095YnZhS1MtQ05xYVhVM2tGazl4azQweWlMaGh2MXpOUXpXRGw0UVFlRTZITWVWc2FneXNZUDhLZlhXVlU2VWdWdG9KODVIX2dBSkJseEkzbFlZbHJHZnA4c05FT1JzNEFxdmdUYk14ZzhSY29FeXotOWJPMzNrZEJWT0xr?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "n96b4415c14"
-  },
-  {
-   "title": "India to Host Bharat Renewable Energy Summit 2026; Over 130 Countries Expected to Participate - www.nationpathindia.com",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVFlxeUlyZkZLU1RzMlUzTVYzNFNTeGZURzQ2VVRRV2ZLeWN6Z1JDYy1LNmd0Mm9YV1pxRk51OUlaaXRPcnhEYTNXQm9Sb0tpcXBHekVkVFd4d01HX21GdVVCVXdoZmRVOTV0MEd0Sm40bUxXUDJNa1JiOWRTX29yLWRaV2g3TGxvMjJ2WFFRMm5Vc2VmV01WLURkWTQ2TF9ZWmpxSUxLQjJrZmlqWWd4dkhwaEFMaERZa1pHUVlESFR3eEdBeW85Mg?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News India",
-   "id": "n35c0460935"
-  },
-  {
-   "title": "CM highlights governance, development priorities ahead of Darbar reopening in Jammu - thekashmirimages.com",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS3hnanVBS1pmQkxRMXBmbVljNE9Sc3hrUEFoQl9pLVpDTE44eDNfMXA2Q20yQmZoM2VMaE9UY0ctQ1VaQWlfa0UwU2N5YTJTZG4wYXNmR2tSaUd6SzhvSTNjY0hEa1pnSzNobHIzbGNXSXZHZjdlM2NRMERZYXQ3OXByVTBGdWEtTUJqaWRDaEdMSkNubkNRVnhhY1doS3d4Um1vOXdfczFvMkE0MUZIQk9LTGptclNCUlJTa1U0c3c?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News J&K",
-   "id": "n436cb9a861"
-  },
-  {
-   "title": "Darbar Move: J&K Government offices reopen in Jammu on Nov 2 - The Tribune",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFJfZ0hkbnd6S3c4X1NmSzNTV1Y0eWhlcHJFRjlKOV94dUpIWUhrR1I2VXlyZ2V3LTBCaDh6X0JVbDFMZlJFaXJ6ZDY2b1hUZ2xvb05MNVJkSkEyNFNSSTY4QnpwOW1uSFlzODdGbzJac0dPX3FDMHF3TjY2M05PVDhUemVKTHZwSXhUb2NyOUxFZE42ZGVrRUVkQkpfUdIBogFBVV95cUxPdnEyckIxTUQxcEFpeXU0QjNCQXhWZHZRUHhPcjFXbGhYMG52TEFWRmdWa0NCR3E3emZqVTJIOHFxeWpILXpURjVKNlZnamF6UUdHUXFjWk5wWDdGZTAxT2xIRkhwOUpBZEp2dEl6SkkzekpocnRmdlU5Vk1WcGh4anZfM25UcU5PNEUyNWNuVktYc0p3cVlGa1hlWEhIbEhuTkE?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News J&K",
-   "id": "n1d8a700e52"
-  },
-  {
-   "title": "Shailendra Kumar to hold J&K Chief Secretary’s charge till Sajjan Yadav joins - Kashmir News Observer",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR0xqTFlzaUxZNk85LVRUSFlCN3djQkxpUFA2SDBUbGZ2S3F1ZlUzSXJjbXlxZjlhbFlqSjk5M2NGU3pWX0tzd2Z4WkxBcmF5UlJONnpHRkRZbGZhNFNFalUzdFdlYjgxTGYwZnpwY0M2dFJGMVBkSkhfcndBb1I5bUtpRVpxNFcwOW5FYTdRaUJLOEdXbm5VdnJUX0lBMU9mRnJSaUl0bVZWbGJJbEdlOFNuUGxFSGtEYWFwaVh0VmpQS0dqVFVNeW5tX3g5eWdhTkQxZw?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News J&K",
-   "id": "nc1da3b8595"
-  },
-  {
-   "title": "Ahead of Durbar re-opening: CM says year marked by responsive, inclusive governance - Brighter Kashmir",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdlZ4ZWc4dkpNU0Y0OWJlVk0yaExEcE4xYl9TYmZkN0RsS053Unkza2lMUWdVS214REtrQTd5LTFQNERGT0ZmUDJMTjZibEN4aXRwaWQ0ZVNiZXJXRXBrSk5fa3NhN21iZ3Y2TnRHMExTTXlCWEdjb3B5NnpEdlZBclc4cURyb25hMGxoMFJ6a0ptRmpaRExpeGJsN2o5eHhNLVRaRGpGdHdTYmVBRnc?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News J&K",
-   "id": "nd7949647e5"
-  },
-  {
-   "title": "Major Administrative Reshuffle In J&K: Shailendra Kumar Given Charge Of Chief Secretary; Six IAS Officers Get New Assignments - Daily Excelsior",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTDg4TlpmMlRBTlRwaDZLSlBpUFQzVGJOa2YzSWI4NFVKV1BrSlNGVjVCS3hhVTdvZUtfMXFDMFRmWDRMWmx3UjRJbTBqZkRNYjlkUjJNV1BBTjJCYjUwTW00STNKRy1SSGVjWlRXckJmYS1hY0FKemVPbDc2bUllOEd4bmRPM0IzWXpPSFBnaGswTnhwaU9FTjM0bVBYd3djMG9saTJXQdIBqwFBVV95cUxNR0ItYXhvQ1ItUjhSaEJBaFRldVpXa2JIRXljb0Zuamgwa0llNGJjVWJ5cnc1elNoMFJHRFVsUVB1aGZhWWNhTGVZRkhReTM5aGZRVHN5TUtYV1BHUk8zNk9aRVpBZng5d1Vsb0hkcXdsbXFkMm5wc1U0OWJGVkh1QkhIcFFGc1NXYTBZdkpKYXpGYjQxbXBRRjhoak9ORV9NWW8wOVZwVURUdGc?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News J&K",
-   "id": "n9c631e5742"
-  },
-  {
-   "title": "25 NC MLAs issue 14-day ultimatum to Omar Abdullah, threaten to topple govt - India Today",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOem8zZnFEdXV6YkFVYlVpOXdKNkF5a1NPUWRFV21VU0Z2YW9DdEI0QTRheHRQRzdGdTc0ajRIVUNtcG03LVRWU3FZRTRTNk5kbExxcW5fRzh6ZFJ1VURqQnFPZlhSNHRhZHJlQXVXMEEwLWFhN0otLXdDSEdRVzV5MUF2RE5wTzJFYTFMNW9pdVBaQmRldkt2NTd0RExDbWN5WTBYSk1iRHJYZEE4bDF1MG5LLUh1MW_SAbwBQVVfeXFMTjhsY1NaSExuMk82QzdKVmxJX0dCTE9FUFdseVpHSHZnNl9wRHY0QVZmejc2VEtfTHYwN2hnUGFjckRmeGNsNlREWVFrZEUtR2pWbHQxUHpkdUgtTDlodklXV19PSHVHTkhxdFpkclZ0LVQ4TUNYZHBCSzNzT1hnVjM2RGdabm43SlZWNHEwRGVzY2hPRS1vSjNSQV9aYkFBc1JFY2VUb0hQdVdZcFFrWXdITTNrd3pQQlB3N3Q?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News J&K",
-   "id": "n63dad72cb5"
-  },
-  {
-   "title": "Govt Focused on People-Centric Governance Across Jammu Kashmir: CM Omar Abdullah - Kashmir Life",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMDFIcFhLa292VUpNWXktdldFRS1jSUM4UUkwSUNoNFF3ZFRaM0tNdF90cmVMd240NUpxSjBnc3JxV1UtUWQ2UEF1UWczeG9nLWt0SkxScF9mQjFfYWJELUlMTlF4bFRRelI5OHFycGJOek93ckVYaVdaSkNad1IxVmNkUHhUMEdOYzRLOTFrRzJVelhzSHNCcDRxaV9hWkplQ3h2WnUyTGI1UHdudzVVYg?oc=5",
-   "date": "2026-11-01",
-   "source": "Google News J&K",
-   "id": "nc6eda61522"
+   "id": "n7ea5c70e6b"
   }
- ]
+ ],
+ "drafted_on": "2026-11-03"
 };
