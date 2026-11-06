@@ -250,6 +250,9 @@ def parse_mcqs(text, headlines, existing=()):
                         "exams": m.get("exams") or ["SSC", "Banking"], "q": q, "options": opts,
                         "answer": ans, "explain": explain, "source": h["source"],
                         "sourceUrl": h["url"], "verified": False})
+            why = m.get("why")
+            if isinstance(why, list) and len(why) == 4 and all(str(w).strip() for w in why):
+                out[-1]["why"] = [str(w).strip()[:160] for w in why]
         except Exception:
             continue
     return out
@@ -267,7 +270,7 @@ def draft_mcqs(headlines, existing=(), limit=12):
         "headline; do not add facts you are unsure of. Skip headlines that are not exam-relevant.\n"
         "Return ONLY a JSON array. Each item: {\"h\": headline index, \"subject\": one of %s, "
         "\"exams\": subset of [\"SSC\",\"Banking\",\"Railways\",\"JKSSB\",\"JKPSC\",\"Universities & Entrances\"], "
-        "\"q\": str, \"options\": [4 distinct strings], \"answer\": 0-3, \"explain\": one sentence}.\n\n%s"
+        "\"q\": str, \"options\": [4 distinct strings], \"answer\": 0-3, \"explain\": 2-3 sentences using only facts stated in the headline, \"why\": [4 short strings in option order saying why each option is right or wrong]}. When a headline allows it, make about one third of the questions harder, for example a statement-based question (\"Consider the following statements ... Which is/are correct?\") with options such as \"1 only\", \"2 only\", \"Both 1 and 2\", \"Neither\".\n\n%s"
         % (limit, json.dumps(SUBJECTS), lines))
     try:
         text = call_llm(prompt)
