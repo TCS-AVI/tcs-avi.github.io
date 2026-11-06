@@ -61,7 +61,8 @@ a{color:var(--acc)}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .btn{border:1px solid var(--acc);background:var(--acc);color:#fff;padding:9px 16px;border-radius:8px;font:inherit;cursor:pointer}
 .btn{font-weight:600}@media (prefers-color-scheme:dark){html:not([data-theme=light]) .btn:not(.wa):not(.ghost){color:#0b1220}}
-.btn.wa{background:#1f9d55;border-color:#1f9d55;color:#fff!important}.btn.wa:hover{background:#178a48}html[data-theme=dark] .btn.wa,html:not([data-theme=light]) .btn.wa{color:#fff!important}.btn:focus-visible{outline:3px solid var(--saf);outline-offset:2px}
+html[data-theme=light] .btn.ghost,html[data-theme=dark] .btn.ghost,html[data-hc] .btn.ghost,html[data-cb] .btn.ghost{color:var(--acc)}
+.btn.wa:hover{filter:brightness(.92)}.btn:focus-visible{outline:3px solid var(--saf);outline-offset:2px}
 .btn.ghost{background:transparent;color:var(--acc)}
 .star{background:none;border:none;font-size:1.2rem;cursor:pointer;color:var(--mut);margin-left:auto}
 .star+.star{margin-left:4px}
@@ -634,7 +635,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.11.10",KEY="ed_ver",later="";
+var VER="2026.11.12",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
@@ -794,5 +795,20 @@ btn=m("button","Aa");btn.id="a11y-btn";btn.type="button";btn.setAttribute("aria-
 btn.onclick=function(){if(!pn){build();sync()}if(pn.hidden){pn.hidden=false;btn.setAttribute("aria-expanded","true");document.addEventListener("keydown",key);pn.querySelector("button").focus()}else close()};
 document.body.appendChild(btn)})();
 </script>
+<style id="ui-roles">
+/* One colour per role, same logic in every theme: blue = main action, outline = secondary, teal = current tab, green = WhatsApp, orange = install */
+:root{--pb:#0b3d91;--pf:#fff;--tb:#0f6b6b;--tf:#fff;--wab:#1a7f45;--waf:#fff}
+@media (prefers-color-scheme:dark){:root{--pb:#7fb0ff;--pf:#0b1220;--tb:#5ed3c8;--tf:#06201e;--wab:#4cc36a;--waf:#062412}}
+:root[data-theme=light]{--pb:#0b3d91;--pf:#fff;--tb:#0f6b6b;--tf:#fff;--wab:#1a7f45;--waf:#fff}
+:root[data-theme=dark]{--pb:#7fb0ff;--pf:#0b1220;--tb:#5ed3c8;--tf:#06201e;--wab:#4cc36a;--waf:#062412}
+html[data-hc]{--pb:#ffe14d;--pf:#000;--tb:#7dff9b;--tf:#000;--wab:#7dff9b;--waf:#000}
+html .btn:not(.ghost):not(.wa){background:var(--pb);color:var(--pf);border-color:var(--pb)}
+html .btn.ghost{background:transparent;color:var(--acc);border-color:var(--acc)}
+html .btn.wa{background:var(--wab);color:var(--waf)!important;border-color:var(--wab)}
+html nav button[aria-selected=true]{background:var(--tb);color:var(--tf);border-color:var(--tb);font-weight:700}
+html .pal button.ans,html #ihs button.on,html #ihs button.go,html #a11y-pn button.o[aria-pressed=true]{background:var(--pb);color:var(--pf);border-color:var(--pb)}
+html #ihs button.on,html #ihs button.go{border-color:var(--pb)}
+html .btn:disabled{opacity:.5}
+</style>
 </body>
 </html>
