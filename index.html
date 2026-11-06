@@ -60,6 +60,8 @@ main{max-width:960px;margin:0 auto;padding:16px}
 a{color:var(--acc)}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .btn{border:1px solid var(--acc);background:var(--acc);color:#fff;padding:9px 16px;border-radius:8px;font:inherit;cursor:pointer}
+.btn{font-weight:600}@media (prefers-color-scheme:dark){html:not([data-theme=light]) .btn:not(.wa):not(.ghost){color:#0b1220}}
+.btn.wa{background:#1f9d55;border-color:#1f9d55;color:#fff!important}.btn.wa:hover{background:#178a48}html[data-theme=dark] .btn.wa,html:not([data-theme=light]) .btn.wa{color:#fff!important}.btn:focus-visible{outline:3px solid var(--saf);outline-offset:2px}
 .btn.ghost{background:transparent;color:var(--acc)}
 .star{background:none;border:none;font-size:1.2rem;cursor:pointer;color:var(--mut);margin-left:auto}
 .star+.star{margin-left:4px}
@@ -153,7 +155,7 @@ if(mq&&mq.addEventListener)mq.addEventListener("change",function(){apply(load())
   <div>
   <h1 class="brand">The Computer Services <span class="betatag">Beta</span></h1>
   <button id="install" class="btn" style="display:none;margin:6px 0;padding:6px 12px;font-size:.85rem">Install app</button>
-  <div class="sub">Free MCQs and mock tests for SSC, Banking, JKSSB, JKPSC and more</div>
+  <div class="sub">Free beta study aid &middot; Jakh, Samba, J&amp;K</div>
   </div>
 </header>
 <nav><div class="in" role="tablist" id="tabs"></div></nav>
@@ -576,7 +578,7 @@ try{v.appendChild(deadlineCard())}catch(e){}
   var qd=qotd();
   if(qd){v.appendChild(el("h2",{},["Question of the Day"]));v.appendChild(mcqCard(qd))}
   var tc=el("div",{class:"card"},[el("p",{class:"q"},["Typing practice"]),el("div",{class:"src"},["Learn touch typing in English and Hindi and practise for SSC, RRB, JKSSB and High Court typing tests. Free, works offline."])]);var tb=el("a",{class:"btn",href:"/touch/",style:"display:inline-block;margin-top:8px;text-decoration:none"},["Open Touch typing"]);tc.appendChild(tb);v.appendChild(tc);
-  var wc=el("div",{class:"card"},[el("p",{class:"q"},["Get updates on WhatsApp"]),el("div",{class:"src"},["Join our free WhatsApp channel for new questions and updates from The Computer Services."])]);wc.appendChild(el("a",{class:"btn",href:"https://www.whatsapp.com/channel/0029Vb6t6y6FnSzExuyvFv3r",target:"_blank",rel:"noopener noreferrer",style:"display:inline-block;margin-top:8px;text-decoration:none"},["Join the WhatsApp channel"]));v.appendChild(wc);
+  var wc=el("div",{class:"card"},[el("p",{class:"q"},["Get updates on WhatsApp"]),el("div",{class:"src"},["Join our free WhatsApp channel for new questions and updates from The Computer Services."])]);wc.appendChild(el("a",{class:"btn wa",href:"https://www.whatsapp.com/channel/0029Vb6t6y6FnSzExuyvFv3r",target:"_blank",rel:"noopener noreferrer",style:"display:inline-block;margin-top:8px;text-decoration:none"},["Join the WhatsApp channel"]));v.appendChild(wc);
   var sc=el("div",{class:"card"},[el("p",{class:"q"},["Know someone preparing?"])]);
   var sb=el("button",{class:"btn ghost"},["Share this site on WhatsApp"]);sb.onclick=function(){shareWA("Free MCQs, mock tests and daily practice for SSC, Banking, RRB, JKSSB, JKPSC - The Computer Services")};
   sc.appendChild(sb);v.appendChild(sc)}
@@ -632,7 +634,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.11.08",KEY="ed_ver",later="";
+var VER="2026.11.10",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}

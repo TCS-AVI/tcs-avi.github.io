@@ -1,9 +1,10 @@
 {
- "version": "2026.11.08",
- "date": "2026-11-08",
+ "version": "2026.11.10",
+ "date": "2026.11.10",
  "notes": [
   "My exam deadlines (Today tab): add an exam and its last date, see a live countdown, and get colour-coded guidance (green, amber, red) so you apply before websites get slow",
   "Answer analysis under every question, plus new Advanced statement-based questions",
-  "Clearer install steps with device icons"
+  "Clearer install steps with device icons",
+  "Easier-to-read buttons and a green WhatsApp button"
  ]
 }

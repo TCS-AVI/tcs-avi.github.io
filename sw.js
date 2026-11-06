@@ -1,6 +1,6 @@
 // Service worker: opens the site offline and lets it install as an app.
 // Pages and data are fetched network-first (so daily updates show up); images are cache-first.
-var V = "tcs-v10";
+var V = "tcs-v12";
 var CORE = ["./", "index.html", "data.js", "bank.js", "reviewed.js", "thoughts.js", "feedback.js", "logo.png", "icon-192.png", "manifest.webmanifest"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(V).then(function (c) {
