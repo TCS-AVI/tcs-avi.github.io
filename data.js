@@ -1,5 +1,5 @@
 window.CA_DATA = {
- "generated": "2026-11-06",
+ "generated": "2026-11-07",
  "seenUrls": [],
  "mcqs": [
   {
@@ -232,6 +232,207 @@ window.CA_DATA = {
     "Incorrect, because statement 1 is also correct.",
     "Correct, both statements accurately capture the core themes stated in the headline.",
     "Incorrect, as both statements are factually stated in the headline."
+   ]
+  },
+  {
+   "id": "a68f2f227f3",
+   "date": "2026-11-06",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC",
+    "JKSSB"
+   ],
+   "q": "Union Home and Cooperation Minister Amit Shah recently presented the 'President's Colour' to the police force of which state in Dehradun?",
+   "options": [
+    "Uttarakhand",
+    "Himachal Pradesh",
+    "Uttar Pradesh",
+    "Punjab"
+   ],
+   "answer": 0,
+   "explain": "Union Home and Cooperation Minister Amit Shah presented the President's Colour to the Uttarakhand Police in Dehradun. The presentation took place during his visit to Uttarakhand.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333756",
+   "verified": false,
+   "why": [
+    "Correct, the President's Colour was presented to Uttarakhand Police in Dehradun.",
+    "Incorrect, the award was presented to Uttarakhand Police.",
+    "Incorrect, the headline explicitly mentions Uttarakhand Police.",
+    "Incorrect, Punjab Police is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a39e2899779",
+   "date": "2026-11-06",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC",
+    "Universities & Entrances"
+   ],
+   "q": "API integration was recently initiated between 'Startup India' and which portal to strengthen access to national research infrastructure?",
+   "options": [
+    "I-STEM",
+    "SAMARTH",
+    "AGNIi",
+    "DIKSHA"
+   ],
+   "answer": 0,
+   "explain": "The Office of the Principal Scientific Adviser and DPIIT initiated API integration between the 'Startup India' and 'I-STEM' portals. This initiative aims to strengthen access to national research infrastructure.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333761",
+   "verified": false,
+   "why": [
+    "Correct, API integration was initiated between 'Startup India' and 'I-STEM' portals.",
+    "Incorrect, SAMARTH is not mentioned in the headline.",
+    "Incorrect, AGNIi is not mentioned in the headline.",
+    "Incorrect, DIKSHA is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a7596928667",
+   "date": "2026-11-06",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC",
+    "JKSSB"
+   ],
+   "q": "Where was the first BIMSTEC Maritime Security Exercise successfully concluded?",
+   "options": [
+    "Andaman and Nicobar Command",
+    "Eastern Naval Command",
+    "Western Naval Command",
+    "Southern Naval Command"
+   ],
+   "answer": 0,
+   "explain": "The first BIMSTEC Maritime Security Exercise was successfully concluded at the Andaman and Nicobar Command. This marks the successful completion of the exercise as per official reports.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333778",
+   "verified": false,
+   "why": [
+    "Correct, the exercise took place at the Andaman and Nicobar Command.",
+    "Incorrect, Eastern Naval Command is not mentioned in the headline.",
+    "Incorrect, Western Naval Command is not mentioned in the headline.",
+    "Incorrect, Southern Naval Command is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "abead124f75",
+   "date": "2026-11-06",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC",
+    "JKSSB"
+   ],
+   "q": "India launched its first tri-service joint HADR (Humanitarian Assistance and Disaster Relief) exercise named 'Rahat Mitra' with which country?",
+   "options": [
+    "Myanmar",
+    "Bangladesh",
+    "Sri Lanka",
+    "Nepal"
+   ],
+   "answer": 0,
+   "explain": "India and Myanmar launched their first tri-service joint HADR exercise named 'Rahat Mitra'. The exercise is aimed at enhancing joint humanitarian assistance and disaster relief capabilities.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333746",
+   "verified": false,
+   "why": [
+    "Correct, the HADR exercise 'Rahat Mitra' was launched between India and Myanmar.",
+    "Incorrect, Bangladesh is not mentioned in the headline.",
+    "Incorrect, Sri Lanka is not mentioned in the headline.",
+    "Incorrect, Nepal is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a086dce379f",
+   "date": "2026-11-06",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "How many foreign envoys recently presented their credentials to the President of India?",
+   "options": [
+    "Four",
+    "Three",
+    "Five",
+    "Six"
+   ],
+   "answer": 0,
+   "explain": "Envoys of four countries presented their credentials to the President of India. This was officially reported following their submission.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333705",
+   "verified": false,
+   "why": [
+    "Correct, envoys from four countries presented their credentials.",
+    "Incorrect, the headline specifies four countries, not three.",
+    "Incorrect, the headline specifies four countries, not five.",
+    "Incorrect, the headline specifies four countries, not six."
+   ]
+  },
+  {
+   "id": "a926e540c7e",
+   "date": "2026-11-06",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways"
+   ],
+   "q": "Union Railway Minister Ashwini Vaishnaw recently inspected passenger facilities and security arrangements at which railway station?",
+   "options": [
+    "New Delhi Railway Station",
+    "Chhatrapati Shivaji Maharaj Terminus",
+    "Howrah Railway Station",
+    "Chennai Central Railway Station"
+   ],
+   "answer": 0,
+   "explain": "Union Railway Minister Shri Ashwini Vaishnaw reviewed passenger facilities and security arrangements at New Delhi Railway Station. The inspection was carried out to assess security and passenger amenities.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333786",
+   "verified": false,
+   "why": [
+    "Correct, the inspection was conducted at New Delhi Railway Station.",
+    "Incorrect, CSMT is not mentioned in the headline.",
+    "Incorrect, Howrah Railway Station is not mentioned in the headline.",
+    "Incorrect, Chennai Central is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a32dba5b626",
+   "date": "2026-11-06",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking"
+   ],
+   "q": "Which department under the Ministry of Finance successfully completed 'Special Campaign 6' aimed at institutionalising cleanliness and reducing pending matters?",
+   "options": [
+    "Department of Revenue",
+    "Department of Expenditure",
+    "Department of Economic Affairs",
+    "Department of Financial Services"
+   ],
+   "answer": 0,
+   "explain": "The Department of Revenue under the Ministry of Finance successfully concluded Special Campaign 6. The campaign focused on institutionalising cleanliness and reducing pending cases.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333784",
+   "verified": false,
+   "why": [
+    "Correct, the Department of Revenue successfully concluded Special Campaign 6.",
+    "Incorrect, Department of Expenditure is not mentioned in the headline.",
+    "Incorrect, Department of Economic Affairs is not mentioned in the headline.",
+    "Incorrect, Department of Financial Services is not mentioned in the headline."
    ]
   },
   {
@@ -1796,5 +1997,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-06"
+ "drafted_on": "2026-11-07"
 };
