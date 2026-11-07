@@ -1,7 +1,232 @@
 window.CA_DATA = {
- "generated": "2026-11-07",
+ "generated": "2026-11-08",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "aeecceec5cf",
+   "date": "2026-11-07",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKSSB"
+   ],
+   "q": "Union Home and Cooperation Minister Amit Shah reviewed the law & order and internal security of which state during a high-level meeting in Ahmedabad?",
+   "options": [
+    "Gujarat",
+    "Maharashtra",
+    "Rajasthan",
+    "Punjab"
+   ],
+   "answer": 0,
+   "explain": "Union Home and Cooperation Minister Amit Shah reviewed the law & order and internal security of Gujarat at a high-level meeting held in Ahmedabad.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334011",
+   "verified": false,
+   "why": [
+    "Correct. The headline states that Amit Shah reviewed Gujarat's law-and-order and internal security in Ahmedabad.",
+    "Incorrect. Maharashtra is not mentioned in the headline.",
+    "Incorrect. Rajasthan is not mentioned in the headline.",
+    "Incorrect. Punjab is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a449bee3705",
+   "date": "2026-11-07",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "From which date will the revised prices of anti-cancer drugs come into effect?",
+   "options": [
+    "November 9",
+    "November 15",
+    "November 1",
+    "November 30"
+   ],
+   "answer": 0,
+   "explain": "According to the official announcement, the revised prices of anti-cancer drugs will come into effect from November 9.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333968",
+   "verified": false,
+   "why": [
+    "Correct. The headline explicitly mentions November 9 as the effective date for revised anti-cancer drug prices.",
+    "Incorrect. November 15 is not the date mentioned in the headline.",
+    "Incorrect. November 1 is not mentioned in the headline.",
+    "Incorrect. November 30 is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a5e9c81ecbc",
+   "date": "2026-11-07",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Which Ministry successfully completed Special Campaign (SCDPM) 6 for the disposal of pending matters?",
+   "options": [
+    "Ministry of Steel",
+    "Ministry of Coal",
+    "Ministry of Power",
+    "Ministry of Mines"
+   ],
+   "answer": 0,
+   "explain": "The Ministry of Steel successfully concluded the Special Campaign (SCDPM) 6 aimed at disposing of pending matters.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333962",
+   "verified": false,
+   "why": [
+    "Correct. The headline specifies that the Ministry of Steel completed Special Campaign (SCDPM) 6.",
+    "Incorrect. Ministry of Coal is not mentioned in the headline.",
+    "Incorrect. Ministry of Power is not mentioned in the headline.",
+    "Incorrect. Ministry of Mines is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a2d5d1127f8",
+   "date": "2026-11-07",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "How many samples of E20 petrol taken from 27 States and Union Territories were found compliant with quality standards?",
+   "options": [
+    "893 samples",
+    "654 samples",
+    "912 samples",
+    "450 samples"
+   ],
+   "answer": 0,
+   "explain": "PSU oil marketing companies reported that 893 samples of E20 petrol collected across 27 States and UTs met the prescribed quality standards.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333951",
+   "verified": false,
+   "why": [
+    "Correct. The headline confirms that 893 samples were found compliant.",
+    "Incorrect. 654 is not mentioned in the headline.",
+    "Incorrect. 912 is not mentioned in the headline.",
+    "Incorrect. 450 is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a7912da5acf",
+   "date": "2026-11-07",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Universities & Entrances"
+   ],
+   "q": "Which entity invited startups to participate in the Waves Bazaar at IFFI Goa 2026?",
+   "options": [
+    "WaveX",
+    "TechIndia",
+    "InnoBharat",
+    "StartupGrid"
+   ],
+   "answer": 0,
+   "explain": "WaveX has invited startup companies to participate in the Waves Bazaar held during IFFI Goa 2026.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333954",
+   "verified": false,
+   "why": [
+    "Correct. The headline explicitly names WaveX as the entity inviting startups.",
+    "Incorrect. TechIndia is not mentioned in the headline.",
+    "Incorrect. InnoBharat is not mentioned in the headline.",
+    "Incorrect. StartupGrid is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "abef7e8e80d",
+   "date": "2026-11-07",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "JKPSC",
+    "Banking"
+   ],
+   "q": "Which department launched a 'Dialogue Series' with its first session focusing on values in leadership and personal effectiveness?",
+   "options": [
+    "Legislative Department",
+    "Department of Revenue",
+    "Department of Consumer Affairs",
+    "Department of Commerce"
+   ],
+   "answer": 0,
+   "explain": "The Legislative Department initiated a Dialogue Series, focusing its first session on leadership values and improving personal effectiveness.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333921",
+   "verified": false,
+   "why": [
+    "Correct. The headline specifies that the Legislative Department launched the dialogue series.",
+    "Incorrect. Department of Revenue is not mentioned in the headline.",
+    "Incorrect. Department of Consumer Affairs is not mentioned in the headline.",
+    "Incorrect. Department of Commerce is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a24f1339d7d",
+   "date": "2026-11-07",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements:\n1. India and the European Union (EU) have concluded negotiations to associate with the Horizon Europe programme.\n2. The negotiations were concluded between India and the African Union.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 0,
+   "explain": "India and the European Union (EU) concluded negotiations to join the Horizon Europe programme. Statement 2 is incorrect as the partnership is with the EU, not the African Union.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333911",
+   "verified": false,
+   "why": [
+    "Correct. Statement 1 is factually accurate as per the headline.",
+    "Incorrect. Statement 2 is false; the agreement is with the European Union.",
+    "Incorrect. Statement 2 is false.",
+    "Incorrect. Statement 1 is correct."
+   ]
+  },
+  {
+   "id": "a71e47605fb",
+   "date": "2026-11-07",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding air pollution response measures in Delhi-NCR:\n1. CAQM implemented Stage-III of GRAP in Delhi-NCR with immediate effect.\n2. Stage-III of GRAP was invoked after Delhi recorded an AQI of 382.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Following an AQI recording of 382 in Delhi, CAQM implemented Stage-III of GRAP across Delhi-NCR with immediate effect. Both statements accurately represent facts from the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333918",
+   "verified": false,
+   "why": [
+    "Incorrect. Statement 2 is also correct based on the headline.",
+    "Incorrect. Statement 1 is also correct based on the headline.",
+    "Correct. Both statements 1 and 2 accurately reflect the headline's contents.",
+    "Incorrect. Both statements are correct."
+   ]
+  },
   {
    "id": "abfad5269b6",
    "date": "2026-11-06",
@@ -1997,5 +2222,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-07"
+ "drafted_on": "2026-11-08"
 };
