@@ -1,0 +1,144 @@
+name: Deploy to Firebase
+
+# Publishes the Main Site + Touch to https://tcs-toolkit.web.app automatically:
+#  - right after the "Daily update" bot finishes (so new questions go live)
+#  - whenever you upload changes to this repo
+#  - every 6 hours (picks up changes made in the Touch repo)
+#  - or by hand: Actions > Deploy to Firebase > Run workflow
+on:
+  workflow_run:
+    workflows: ["Daily update"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths-ignore: ["data.js", "practice/**", "share/**", "sitemap.xml", "robots.txt"]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: firebase-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the Main Site
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: Get the Touch app
+        uses: actions/checkout@v4
+        with:
+          repository: TCS-AVI/touch
+          path: touch-src
+
+      - name: Build the site folder
+        env:
+          MAIN_DIR: main
+          TOUCH_DIR: touch-src
+          HUB_DIR: hub
+        run: |
+          set -euo pipefail
+          # Inputs (set by the workflow): MAIN_DIR = main-site repo, TOUCH_DIR = touch repo, HUB_DIR = output folder
+          HOST="tcs-toolkit.web.app"
+          rm -rf "$HUB_DIR" && mkdir -p "$HUB_DIR/public/touch"
+
+          # 1. Main site -> public/   (leave out files that only matter on GitHub)
+          tar -C "$MAIN_DIR" \
+            --exclude='./.git' --exclude='./.github' --exclude='./.gitignore' --exclude='./.nojekyll' \
+            --exclude='./build_pages.py' --exclude='./update.py' --exclude='./update.yml.txt' \
+            --exclude='./README.md' --exclude='./SETUP.txt' --exclude='./UPLOAD-NOTES.txt' \
+            -cf - . | tar -C "$HUB_DIR/public" -xf -
+
+          # 2. Touch app -> public/touch/
+          tar -C "$TOUCH_DIR" \
+            --exclude='./.git' --exclude='./.github' --exclude='./.nojekyll' \
+            --exclude='./README.md' --exclude='./UPLOAD-NOTES.txt' --exclude='./404.html' --exclude='./sitemap.xml' \
+            -cf - . | tar -C "$HUB_DIR/public/touch" -xf -
+
+          # 3. Safety check: never publish an incomplete site
+          for f in index.html data.js bank.js sw.js touch/index.html touch/sw.js; do
+            test -s "$HUB_DIR/public/$f" || { echo "MISSING $f - stopping so the live site is not broken"; exit 1; }
+          done
+
+          # 4. Small patches so the apps work on the Firebase address (safe to run again; skips what is already done)
+          HUB_DIR="$HUB_DIR" HOST="$HOST" python3 - <<'PY'
+          import os, re, glob
+          hub = os.environ["HUB_DIR"] + "/public"; host = os.environ["HOST"]
+          def rd(p): return open(p, encoding="utf-8").read()
+          def wr(p, s): open(p, "w", encoding="utf-8").write(s)
+          def warn(m): print("::warning::" + m)
+
+          # 4a. The apps' "unauthorised copy" check must accept the Firebase address
+          for p in (hub + "/index.html", hub + "/touch/index.html"):
+              s = rd(p)
+              if host in s: continue
+              old = 'ok=["tcs-avi.github.io",'
+              if old in s:
+                  wr(p, s.replace(old, 'ok=["tcs-avi.github.io","%s","tcs-toolkit.firebaseapp.com",' % host, 1))
+              else:
+                  warn("copy-check not found in " + p + " - red banner may show")
+
+          # 4b. Touch: its own saved-data names, so it never clashes with the Main Site
+          for fn, pairs in {"thoughts.js": [('"th_seen"', '"touch_th_seen"')],
+                            "feedback.js": [('K="fb_state"', 'K="touch_fb_state"'), ('"fb_sess"', '"touch_fb_sess"')]}.items():
+              p = hub + "/touch/" + fn; s = rd(p)
+              for a, b in pairs:
+                  if a in s: s = s.replace(a, b)
+                  elif b not in s: warn("%s: %s not found" % (fn, a))
+              wr(p, s)
+
+          # 4c. Main site's offline worker must only handle the Main Site's own pages
+          p = hub + "/sw.js"; s = rd(p)
+          if "var mine" not in s:
+              anchor = '  if (req.method !== "GET" || url.origin !== location.origin) return;\n'
+              if anchor in s:
+                  s = s.replace(anchor, anchor +
+                    '  var p = url.pathname;\n'
+                    '  var mine = p === "/" || p.indexOf("/", 1) === -1 || /^\\/(practice|exams|share)\\//.test(p);\n'
+                    '  if (!mine) return;\n', 1)
+                  wr(p, s)
+              else:
+                  warn("main sw.js layout changed - worker scope patch skipped")
+
+          # 4d. Make the Firebase address the main one in links, previews and the sitemap
+          n = 0
+          for p in glob.glob(hub + "/**/*", recursive=True):
+              if os.path.isfile(p) and (p.endswith((".html", ".xml")) or p.endswith("/robots.txt")):
+                  s = rd(p); t = s.replace("tcs-avi.github.io/", host + "/")
+                  if t != s: wr(p, t); n += 1
+          print("address updated in %d files" % n)
+          PY
+
+          # 5. Firebase settings
+          cat > "$HUB_DIR/.firebaserc" <<'EOF'
+          { "projects": { "default": "tcs-toolkit" } }
+          EOF
+          cat > "$HUB_DIR/firebase.json" <<'EOF'
+          {
+            "hosting": {
+              "public": "public",
+              "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+              "headers": [
+                { "source": "**/*.@(html|js|json|webmanifest|xml|txt)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+                { "source": "**/*.@(png|webp|jpg|jpeg|svg|ico)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+              ]
+            }
+          }
+          EOF
+          echo "Hub assembled: $(find "$HUB_DIR/public" -type f | wc -l) files"
+
+      - name: Publish to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TCS_TOOLKIT }}
+          projectId: tcs-toolkit
+          channelId: live
+          entryPoint: hub
