@@ -1,7 +1,260 @@
 window.CA_DATA = {
- "generated": "2026-11-08",
+ "generated": "2026-11-09",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "af835de0b5e",
+   "date": "2026-11-08",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Where is the CoBRA Operations Base located, where Prime Minister Narendra Modi celebrated Diwali with security forces?",
+   "options": [
+    "Karanpur, Bastar, Chhattisgarh",
+    "Sukma, Chhattisgarh",
+    "Dantewada, Chhattisgarh",
+    "Tawang, Arunachal Pradesh"
+   ],
+   "answer": 0,
+   "explain": "Prime Minister Narendra Modi celebrated Diwali with security forces at the CoBRA Operations Base located in Karanpur, Bastar, Chhattisgarh. He also shared sweets with the jawans during his visit.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334181",
+   "verified": false,
+   "why": [
+    "Correct, as explicitly stated in the headline.",
+    "Incorrect, Sukma is not mentioned in the headline.",
+    "Incorrect, Dantewada is not mentioned in the headline.",
+    "Incorrect, Tawang is located in Arunachal Pradesh."
+   ]
+  },
+  {
+   "id": "aa4fdb8d058",
+   "date": "2026-11-08",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "In which State/UT did the Defence Minister celebrate Deepawali with soldiers deployed at forward posts?",
+   "options": [
+    "Ladakh",
+    "Sikkim",
+    "Arunachal Pradesh",
+    "Jammu & Kashmir"
+   ],
+   "answer": 1,
+   "explain": "The Defence Minister celebrated Deepawali with soldiers deployed at forward locations in Sikkim. This fact is directly captured in the news headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334152",
+   "verified": false,
+   "why": [
+    "Incorrect, Ladakh is not mentioned.",
+    "Correct, Sikkim is explicitly mentioned in the headline.",
+    "Incorrect, Arunachal Pradesh is not where the Defence Minister celebrated Diwali according to the headline.",
+    "Incorrect, Jammu & Kashmir is not mentioned."
+   ]
+  },
+  {
+   "id": "a44636d4b0b",
+   "date": "2026-11-08",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the recent Green Diwali appeal:\n1. WWF-India EIACP appealed to Delhi-NCR residents to take a pledge for a Green Diwali.\n2. The initiative aims to promote an eco-friendly Diwali for clean air.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "WWF-India EIACP appealed to the residents of Delhi-NCR to take a pledge for a Green Diwali. The initiative encourages celebrating an eco-friendly Diwali to ensure clean air.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334202",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct.",
+    "Incorrect, statement 1 is also correct.",
+    "Correct, both statements 1 and 2 are fully supported by the headline.",
+    "Incorrect, both statements are correct."
+   ]
+  },
+  {
+   "id": "a5037ba7b43",
+   "date": "2026-11-08",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "At which place in Arunachal Pradesh did 31,000 devotees offer prayers and view the sacred relics of Sakyamuni Buddha?",
+   "options": [
+    "Itanagar",
+    "Tawang",
+    "Dirang",
+    "Bomdila"
+   ],
+   "answer": 1,
+   "explain": "A total of 31,000 devotees offered prayers and viewed the sacred relics of Sakyamuni Buddha at Tawang in Arunachal Pradesh. This took place as highlighted in the official headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334131",
+   "verified": false,
+   "why": [
+    "Incorrect, Itanagar is not mentioned in the headline.",
+    "Correct, Tawang is explicitly mentioned as the location in Arunachal Pradesh.",
+    "Incorrect, Dirang is not mentioned in the headline.",
+    "Incorrect, Bomdila is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "abc20af8fc0",
+   "date": "2026-11-08",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Prime Minister Narendra Modi praised which Chief Minister's initiative of celebrating Diwali with farmers?",
+   "options": [
+    "Chief Minister of Chhattisgarh",
+    "Chief Minister of Madhya Pradesh",
+    "Maharashtra Chief Minister Shri Devendra Fadnavis",
+    "Chief Minister of Uttar Pradesh"
+   ],
+   "answer": 2,
+   "explain": "Prime Minister Narendra Modi appreciated the sensitive step of Maharashtra Chief Minister Shri Devendra Fadnavis celebrating Diwali with farmers. No other Chief Minister is referenced in this headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334120",
+   "verified": false,
+   "why": [
+    "Incorrect, Chhattisgarh Chief Minister is not mentioned.",
+    "Incorrect, Madhya Pradesh Chief Minister is not mentioned.",
+    "Correct, Maharashtra Chief Minister Shri Devendra Fadnavis is explicitly named in the headline.",
+    "Incorrect, Uttar Pradesh Chief Minister is not mentioned."
+   ]
+  },
+  {
+   "id": "aa2c0a592a5",
+   "date": "2026-11-08",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Where was the district-level capacity building and awareness program on Labour Codes, titled 'Shram Samvad', organized?",
+   "options": [
+    "Bhopal, Madhya Pradesh",
+    "Dewas, Madhya Pradesh",
+    "Indore, Madhya Pradesh",
+    "Raipur, Chhattisgarh"
+   ],
+   "answer": 1,
+   "explain": "The 'Shram Samvad' district-level capacity building and awareness program on Labour Codes was held at Dewas in Madhya Pradesh. It aimed to create awareness about the labor codes at the district level.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334092",
+   "verified": false,
+   "why": [
+    "Incorrect, Bhopal is not mentioned in the headline.",
+    "Correct, Dewas in Madhya Pradesh is explicitly mentioned.",
+    "Incorrect, Indore is not mentioned in the headline.",
+    "Incorrect, Raipur is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a61c195b475",
+   "date": "2026-11-08",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "JKPSC",
+    "Banking"
+   ],
+   "q": "Consider the following statements regarding the greetings extended by PM Narendra Modi:\n1. Prime Minister Narendra Modi congratulated Bharat Ratna Shri Lal Krishna Advani.\n2. Shri Lal Krishna Advani has entered the 100th year of his life.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Prime Minister Narendra Modi congratulated Bharat Ratna Shri Lal Krishna Advani on entering the 100th year of his life. Both statements are directly derived from the official news headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334087",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct as per the headline.",
+    "Incorrect, statement 1 is also correct as per the headline.",
+    "Correct, both statements 1 and 2 are fully stated in the headline.",
+    "Incorrect, neither is wrong."
+   ]
+  },
+  {
+   "id": "a8be98e8998",
+   "date": "2026-11-08",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Who inaugurated the Deepotsav 2026 celebrations in Ayodhya?",
+   "options": [
+    "Prime Minister Narendra Modi",
+    "Vice President Shri C. P. Radhakrishnan",
+    "Governor of Uttar Pradesh",
+    "Chief Minister of Uttar Pradesh"
+   ],
+   "answer": 1,
+   "explain": "Vice President Shri C. P. Radhakrishnan inaugurated the Deepotsav 2026 celebrations in Ayodhya. The event details are explicitly mentioned in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334125",
+   "verified": false,
+   "why": [
+    "Incorrect, Prime Minister Narendra Modi is not mentioned for this inauguration.",
+    "Correct, Vice President Shri C. P. Radhakrishnan is explicitly named in the headline.",
+    "Incorrect, the Governor of Uttar Pradesh is not mentioned.",
+    "Incorrect, the Chief Minister of Uttar Pradesh is not mentioned."
+   ]
+  },
+  {
+   "id": "a9b8f0baaa6",
+   "date": "2026-11-08",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "JKPSC",
+    "Railways"
+   ],
+   "q": "Consider the following statements based on the recent news:\n1. Prime Minister met former President Shri Ram Nath Kovind and his family.\n2. The Prime Minister wished them on the occasion of Diwali.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The headline clearly states that the Prime Minister met former President Shri Ram Nath Kovind and his family to wish them on Diwali. Therefore, both statements 1 and 2 are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334217",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct.",
+    "Incorrect, statement 1 is also correct.",
+    "Correct, both statements are directly drawn from the headline facts.",
+    "Incorrect, both statements are correct."
+   ]
+  },
   {
    "id": "aeecceec5cf",
    "date": "2026-11-07",
@@ -2222,5 +2475,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-08"
+ "drafted_on": "2026-11-09"
 };
