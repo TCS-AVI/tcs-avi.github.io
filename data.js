@@ -1,7 +1,265 @@
 window.CA_DATA = {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "a70ccfbb29a",
+   "date": "2026-11-09",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "As per recent news, Union Minister Shri Kiren Rijiju visited Saudi Arabia. Which portfolios does he hold in the Union Cabinet?",
+   "options": [
+    "Minority Affairs and Parliamentary Affairs",
+    "External Affairs and Culture",
+    "Power and Renewable Energy",
+    "Home Affairs and Cooperation"
+   ],
+   "answer": 0,
+   "explain": "Shri Kiren Rijiju is the Union Minister of Minority Affairs and Parliamentary Affairs. He recently undertook an official visit to Saudi Arabia.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334477",
+   "verified": false,
+   "why": [
+    "Correct. He is the Union Minister of Minority Affairs and Parliamentary Affairs.",
+    "Incorrect. External Affairs is held by S. Jaishankar.",
+    "Incorrect. Power and Renewable Energy is not his portfolio.",
+    "Incorrect. Home Affairs and Cooperation is held by Amit Shah."
+   ]
+  },
+  {
+   "id": "a225c544345",
+   "date": "2026-11-09",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements based on recent diplomatic interactions:\n1. The Prime Minister of India held a discussion with President Volodymyr Zelenskyy.\n2. Volodymyr Zelenskyy is the President of Ukraine.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Both statements are correct based on the news headline. The Prime Minister spoke with President Volodymyr Zelenskyy, who is the President of Ukraine.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334459",
+   "verified": false,
+   "why": [
+    "Incorrect. Statement 2 is also correct.",
+    "Incorrect. Statement 1 is also correct.",
+    "Correct. Both statements accurately reflect the news event.",
+    "Incorrect. Both 1 and 2 are true."
+   ]
+  },
+  {
+   "id": "a0d1e2f5b11",
+   "date": "2026-11-09",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "In which city did Union Home and Cooperation Minister Shri Amit Shah inaugurate and lay the foundation stone of development projects worth around ₹1,400 crore?",
+   "options": [
+    "Ahmedabad",
+    "Surat",
+    "Gandhinagar",
+    "Vadodara"
+   ],
+   "answer": 0,
+   "explain": "Union Home and Cooperation Minister Shri Amit Shah inaugurated and laid foundation stones for development projects worth around ₹1,400 crore in Ahmedabad.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334428",
+   "verified": false,
+   "why": [
+    "Correct. The projects worth ₹1,400 crore were inaugurated/laid in Ahmedabad.",
+    "Incorrect. Surat was not mentioned in the headline.",
+    "Incorrect. Gandhinagar was not mentioned in the headline.",
+    "Incorrect. Vadodara was not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a91280a8cf5",
+   "date": "2026-11-09",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Which nationwide initiative was organized by MY Bharat-NSS to promote drug-free festival celebrations?",
+   "options": [
+    "Diwali Sneh Milan",
+    "Nasha Mukt Bharat Abhiyaan",
+    "Swachh Diwali Drive",
+    "Youth Festival 2024"
+   ],
+   "answer": 0,
+   "explain": "MY Bharat-NSS organized a nationwide 'Diwali Sneh Milan' to promote drug-free festival celebrations across the country.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334441",
+   "verified": false,
+   "why": [
+    "Correct. 'Diwali Sneh Milan' was organized by MY Bharat-NSS for drug-free celebrations.",
+    "Incorrect. This is a separate initiative not named in the headline.",
+    "Incorrect. Swachh Diwali Drive is not mentioned in the headline.",
+    "Incorrect. Youth Festival 2024 is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a7250dba420",
+   "date": "2026-11-09",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "Banking"
+   ],
+   "q": "Consider the following statements regarding Special Campaign 4.0 conducted by Indian Railways:\n1. Indian Railways successfully completed Special Campaign 4.0.\n2. Over 1 lakh cleanliness drives were conducted under this campaign.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Both statements are correct. Indian Railways successfully completed Special Campaign 4.0, during which more than 1 lakh cleanliness drives were executed.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334431",
+   "verified": false,
+   "why": [
+    "Incorrect. Statement 2 is also correct.",
+    "Incorrect. Statement 1 is also correct.",
+    "Correct. Both statements 1 and 2 are true as stated in the headline.",
+    "Incorrect. Neither option is false."
+   ]
+  },
+  {
+   "id": "a30f2da9d0f",
+   "date": "2026-11-09",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Where is the first Yamuna River Cruise service set to be launched?",
+   "options": [
+    "Delhi",
+    "Agra",
+    "Mathura",
+    "Prayagraj"
+   ],
+   "answer": 0,
+   "explain": "The first Yamuna River Cruise service will be launched in Delhi as per the news announcement.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334409",
+   "verified": false,
+   "why": [
+    "Correct. Delhi will host the first Yamuna River Cruise service.",
+    "Incorrect. Agra is not mentioned in the headline.",
+    "Incorrect. Mathura is not mentioned in the headline.",
+    "Incorrect. Prayagraj is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "ac36a15e7f0",
+   "date": "2026-11-09",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "At which naval training establishment will the Indian Navy conduct the passing out parade for its largest batch of Agniveers?",
+   "options": [
+    "INS Chilka",
+    "INS Shivaji",
+    "INS Garuda",
+    "INS Venduruthy"
+   ],
+   "answer": 0,
+   "explain": "The Indian Navy will organize the passing out parade of its largest batch of Agniveers at INS Chilka.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334419",
+   "verified": false,
+   "why": [
+    "Correct. The passing out parade will take place at INS Chilka.",
+    "Incorrect. INS Shivaji is not the venue mentioned.",
+    "Incorrect. INS Garuda is not the venue mentioned.",
+    "Incorrect. INS Venduruthy is not mentioned."
+   ]
+  },
+  {
+   "id": "abda59ec9d6",
+   "date": "2026-11-09",
+   "subject": "Economy & Banking",
+   "exams": [
+    "Banking",
+    "SSC",
+    "JKPSC"
+   ],
+   "q": "Which regulatory body recently issued the Telecommunication Interconnection (Port Charges) (Third Amendment) Regulations, 2024?",
+   "options": [
+    "Telecom Regulatory Authority of India (TRAI)",
+    "Reserve Bank of India (RBI)",
+    "Securities and Exchange Board of India (SEBI)",
+    "Central Electricity Regulatory Commission (CERC)"
+   ],
+   "answer": 0,
+   "explain": "The Telecom Regulatory Authority of India (TRAI) issued the Telecommunication Interconnection (Port Charges) (Third Amendment) Regulations, 2024.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334405",
+   "verified": false,
+   "why": [
+    "Correct. TRAI issued these regulations.",
+    "Incorrect. RBI regulates banking, not telecom port charges.",
+    "Incorrect. SEBI regulates securities markets.",
+    "Incorrect. CERC regulates electricity."
+   ]
+  },
+  {
+   "id": "a1ef70f876a",
+   "date": "2026-11-09",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Which Indian Naval Ship recently reached Muscat in Oman as part of its deployment?",
+   "options": [
+    "INS Surat",
+    "INS Vikrant",
+    "INS Kolkata",
+    "INS Chennai"
+   ],
+   "answer": 0,
+   "explain": "INS Surat reached Muscat, Oman according to official naval updates.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334358",
+   "verified": false,
+   "why": [
+    "Correct. INS Surat reached Muscat in Oman.",
+    "Incorrect. INS Vikrant is not mentioned in the headline.",
+    "Incorrect. INS Kolkata is not mentioned in the headline.",
+    "Incorrect. INS Chennai is not mentioned in the headline."
+   ]
+  },
   {
    "id": "af835de0b5e",
    "date": "2026-11-08",
@@ -2475,5 +2733,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-09"
+ "drafted_on": "2026-11-10"
 };
