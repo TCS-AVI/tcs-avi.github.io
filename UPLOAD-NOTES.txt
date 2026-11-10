@@ -1,0 +1,13 @@
+FULL MAIN SITE - tcs-avi.github.io  (version 2026.11.15: new look + 1,077 Pharmacy MCQs)
+
+Upload ALL files AND the "fonts" folder in this folder to github.com/TCS-AVI/tcs-avi.github.io
+(Add file > Upload files > select everything inside tcs-main-site, including the fonts folder > drag in >
+Commit directly to main).
+
+NOT included on purpose:
+  data.js   - the live copy on GitHub is refreshed daily. Do not replace it.
+  practice/, share/ - rebuilt automatically by the daily update.
+
+fonts/ holds the free Atkinson Hyperlegible font (SIL Open Font License), served from your own site,
+so no outside service is contacted.
+After about 2 minutes, hard refresh (Ctrl+Shift+R).

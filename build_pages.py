@@ -69,7 +69,7 @@ def page(path_rel, title, desc, body, noindex=False):
 <meta property="og:image" content="{SITE}/icon-512.png"><meta property="og:url" content="{canon}"><meta name="twitter:card" content="summary">
 <style>{CSS}</style></head><body>
 <header><img src="/logo.png" alt="The Computer Services logo" width="48" height="48"><div><a href="/">The Computer Services</a><br><span class="mut">Free exam preparation: MCQs, mock tests, exam updates</span></div></header>
-<main><nav><a href="/">App</a><a href="/practice/">Practice by subject</a><a href="https://tcs-toolkit.web.app/touch/">Typing practice</a></nav>
+<main><nav><a href="/">App</a><a href="/practice/">Practice by subject</a><a href="/touch/">Typing practice</a></nav>
 {body}</main>
 <footer>These pages are practice material written from standard reference knowledge. Questions marked "not yet reviewed" have not been checked by a person and can contain errors; verify against official sources. Official answer keys are published only on each board's website, and exam dates change, so always confirm on the official notification. Found a mistake? Email <a href="mailto:{CONTACT}">{CONTACT}</a>. &copy; The Computer Services.</footer>
 </body></html>"""
@@ -89,7 +89,7 @@ def main():
                                                       ("verified" if m.get("verified") else "unreviewed"))
         mcqs.append(m)
 
-    urls = [("/", None)]
+    urls = [("/", None), ("/touch/", None)]
     # ---------- subject pages ----------
     cnt = {}
     for m in mcqs:
