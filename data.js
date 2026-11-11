@@ -1,7 +1,263 @@
 window.CA_DATA = {
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "adfb75b5bd0",
+   "date": "2026-11-11",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Who presented the Swachh Survekshan Awards according to the recent announcement?",
+   "options": [
+    "President of India",
+    "Prime Minister of India",
+    "Union Home Minister",
+    "Speaker of Lok Sabha"
+   ],
+   "answer": 0,
+   "explain": "The President of India presented the Swachh Survekshan Awards. The headline directly states that the President of India conferred these awards.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335230",
+   "verified": false,
+   "why": [
+    "Correct, as stated in the headline.",
+    "Incorrect, the headline specifies the President of India.",
+    "Incorrect, the headline specifies the President of India.",
+    "Incorrect, the headline specifies the President of India."
+   ]
+  },
+  {
+   "id": "a494e532533",
+   "date": "2026-11-11",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Sarbananda Sonowal laid the foundation stone for projects worth ₹560 crore at which port?",
+   "options": [
+    "Visakhapatnam Port",
+    "Safaga Port",
+    "Kochi Port",
+    "Mumbai Port"
+   ],
+   "answer": 0,
+   "explain": "Sarbananda Sonowal laid the foundation stone for projects worth Rs 560 crore at Visakhapatnam Port. No other port details are mentioned in this context.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335251",
+   "verified": false,
+   "why": [
+    "Correct, Sarbananda Sonowal laid foundation stone for ₹560 crore projects at Visakhapatnam Port.",
+    "Incorrect, Safaga Port was visited by INS Trishul.",
+    "Incorrect, Visakhapatnam Port is specified in the headline.",
+    "Incorrect, Visakhapatnam Port is specified in the headline."
+   ]
+  },
+  {
+   "id": "ac93648f4ff",
+   "date": "2026-11-11",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the bilateral maritime exercise 'Naseem Al Bahr' (Sea Breeze):\n1. It was organized by the Indian Navy and the Royal Navy of Oman.\n2. The recent edition was the 15th bilateral maritime exercise.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The Indian Navy and Royal Navy of Oman organized the 15th bilateral maritime exercise 'Naseem Al Bahr' (Sea Breeze). Therefore, both statements 1 and 2 are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335237",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct.",
+    "Incorrect, statement 1 is also correct.",
+    "Correct, both statements accurately reflect the headline facts.",
+    "Incorrect, both statements are correct."
+   ]
+  },
+  {
+   "id": "a7729ed2b09",
+   "date": "2026-11-11",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Indian Navy Ship (INS) Trishul successfully completed its port stay at Safaga Port, located in which country?",
+   "options": [
+    "Egypt",
+    "Oman",
+    "Myanmar",
+    "UAE"
+   ],
+   "answer": 0,
+   "explain": "Indian Navy Ship Trishul successfully completed its stay at Safaga Port in Egypt. This factual detail is directly provided in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335225",
+   "verified": false,
+   "why": [
+    "Correct, Safaga Port is located in Egypt.",
+    "Incorrect, the exercise with Oman is 'Naseem Al Bahr'.",
+    "Incorrect, Myanmar is associated with the IMNEX-26 exercise.",
+    "Incorrect, Egypt is the country mentioned for Safaga Port."
+   ]
+  },
+  {
+   "id": "a1f9719dc89",
+   "date": "2026-11-11",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the naval exercise IMNEX-26:\n1. It is the 8th edition of the India-Myanmar Naval Exercise.\n2. It commenced in Visakhapatnam.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The 8th India-Myanmar Naval Exercise (IMNEX-26) commenced in Visakhapatnam. Thus, both statements 1 and 2 are fully accurate according to the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335233",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct.",
+    "Incorrect, statement 1 is also correct.",
+    "Correct, both statement 1 and statement 2 are correct.",
+    "Incorrect, both statements are correct."
+   ]
+  },
+  {
+   "id": "a4daa63ea72",
+   "date": "2026-11-11",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Consider the following statements regarding the National Tribal Literature Festival:\n1. It will be organized by the Ministry of Tribal Affairs.\n2. It is scheduled to be held in New Delhi on 12–13 November 2026.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The National Tribal Literature Festival will be organized by the Ministry of Tribal Affairs in New Delhi on 12–13 November 2026. Therefore, both statements 1 and 2 are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335228",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct.",
+    "Incorrect, statement 1 is also correct.",
+    "Correct, both statements are verified by the headline.",
+    "Incorrect, both statements are correct."
+   ]
+  },
+  {
+   "id": "aef72da2b6f",
+   "date": "2026-11-11",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Who addressed ITU PP-26, stating that cyber threats have no borders and cooperation must not be bound by borders?",
+   "options": [
+    "Union Minister of State for Communications Dr. Chandra Sekhar Pemmasani",
+    "Union Home Minister Amit Shah",
+    "Union Minister Sarbananda Sonowal",
+    "Chief of the Army Staff"
+   ],
+   "answer": 0,
+   "explain": "Union Minister of State for Communications Dr. Chandra Sekhar Pemmasani addressed ITU PP-26 on cyber threats having no borders. This statement is explicitly mentioned in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335204",
+   "verified": false,
+   "why": [
+    "Correct, Dr. Chandra Sekhar Pemmasani delivered the address at ITU PP-26.",
+    "Incorrect, Dr. Pemmasani delivered this address.",
+    "Incorrect, Dr. Pemmasani delivered this address.",
+    "Incorrect, Dr. Pemmasani delivered this address."
+   ]
+  },
+  {
+   "id": "a8221635ae4",
+   "date": "2026-11-11",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "The Chief of the Army Staff delivered the Cavalry Memorial Lecture at which event?",
+   "options": [
+    "Mechanised Forces Seminar 2026",
+    "ITU PP-26",
+    "National Tribal Literature Festival",
+    "Swachh Survekshan Awards Ceremony"
+   ],
+   "answer": 0,
+   "explain": "The Chief of the Army Staff delivered the Cavalry Memorial Lecture at the Mechanised Forces Seminar 2026. This fact is stated directly in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335195",
+   "verified": false,
+   "why": [
+    "Correct, as stated in the headline.",
+    "Incorrect, ITU PP-26 was addressed by Dr. Chandra Sekhar Pemmasani.",
+    "Incorrect, National Tribal Literature Festival is organized by Ministry of Tribal Affairs.",
+    "Incorrect, Swachh Survekshan Awards were presented by the President of India."
+   ]
+  },
+  {
+   "id": "a8e16649f38",
+   "date": "2026-11-11",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "The Government of India has strengthened 4G connectivity in rural areas through which initiative?",
+   "options": [
+    "4G Saturation Project",
+    "Special Campaign 6.0",
+    "Naseem Al Bahr",
+    "IMNEX-26"
+   ],
+   "answer": 0,
+   "explain": "The Government strengthened 4G connectivity in rural areas through the '4G Saturation Project'. The project name is stated clearly in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335171",
+   "verified": false,
+   "why": [
+    "Correct, 4G Saturation Project is the initiative mentioned for strengthening rural 4G connectivity.",
+    "Incorrect, Special Campaign 6.0 relates to Ministry of Women and Child Development.",
+    "Incorrect, Naseem Al Bahr is a bilateral maritime exercise.",
+    "Incorrect, IMNEX-26 is a naval exercise."
+   ]
+  },
   {
    "id": "a5bea51b659",
    "date": "2026-11-10",
@@ -2967,5 +3223,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-11"
+ "drafted_on": "2026-11-12"
 };
