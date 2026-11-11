@@ -239,7 +239,7 @@ document.getElementById("gen").textContent=D.generated?"Last updated "+D.generat
 var tabsEl=document.getElementById("tabs");
 var TI={today:"M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z",practice:"M9 6h11M9 12h11M9 18h11M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2",quiz:"M13 2L4 14h7l-1 8 9-12h-7z",mock:"M12 7v5l3 2M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z",progress:"M5 20V10M12 20V4M19 20v-7",interesting:"M12 3a6 6 0 0 0-3 11v3h6v-3a6 6 0 0 0-3-11zM9.5 21h5",saved:"M6 3h12v18l-6-4-6 4z",typing:"M3 7h18v10H3zM7 11h1M11 11h1M15 11h1M8 14h8",legal:"M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"};
 function tabIcon(k){var ns="http://www.w3.org/2000/svg",sv=document.createElementNS(ns,"svg");sv.setAttribute("viewBox","0 0 24 24");sv.setAttribute("class","ti");sv.setAttribute("aria-hidden","true");var pa=document.createElementNS(ns,"path");pa.setAttribute("d",TI[k]||TI.today);sv.appendChild(pa);return sv}
-TABS.forEach(function(t){var b=el("button",{role:"tab","data-t":t[0]},[tabIcon(t[0]),el("span",{},[t[1]])]);b.onclick=function(){if(t[0]==="typing"){location.href="/touch/";return}state.tab=t[0];render()};tabsEl.appendChild(b)});
+TABS.forEach(function(t){var b=el("button",{role:"tab","data-t":t[0]},[tabIcon(t[0]),el("span",{},[t[1]])]);b.onclick=function(){if(t[0]==="typing"){location.href="https://tcs-toolkit.web.app/touch/";return}state.tab=t[0];render()};tabsEl.appendChild(b)});
 
 function sel(label,opts,key){
   var s=el("select",{"aria-label":label});
@@ -586,7 +586,7 @@ function viewToday(v){try{v.appendChild(thoughtCard())}catch(e){}
     var rb=el("button",{class:"btn",style:"margin-top:8px"},["Revise now"]);rb.onclick=function(){startQuiz(sShuffle(due,Math.random).slice(0,10),"Revision")};rv.appendChild(rb);v.appendChild(rv)}
   var qd=qotd();
   if(qd){v.appendChild(el("h2",{},["Question of the Day"]));v.appendChild(mcqCard(qd))}
-  var tc=el("div",{class:"card"},[el("p",{class:"q"},["Typing practice"]),el("div",{class:"src"},["Learn touch typing in English and Hindi and practise for SSC, RRB, JKSSB and High Court typing tests. Free, works offline."])]);var tb=el("a",{class:"btn",href:"/touch/",style:"display:inline-block;margin-top:8px;text-decoration:none"},["Open Touch typing"]);tc.appendChild(tb);v.appendChild(tc);
+  var tc=el("div",{class:"card"},[el("p",{class:"q"},["Typing practice"]),el("div",{class:"src"},["Learn touch typing in English and Hindi and practise for SSC, RRB, JKSSB and High Court typing tests. Free, works offline."])]);var tb=el("a",{class:"btn",href:"https://tcs-toolkit.web.app/touch/",style:"display:inline-block;margin-top:8px;text-decoration:none"},["Open Touch typing"]);tc.appendChild(tb);v.appendChild(tc);
   var wc=el("div",{class:"card"},[el("p",{class:"q"},["Get updates on WhatsApp"]),el("div",{class:"src"},["Join our free WhatsApp channel for new questions and updates from The Computer Services."])]);wc.appendChild(el("a",{class:"btn wa",href:"https://www.whatsapp.com/channel/0029Vb6t6y6FnSzExuyvFv3r",target:"_blank",rel:"noopener noreferrer",style:"display:inline-block;margin-top:8px;text-decoration:none"},["Join the WhatsApp channel"]));v.appendChild(wc);
   var sc=el("div",{class:"card"},[el("p",{class:"q"},["Know someone preparing?"])]);
   var sb=el("button",{class:"btn ghost"},["Share this site on WhatsApp"]);sb.onclick=function(){shareWA("Free MCQs, mock tests and daily practice for SSC, Banking, RRB, JKSSB, JKPSC - The Computer Services")};
