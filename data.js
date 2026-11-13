@@ -1,7 +1,266 @@
 window.CA_DATA = {
- "generated": "2026-11-13",
+ "generated": "2026-11-14",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "a1800fe49da",
+   "date": "2026-11-13",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Where did Prime Minister Narendra Modi inaugurate India's first LED dome planetarium, 'Cosmos-Mysuru Planetarium'?",
+   "options": [
+    "Mysuru, Karnataka",
+    "Bengaluru, Karnataka",
+    "Visakhapatnam, Andhra Pradesh",
+    "New Delhi"
+   ],
+   "answer": 0,
+   "explain": "Prime Minister Narendra Modi inaugurated India's first LED dome planetarium named 'Cosmos-Mysuru Planetarium'. The inauguration took place in Mysuru, Karnataka.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336042",
+   "verified": false,
+   "why": [
+    "Correct: As per the headline, PM Narendra Modi inaugurated India's first LED dome planetarium in Mysuru, Karnataka.",
+    "Incorrect: The planetarium was inaugurated in Mysuru, not Bengaluru.",
+    "Incorrect: Visakhapatnam was the venue for the 31st CII Partnership Summit, not this inauguration.",
+    "Incorrect: New Delhi was not the venue for the Cosmos-Mysuru Planetarium inauguration."
+   ]
+  },
+  {
+   "id": "ad9bec93938",
+   "date": "2026-11-13",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Which organization under the Ministry of Rural Development was selected for the U.P. Medal 2025 for innovation in road construction?",
+   "options": [
+    "NHAI",
+    "NRIDA",
+    "BRO",
+    "CPWD"
+   ],
+   "answer": 1,
+   "explain": "NRIDA, under the Ministry of Rural Development, was chosen for the prestigious U.P. Medal 2025. This recognition was awarded for innovation in road construction.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335995",
+   "verified": false,
+   "why": [
+    "Incorrect: NHAI is not mentioned in the headline.",
+    "Correct: As per the headline, NRIDA under the Ministry of Rural Development was selected for the U.P. Medal 2025.",
+    "Incorrect: BRO is not mentioned in the headline.",
+    "Incorrect: CPWD is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a93b856440e",
+   "date": "2026-11-13",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Which Indian Naval Ship completed its visit to Yokosuka following Malabar 2026?",
+   "options": [
+    "INS Vikrant",
+    "INS Satpura",
+    "INS Sahyadri",
+    "INS Shivalik"
+   ],
+   "answer": 2,
+   "explain": "INS Sahyadri completed its visit to Yokosuka following the conclusion of Malabar 2026. No other Indian Naval Ships are mentioned in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336019",
+   "verified": false,
+   "why": [
+    "Incorrect: INS Vikrant is not mentioned in the headline.",
+    "Incorrect: INS Satpura is not mentioned in the headline.",
+    "Correct: As stated in the headline, INS Sahyadri completed its visit to Yokosuka after Malabar 2026.",
+    "Incorrect: INS Shivalik is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a785e381f99",
+   "date": "2026-11-13",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Where was the 1st All India Rajbhasha Sammelan 2026 organized by the Department of Telecommunications?",
+   "options": [
+    "New Delhi",
+    "Mysuru",
+    "Visakhapatnam",
+    "Najafgarh"
+   ],
+   "answer": 0,
+   "explain": "The Department of Telecommunications organized the 1st All India Rajbhasha Sammelan 2026. The conference took place in New Delhi.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335970",
+   "verified": false,
+   "why": [
+    "Correct: As per the headline, the 1st All India Rajbhasha Sammelan 2026 was organized in New Delhi.",
+    "Incorrect: Mysuru hosted the inauguration of the planetarium, not this conference.",
+    "Incorrect: Visakhapatnam hosted the 31st CII Partnership Summit.",
+    "Incorrect: Najafgarh is the site of the Rural Health Training Centre."
+   ]
+  },
+  {
+   "id": "a8f4be3b31d",
+   "date": "2026-11-13",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Who addressed the valedictory session of the 31st CII Partnership Summit in Visakhapatnam?",
+   "options": [
+    "Prime Minister Shri Narendra Modi",
+    "Vice President Shri C.P. Radhakrishnan",
+    "Union Health Minister Shri J.P. Nadda",
+    "Union Finance Minister"
+   ],
+   "answer": 1,
+   "explain": "Vice President Shri C.P. Radhakrishnan addressed the valedictory session of the 31st CII Partnership Summit. The summit was held in Visakhapatnam.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335996",
+   "verified": false,
+   "why": [
+    "Incorrect: PM Narendra Modi inaugurated the planetarium in Mysuru.",
+    "Correct: As stated in the headline, Vice President Shri C.P. Radhakrishnan addressed the valedictory session.",
+    "Incorrect: Shri J.P. Nadda reviewed RHTC Najafgarh's institutional progress.",
+    "Incorrect: The Union Finance Minister is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "aa0d54c18a0",
+   "date": "2026-11-13",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "How many citizens participated in the 'Nasha Mukt Yuva, Viksit Bharat Quiz'?",
+   "options": [
+    "18,876",
+    "28,876",
+    "38,876",
+    "48,876"
+   ],
+   "answer": 1,
+   "explain": "A total of 28,876 citizens took part in the 'Nasha Mukt Yuva, Viksit Bharat Quiz'. This count is explicitly stated in the news headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336040",
+   "verified": false,
+   "why": [
+    "Incorrect: 18,876 is incorrect; the headline specifies 28,876.",
+    "Correct: As per the headline, 28,876 citizens participated in the quiz.",
+    "Incorrect: 38,876 is incorrect; the actual number is 28,876.",
+    "Incorrect: 48,876 is incorrect; the given count is 28,876."
+   ]
+  },
+  {
+   "id": "ab297b2b341",
+   "date": "2026-11-13",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements about 'Cosmos-Mysuru Planetarium':\n1. It is India's first LED dome planetarium.\n2. It was inaugurated by Vice President Shri C.P. Radhakrishnan in Bengaluru.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 0,
+   "explain": "'Cosmos-Mysuru Planetarium' is India's first LED dome planetarium. However, it was inaugurated by Prime Minister Shri Narendra Modi in Mysuru, Karnataka, making statement 2 incorrect.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336042",
+   "verified": false,
+   "why": [
+    "Correct: Statement 1 is correct, while Statement 2 is false as PM Narendra Modi inaugurated it in Mysuru.",
+    "Incorrect: Statement 2 is false because it was inaugurated by PM Modi in Mysuru, not Bengaluru by the Vice President.",
+    "Incorrect: Statement 2 is false, so both statements cannot be correct.",
+    "Incorrect: Statement 1 is true based on the headline."
+   ]
+  },
+  {
+   "id": "aadad9be826",
+   "date": "2026-11-13",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the CII Partnership Summit:\n1. The summit held in Visakhapatnam was its 31st edition.\n2. Its valedictory session was addressed by Vice President Shri C.P. Radhakrishnan.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The 31st edition of the CII Partnership Summit was hosted in Visakhapatnam. Vice President Shri C.P. Radhakrishnan addressed its valedictory session.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335996",
+   "verified": false,
+   "why": [
+    "Incorrect: Statement 1 is correct, but statement 2 is also correct.",
+    "Incorrect: Statement 2 is correct, but statement 1 is also correct.",
+    "Correct: Both statements 1 and 2 are accurate based on the headline.",
+    "Incorrect: Both statements are factual according to the news headline."
+   ]
+  },
+  {
+   "id": "a1eb31bbc51",
+   "date": "2026-11-13",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Where is the Rural Health Training Centre (RHTC) located, whose institutional progress was reviewed by Central Health Minister Shri J.P. Nadda?",
+   "options": [
+    "Najafgarh",
+    "Golaghat",
+    "Visakhapatnam",
+    "Mysuru"
+   ],
+   "answer": 0,
+   "explain": "Union Health Minister Shri J.P. Nadda reviewed the institutional progress of the Rural Health Training Centre (RHTC). The facility is situated in Najafgarh.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335990",
+   "verified": false,
+   "why": [
+    "Correct: As stated in the headline, RHTC is located in Najafgarh.",
+    "Incorrect: Golaghat is a district in Assam where an accident occurred.",
+    "Incorrect: Visakhapatnam was the venue for the CII Partnership Summit.",
+    "Incorrect: Mysuru was the venue for the LED dome planetarium inauguration."
+   ]
+  },
   {
    "id": "af49edfd4db",
    "date": "2026-11-12",
@@ -3460,5 +3719,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-13"
+ "drafted_on": "2026-11-14"
 };
