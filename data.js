@@ -1,7 +1,233 @@
 window.CA_DATA = {
- "generated": "2026-11-14",
+ "generated": "2026-11-15",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "aacf3cb2c7f",
+   "date": "2026-11-14",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Union Home and Cooperation Minister Amit Shah will perform the 'Bhoomi Pujan' of the NHEC Multi-State Cooperative Society in which city?",
+   "options": [
+    "Pune",
+    "Mumbai",
+    "Nagpur",
+    "Nashik"
+   ],
+   "answer": 0,
+   "explain": "Union Home and Cooperation Minister Amit Shah will perform the Bhoomi Pujan of the NHEC Multi-State Cooperative Society. The event is scheduled to take place in Pune, Maharashtra.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336333",
+   "verified": false,
+   "why": [
+    "Correct, as the event takes place in Pune, Maharashtra.",
+    "Incorrect, Mumbai is not the specified location.",
+    "Incorrect, Nagpur is not mentioned in the headline.",
+    "Incorrect, Nashik is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "af12c1c4b45",
+   "date": "2026-11-14",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Rear Admiral Tanguy Botman, who recently visited India, is the Commander of which navy?",
+   "options": [
+    "Belgium Navy",
+    "French Navy",
+    "German Navy",
+    "Royal Netherlands Navy"
+   ],
+   "answer": 0,
+   "explain": "Rear Admiral Tanguy Botman recently paid an official visit to India. He is the Commander of the Belgium Navy.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336315",
+   "verified": false,
+   "why": [
+    "Correct, Rear Admiral Tanguy Botman is the Commander of the Belgium Navy.",
+    "Incorrect, he is not from the French Navy.",
+    "Incorrect, he is not from the German Navy.",
+    "Incorrect, he is not from the Royal Netherlands Navy."
+   ]
+  },
+  {
+   "id": "a80526bb59d",
+   "date": "2026-11-14",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "Universities & Entrances"
+   ],
+   "q": "The global cinematic festival in Goa will open with which director's film titled 'Fatherland'?",
+   "options": [
+    "Pawel Pawlikowski",
+    "Christopher Nolan",
+    "Denis Villeneuve",
+    "Martin Scorsese"
+   ],
+   "answer": 0,
+   "explain": "The global cinematic festival in Goa will begin with the film 'Fatherland'. The film is directed by Pawel Pawlikowski.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336319",
+   "verified": false,
+   "why": [
+    "Correct, Pawel Pawlikowski directed the opening film 'Fatherland'.",
+    "Incorrect, Christopher Nolan is not mentioned in the headline.",
+    "Incorrect, Denis Villeneuve is not mentioned in the headline.",
+    "Incorrect, Martin Scorsese is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a48f8864a0a",
+   "date": "2026-11-14",
+   "subject": "Economy & Banking",
+   "exams": [
+    "Banking",
+    "SSC"
+   ],
+   "q": "The Competition Commission of India (CCI) has approved the acquisition of a stake in Yatharth Hospital & Trauma Care Services Limited by which company?",
+   "options": [
+    "Rasmalai Limited",
+    "Apollo Hospitals",
+    "Fortis Healthcare",
+    "Max Healthcare"
+   ],
+   "answer": 0,
+   "explain": "The Competition Commission of India (CCI) approved the acquisition of a stake in Yatharth Hospital & Trauma Care Services Limited. The acquirer specified in the transaction is Rasmalai Limited.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336276",
+   "verified": false,
+   "why": [
+    "Correct, Rasmalai Limited is acquiring a stake in Yatharth Hospital.",
+    "Incorrect, Apollo Hospitals is not the acquirer mentioned.",
+    "Incorrect, Fortis Healthcare is not mentioned in the headline.",
+    "Incorrect, Max Healthcare is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a3558e46855",
+   "date": "2026-11-14",
+   "subject": "Sports",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which organization is conducting block-level sports competitions across the country to unite youth against drug abuse?",
+   "options": [
+    "NSS",
+    "NYKS",
+    "SAI",
+    "IOA"
+   ],
+   "answer": 0,
+   "explain": "NSS is organizing block-level sports competitions across India. The objective of these events is to unite youth against drug abuse.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336283",
+   "verified": false,
+   "why": [
+    "Correct, National Service Scheme (NSS) is organizing the competitions.",
+    "Incorrect, NYKS is not mentioned in the headline.",
+    "Incorrect, Sports Authority of India (SAI) is not mentioned.",
+    "Incorrect, Indian Olympic Association (IOA) is not mentioned."
+   ]
+  },
+  {
+   "id": "a5e8287fdff",
+   "date": "2026-11-14",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Under the Indian Panorama section at the 57th India International Film Festival, how many feature and non-feature films will be showcased?",
+   "options": [
+    "25 feature films and 20 non-feature films",
+    "20 feature films and 25 non-feature films",
+    "30 feature films and 15 non-feature films",
+    "15 feature films and 30 non-feature films"
+   ],
+   "answer": 0,
+   "explain": "The 57th India International Film Festival will showcase films under the Indian Panorama section. It will display 25 feature films and 20 non-feature films.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336360",
+   "verified": false,
+   "why": [
+    "Correct, exactly 25 feature films and 20 non-feature films are scheduled.",
+    "Incorrect, the counts for feature and non-feature films are reversed.",
+    "Incorrect, these numbers do not match the headline.",
+    "Incorrect, these numbers are incorrect based on the headline."
+   ]
+  },
+  {
+   "id": "ab8a7d499cf",
+   "date": "2026-11-14",
+   "subject": "Important Days",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "On which date will the Prime Minister participate in the 'Janjatiya Gaurav Divas' program?",
+   "options": [
+    "15 November",
+    "26 November",
+    "1 November",
+    "10 November"
+   ],
+   "answer": 0,
+   "explain": "The Prime Minister is scheduled to participate in the 'Janjatiya Gaurav Divas' program. The event is set for 15 November.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336251",
+   "verified": false,
+   "why": [
+    "Correct, the Prime Minister will attend the event on 15 November.",
+    "Incorrect, 26 November is not the date mentioned.",
+    "Incorrect, 1 November is not the date mentioned.",
+    "Incorrect, 10 November is not the date mentioned."
+   ]
+  },
+  {
+   "id": "add78586d69",
+   "date": "2026-11-14",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the train service approved by Indian Railways:\n1. The train service connects Janakpur Dham in Nepal to Ayodhya in India.\n2. It has been approved as a daily train service.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 0,
+   "explain": "Indian Railways approved a train service linking Janakpur Dham in Nepal with Ayodhya in India. However, the approved service is weekly, not daily.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336250",
+   "verified": false,
+   "why": [
+    "Correct, statement 1 is true while statement 2 is false as the service is weekly.",
+    "Incorrect, statement 2 is false because it is a weekly train service, not daily.",
+    "Incorrect, statement 2 is incorrect.",
+    "Incorrect, statement 1 is correct."
+   ]
+  },
   {
    "id": "a1800fe49da",
    "date": "2026-11-13",
@@ -3719,5 +3945,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-14"
+ "drafted_on": "2026-11-15"
 };
