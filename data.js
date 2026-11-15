@@ -1,7 +1,234 @@
 window.CA_DATA = {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "a98bced49a2",
+   "date": "2026-11-15",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Which programme was launched by Akashvani to provide a national platform to young musical talents?",
+   "options": [
+    "AIR Yuva Tarang",
+    "AIR Sangeet Pratibha",
+    "AIR Ubharte Sitare",
+    "AIR Sur Manthan"
+   ],
+   "answer": 2,
+   "explain": "Akashvani has launched the 'AIR Ubharte Sitare' programme. The initiative aims to provide a national platform to young musical talents.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336700",
+   "verified": false,
+   "why": [
+    "Incorrect programme name.",
+    "Incorrect programme name.",
+    "Correct, Akashvani launched 'AIR Ubharte Sitare' for young musical talents.",
+    "Incorrect programme name."
+   ]
+  },
+  {
+   "id": "a52f6fe7d93",
+   "date": "2026-11-15",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the initiative taken by the National Zoological Park:\n1. The National Zoological Park organized the 21st Sunday Bird Walk.\n2. The event was held to promote citizen science and biodiversity documentation.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The National Zoological Park organized the 21st Sunday Bird Walk. The purpose of this walk was to promote citizen science and documentation of biodiversity.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336699",
+   "verified": false,
+   "why": [
+    "Statement 2 is also correct according to the headline.",
+    "Statement 1 is also correct according to the headline.",
+    "Both statements accurately reflect the facts stated in the headline.",
+    "Both statements are correct."
+   ]
+  },
+  {
+   "id": "a2275274f99",
+   "date": "2026-11-15",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "At the Climate Summit, India delivered a message promoting which eco-friendly initiative on Sunday?",
+   "options": [
+    "Cycling",
+    "Carpooling",
+    "Rooftop solar adoption",
+    "Pedestrianisation"
+   ],
+   "answer": 0,
+   "explain": "At the Climate Summit, India shared a message promoting the initiative of cycling on Sunday. The announcement was made in the context of climate action.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336675",
+   "verified": false,
+   "why": [
+    "Correct, India sent a message promoting the cycling initiative.",
+    "Incorrect, carpooling was not mentioned in the headline.",
+    "Incorrect, rooftop solar adoption was not mentioned.",
+    "Incorrect, pedestrianisation was not mentioned."
+   ]
+  },
+  {
+   "id": "a26740d26dd",
+   "date": "2026-11-15",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Which country is the partner country at the 57th International Film Festival of India (IFFI) where cinematic ties will be celebrated through four special film screenings?",
+   "options": [
+    "France",
+    "Japan",
+    "Russia",
+    "Germany"
+   ],
+   "answer": 2,
+   "explain": "The 57th International Film Festival of India will celebrate cinematic ties with partner country Russia. This celebration will feature special screenings of four films.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336676",
+   "verified": false,
+   "why": [
+    "Incorrect, France is not mentioned as the partner country.",
+    "Incorrect, Japan is not the partner country in the headline.",
+    "Correct, Russia is the partner country at the 57th IFFI.",
+    "Incorrect, Germany is not mentioned."
+   ]
+  },
+  {
+   "id": "a2ccb72abb5",
+   "date": "2026-11-15",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "According to Union Minister Dr. Jitendra Singh, India will strengthen ties with the 'International Physics Centre' located in which country?",
+   "options": [
+    "Germany",
+    "Italy",
+    "Switzerland",
+    "France"
+   ],
+   "answer": 1,
+   "explain": "Union Minister Dr. Jitendra Singh stated that India will strengthen ties with Italy's 'International Physics Centre'.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336602",
+   "verified": false,
+   "why": [
+    "Incorrect, Germany is not mentioned.",
+    "Correct, the International Physics Centre is located in Italy.",
+    "Incorrect, Switzerland is not mentioned.",
+    "Incorrect, France is not mentioned."
+   ]
+  },
+  {
+   "id": "a8031f0999b",
+   "date": "2026-11-15",
+   "subject": "Important Days",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "'Janjatiya Gaurav Divas' is celebrated to commemorate the birth anniversary of which leader?",
+   "options": [
+    "Tantia Bhil",
+    "Bhagwan Birsa Munda",
+    "Alluri Sitarama Raju",
+    "Rani Gaidinliu"
+   ],
+   "answer": 1,
+   "explain": "Prime Minister Narendra Modi paid tribute to Bhagwan Birsa Munda on his birth anniversary and extended greetings on Janjatiya Gaurav Divas.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336537",
+   "verified": false,
+   "why": [
+    "Incorrect, not the personality associated in the headline.",
+    "Correct, Bhagwan Birsa Munda's birth anniversary is celebrated as Janjatiya Gaurav Divas.",
+    "Incorrect, not mentioned in the headline.",
+    "Incorrect, not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a3b525522ce",
+   "date": "2026-11-15",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The Prime Minister extended greetings to the people of which state on its State Foundation Day (राज्य स्थापना दिवस)?",
+   "options": [
+    "Jharkhand",
+    "Chhattisgarh",
+    "Uttarakhand",
+    "Telangana"
+   ],
+   "answer": 0,
+   "explain": "Prime Minister Narendra Modi wished the people of Jharkhand on the occasion of their state foundation day.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336527",
+   "verified": false,
+   "why": [
+    "Correct, the Prime Minister extended greetings on Jharkhand's Statehood Day.",
+    "Incorrect, Chhattisgarh is not the state mentioned in the headline.",
+    "Incorrect, Uttarakhand is not mentioned.",
+    "Incorrect, Telangana is not mentioned in this context."
+   ]
+  },
+  {
+   "id": "ac5cd585d37",
+   "date": "2026-11-15",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "In which district of Maharashtra did Prime Minister Narendra Modi participate in the Janjatiya Gaurav Divas programme?",
+   "options": [
+    "Nagpur",
+    "Gadchiroli",
+    "Nashik",
+    "Nanded"
+   ],
+   "answer": 1,
+   "explain": "Prime Minister Narendra Modi participated in the Janjatiya Gaurav Divas programme held at Gadchiroli in Maharashtra.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336554",
+   "verified": false,
+   "why": [
+    "Incorrect, Nagpur is not mentioned.",
+    "Correct, the programme took place in Gadchiroli, Maharashtra.",
+    "Incorrect, Nashik is not mentioned.",
+    "Incorrect, Nanded is not mentioned."
+   ]
+  },
   {
    "id": "aacf3cb2c7f",
    "date": "2026-11-14",
@@ -3945,5 +4172,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-15"
+ "drafted_on": "2026-11-16"
 };
