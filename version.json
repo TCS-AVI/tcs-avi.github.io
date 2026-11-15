@@ -1,7 +1,11 @@
 {
- "version": "2026.11.17",
- "date": "2026.11.17",
+ "version": "2026.11.23",
+ "date": "2026.11.23",
  "notes": [
+  "New liquid-glass look: frosted cards, glossy buttons that press in, ripple, and a soft glow and buzz on correct answers",
+  "Greeting card background now follows your local weather (optional, pick your town). Also: J&K Special questions, deadline list and a literary look",
+  "Weather in the greeting card: optional, pick your town, animated sun, clouds, rain and snow, with a study tip",
+  "Cleaner deadline helper: colour-coded bullets and a friendlier empty state",
   "About 970 new J&K Special questions for JKSSB and JKPSC: history, geography, polity, culture, economy and more, plus statement-based advanced ones",
   "My exam deadlines (Today tab): add an exam and its last date, see a live countdown, and get colour-coded guidance (green, amber, red) so you apply before websites get slow",
   "Answer analysis under every question, plus new Advanced statement-based questions"
