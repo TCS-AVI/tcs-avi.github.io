@@ -1227,10 +1227,14 @@ function bkIcs(a){var p=a.date.split("-"),t=a.mins,h=Math.floor(t/60),mi=t%60;fu
  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//The Computer Services//Booking//EN","BEGIN:VEVENT","UID:"+a.ref+"@tcs-avi.github.io","DTSTAMP:"+u(-60*24),"DTSTART:"+u(0),"DTEND:"+u(BK_SLOT),"SUMMARY:The Computer Services: "+a.svc.replace(/[,;]/g," "),"LOCATION:The Computer Services\\, Jakh\\, Samba\\, J&K","DESCRIPTION:Ref "+a.ref+". Please bring your documents.","BEGIN:VALARM","TRIGGER:-PT60M","ACTION:DISPLAY","DESCRIPTION:Appointment in 1 hour","END:VALARM","END:VEVENT","END:VCALENDAR"].join("\r\n")}
 function bkDownload(a){var b=new Blob([bkIcs(a)],{type:"text/calendar"}),l=document.createElement("a");l.href=URL.createObjectURL(b);l.download="appointment-"+a.ref+".ics";document.body.appendChild(l);l.click();setTimeout(function(){URL.revokeObjectURL(l.href);l.remove()},600)}
 function bkWhen(a){var p=a.date.split("-"),d=new Date(Date.UTC(+p[0],+p[1]-1,+p[2],12));return bkFmt(d,{weekday:"short",day:"numeric",month:"short"})+", "+bkT12(a.mins)}
-function bkMsg(a,kind){var base="The Computer Services appointment\nRef: "+a.ref+"\nService: "+a.svc+"\nWhen: "+bkWhen(a)+"\nName: "+a.name+"\nPhone: "+a.phone;
+function bkMsg(a,kind){var base="The Computer Services appointment\nRef: "+a.ref+"\nService: "+a.svc+"\nWhen: "+bkWhen(a)+" (India time, IST)\nName: "+a.name+"\nPhone: "+a.phone;
  return kind==="cancel"?"Please cancel my appointment.\n\n"+base:"Hello, I would like to book an appointment.\n\n"+base+(a.note?"\nNote: "+a.note:"")+"\n\nPlease confirm."}
 function bkWa(text){window.open("https://wa.me/"+BK_PHONE+"?text="+encodeURIComponent(text),"_blank","noopener")}
 function bkUpcoming(){var now=Date.now();return bkLoad().filter(function(a){var p=a.date.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2],Math.floor(a.mins/60),a.mins%60)-19800000>now-36e5}).sort(function(x,y){return (x.date+("0"+x.mins).slice(-4))<(y.date+("0"+y.mins).slice(-4))?-1:1})}
+function tzNote(){try{var loc=Intl.DateTimeFormat().resolvedOptions().timeZone||"";if(/^Asia\/(Kolkata|Calcutta)$/.test(loc))return null;var n=new Date();function f(tz){return new Intl.DateTimeFormat("en-IN",{timeZone:tz,hour:"numeric",minute:"2-digit",hour12:true}).format(n).toUpperCase()}
+ return "All times here are India time (IST). It is now "+f("Asia/Kolkata")+" in India and "+f(loc)+" where you are ("+loc.replace(/_/g," ")+")."}catch(e){return null}}
+function bkLocal(k,m){try{var loc=Intl.DateTimeFormat().resolvedOptions().timeZone||"";if(/^Asia\/(Kolkata|Calcutta)$/.test(loc))return null;var p=k.split("-"),t=new Date(Date.UTC(+p[0],+p[1]-1,+p[2],Math.floor(m/60),m%60)-19800000);return new Intl.DateTimeFormat("en-GB",{weekday:"short",day:"numeric",month:"short",hour:"numeric",minute:"2-digit",hour12:true}).format(t).toUpperCase().replace("AM","AM").replace("PM","PM")}catch(e){return null}}
+function isAbroad(){try{return !/^Asia\/(Kolkata|Calcutta)$/.test(Intl.DateTimeFormat().resolvedOptions().timeZone||"")}catch(e){return false}}
 function bkHours(){var c=bkCfg(),DN=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],ul=el("ul",{class:"hrs"}),td=bkWd(new Date());if(!c)return ul;
  [1,2,3,4,5,6,0].forEach(function(i){var s=c.days[i],li=el("li",{class:"hr"+(i===td?" today":"")},[el("span",{class:"hr-d"},[DN[i]])]),w=el("span",{class:"hr-t"},[]);
   if(!s)w.appendChild(el("span",{class:"hr-c hr-x"},["Closed"]));
@@ -1246,7 +1250,7 @@ function openBooking(){var body=el("div",{class:"bk"}),S={svc:"",k:"",wd:0,mins:
    var ic=el("button",{class:"btn ghost",type:"button"},["Add to calendar"]);ic.onclick=function(){bkDownload(a)};r.appendChild(ic);
    var cn=el("button",{class:"btn ghost",type:"button"},["Cancel"]);cn.onclick=function(){bkWa(bkMsg(a,"cancel"));bkSave(bkLoad().filter(function(x){return x.ref!==a.ref}));bkMain();updateBar()};r.appendChild(cn);
    st.appendChild(r);body.appendChild(st)})}
-  body.appendChild(el("p",{class:"anah"},["1. What do you need?"]));var g=el("div",{class:"bk-g"});
+  var tn2=tzNote();if(tn2)body.appendChild(el("p",{class:"src"},[tn2]));body.appendChild(el("p",{class:"anah"},["1. What do you need?"]));var g=el("div",{class:"bk-g"});
   BK_SERVICES.forEach(function(s){var b=el("button",{class:"bk-c"+(S.svc===s?" on":""),type:"button","aria-pressed":String(S.svc===s)},[s]);b.onclick=function(){S.svc=s;bkMain()};g.appendChild(b)});body.appendChild(g);
   if(!S.svc){body.appendChild(el("p",{class:"src"},["Choose a service to see available days."]));bkFoot();return}
   body.appendChild(el("p",{class:"anah"},["2. Pick a day"]));var days=bkDays(),dr=el("div",{class:"bk-d"});
@@ -1256,13 +1260,13 @@ function openBooking(){var body=el("div",{class:"bk"}),S={svc:"",k:"",wd:0,mins:
   if(!sl.length)tr.appendChild(el("p",{class:"src"},["No times left on this day. Please pick another day."]));
   sl.forEach(function(m){var b=el("button",{class:"bk-c"+(S.mins===m?" on":""),type:"button","aria-pressed":String(S.mins===m)},[bkT12(m)]);b.onclick=function(){S.mins=m;bkMain()};tr.appendChild(b)});body.appendChild(tr);
   if(S.mins===null){bkFoot();return}
-  body.appendChild(el("p",{class:"anah"},["4. Your details"]));
-  var nm=el("input",{type:"text",maxlength:"40","aria-label":"Your name",placeholder:"Your name",value:S.name,autocomplete:"name"}),ph=el("input",{type:"tel",maxlength:"14","aria-label":"Your mobile number",placeholder:"Your mobile number",value:S.phone,inputmode:"tel",autocomplete:"tel"}),nt=el("input",{type:"text",maxlength:"120","aria-label":"Note (optional)",placeholder:"Note, for example the form name (optional)",value:S.note});
+  body.appendChild(el("p",{class:"anah"},["4. Your details"]));var lt=bkLocal(S.k,S.mins);if(lt)body.appendChild(el("p",{class:"src",role:"status"},["Your appointment: "+bkWhen({date:S.k,mins:S.mins})+" India time, which is "+lt+" where you are."]));
+  var nm=el("input",{type:"text",maxlength:"40","aria-label":"Your name",placeholder:"Your name",value:S.name,autocomplete:"name"}),ph=el("input",{type:"tel",maxlength:"14","aria-label":"Your mobile number",placeholder:"Mobile number (outside India: +country code)",value:S.phone,inputmode:"tel",autocomplete:"tel"}),nt=el("input",{type:"text",maxlength:"120","aria-label":"Note (optional)",placeholder:"Note, for example the form name (optional)",value:S.note});
   nm.oninput=function(){S.name=nm.value};ph.oninput=function(){S.phone=ph.value};nt.oninput=function(){S.note=nt.value};body.appendChild(nm);body.appendChild(ph);body.appendChild(nt);
   var err=el("p",{class:"bk-err",role:"alert"},[""]);body.appendChild(err);
   var sb=el("button",{class:"btn",type:"button"},["Send request on WhatsApp"]);
-  sb.onclick=function(){var name=nm.value.trim(),num=ph.value.replace(/[^\d+]/g,"").replace(/^\+?91/,"");
-   if(name.length<2){err.textContent="Please enter your name.";nm.focus();return}if(!/^[6-9]\d{9}$/.test(num)){err.textContent="Please enter a valid 10-digit mobile number.";ph.focus();return}
+  sb.onclick=function(){var name=nm.value.trim(),raw=ph.value.replace(/[\s().-]/g,""),num="";if(/^[6-9]\d{9}$/.test(raw))num=raw;else if(/^(\+?91|0)([6-9]\d{9})$/.test(raw))num=raw.replace(/^(\+?91|0)/,"");else if(/^\+\d{8,15}$/.test(raw))num=raw;
+   if(name.length<2){err.textContent="Please enter your name.";nm.focus();return}if(!num){err.textContent="Please enter a valid mobile number. From outside India, start with + and your country code.";ph.focus();return}
    if(bkSlots(S.k,S.wd).indexOf(S.mins)<0){err.textContent="That time is no longer available. Please pick another.";S.mins=null;bkMain();return}
    var rnd=Math.random().toString(36).slice(2,5).toUpperCase(),ref="TCS"+S.k.slice(5).replace("-","")+("0"+Math.floor(S.mins/60)).slice(-2)+("0"+S.mins%60).slice(-2)+rnd;
    var a={ref:ref,svc:S.svc,date:S.k,mins:S.mins,name:name,phone:num,note:nt.value.trim(),status:"requested",ts:Date.now()};setMyName(name);var all=bkLoad();all.push(a);bkSave(all);bkWa(bkMsg(a));updateBar();bkDone(a)};
@@ -1301,12 +1305,12 @@ function openCallSheet(){var st=null;try{st=window.__tcsStatus&&window.__tcsStat
  var msg=closed?"Thank you for reaching out to The Computer Services. We are not at the desk at the moment, and we would be glad to help you when we open. Calling during our opening hours means we can give you our full attention."
   :lunch?"Thank you for calling. We are on a short lunch break and will be back soon. You are welcome to call then, or send us a message and we will reply as soon as we can."
   :"Thank you for calling The Computer Services. Please go ahead and call, and we will do our best to help you right away.";
- body.appendChild(el("p",{class:"q"},[title]));if(st&&st.t)body.appendChild(el("p",{class:"src",role:"status"},[st.t]));body.appendChild(el("p",{},[msg]));
+ body.appendChild(el("p",{class:"q"},[title]));if(st&&st.t)body.appendChild(el("p",{class:"src",role:"status"},[st.t]));var tn=tzNote();if(tn)body.appendChild(el("p",{class:"src"},[tn]));body.appendChild(el("p",{},[msg]));if(isAbroad())body.appendChild(el("p",{class:"src"},["Calling from outside India? A WhatsApp message is usually cheaper and easier than an international call. Send us a message and we will reply during our opening hours."]));
  var r=el("div",{class:"row"},[]);
  var call=el("a",{class:(closed||lunch)?"btn ghost":"btn",href:"tel:+919906145163"},[(closed||lunch)?"Call anyway":"Call now"]);
  var wa=el("a",{class:(closed||lunch)?"btn":"btn ghost",href:"https://wa.me/919906145163?text="+encodeURIComponent("Hello, I would like some help from The Computer Services."),target:"_blank",rel:"noopener noreferrer"},["Message us on WhatsApp"]);
  var bk=el("button",{class:"btn ghost",type:"button"},["Book an appointment"]);bk.onclick=function(){openBooking()};
- if(closed||lunch){r.appendChild(wa);r.appendChild(bk);r.appendChild(call)}else{r.appendChild(call);r.appendChild(bk);r.appendChild(wa)}
+ if(closed||lunch||isAbroad()){wa.className="btn";call.className="btn ghost";r.appendChild(wa);r.appendChild(bk);r.appendChild(call)}else{r.appendChild(call);r.appendChild(bk);r.appendChild(wa)}
  body.appendChild(r);body.appendChild(el("p",{class:"anah"},["Our opening hours"]));body.appendChild(bkHours());
  body.appendChild(el("p",{class:"src"},["Times are in India time. Thank you for your patience and understanding."]));
  openSheet("Call us",body)}
@@ -1372,7 +1376,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.12.19",KEY="ed_ver",later="";
+var VER="2026.12.22",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
@@ -1500,7 +1504,7 @@ function mount(){var box=document.getElementById("tcs-open");
 if(!box){box=document.createElement("div");box.id="tcs-open";var st=document.querySelector(".stripe");if(st&&st.parentNode)st.parentNode.insertBefore(box,st.nextSibling);else document.body.insertBefore(box,document.body.firstChild)}
 function draw(){var r=compute(),sp=document.createElement("span");sp.className=r.c;sp.setAttribute("role","status");
 if(r.c==="g"){var d=document.createElement("i");d.className="dot";d.setAttribute("aria-hidden","true");sp.appendChild(d)}else{var ic=document.createElement("b");ic.setAttribute("aria-hidden","true");ic.textContent=r.i;ic.style.fontWeight="400";sp.appendChild(ic)}
-sp.appendChild(document.createTextNode(" "+r.t));box.textContent="";var w=document.createElement("a");w.className="wa";w.href="https://www.whatsapp.com/channel/0029Vb6t6y6FnSzExuyvFv3r";w.target="_blank";w.rel="noopener noreferrer";w.innerHTML="<b aria-hidden=\"true\" class=\"wi\">\ud83d\udcac</b><b class=\"wl\"> Get updates on WhatsApp</b>";w.setAttribute("aria-label","Join The Computer Services WhatsApp channel for updates (opens WhatsApp)");box.appendChild(w);box.appendChild(sp)}
+var _tz="";try{_tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(e){}sp.appendChild(document.createTextNode(" "+r.t+(/^Asia\/(Kolkata|Calcutta)$/.test(_tz)?"":" (India time)")));box.textContent="";var w=document.createElement("a");w.className="wa";w.href="https://www.whatsapp.com/channel/0029Vb6t6y6FnSzExuyvFv3r";w.target="_blank";w.rel="noopener noreferrer";w.innerHTML="<b aria-hidden=\"true\" class=\"wi\">\ud83d\udcac</b><b class=\"wl\"> Get updates on WhatsApp</b>";w.setAttribute("aria-label","Join The Computer Services WhatsApp channel for updates (opens WhatsApp)");box.appendChild(w);box.appendChild(sp)}
 draw();setInterval(draw,30000);document.addEventListener("visibilitychange",function(){if(!document.hidden)draw()})}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",mount);else mount()})();
 </script>

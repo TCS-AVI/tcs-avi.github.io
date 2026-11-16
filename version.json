@@ -1,7 +1,10 @@
 {
- "version": "2026.12.19",
- "date": "2026.12.19",
+ "version": "2026.12.22",
+ "date": "2026.12.22",
  "notes": [
+  "For visitors abroad: your appointment time shown in their local time, and a WhatsApp tip on the call sheet",
+  "Open or closed label says India time for visitors outside India",
+  "Works for people abroad: times show the viewer's local clock beside India time, and bookings accept international numbers",
   "New app icon: the logo on deep blue, so it no longer sits on a white square",
   "Neater layout on every screen size: aligned top strips, evenly sized opening-hours rows",
   "Opening hours now colour-coded: green open, amber lunch, red closed, with today highlighted",
