@@ -1,7 +1,10 @@
 {
- "version": "2026.12.15",
- "date": "2026.12.15",
+ "version": "2026.12.18",
+ "date": "2026.12.18",
  "notes": [
+  "Neater layout on every screen size: aligned top strips, evenly sized opening-hours rows",
+  "Opening hours now colour-coded: green open, amber lunch, red closed, with today highlighted",
+  "Daily study reminder: add a repeating reminder to your phone calendar at a time you choose",
   "Settings button made smaller to match the new top icons; top icons now scroll with the page",
   "Before you go: a friendly reminder of today's goal when pressing Back, and a welcome back message when you return",
   "Call button now shows our opening hours and a friendly note first, with Call now, WhatsApp and Book options",

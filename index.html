@@ -211,6 +211,7 @@ sp.addEventListener("click",kill);setTimeout(kill,2600);window.addEventListener(
     <a href="https://maps.app.goo.gl/NmPjEUYwEMHkgiDz6?g_st=ac" target="_blank" rel="noopener noreferrer"><span class="fi" aria-hidden="true">📍</span><span>Get directions</span></a>
     <a href="mailto:baglajakh@gmail.com" class="wide"><span class="fi" aria-hidden="true">✉️</span><span>Email us</span></a>
     <span class="ftg">Help</span>
+    <a href="#" id="rem-link"><span class="fi" aria-hidden="true">⏰</span><span>Daily study reminder</span></a>
     <a href="#" id="tour-link"><span class="fi" aria-hidden="true">🗺️</span><span>App tour</span></a>
     <a href="#" id="bkp-link"><span class="fi" aria-hidden="true">💾</span><span>Back up my progress</span></a>
     <a href="#" id="fb-link"><span class="fi" aria-hidden="true">📝</span><span>Share feedback</span></a>
@@ -672,6 +673,7 @@ function viewToday0(v){try{v.appendChild(thoughtCard())}catch(e){}
   db.onclick=function(){var s=dailySet();if(s.length)startQuiz(s,"Daily Challenge",true)};
   hd.appendChild(db);
   if(dailyDone())hd.appendChild(el("div",{class:"src"},["Done for today. Come back tomorrow to keep your streak."]));
+  if(dailyDone()&&!remGet()){var rb=el("button",{class:"btn ghost",type:"button"},["\u23F0 Remind me to study every day"]);rb.onclick=function(){openReminder()};hd.appendChild(rb)}
   v.appendChild(hd);
   try{v.appendChild(deadlineCard())}catch(e){}
   var due=dueList();
@@ -827,6 +829,7 @@ function openMoreTools(){var body=el("div",{class:"mt-g"}),mode=document.documen
  item("📅","Book an appointment",function(){openBooking()});
  item("📞","Call us",null,"tel:+919906145163");
  item("🔍","Search all questions",function(){closeSheet();state.tab="practice";render();var i=document.querySelector("#view input[type=search]");if(i)i.focus();window.scrollTo(0,0)});
+ item("⏰","Daily study reminder",function(){openReminder()});
  item("🧮","Calculator",function(){openSheet("Calculator",calcBody())});
  item("⏱️","Focus timer",function(){openSheet("Focus timer",timerBody())});
  item("🔖","Saved questions ("+savedCount()+")",function(){closeSheet();state.tab="saved";render();window.scrollTo(0,0)});
@@ -1197,6 +1200,7 @@ var tourTry=0;function maybeTour(){try{if(localStorage.getItem(TOURK)===TOURV)re
  if((document.getElementById("splash")||document.getElementById("ackbar")||!ack)&&tourTry++<40){setTimeout(maybeTour,1500);return}
  startTour()}
 setTimeout(maybeTour,3600);
+(function(){var r=document.getElementById("rem-link");if(r)r.onclick=function(e){e.preventDefault();openReminder()}})();
 (function(){var k=document.getElementById("bkp-link");if(k)k.onclick=function(e){e.preventDefault();openBackup()}})();
 (function(){var b=document.getElementById("book-link");if(b)b.onclick=function(e){e.preventDefault();openBooking()}})();
 (function(){var a=document.getElementById("tour-link");if(a)a.onclick=function(e){e.preventDefault();startTour()}})();
@@ -1227,7 +1231,13 @@ function bkMsg(a,kind){var base="The Computer Services appointment\nRef: "+a.ref
  return kind==="cancel"?"Please cancel my appointment.\n\n"+base:"Hello, I would like to book an appointment.\n\n"+base+(a.note?"\nNote: "+a.note:"")+"\n\nPlease confirm."}
 function bkWa(text){window.open("https://wa.me/"+BK_PHONE+"?text="+encodeURIComponent(text),"_blank","noopener")}
 function bkUpcoming(){var now=Date.now();return bkLoad().filter(function(a){var p=a.date.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2],Math.floor(a.mins/60),a.mins%60)-19800000>now-36e5}).sort(function(x,y){return (x.date+("0"+x.mins).slice(-4))<(y.date+("0"+y.mins).slice(-4))?-1:1})}
-function bkHours(){var c=bkCfg(),DN=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],ul=el("ul",{class:"lab-ul"});if(!c)return ul;[1,2,3,4,5,6,0].forEach(function(i){var s=c.days[i];ul.appendChild(el("li",{},[DN[i]+": "+(s?bkT12(s.o)+" to "+bkT12(s.c)+(s.l?" (lunch "+bkT12(s.l[0])+" to "+bkT12(s.l[1])+")":""):"Closed")]))});return ul}
+function bkHours(){var c=bkCfg(),DN=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],ul=el("ul",{class:"hrs"}),td=bkWd(new Date());if(!c)return ul;
+ [1,2,3,4,5,6,0].forEach(function(i){var s=c.days[i],li=el("li",{class:"hr"+(i===td?" today":"")},[el("span",{class:"hr-d"},[DN[i]])]),w=el("span",{class:"hr-t"},[]);
+  if(!s)w.appendChild(el("span",{class:"hr-c hr-x"},["Closed"]));
+  else{w.appendChild(el("span",{class:"hr-c hr-o"},[bkT12(s.o)+" to "+bkT12(s.c)]));if(s.l)w.appendChild(el("span",{class:"hr-c hr-l"},["Lunch "+bkT12(s.l[0])+" to "+bkT12(s.l[1])]))}
+  if(i===td)w.appendChild(el("span",{class:"hr-c hr-n"},["Today"]));
+  li.appendChild(w);ul.appendChild(li)});
+ var k=el("p",{class:"hr-k src"},[el("span",{class:"hr-c hr-o"},["Open"])," ",el("span",{class:"hr-c hr-l"},["Lunch break"])," ",el("span",{class:"hr-c hr-x"},["Closed"])]);var wrap=el("div",{},[ul,k]);return wrap}
 function openBooking(){var body=el("div",{class:"bk"}),S={svc:"",k:"",wd:0,mins:null,name:"",phone:"",note:""};try{S.name=myName()}catch(e){}openSheet("Book an appointment",body);bkMain();
  function bkMain(){body.textContent="";var up=bkUpcoming();
   if(up.length){body.appendChild(el("p",{class:"anah"},["Your appointments"]));up.forEach(function(a){var st=el("div",{class:"bk-a"},[el("b",{},[bkWhen(a)]),el("span",{class:"src"},[a.svc]),el("span",{class:"bk-st "+(a.status==="confirmed"?"ok":"wait")},[a.status==="confirmed"?"✅ Confirmed":"⏳ Waiting for confirmation"]),el("span",{class:"src"},["Ref "+a.ref])]);
@@ -1322,6 +1332,22 @@ function exitSheet(){var td=Math.min(labToday().n,10),sn=streakNow(),body=el("di
  setTimeout(function(){var sn=streakNow(),gap=Date.now()-prev;if(prev&&gap>6*36e5&&!document.getElementById("splash")){labToast(sn>0?"Welcome back! Your "+sn+"-day streak is waiting.":"Welcome back! Ready for today's 10 questions?")}stamp()},4200);
  document.addEventListener("visibilitychange",function(){if(document.hidden)stamp()});window.addEventListener("pagehide",stamp)})();
 
+/* ===== Daily study reminder: a repeating calendar event the student's phone alerts them with (no server) ===== */
+function remGet(){try{return localStorage.getItem("ed_rem")||""}catch(e){return ""}}
+function remIcs(t){var p=t.split(":"),h=+p[0],m=+p[1];function z(n){return (n<10?"0":"")+n}
+ var d=new Date(Date.now()+19800000+864e5),ymd=d.getUTCFullYear()+z(d.getUTCMonth()+1)+z(d.getUTCDate());var st=ymd+"T"+z(h)+z(m)+"00",en=ymd+"T"+z(h)+z((m+10)%60)+"00";if(m+10>=60)en=ymd+"T"+z((h+1)%24)+z((m+10)%60)+"00";
+ var u=siteUrl()||"https://tcs-avi.github.io/";
+ return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//The Computer Services//Reminder//EN","BEGIN:VEVENT","UID:study-reminder@tcs-avi.github.io","DTSTAMP:"+ymd+"T000000Z","DTSTART:"+st,"DTEND:"+en,"RRULE:FREQ=DAILY","SUMMARY:Study 10 questions - The Computer Services","DESCRIPTION:Your daily 10 questions keep your streak going. Open "+u,"URL:"+u,"BEGIN:VALARM","TRIGGER:PT0M","ACTION:DISPLAY","DESCRIPTION:Time to study. 10 questions keep your streak going.","END:VALARM","END:VEVENT","END:VCALENDAR"].join("\r\n")}
+function openReminder(){var body=el("div",{class:"rm"}),cur=remGet()||"19:00";
+ body.appendChild(el("p",{},["Pick a time and add a repeating reminder to your phone's calendar. Your phone will alert you every day, even when this app is closed."]));
+ var inp=el("input",{type:"time",value:cur,"aria-label":"Reminder time",style:"display:block;width:100%;box-sizing:border-box;margin:8px 0;padding:12px;border:1px solid var(--line);border-radius:12px;font:inherit;background:var(--card);color:inherit"});
+ var chips=el("div",{class:"row"},[]);[["6:30 AM","06:30"],["1:00 PM","13:00"],["7:00 PM","19:00"],["9:00 PM","21:00"]].forEach(function(x){var b=el("button",{class:"btn ghost",type:"button"},[x[0]]);b.onclick=function(){inp.value=x[1]};chips.appendChild(b)});
+ var msg=el("p",{class:"src",role:"status"},[""]);
+ var go=el("button",{class:"btn",type:"button"},["Add daily reminder"]);go.onclick=function(){var t=inp.value||"19:00";var b=new Blob([remIcs(t)],{type:"text/calendar"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="study-reminder.ics";document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},600);try{localStorage.setItem("ed_rem",t)}catch(e){}msg.textContent="Done. Open the downloaded file and tap Add to put the reminder in your calendar. To stop it, delete the event in your calendar."};
+ body.appendChild(inp);body.appendChild(chips);body.appendChild(go);body.appendChild(msg);
+ body.appendChild(el("p",{class:"src"},["Nothing is sent to us. The reminder lives only in your own calendar."]));
+ openSheet("Daily study reminder",body)}
+
 var VIEWS={today:viewToday,progress:viewProgress,lab:viewLab,practice:viewPractice,quiz:viewQuiz,mock:viewMock,interesting:viewInteresting,saved:viewSaved,legal:viewLegal};
 var lastTab=null;
 function render(keepFocus){
@@ -1346,7 +1372,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.12.15",KEY="ed_ver",later="";
+var VER="2026.12.18",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
@@ -1937,5 +1963,31 @@ html[data-theme=light] .lb-bk{color:#fff!important}
 @media (min-width:640px){.ftl{grid-template-columns:repeat(4,minmax(0,1fr))}.ftl a.wide{grid-column:auto}}
 </style>
 <style id="ui-cs">.cs a.btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center;min-height:46px;box-sizing:border-box}.cs .row{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.cs .row .btn{flex:1 1 140px}.cs .q{margin:0 0 4px}</style>
+<style id="ui-hrs">
+.hrs{list-style:none;margin:6px 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.hr{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 10px;padding:8px 10px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.hr.today{border-color:var(--acc);box-shadow:inset 3px 0 0 var(--acc)}
+.hr-d{font-weight:700}.hr-t{display:flex;flex-wrap:wrap;gap:6px}
+.hr-c{display:inline-block;padding:3px 10px;border-radius:999px;font-weight:600;font-size:.88rem;border:1px solid transparent}
+.hr-o{background:#dff3e4;color:#0f5a2a;border-color:#9fd4ad}.hr-l{background:#fff0cf;color:#7a4b00;border-color:#e6c27a}.hr-x{background:#fde1df;color:#8f1d16;border-color:#eba6a1}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .hr-o{background:#12351f;color:#9be6b0;border-color:#2c6b43}:root:not([data-theme=light]) .hr-l{background:#3a2a08;color:#ffd78a;border-color:#7a5a1c}:root:not([data-theme=light]) .hr-x{background:#3d1512;color:#ffb3ad;border-color:#80322d}}
+html[data-theme=dark] .hr-o{background:#12351f;color:#9be6b0;border-color:#2c6b43}html[data-theme=dark] .hr-l{background:#3a2a08;color:#ffd78a;border-color:#7a5a1c}html[data-theme=dark] .hr-x{background:#3d1512;color:#ffb3ad;border-color:#80322d}
+html[data-hc] .hr-c{border-width:2px}
+.hr-k{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+</style>
+<style id="ui-layout">
+/* keep every strip on the same centred 760px column, and let sizes flex with the screen */
+#labbar{max-width:760px;box-sizing:border-box}
+#topact{right:max(52px,calc((100vw - 760px)/2 + 52px))}
+#a11y-btn{right:max(12px,calc((100vw - 760px)/2 + 12px))}
+.hr{display:grid;grid-template-columns:5.6rem 1fr;align-items:center;gap:6px 10px}.hr-c{font-size:.84rem;padding:3px 8px}
+.hr-d{white-space:nowrap}.hr-t{justify-content:flex-start}
+.hr-n{background:transparent;color:var(--ink);border-color:var(--acc);font-weight:700}
+@media (max-width:420px){.hr{grid-template-columns:1fr}}
+.btn,.mt,.ftl a{box-sizing:border-box}
+.cs .row,.ex .row,.rm .row,.bk .row{align-items:stretch}
+.card{margin-bottom:14px}
+main>*+*{margin-top:0}
+</style>
 </body>
 </html>
