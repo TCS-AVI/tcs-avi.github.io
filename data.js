@@ -1,7 +1,264 @@
 window.CA_DATA = {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "ae1a3e2c09d",
+   "date": "2026-11-16",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Union Minister for Home Affairs and Cooperation, Shri Amit Shah, visited the regional office of the Central Registrar of Cooperative Societies (CRCS) to review its functioning and progress. In which city is this regional office located?",
+   "options": [
+    "Mumbai",
+    "Pune",
+    "Nagpur",
+    "New Delhi"
+   ],
+   "answer": 1,
+   "explain": "Union Home and Cooperation Minister Amit Shah visited the regional office of the Central Registrar of Cooperative Societies (CRCS) located in Pune. During the visit, he reviewed the functioning and progress of various initiatives.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337224",
+   "verified": false,
+   "why": [
+    "Incorrect, the regional office mentioned in the headline is located in Pune, not Mumbai.",
+    "Correct, the regional office of CRCS visited by Shri Amit Shah is located in Pune.",
+    "Incorrect, the headline explicitly specifies Pune as the location of the regional office.",
+    "Incorrect, Pune is the city specified in the headline, not New Delhi."
+   ]
+  },
+  {
+   "id": "a435c0a6689",
+   "date": "2026-11-16",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Where was the Ramoji Excellence Awards - 2026 ceremony addressed by Union Home and Cooperation Minister Shri Amit Shah held?",
+   "options": [
+    "Visakhapatnam, Andhra Pradesh",
+    "Vijayawada, Andhra Pradesh",
+    "Hyderabad, Telangana",
+    "Tirupati, Andhra Pradesh"
+   ],
+   "answer": 1,
+   "explain": "Union Home and Cooperation Minister Shri Amit Shah addressed the Ramoji Excellence Awards - 2026 ceremony in Vijayawada, Andhra Pradesh. The event took place to recognize excellence in various fields.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337202",
+   "verified": false,
+   "why": [
+    "Incorrect, the ceremony was held in Vijayawada, not Visakhapatnam.",
+    "Correct, Shri Amit Shah addressed the Ramoji Excellence Awards - 2026 ceremony in Vijayawada, Andhra Pradesh.",
+    "Incorrect, the headline states Vijayawada in Andhra Pradesh, not Hyderabad.",
+    "Incorrect, Vijayawada is the specified city in the headline, not Tirupati."
+   ]
+  },
+  {
+   "id": "a435facf49a",
+   "date": "2026-11-16",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "The Council of Scientific and Industrial Research (CSIR) renewed its scientific partnership to promote joint research, innovation, and technology development with the National Academy of Sciences of which country?",
+   "options": [
+    "Russia",
+    "Belarus",
+    "Kazakhstan",
+    "Armenia"
+   ],
+   "answer": 1,
+   "explain": "The Council of Scientific and Industrial Research (CSIR) renewed its scientific partnership with the National Academy of Sciences of Belarus (NASB). This collaboration aims to foster joint research, innovation, and technology development.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337167",
+   "verified": false,
+   "why": [
+    "Incorrect, the partnership was renewed with the NASB of Belarus, not Russia.",
+    "Correct, CSIR renewed its scientific partnership with the National Academy of Sciences of Belarus (NASB).",
+    "Incorrect, Belarus is the country stated in the headline, not Kazakhstan.",
+    "Incorrect, Armenia is not the partner country named in the headline."
+   ]
+  },
+  {
+   "id": "af6880c5bf3",
+   "date": "2026-11-16",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "The Ministry of Social Justice and Empowerment participated in which edition of the International Trade Fair 2026?",
+   "options": [
+    "42nd",
+    "44th",
+    "45th",
+    "47th"
+   ],
+   "answer": 2,
+   "explain": "The Ministry of Social Justice and Empowerment participated in the 45th International Trade Fair 2026. The ministry's participation reinforces its commitment to inclusive economic empowerment, entrepreneurship, and sustainable livelihoods.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337231",
+   "verified": false,
+   "why": [
+    "Incorrect, the headline specifies the 45th edition, not the 42nd.",
+    "Incorrect, the 45th edition is mentioned in the headline, not the 44th.",
+    "Correct, it was the 45th International Trade Fair 2026.",
+    "Incorrect, 47th is not the edition stated in the headline."
+   ]
+  },
+  {
+   "id": "abdfd2e3482",
+   "date": "2026-11-16",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "What was the theme of the special Handloom and Handicraft exhibition inaugurated by Union Textiles Minister Shri Giriraj Singh at the India International Trade Fair (IITF) 2026?",
+   "options": [
+    "'Vikas aur Virasat'",
+    "'Vikas aur Swadeshi'",
+    "'Virasat aur Udyam'",
+    "'Atmanirbhar Bharat aur Virasat'"
+   ],
+   "answer": 0,
+   "explain": "Union Textiles Minister Shri Giriraj Singh inaugurated a special Handloom and Handicraft exhibition at IITF 2026. The exhibition was based on the theme 'Vikas aur Virasat' (Development and Heritage).",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337120",
+   "verified": false,
+   "why": [
+    "Correct, the theme of the special handloom and handicraft exhibition was 'Vikas aur Virasat'.",
+    "Incorrect, the theme specified in the headline is 'Vikas aur Virasat', not 'Vikas aur Swadeshi'.",
+    "Incorrect, 'Virasat aur Udyam' is not the theme mentioned in the headline.",
+    "Incorrect, the headline explicitly states the theme as 'Vikas aur Virasat'."
+   ]
+  },
+  {
+   "id": "a394a70717e",
+   "date": "2026-11-16",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Who inaugurated the Taxpayer Lounge celebrating the spirit of 'Vikas aur Virasat' at the India International Trade Fair (IITF) 2026?",
+   "options": [
+    "CBDT Chairman Shri Ravi Agarwal",
+    "Union Textiles Minister Shri Giriraj Singh",
+    "Union Home Minister Shri Amit Shah",
+    "Union Minister Sarbananda Sonowal"
+   ],
+   "answer": 0,
+   "explain": "CBDT Chairman Shri Ravi Agarwal inaugurated the Taxpayer Lounge at the India International Trade Fair (IITF) 2026. The lounge was inaugurated celebrating the spirit of development and heritage ('Vikas aur Virasat').",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337207",
+   "verified": false,
+   "why": [
+    "Correct, CBDT Chairman Shri Ravi Agarwal inaugurated the Taxpayer Lounge at IITF 2026.",
+    "Incorrect, Shri Giriraj Singh inaugurated the special Handloom and Handicraft exhibition, not the Taxpayer Lounge.",
+    "Incorrect, Shri Amit Shah is not mentioned as the person who inaugurated the Taxpayer Lounge.",
+    "Incorrect, Shri Sarbananda Sonowal did not inaugurate the Taxpayer Lounge at IITF 2026."
+   ]
+  },
+  {
+   "id": "a27f828e66d",
+   "date": "2026-11-16",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "What is the total value of shipbuilding opportunities presented by Sarbananda Sonowal before leading nations in the global maritime sector?",
+   "options": [
+    "$5 billion",
+    "$10 billion",
+    "$15 billion",
+    "$20 billion"
+   ],
+   "answer": 1,
+   "explain": "Sarbananda Sonowal presented shipbuilding opportunities worth $10 billion to leading countries in the global maritime sector. This initiative showcases India's growing potential in maritime industries.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337175",
+   "verified": false,
+   "why": [
+    "Incorrect, the value stated in the headline is $10 billion, not $5 billion.",
+    "Correct, Sarbananda Sonowal presented shipbuilding opportunities worth $10 billion.",
+    "Incorrect, $15 billion is not the amount mentioned in the headline.",
+    "Incorrect, the headline specifies $10 billion, not $20 billion."
+   ]
+  },
+  {
+   "id": "aa00b78e919",
+   "date": "2026-11-16",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Where was the 12th session of the India-Belarus Inter-Governmental Commission held?",
+   "options": [
+    "Minsk",
+    "New Delhi",
+    "Moscow",
+    "Pune"
+   ],
+   "answer": 1,
+   "explain": "The 12th session of the India-Belarus Inter-Governmental Commission was held in New Delhi. The meeting serves as a framework to review bilateral cooperation between the two nations.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337159",
+   "verified": false,
+   "why": [
+    "Incorrect, the session was held in New Delhi, not Minsk.",
+    "Correct, the 12th session of the India-Belarus Inter-Governmental Commission was organized in New Delhi.",
+    "Incorrect, Moscow is not the venue city named in the headline.",
+    "Incorrect, New Delhi is the city stated in the headline, not Pune."
+   ]
+  },
+  {
+   "id": "a9de88235b7",
+   "date": "2026-11-16",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Self-Enumeration for the second phase of Census 2027 has commenced in the non-snowbound areas of which set of states?",
+   "options": [
+    "Goa, Uttar Pradesh, Punjab, and Uttarakhand",
+    "Himachal Pradesh, Uttar Pradesh, Punjab, and Uttarakhand",
+    "Goa, Madhya Pradesh, Haryana, and Uttarakhand",
+    "Jammu & Kashmir, Goa, Punjab, and Uttar Pradesh"
+   ],
+   "answer": 0,
+   "explain": "Self-Enumeration for the second phase of Census 2027 has started in the non-snowbound areas of Goa, Uttar Pradesh, Punjab, and Uttarakhand.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337058",
+   "verified": false,
+   "why": [
+    "Correct, the headline explicitly lists Goa, Uttar Pradesh, Punjab, and Uttarakhand.",
+    "Incorrect, Himachal Pradesh is not listed in the headline for non-snowbound areas.",
+    "Incorrect, Madhya Pradesh and Haryana are not mentioned in the headline.",
+    "Incorrect, Jammu & Kashmir is not among the four states named in the headline."
+   ]
+  },
   {
    "id": "a98bced49a2",
    "date": "2026-11-15",
@@ -4172,5 +4429,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-16"
+ "drafted_on": "2026-11-17"
 };
