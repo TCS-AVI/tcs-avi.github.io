@@ -1,7 +1,8 @@
 {
- "version": "2026.12.18",
- "date": "2026.12.18",
+ "version": "2026.12.19",
+ "date": "2026.12.19",
  "notes": [
+  "New app icon: the logo on deep blue, so it no longer sits on a white square",
   "Neater layout on every screen size: aligned top strips, evenly sized opening-hours rows",
   "Opening hours now colour-coded: green open, amber lunch, red closed, with today highlighted",
   "Daily study reminder: add a repeating reminder to your phone calendar at a time you choose",

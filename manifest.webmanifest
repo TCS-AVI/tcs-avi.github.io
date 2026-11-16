@@ -1,24 +1,36 @@
 {
  "name": "The Computer Services",
  "short_name": "Computer Services",
- "description": "Current affairs MCQs and exam updates for SSC, Banking, RRB, JKSSB, JKPSC and more.",
+ "description": "Free study aid for JKSSB, JKPSC, SSC, Banking and Pharmacy exams, from The Computer Services, Jakh, Samba, J&K.",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
- "background_color": "#f6f5f1",
+ "background_color": "#0a2a63",
  "theme_color": "#0b3d91",
  "icons": [
   {
    "src": "icon-192.png",
    "sizes": "192x192",
    "type": "image/png",
-   "purpose": "any maskable"
+   "purpose": "any"
   },
   {
    "src": "icon-512.png",
    "sizes": "512x512",
    "type": "image/png",
-   "purpose": "any maskable"
+   "purpose": "any"
+  },
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
   }
  ]
 }
