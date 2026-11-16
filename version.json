@@ -1,7 +1,8 @@
 {
- "version": "2026.12.22",
- "date": "2026.12.22",
+ "version": "2026.12.23",
+ "date": "2026.12.23",
  "notes": [
+  "Buttons now share one size scale so everything looks even",
   "For visitors abroad: your appointment time shown in their local time, and a WhatsApp tip on the call sheet",
   "Open or closed label says India time for visitors outside India",
   "Works for people abroad: times show the viewer's local clock beside India time, and bookings accept international numbers",
