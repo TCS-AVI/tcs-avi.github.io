@@ -3,6 +3,293 @@ window.CA_DATA = {
  "seenUrls": [],
  "mcqs": [
   {
+   "id": "a1dc3f69412",
+   "date": "2026-11-18",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "The Indian Navy recently celebrated the completion of how many years of its Long Range Maritime Reconnaissance operations?",
+   "options": [
+    "25 years",
+    "50 years",
+    "60 years",
+    "75 years"
+   ],
+   "answer": 1,
+   "explain": "The Indian Navy celebrated the completion of 50 years of its Long Range Maritime Reconnaissance operations. This milestone highlights five decades of maritime reconnaissance missions conducted by the force.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337779",
+   "verified": false,
+   "why": [
+    "Incorrect, as the headline explicitly states 50 years, not 25 years.",
+    "Correct, the Indian Navy marked the completion of 50 years of these operations.",
+    "Incorrect, 60 years is not mentioned in the headline.",
+    "Incorrect, 75 years is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a8cb24dd648",
+   "date": "2026-11-18",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Which Union Ministry recently issued ombudsman guidelines to strengthen transparency and accountability under the Viksit Bharat - G Ram G Act?",
+   "options": [
+    "Ministry of Home Affairs",
+    "Ministry of Rural Development",
+    "Ministry of Panchayati Raj",
+    "Ministry of Law and Justice"
+   ],
+   "answer": 1,
+   "explain": "The Ministry of Rural Development has issued ombudsman-related guidelines. These guidelines aim to strengthen transparency and accountability under the Viksit Bharat - G Ram G Act.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337721",
+   "verified": false,
+   "why": [
+    "Incorrect, the Ministry of Home Affairs is not mentioned.",
+    "Correct, the guidelines were issued by the Ministry of Rural Development.",
+    "Incorrect, the Ministry of Panchayati Raj is not stated in the headline.",
+    "Incorrect, the Ministry of Law and Justice is not stated in the headline."
+   ]
+  },
+  {
+   "id": "a63df5844ec",
+   "date": "2026-11-18",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the chicken vaccine dedicated to the nation:\n1. It is India's first indigenous H5N1 (Clade 2.3.2.1a) chicken vaccine.\n2. It was dedicated to the nation by Shri Shivraj Singh Chouhan on 20 November.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Shri Shivraj Singh Chouhan dedicated India's first indigenous H5N1 (Clade 2.3.2.1a) chicken vaccine to the nation on 20 November. Therefore, both given statements are completely accurate as per the news headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337717",
+   "verified": false,
+   "why": [
+    "Incorrect, because statement 2 is also correct.",
+    "Incorrect, because statement 1 is also correct.",
+    "Correct, both statements 1 and 2 accurately reflect the facts stated in the headline.",
+    "Incorrect, as both statements are factually correct as per the headline."
+   ]
+  },
+  {
+   "id": "ab595b6d1a5",
+   "date": "2026-11-18",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements:\n1. 'Karmyogi Sankalp' was launched by the Cabinet Secretary.\n2. It was launched during a NITI Aayog national workshop themed 'Leadership as a Mission'.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The Cabinet Secretary launched 'Karmyogi Sankalp' at a national workshop organized by NITI Aayog. The theme of the national workshop was 'Leadership as a Mission'.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337715",
+   "verified": false,
+   "why": [
+    "Incorrect, because statement 2 is also correct.",
+    "Incorrect, because statement 1 is also correct.",
+    "Correct, both statements accurately represent the information from the headline.",
+    "Incorrect, because neither statement is false."
+   ]
+  },
+  {
+   "id": "a722283c211",
+   "date": "2026-11-18",
+   "subject": "J&K Special",
+   "exams": [
+    "JKSSB",
+    "JKPSC",
+    "SSC"
+   ],
+   "q": "At the International Film Festival of India (IFFI) 2026, stories from which Himalayan regions emerged as a major center of attraction?",
+   "options": [
+    "Ladakhi and Kashmiri stories",
+    "Sikkimese and Bhutanese stories",
+    "Garhwali and Kumaoni stories",
+    "Himachali and Tibetan stories"
+   ],
+   "answer": 0,
+   "explain": "At IFFI 2026, the Himalayan horizon shone brightly as Ladakhi and Kashmiri stories became the center of attraction. The event showcased narrative representations originating from these specific regions.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337692",
+   "verified": false,
+   "why": [
+    "Correct, Ladakhi and Kashmiri stories were explicitly highlighted as the center of attraction.",
+    "Incorrect, Sikkimese and Bhutanese stories are not mentioned.",
+    "Incorrect, Garhwali and Kumaoni stories are not mentioned.",
+    "Incorrect, Himachali and Tibetan stories are not mentioned."
+   ]
+  },
+  {
+   "id": "a4789890e2a",
+   "date": "2026-11-18",
+   "subject": "Important Days",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which significant day was celebrated across the country in 2026 as per a recent government release?",
+   "options": [
+    "Rashtriya Ekta Diwas",
+    "Janjatiya Gaurav Divas",
+    "Matribhasha Diwas",
+    "Samvidhan Divas"
+   ],
+   "answer": 1,
+   "explain": "Janjatiya Gaurav Divas 2026 was celebrated across the country. The official headline confirms the nationwide observance of this specific day.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337733",
+   "verified": false,
+   "why": [
+    "Incorrect, Rashtriya Ekta Diwas is not the day mentioned in the headline.",
+    "Correct, Janjatiya Gaurav Divas was celebrated across the nation.",
+    "Incorrect, Matribhasha Diwas is not mentioned.",
+    "Incorrect, Samvidhan Divas is not mentioned."
+   ]
+  },
+  {
+   "id": "a4a3b2bfaaf",
+   "date": "2026-11-18",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "APEDA recently facilitated the export of the first consignment of biscuits to Madagascar from which Indian city?",
+   "options": [
+    "Varanasi",
+    "Kanpur",
+    "Lucknow",
+    "Prayagraj"
+   ],
+   "answer": 0,
+   "explain": "APEDA assisted in the export of the very first consignment of biscuits to Madagascar from Varanasi. This export marks a new trade link facilitated by the authority.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337669",
+   "verified": false,
+   "why": [
+    "Correct, the headline explicitly specifies Varanasi as the origin.",
+    "Incorrect, Kanpur is not mentioned in the headline.",
+    "Incorrect, Lucknow is not mentioned in the headline.",
+    "Incorrect, Prayagraj is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a3304c722b5",
+   "date": "2026-11-18",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding air quality regulations in Delhi-NCR:\n1. CAQM lifted the Stage 3 restrictions of GRAP following an improvement in air quality.\n2. Stage 2 measures under GRAP will continue to remain in force.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Following an improvement in Delhi-NCR air quality, the Commission for Air Quality Management (CAQM) removed Stage 3 restrictions under GRAP. However, the headline clarifies that Stage 2 measures will continue.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337679",
+   "verified": false,
+   "why": [
+    "Incorrect, because statement 2 is also correct.",
+    "Incorrect, because statement 1 is also correct.",
+    "Correct, both statements accurately capture the facts from the headline.",
+    "Incorrect, because both statements are true according to the headline."
+   ]
+  },
+  {
+   "id": "a7007105f5b",
+   "date": "2026-11-18",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "The Ministry of Social Justice and Empowerment set up its pavilion at which edition of the India International Trade Fair in 2026?",
+   "options": [
+    "40th",
+    "42nd",
+    "45th",
+    "50th"
+   ],
+   "answer": 2,
+   "explain": "The Ministry of Social Justice and Empowerment established its pavilion at the 45th India International Trade Fair 2026. The headline directly specifies the 45th edition of this event.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337682",
+   "verified": false,
+   "why": [
+    "Incorrect, the headline specifies the 45th edition, not the 40th.",
+    "Incorrect, 42nd is not mentioned.",
+    "Correct, the headline explicitly mentions the 45th Indian International Trade Fair 2026.",
+    "Incorrect, 50th is not mentioned."
+   ]
+  },
+  {
+   "id": "aa3c9958757",
+   "date": "2026-11-18",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC",
+    "Universities & Entrances"
+   ],
+   "q": "Consider the following statements based on the address by Shri Bhupender Yadav:\n1. COP31 took place in Antalya, Turkiye.\n2. India will leverage a Joint Crediting Mechanism with Japan to accelerate transition to low-carbon.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "At COP31 held in Antalya, Turkiye, Shri Bhupender Yadav stated that India will leverage a Joint Crediting Mechanism with Japan. This aims to accelerate the low-carbon transition, attract investments, and strengthen domestic capabilities.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337641",
+   "verified": false,
+   "why": [
+    "Incorrect, because statement 2 is also correct.",
+    "Incorrect, because statement 1 is also correct.",
+    "Correct, both statements are directly confirmed by the news headline.",
+    "Incorrect, as both statements are factually aligned with the headline."
+   ]
+  },
+  {
    "id": "ae1a3e2c09d",
    "date": "2026-11-16",
    "subject": "National",
@@ -4429,5 +4716,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-17"
+ "drafted_on": "2026-11-18"
 };
