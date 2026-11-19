@@ -1,7 +1,263 @@
 window.CA_DATA = {
- "generated": "2026-11-19",
+ "generated": "2026-11-20",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "a76023bf1e8",
+   "date": "2026-11-19",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC",
+    "Universities & Entrances"
+   ],
+   "q": "Which edition of the Central Supervisory Board meeting recently reviewed the implementation of the PC & PNDT Act, 1994?",
+   "options": [
+    "30th meeting",
+    "31st meeting",
+    "32nd meeting",
+    "35th meeting"
+   ],
+   "answer": 2,
+   "explain": "The 32nd meeting of the Central Supervisory Board reviewed the implementation of the PC & PNDT Act, 1994. No other meeting edition is mentioned in the news headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338790",
+   "verified": false,
+   "why": [
+    "Incorrect; the headline specifies the 32nd meeting.",
+    "Incorrect; the headline mentions the 32nd meeting.",
+    "Correct; the 32nd meeting reviewed the PC & PNDT Act, 1994 implementation.",
+    "Incorrect; the 32nd meeting is explicitly stated."
+   ]
+  },
+  {
+   "id": "a6dc058f41a",
+   "date": "2026-11-19",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Consider the following statements regarding the 45th IITF 2026:\n1. The Ministry of Social Justice and Empowerment set up a pavilion at the event.\n2. A total sales of Rs 44.55 lakh was recorded at the Ministry's pavilion.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "According to the headline, total sales of Rs 44.55 lakh were recorded at the pavilion of the Ministry of Social Justice and Empowerment during the 45th IITF 2026. Therefore, both Statement 1 and Statement 2 are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338810",
+   "verified": false,
+   "why": [
+    "Incorrect; Statement 2 is also correct.",
+    "Incorrect; Statement 1 is also correct.",
+    "Correct; both statements accurately reflect the facts in the headline.",
+    "Incorrect; both statements 1 and 2 are factual as per the headline."
+   ]
+  },
+  {
+   "id": "a2396299e09",
+   "date": "2026-11-19",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Where were the bilateral talks between India's Defence Minister and the Defence Minister of Japan held?",
+   "options": [
+    "New Delhi",
+    "Tokyo",
+    "Osaka",
+    "Kyoto"
+   ],
+   "answer": 1,
+   "explain": "The Defence Minister and Japan's Defence Minister held bilateral talks in Tokyo. No other location is stated in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338749",
+   "verified": false,
+   "why": [
+    "Incorrect; the bilateral talks took place in Tokyo.",
+    "Correct; Tokyo is specified as the venue for the bilateral talks.",
+    "Incorrect; Tokyo is the correct location specified.",
+    "Incorrect; the talks took place in Tokyo."
+   ]
+  },
+  {
+   "id": "a07a634e6d7",
+   "date": "2026-11-19",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC",
+    "JKSSB"
+   ],
+   "q": "Consider the following statements regarding the Anti-Terrorism Conference:\n1. The conference was a two-day event held in New Delhi.\n2. Union Home and Cooperation Minister Shri Amit Shah addressed its inaugural session.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The headline states that Union Home and Cooperation Minister Shri Amit Shah addressed the inaugural session of the two-day Anti-Terrorism Conference in New Delhi. Thus, both statements are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338697",
+   "verified": false,
+   "why": [
+    "Incorrect; Statement 2 is also correct.",
+    "Incorrect; Statement 1 is also correct.",
+    "Correct; both statements are directly supported by the headline.",
+    "Incorrect; both statements are correct."
+   ]
+  },
+  {
+   "id": "a50650bb5cc",
+   "date": "2026-11-19",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which city is hosting the 57th International Film Festival of India (IFFI)?",
+   "options": [
+    "Mumbai",
+    "Panaji, Goa",
+    "New Delhi",
+    "Kochi"
+   ],
+   "answer": 1,
+   "explain": "Preparations are in full swing for hosting the 57th International Film Festival of India (IFFI) in Panaji, Goa. No other city is mentioned in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338738",
+   "verified": false,
+   "why": [
+    "Incorrect; Panaji, Goa is specified in the headline.",
+    "Correct; Panaji, Goa is explicitly named as the host location.",
+    "Incorrect; Panaji is the host city mentioned.",
+    "Incorrect; the festival is hosted in Panaji, Goa."
+   ]
+  },
+  {
+   "id": "af6ffa87223",
+   "date": "2026-11-19",
+   "subject": "Economy & Banking",
+   "exams": [
+    "Banking",
+    "SSC",
+    "JKPSC"
+   ],
+   "q": "Who chaired the 240th meeting of the Central Board of Trustees (CBT) of EPF?",
+   "options": [
+    "Shri Nitin Gadkari",
+    "Shri Amit Shah",
+    "Dr. Mansukh Mandaviya",
+    "Shri Narendra Modi"
+   ],
+   "answer": 2,
+   "explain": "Dr. Mansukh Mandaviya chaired the 240th meeting of the Central Board of Trustees (CBT) of EPF. Other leaders are not mentioned in connection with this meeting.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338767",
+   "verified": false,
+   "why": [
+    "Incorrect; Dr. Mansukh Mandaviya chaired the meeting.",
+    "Incorrect; Dr. Mansukh Mandaviya chaired the meeting.",
+    "Correct; Dr. Mansukh Mandaviya chaired the 240th EPF CBT meeting.",
+    "Incorrect; Dr. Mansukh Mandaviya is specified as the chairperson."
+   ]
+  },
+  {
+   "id": "af22e6b29fe",
+   "date": "2026-11-19",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "JKPSC",
+    "Railways"
+   ],
+   "q": "In which city was a high-level meeting held to review the comprehensive development plan for the Bastar region?",
+   "options": [
+    "Ranchi",
+    "Raipur",
+    "Bhubaneswar",
+    "Jagdalpur"
+   ],
+   "answer": 1,
+   "explain": "The comprehensive development plan of the Bastar region was reviewed in a high-level meeting held in Raipur. No other city is mentioned in the news headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338704",
+   "verified": false,
+   "why": [
+    "Incorrect; Raipur is the city stated in the headline.",
+    "Correct; Raipur is explicitly mentioned as the location of the meeting.",
+    "Incorrect; Raipur is the correct location.",
+    "Incorrect; Raipur is the city specified."
+   ]
+  },
+  {
+   "id": "a3e2bf0395e",
+   "date": "2026-11-19",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Universities & Entrances"
+   ],
+   "q": "The WAVES Film Bazaar marks the completion of how many years of promoting global film collaboration?",
+   "options": [
+    "10 years",
+    "15 years",
+    "20 years",
+    "25 years"
+   ],
+   "answer": 2,
+   "explain": "The WAVES Film Bazaar marks 20 years of promoting global film collaboration. The headline specifically states 20 years.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338801",
+   "verified": false,
+   "why": [
+    "Incorrect; the headline states 20 years.",
+    "Incorrect; 20 years is specified in the text.",
+    "Correct; WAVES Film Bazaar marks 20 years of global film collaboration.",
+    "Incorrect; the text explicitly mentions 20 years."
+   ]
+  },
+  {
+   "id": "afbf0b4806e",
+   "date": "2026-11-19",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the 57th International Film Festival of India (IFFI):\n1. The festival takes place in Goa.\n2. The theme focus brings to life 'Stories Beyond Borders' (सरहदों से परे की कहानियां).\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The headline states that the 57th IFFI commences tomorrow in Goa and brings to life 'Stories Beyond Borders'. Hence, both statements 1 and 2 are accurate.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338795",
+   "verified": false,
+   "why": [
+    "Incorrect; Statement 2 is also correct according to the headline.",
+    "Incorrect; Statement 1 is also correct.",
+    "Correct; both statements match the facts presented in the headline.",
+    "Incorrect; both statement 1 and statement 2 are correct."
+   ]
+  },
   {
    "id": "a1dc3f69412",
    "date": "2026-11-18",
@@ -4942,5 +5198,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-19"
+ "drafted_on": "2026-11-20"
 };
