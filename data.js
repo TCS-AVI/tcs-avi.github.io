@@ -1,7 +1,176 @@
 window.CA_DATA = {
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "aa54ee64fc7",
+   "date": "2026-11-20",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding India's Critical Mineral Mission:\n1. It aims to ensure mineral supply from both domestic and foreign sources.\n2. Shri Keshav Chandra is the Secretary of the Ministry of Mines.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "According to the headline, Shri Keshav Chandra is the Secretary of the Ministry of Mines. He stated that India's Critical Mineral Mission is securing mineral supply from both domestic and foreign sources.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339381",
+   "verified": false,
+   "why": [
+    "Incorrect because statement 2 is also correct.",
+    "Incorrect because statement 1 is also correct.",
+    "Correct, as both statements accurately reflect facts stated by Ministry of Mines Secretary Keshav Chandra.",
+    "Incorrect because both statements 1 and 2 are correct."
+   ]
+  },
+  {
+   "id": "a2025697795",
+   "date": "2026-11-20",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which state host state laid out the red carpet for the 57th International Film Festival of India (IFFI 57)?",
+   "options": [
+    "Goa",
+    "Maharashtra",
+    "Karnataka",
+    "Delhi"
+   ],
+   "answer": 0,
+   "explain": "The headline explicitly states that Goa laid out the red carpet for the 57th International Film Festival of India (IFFI 57).",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339408",
+   "verified": false,
+   "why": [
+    "Correct, Goa is mentioned as hosting IFFI 57.",
+    "Incorrect, Maharashtra is not mentioned.",
+    "Incorrect, Karnataka is not mentioned.",
+    "Incorrect, Delhi is not mentioned."
+   ]
+  },
+  {
+   "id": "a10d25b5d11",
+   "date": "2026-11-20",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Which Union Ministry's pavilion recorded cumulative sales of over Rs 60.78 lakh at the 45th IITF 2026?",
+   "options": [
+    "Ministry of Social Justice and Empowerment",
+    "Ministry of Commerce and Industry",
+    "Ministry of Textiles",
+    "Ministry of Micro, Small and Medium Enterprises"
+   ],
+   "answer": 0,
+   "explain": "As stated in the headline, the pavilion of the Ministry of Social Justice and Empowerment recorded cumulative sales exceeding Rs 60.78 lakh at the 45th IITF 2026.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339372",
+   "verified": false,
+   "why": [
+    "Correct, the pavilion belonged to the Ministry of Social Justice and Empowerment.",
+    "Incorrect, Ministry of Commerce and Industry is not mentioned.",
+    "Incorrect, Ministry of Textiles is not mentioned.",
+    "Incorrect, MSME Ministry is not mentioned."
+   ]
+  },
+  {
+   "id": "a108675073d",
+   "date": "2026-11-20",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKSSB"
+   ],
+   "q": "What is the duration of the certificate course on drug de-addiction, counseling skills, treatment, and rehabilitation completed by NISD for batch 2026–27?",
+   "options": [
+    "Three months",
+    "Six months",
+    "One year",
+    "Two months"
+   ],
+   "answer": 0,
+   "explain": "NISD successfully completed the first batch (2026–27) of a three-month certificate course related to drug de-addiction, counseling skills, treatment, and rehabilitation.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339337",
+   "verified": false,
+   "why": [
+    "Correct, the headline explicitly specifies a three-month course duration.",
+    "Incorrect, six months is not stated in the headline.",
+    "Incorrect, one year is not stated in the headline.",
+    "Incorrect, two months is not stated in the headline."
+   ]
+  },
+  {
+   "id": "a178492fe37",
+   "date": "2026-11-20",
+   "subject": "Important Days",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Where was the 9th Naturopathy Day celebrated with eco-friendly and plastic-free arrangements?",
+   "options": [
+    "Nagamangala",
+    "Bengaluru",
+    "Mysuru",
+    "Hubballi"
+   ],
+   "answer": 0,
+   "explain": "The 9th Naturopathy Day was celebrated in Nagamangala with eco-friendly and plastic-free arrangements as mentioned in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339292",
+   "verified": false,
+   "why": [
+    "Correct, Nagamangala is the venue mentioned in the headline.",
+    "Incorrect, Bengaluru is not mentioned.",
+    "Incorrect, Mysuru is not mentioned.",
+    "Incorrect, Hubballi is not mentioned."
+   ]
+  },
+  {
+   "id": "ab2fc60b7c9",
+   "date": "2026-11-20",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Which vessel, designated as Yard 326, was delivered to the Indian Navy under the Diving Support Craft project?",
+   "options": [
+    "DSC A21",
+    "DSC A22",
+    "DSC B20",
+    "DSC C25"
+   ],
+   "answer": 0,
+   "explain": "The headline states that DSC A21 (Yard 326) was delivered to the Indian Navy under the Diving Support Craft project.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339289",
+   "verified": false,
+   "why": [
+    "Correct, DSC A21 (Yard 326) is the vessel delivered.",
+    "Incorrect, DSC A22 is not mentioned.",
+    "Incorrect, DSC B20 is not mentioned.",
+    "Incorrect, DSC C25 is not mentioned."
+   ]
+  },
   {
    "id": "a76023bf1e8",
    "date": "2026-11-19",
@@ -5198,5 +5367,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-20"
+ "drafted_on": "2026-11-21"
 };
