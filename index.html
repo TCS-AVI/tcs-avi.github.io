@@ -1603,7 +1603,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.12.31",KEY="ed_ver",later="";
+var VER="2026.12.32",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
