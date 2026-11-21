@@ -1,7 +1,8 @@
 {
- "version": "2026.12.30",
- "date": "2026.12.30",
+ "version": "2026.12.31",
+ "date": "2026.12.31",
  "notes": [
+  "Every tool now has a short How to use guide inside it",
   "160 more questions for History and Polity & Governance",
   "Password vault: leak check, password health, backup reminder, exam groups and more fields",
   "New tools in More: form document checklist and a shareable progress card",

@@ -752,9 +752,28 @@ function closeSheet(){if(sheetEl&&sheetEl.parentNode)sheetEl.parentNode.removeCh
 function sheetKey(e){if(e.key==="Escape")closeSheet()}
 function openSheet(title,body){closeSheet();var x=el("button",{class:"btn ghost lab-x","aria-label":"Close"},["Close"]);x.onclick=closeSheet;
  var p=el("div",{class:"lab-sheet",role:"dialog","aria-modal":"true","aria-label":title},[el("div",{class:"lab-sh"},[el("b",{},[title]),x]),body]);
+ try{hlpAdd(title,p)}catch(e){}
  var bg=el("div",{class:"lab-bg"},[p]);bg.addEventListener("click",function(e){if(e.target===bg)closeSheet()});
  document.body.appendChild(bg);sheetEl=bg;document.addEventListener("keydown",sheetKey);x.focus()}
 
+/* ---- how-to help inside each tool ---- */
+var HELP={
+"Password vault":["Create a master password of 12+ characters. Remember it: nobody can reset it.","Tap Add a login and save the portal, username, email, phone and password. Use Generate for a strong password.","Tap a saved login to see details. Show reveals the password, Copy copies it and clears the clipboard after 20 seconds.","Save an encrypted backup now and then. If browser data is cleared, the backup is the only way back."],
+"Exam countdown":["Type the exam name and pick its date.","Tap Add exam. You see the days and weeks left.","The nearest exam also shows on the More menu.","Tap Remove once an exam is over."],
+"Age and eligibility":["Pick your date of birth and the cut-off date from the notification.","Optionally type the upper age limit and your category's relaxation in years.","You see your exact age, whether you are within the limit, and the earliest birth date that qualifies.","Always confirm the limit and relaxation in the official notification."],
+"Form document checklist":["Tick each document you already have.","The bar shows how ready you are.","Tap Share missing items on WhatsApp to send yourself or a helper the list.","Tap Book help with my form if you want The Computer Services to do it for you."],
+"My progress card":["Answer some questions in Practice or Mock Test first.","Your card shows accuracy, streak and subjects.","Tap Save as picture or Share on WhatsApp."],
+"Book an appointment":["Pick the service you need, then a day and a free time slot within opening hours.","Add your name and phone number.","Tap Send request on WhatsApp. This sends your request to us.","When we confirm, tap They confirmed, then Add to calendar so you do not forget."],
+"Daily study reminder":["Pick a time, or tap one of the quick times.","Tap Add daily reminder. A calendar file downloads.","Open it to add a repeating reminder to your phone calendar.","Your phone then alerts you every day, even when this app is closed."],
+"Back up my progress":["Tap Save backup file to download your streak, saved questions, results and settings.","To move to a new phone or recover after clearing data, tap Restore from a backup file and pick that file.","Your password vault has its own backup inside the vault.","Keep the file safe, for example in WhatsApp saved messages."],
+"Calculator":["Tap numbers and operators as on any calculator.","C clears everything and the ⌫ key deletes the last digit."],
+"Focus timer":["Tap Focus to start the 25-minute study timer, or set your own time.","Tap Start and keep the app open.","Tap Reset to begin again."]};
+function hlpGet(){try{return JSON.parse(localStorage.getItem("ed_help")||"{}")||{}}catch(e){return{}}}
+function hlpAdd(title,p){var h=HELP[title];if(!h)return;var seen=hlpGet(),first=!seen[title];
+ var d=el("details",{class:"hlp"},[el("summary",{},["How to use"]),el("ol",{},h.map(function(t){return el("li",{},[t])}))]);if(first)d.open=true;
+ d.addEventListener("toggle",function(){if(!d.open){var s=hlpGet();s[title]=1;try{localStorage.setItem("ed_help",JSON.stringify(s))}catch(e){}}});
+ if(first){var s=hlpGet();s[title]=1;try{localStorage.setItem("ed_help",JSON.stringify(s))}catch(e){}}
+ p.insertBefore(d,p.children[1])}
 /* ---- calculator ---- */
 function calcBody(){var cur="0",prev=null,op=null,fresh=true,disp=el("div",{class:"calc-d","aria-live":"polite"},["0"]);
  function show(){disp.textContent=cur.length>14?String(+cur).toPrecision(10).replace(/\.?0+$/,""):cur}
@@ -1584,7 +1603,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.12.30",KEY="ed_ver",later="";
+var VER="2026.12.31",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
@@ -2286,5 +2305,9 @@ html[data-rm] .vt-orb span,.vt-orb.off span{animation:none}
 .vt-pr{font-size:.85rem;align-self:center}.vt-pr.ok{color:var(--ok)}.vt-pr.bad{color:var(--bad)}
 .vt-res{font-size:.9rem}
 .vt select{width:100%;box-sizing:border-box;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;min-height:44px}
+</style><style id="ui-hlp">
+.hlp{border:1px solid var(--line);border-radius:12px;padding:8px 12px;margin:0 0 10px;background:var(--bg);font-size:.9rem}
+.hlp summary{cursor:pointer;font-weight:700;min-height:32px;display:flex;align-items:center}
+.hlp ol{margin:6px 0 4px;padding-left:20px;line-height:1.5}
 </style></body>
 </html>
