@@ -1,7 +1,265 @@
 window.CA_DATA = {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "ac0849c5d11",
+   "date": "2026-11-21",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Where did Union Home and Cooperation Minister Amit Shah review the law and order, internal security, border management, and development works of Arunachal Pradesh?",
+   "options": [
+    "Itanagar",
+    "Guwahati",
+    "Shillong",
+    "New Delhi"
+   ],
+   "answer": 0,
+   "explain": "Union Home and Cooperation Minister Amit Shah reviewed law and order, internal security, border management, and development works of Arunachal Pradesh in Itanagar. The review was conducted during a high-level meeting.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339823",
+   "verified": false,
+   "why": [
+    "Correct. Itanagar is explicitly mentioned as the meeting venue in the headline.",
+    "Incorrect. Guwahati is not mentioned in the headline.",
+    "Incorrect. Shillong is not mentioned in the headline.",
+    "Incorrect. New Delhi is not mentioned as the location for this meeting."
+   ]
+  },
+  {
+   "id": "a7183222aea",
+   "date": "2026-11-21",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "At IFFI 2026, India explored new avenues of cooperation in the media and entertainment sector with which of the following countries?",
+   "options": [
+    "France",
+    "Spain",
+    "Japan",
+    "Canada"
+   ],
+   "answer": 1,
+   "explain": "India and Spain explored new avenues of cooperation in the media and entertainment sector at IFFI 2026. This collaboration was discussed during the event.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339828",
+   "verified": false,
+   "why": [
+    "Incorrect. France is not mentioned in the headline.",
+    "Correct. Spain is directly mentioned as the partner country in the headline.",
+    "Incorrect. Japan is not mentioned in the headline.",
+    "Incorrect. Canada is not mentioned for this cooperation."
+   ]
+  },
+  {
+   "id": "a3697b4a910",
+   "date": "2026-11-21",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the 57th IFFI:\n1. Shri Chanchal Kumar is the Secretary of the Ministry of Information and Broadcasting.\n2. He inaugurated the Publications Division stall at the 57th IFFI in Goa.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Shri Chanchal Kumar is the Secretary of the Ministry of Information and Broadcasting. He inaugurated the Publications Division stall at the 57th IFFI held in Goa.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339788",
+   "verified": false,
+   "why": [
+    "Incorrect. Statement 2 is also correct based on the headline.",
+    "Incorrect. Statement 1 is also correct based on the headline.",
+    "Correct. Both statements 1 and 2 accurately reflect facts stated in the headline.",
+    "Incorrect. Both statements are true according to the text."
+   ]
+  },
+  {
+   "id": "a970dd81e10",
+   "date": "2026-11-21",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "How many MoUs signed with universities and institutions across the country were exchanged by NISD to strengthen social defence initiatives?",
+   "options": [
+    "15",
+    "18",
+    "23",
+    "30"
+   ],
+   "answer": 2,
+   "explain": "NISD exchanged 23 MoUs signed with universities and institutions nationwide. These agreements aim to strengthen social defence initiatives.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339819",
+   "verified": false,
+   "why": [
+    "Incorrect. 15 is not the figure stated in the headline.",
+    "Incorrect. 18 is not the figure stated in the headline.",
+    "Correct. The headline explicitly mentions 23 MoUs.",
+    "Incorrect. 30 is not the figure stated in the headline."
+   ]
+  },
+  {
+   "id": "a75cb13335e",
+   "date": "2026-11-21",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which organization launched the initiative ‘Page to Pitch’ (पेज से पिच तक) at IFFI 57 to discover new talent in Indian storytelling?",
+   "options": [
+    "Doordarshan",
+    "Prasar Bharati",
+    "Film Division",
+    "NFDC"
+   ],
+   "answer": 1,
+   "explain": "Prasar Bharati launched the ‘Page to Pitch’ initiative at IFFI 57. The initiative aims to discover new talent in Indian storytelling.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339769",
+   "verified": false,
+   "why": [
+    "Incorrect. Doordarshan is not mentioned in the headline.",
+    "Correct. Prasar Bharati launched 'Page to Pitch' as per the headline.",
+    "Incorrect. Film Division is not mentioned in the headline.",
+    "Incorrect. NFDC is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a4b660e62e6",
+   "date": "2026-11-21",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKPSC"
+   ],
+   "q": "Where was the 6th round of the India-Canada CEPA talks concluded?",
+   "options": [
+    "Ottawa",
+    "Mumbai",
+    "Toronto",
+    "New Delhi"
+   ],
+   "answer": 3,
+   "explain": "The 6th round of India-Canada CEPA talks concluded in New Delhi. The headline confirms New Delhi as the venue for this round.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339776",
+   "verified": false,
+   "why": [
+    "Incorrect. Ottawa is not stated in the headline.",
+    "Incorrect. Mumbai is not stated in the headline.",
+    "Incorrect. Toronto is not stated in the headline.",
+    "Correct. New Delhi is explicitly mentioned in the headline."
+   ]
+  },
+  {
+   "id": "aa0582d746d",
+   "date": "2026-11-21",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the 'Kaushal Dikshant Samaroh':\n1. Prime Minister Narendra Modi attended the 5th Kaushal Dikshant Samaroh.\n2. The event took place in Lucknow, Uttar Pradesh.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Prime Minister Narendra Modi attended the 5th Kaushal Dikshant Samaroh. The ceremony was organized in Lucknow, Uttar Pradesh.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339779",
+   "verified": false,
+   "why": [
+    "Incorrect. Statement 2 is also correct according to the headline.",
+    "Incorrect. Statement 1 is also correct according to the headline.",
+    "Correct. Both statements 1 and 2 are accurate facts from the headline.",
+    "Incorrect. Both statements are factually correct."
+   ]
+  },
+  {
+   "id": "aed384b3f19",
+   "date": "2026-11-21",
+   "subject": "Static GK",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Ahead of Kashi Tamil Sangamam 5.0, a Rangoli competition was organized at which of the following locations?",
+   "options": [
+    "Dashashwamedh Ghat",
+    "Manikarnika Ghat",
+    "Assi Ghat",
+    "Harishchandra Ghat"
+   ],
+   "answer": 2,
+   "explain": "A Rangoli competition was held at Assi Ghat ahead of Kashi Tamil Sangamam 5.0. No other ghat is mentioned in the news headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339666",
+   "verified": false,
+   "why": [
+    "Incorrect. Dashashwamedh Ghat is not mentioned in the headline.",
+    "Incorrect. Manikarnika Ghat is not mentioned in the headline.",
+    "Correct. Assi Ghat is directly mentioned in the headline.",
+    "Incorrect. Harishchandra Ghat is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a96808f5562",
+   "date": "2026-11-21",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The Vice President attended the 42nd Annual Day celebrations of Nellai Nadar Matriculation Higher Secondary School in which city?",
+   "options": [
+    "Bengaluru",
+    "Chennai",
+    "Kochi",
+    "Hyderabad"
+   ],
+   "answer": 1,
+   "explain": "The Vice President participated in the 42nd Annual Day celebrations of Nellai Nadar Matriculation Higher Secondary School. The event took place in Chennai.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339703",
+   "verified": false,
+   "why": [
+    "Incorrect. Bengaluru is not mentioned in the headline.",
+    "Correct. Chennai is explicitly named in the headline.",
+    "Incorrect. Kochi is not mentioned in the headline.",
+    "Incorrect. Hyderabad is not mentioned in the headline."
+   ]
+  },
   {
    "id": "aa54ee64fc7",
    "date": "2026-11-20",
@@ -5367,5 +5625,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-21"
+ "drafted_on": "2026-11-22"
 };
