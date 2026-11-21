@@ -828,6 +828,11 @@ function openMoreTools(){var body=el("div",{class:"mt-g"}),mode=document.documen
  function item(ic,label,fn,href){var o=href?el("a",{class:"mt",href:href,target:href.indexOf("tel:")===0?"_self":"_blank",rel:"noopener noreferrer"},[]):el("button",{class:"mt",type:"button"},[]);o.appendChild(el("span",{class:"mt-i","aria-hidden":"true"},[ic]));o.appendChild(el("span",{},[label]));if(fn)o.onclick=fn;body.appendChild(o)}
  item("📅","Book an appointment",function(){openBooking()});
  item("📞","Call us",null,"tel:+919906145163");
+ var nx=exNext();item("🎯","Exam countdown"+(nx?" ("+nx.d+" days to "+nx.n.slice(0,18)+")":""),function(){openCountdown()});
+ item("📋","Form document checklist",function(){openDocChecklist()});
+ item("📈","My progress card",function(){openProgressCard()});
+ item("🎂","Age and eligibility",function(){openAgeCalc()});
+ item("🔐","Password vault",function(){openVault()});
  item("🔍","Search all questions",function(){closeSheet();state.tab="practice";render();var i=document.querySelector("#view input[type=search]");if(i)i.focus();window.scrollTo(0,0)});
  item("⏰","Daily study reminder",function(){openReminder()});
  item("🧮","Calculator",function(){openSheet("Calculator",calcBody())});
@@ -1352,6 +1357,209 @@ function openReminder(){var body=el("div",{class:"rm"}),cur=remGet()||"19:00";
  body.appendChild(el("p",{class:"src"},["Nothing is sent to us. The reminder lives only in your own calendar."]));
  openSheet("Daily study reminder",body)}
 
+/* ---- password vault: AES-256-GCM, PBKDF2-SHA256 600k, stays on this device ---- */
+var VK="tcs_vault_v1",V={key:null,data:null,salt:null,idle:null,hid:null,open:null,clip:null,q:"",fails:0,until:0};
+var V_ITER=600000;
+function vOk(){return !!(window.crypto&&crypto.subtle&&crypto.getRandomValues&&window.isSecureContext!==false)}
+function vB64(b){var s="",a=new Uint8Array(b);for(var i=0;i<a.length;i++)s+=String.fromCharCode(a[i]);return btoa(s)}
+function vUn(s){var r=atob(s),a=new Uint8Array(r.length);for(var i=0;i<r.length;i++)a[i]=r.charCodeAt(i);return a}
+function vRaw(){try{var s=localStorage.getItem(VK);return s?JSON.parse(s):null}catch(e){return null}}
+function vDerive(pw,salt){return crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveKey"]).then(function(k){return crypto.subtle.deriveKey({name:"PBKDF2",salt:salt,iterations:V_ITER,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["encrypt","decrypt"])})}
+function vEnc(key,obj){var iv=crypto.getRandomValues(new Uint8Array(12));return crypto.subtle.encrypt({name:"AES-GCM",iv:iv},key,new TextEncoder().encode(JSON.stringify(obj))).then(function(ct){return {iv:vB64(iv),ct:vB64(ct)}})}
+function vDec(key,rec){return crypto.subtle.decrypt({name:"AES-GCM",iv:vUn(rec.iv)},key,vUn(rec.ct)).then(function(p){return JSON.parse(new TextDecoder().decode(p))})}
+function vSave(){return vEnc(V.key,V.data).then(function(r){var o={v:1,kdf:"PBKDF2-SHA256",it:V_ITER,salt:vB64(V.salt),iv:r.iv,ct:r.ct};try{localStorage.setItem(VK,JSON.stringify(o))}catch(e){labToast("Could not save: storage is full or blocked.")}return o})}
+function vLock(){V.key=null;V.data=null;V.q="";clearTimeout(V.idle);if(V.clip){clearTimeout(V.clip);V.clip=null}}
+function vTouch(){clearTimeout(V.idle);if(V.key)V.idle=setTimeout(function(){if(V.key){vLock();if(V.open)V.open()}},120000)}
+document.addEventListener("visibilitychange",function(){if(!V.key)return;if(document.hidden){V.hid=setTimeout(function(){if(V.key){vLock();if(V.open)V.open()}},45000)}else clearTimeout(V.hid)});
+function vRand(n){var m=Math.floor(4294967296/n)*n,b=new Uint32Array(1);do{crypto.getRandomValues(b)}while(b[0]>=m);return b[0]%n}
+function vGen(len,sym){var L="abcdefghijkmnopqrstuvwxyz",U="ABCDEFGHJKLMNPQRSTUVWXYZ",N="23456789",S="!@#$%^&*-_+=?",sets=[L,U,N].concat(sym?[S]:[]),all=sets.join(""),o=[];
+ sets.forEach(function(s){o.push(s[vRand(s.length)])});while(o.length<len)o.push(all[vRand(all.length)]);
+ for(var i=o.length-1;i>0;i--){var j=vRand(i+1),t=o[i];o[i]=o[j];o[j]=t}return o.join("")}
+function vStrength(p){var pool=0;if(/[a-z]/.test(p))pool+=26;if(/[A-Z]/.test(p))pool+=26;if(/\d/.test(p))pool+=10;if(/[^A-Za-z0-9]/.test(p))pool+=30;
+ var bits=p.length&&pool?p.length*Math.log2(pool):0;if(/(.)\1\1/.test(p))bits-=8;if(/(password|qwerty|12345|abcde|india|admin|letmein)/i.test(p))bits-=25;bits=Math.max(0,bits);
+ var lv=bits<40?0:bits<60?1:bits<80?2:3;return {bits:Math.round(bits),lv:lv,label:["Weak","Fair","Strong","Excellent"][lv]}}
+function vMeter(inp){var bar=el("div",{class:"vt-meter","aria-hidden":"true"},[el("i",{},[]),el("i",{},[]),el("i",{},[]),el("i",{},[])]),t=el("div",{class:"vt-ms",role:"status"},["Strength: type a password"]);
+ function up(){var s=vStrength(inp.value),k=bar.children;for(var i=0;i<4;i++)k[i].className=inp.value&&i<=s.lv?"on l"+s.lv:"";t.textContent=inp.value?"Strength: "+s.label+" (about "+s.bits+" bits)":"Strength: type a password"}
+ inp.addEventListener("input",up);return el("div",{},[bar,t])}
+function vSha1(t){return crypto.subtle.digest("SHA-1",new TextEncoder().encode(t)).then(function(b){return Array.prototype.map.call(new Uint8Array(b),function(x){return ("0"+x.toString(16)).slice(-2)}).join("").toUpperCase()})}
+function vPwned(pw){if(!navigator.onLine)return Promise.reject(new Error("offline"));return vSha1(pw).then(function(h){var pre=h.slice(0,5),suf=h.slice(5);return fetch("https://api.pwnedpasswords.com/range/"+pre,{headers:{"Add-Padding":"true"}}).then(function(r){if(!r.ok)throw new Error("fail");return r.text()}).then(function(t){var n=0;t.split("\n").forEach(function(l){var p=l.trim().split(":");if(p[0]===suf)n=parseInt(p[1],10)||0});return n})})}
+var V_CATS=["SSC","Banking","Railways","JKSSB","JKPSC","Other"];
+function vCopy(txt,what){var done=function(){labToast(what+" copied. Clipboard clears in 20 seconds.");clearTimeout(V.clip);V.clip=setTimeout(function(){try{navigator.clipboard.writeText(" ")}catch(e){}},20000)};
+ try{navigator.clipboard.writeText(txt).then(done,function(){labToast("Copy blocked by this browser. Tap Show and copy by hand.")})}catch(e){labToast("Copy not supported here. Tap Show and copy by hand.")}}
+function vF(label,inp){return el("label",{class:"vt-f"},[el("span",{},[label]),inp])}
+function openVault(){
+ var body=el("div",{class:"vt"});openSheet("Password vault",body);
+ var cs=closeSheet;closeSheet=function(){vLock();V.open=null;closeSheet=cs;cs()};
+ function paint(){V.open=paint;body.textContent="";
+  if(!vOk()){body.appendChild(el("p",{class:"vt-note"},["This browser can't run strong encryption on this page. Open the site over https in a recent browser such as Chrome, Safari or Firefox."]));return}
+  var rec=vRaw();if(!rec)return setup();if(!V.key)return unlock(rec);return list()}
+ function hero(sub){return el("div",{class:"vt-hero"},[el("div",{class:"vt-orb","aria-hidden":"true"},[el("span",{},[]),el("span",{},[]),el("span",{},[])]),el("div",{},[el("b",{},["Vault"]),el("div",{class:"vt-sub"},[sub])])])}
+ function badges(){return el("div",{class:"vt-bd"},["AES-256-GCM","PBKDF2 · 600,000 rounds","Stays on this device","Auto-lock"].map(function(x){return el("span",{},[x])}))}
+ function setup(){body.appendChild(hero("Create your private vault"));body.appendChild(badges());
+  body.appendChild(el("p",{class:"vt-note"},["Save the usernames, emails, phone numbers and passwords of your exam and job portals in one locked place. Everything is encrypted on this phone or computer before it is saved. Nothing is sent to us or to anyone else."]));
+  var p1=el("input",{type:"password",autocomplete:"new-password",placeholder:"Choose a master password (12+ characters)"}),p2=el("input",{type:"password",autocomplete:"new-password",placeholder:"Type it again"}),ck=el("input",{type:"checkbox"}),msg=el("div",{class:"vt-err",role:"alert"},[]);
+  body.appendChild(vF("Master password",p1));body.appendChild(vMeter(p1));body.appendChild(vF("Confirm",p2));
+  body.appendChild(el("label",{class:"vt-ck"},[ck,el("span",{},["I understand that if I forget this master password, nobody can recover my vault, not even The Computer Services."])]));body.appendChild(msg);
+  var go=el("button",{class:"btn",type:"button"},["Create vault"]);body.appendChild(go);
+  go.onclick=function(){msg.textContent="";if(p1.value.length<12){msg.textContent="Use at least 12 characters. A short sentence you will remember works well.";return}
+   if(vStrength(p1.value).lv<2){msg.textContent="That password is too easy to guess. Add more words, numbers or symbols.";return}
+   if(p1.value!==p2.value){msg.textContent="The two passwords do not match.";return}
+   if(!ck.checked){msg.textContent="Please tick the box to confirm you understand.";return}
+   go.textContent="Forging keys...";go.setAttribute("disabled","disabled");
+   V.salt=crypto.getRandomValues(new Uint8Array(16));
+   vDerive(p1.value,V.salt).then(function(k){V.key=k;V.data={items:[]};return vSave()}).then(function(){p1.value="";p2.value="";vTouch();paint()}).catch(function(){vLock();go.textContent="Create vault";go.removeAttribute("disabled");msg.textContent="Something went wrong. Please try again."})}}
+ function unlock(rec){body.appendChild(hero("Locked"));body.appendChild(badges());
+  var p=el("input",{type:"password",autocomplete:"current-password",placeholder:"Master password"}),msg=el("div",{class:"vt-err",role:"alert"},[]),go=el("button",{class:"btn",type:"button"},["Unlock"]);
+  body.appendChild(vF("Master password",p));body.appendChild(msg);body.appendChild(go);
+  var more=el("div",{class:"vt-more"},[]);var imp=el("button",{class:"btn ghost",type:"button"},["Restore from a backup file"]);imp.onclick=function(){doImport()};more.appendChild(imp);body.appendChild(more);
+  function tryIt(){var wait=V.until-Date.now();if(wait>0){msg.textContent="Too many tries. Wait "+Math.ceil(wait/1000)+" seconds.";return}
+   if(!p.value)return;go.textContent="Unlocking...";go.setAttribute("disabled","disabled");
+   var salt=vUn(rec.salt);
+   vDerive(p.value,salt).then(function(k){return vDec(k,rec).then(function(d){V.key=k;V.data=d;V.salt=salt;V.fails=0;p.value="";vTouch();paint()})}).catch(function(){V.fails++;V.until=Date.now()+Math.min(60000,1000*Math.pow(2,Math.max(0,V.fails-2)));go.textContent="Unlock";go.removeAttribute("disabled");msg.textContent="Wrong master password.";p.value="";p.focus()})}
+  go.onclick=tryIt;p.addEventListener("keydown",function(e){if(e.key==="Enter")tryIt()});setTimeout(function(){p.focus()},50)}
+ function list(){vTouch();body.addEventListener("click",vTouch);
+  var top=el("div",{class:"vt-top"},[hero("Unlocked · "+V.data.items.length+" saved")]);var lk=el("button",{class:"btn ghost",type:"button"},["Lock now"]);lk.onclick=function(){vLock();paint()};top.appendChild(lk);body.appendChild(top);
+  var s=el("input",{type:"search",placeholder:"Search by portal, exam or username",value:V.q,"aria-label":"Search vault"});s.addEventListener("input",function(){V.q=s.value;fill()});body.appendChild(s);
+  var chips=el("div",{class:"vt-chips",role:"group","aria-label":"Filter by exam group"},[]);["All"].concat(V_CATS).forEach(function(c){var b=el("button",{class:"btn ghost vt-b",type:"button","aria-pressed":((c==="All"&&!V.cat)||c===V.cat)?"true":"false"},[c]);b.onclick=function(){V.cat=c==="All"?"":c;paint()};chips.appendChild(b)});if(V.data.items.length>1)body.appendChild(chips);
+  var add=el("button",{class:"btn",type:"button"},["Add a login"]);add.onclick=function(){edit(null)};body.appendChild(add);
+  var bkd=V.data.bk||0,chg=V.data.chg||0;if(V.data.items.length&&(!bkd||chg>bkd)){var bn=el("div",{class:"vt-warn",role:"status"},[el("span",{},[bkd?"You changed your vault after your last backup ("+new Date(bkd).toLocaleDateString("en-IN",{day:"numeric",month:"short"})+").":"You have not saved a backup yet. Clearing browser data would erase this vault."])]);var bb=el("button",{class:"btn ghost vt-b",type:"button"},["Save backup now"]);bb.onclick=function(){doExport()};bn.appendChild(bb);body.appendChild(bn)}
+  if(V.data.items.length){var hb=el("button",{class:"btn ghost",type:"button"},["Password health check"]);hb.onclick=function(){health()};body.appendChild(hb)}
+  var box=el("div",{class:"vt-list"},[]);body.appendChild(box);
+  function fill(){box.textContent="";var q=V.q.toLowerCase(),it=V.data.items.filter(function(x){return (!q||(x.site+" "+x.user+" "+x.email+" "+(x.regno||"")).toLowerCase().indexOf(q)>-1)&&(!V.cat||(x.cat||"Other")===V.cat)}).sort(function(a,b){return a.site.toLowerCase()<b.site.toLowerCase()?-1:1});
+   if(!it.length){box.appendChild(el("p",{class:"vt-note"},[V.data.items.length?"Nothing matches your search.":"Your vault is empty. Tap Add a login to save your first portal."]));return}
+   it.forEach(function(x){box.appendChild(row(x))})}
+  function row(x){var d=el("div",{class:"vt-row"},[]),h=el("button",{class:"vt-rh",type:"button","aria-expanded":"false"},[el("b",{},[x.site||"Untitled"]),el("span",{},[(x.cat&&x.cat!=="Other"?x.cat+" · ":"")+(x.user||x.regno||x.email||x.phone||"")])]),det=el("div",{class:"vt-det",hidden:"hidden"},[]);det.hidden=true;
+   h.onclick=function(){var o=det.hidden;det.hidden=!o;h.setAttribute("aria-expanded",o?"true":"false");if(o&&!det.firstChild)build()};
+   function line(l,v,secret){if(!v)return;var val=el("span",{class:"vt-v"},[secret?"••••••••••":v]),shown=false,cp=el("button",{class:"btn ghost vt-b",type:"button"},["Copy"]);cp.onclick=function(){vCopy(v,l)};var r=el("div",{class:"vt-l"},[el("small",{},[l]),val]);var acts=el("div",{class:"vt-a"},[]);
+    if(secret){var sh=el("button",{class:"btn ghost vt-b",type:"button"},["Show"]);sh.onclick=function(){shown=!shown;val.textContent=shown?v:"••••••••••";sh.textContent=shown?"Hide":"Show";if(shown)setTimeout(function(){if(shown){shown=false;val.textContent="••••••••••";sh.textContent="Show"}},15000)};acts.appendChild(sh)}
+    acts.appendChild(cp);r.appendChild(acts);det.appendChild(r)}
+   function build(){line("Username",x.user);line("Registration number",x.regno);line("Email",x.email);line("Phone",x.phone);line("Date of birth",x.dob);line("Password",x.pw,true);line("Notes",x.notes);
+    if(x.pw){var pb=el("button",{class:"btn ghost vt-b",type:"button"},["Check if leaked"]),pr=el("span",{class:"vt-pr",role:"status"},[]);pb.onclick=function(){pr.textContent="Checking...";vPwned(x.pw).then(function(n){pr.className="vt-pr "+(n?"bad":"ok");pr.textContent=n?"Found in "+n.toLocaleString("en-IN")+" known leaks. Change it.":"Not found in known leaks."}).catch(function(){pr.className="vt-pr";pr.textContent="Could not check. Are you online?"})};det.appendChild(el("div",{class:"vt-a"},[pb,pr]))}
+    if(x.url){var u=x.url,ok=/^https?:\/\//i.test(u);if(ok){det.appendChild(el("a",{class:"btn ghost vt-b",href:u,target:"_blank",rel:"noopener noreferrer"},["Open portal"]))}}
+    var ed=el("button",{class:"btn ghost vt-b",type:"button"},["Edit"]);ed.onclick=function(){edit(x)};var dl=el("button",{class:"btn ghost vt-b vt-del",type:"button"},["Delete"]);
+    dl.onclick=function(){if(dl.dataset.s!=="1"){dl.dataset.s="1";dl.textContent="Tap again to delete";setTimeout(function(){dl.dataset.s="";dl.textContent="Delete"},3000);return}
+     V.data.items=V.data.items.filter(function(i){return i.id!==x.id});V.data.chg=Date.now();vSave().then(function(){labToast("Deleted.");paint()})};
+    det.appendChild(el("div",{class:"vt-a"},[ed,dl]))}
+   d.appendChild(h);d.appendChild(det);return d}
+  fill();
+  var tools=el("div",{class:"vt-more"},[]);
+  var ex=el("button",{class:"btn ghost",type:"button"},["Save encrypted backup"]);ex.onclick=function(){doExport()};
+  var im=el("button",{class:"btn ghost",type:"button"},["Restore backup"]);im.onclick=function(){doImport()};
+  var ch=el("button",{class:"btn ghost",type:"button"},["Change master password"]);ch.onclick=function(){changeMp()};
+  var wp=el("button",{class:"btn ghost vt-del",type:"button"},["Erase vault"]);wp.onclick=function(){if(wp.dataset.s!=="1"){wp.dataset.s="1";wp.textContent="Tap again to erase everything";setTimeout(function(){wp.dataset.s="";wp.textContent="Erase vault"},3500);return}
+   try{localStorage.removeItem(VK)}catch(e){}vLock();labToast("Vault erased.");paint()};
+  [ex,im,ch,wp].forEach(function(b){tools.appendChild(b)});body.appendChild(tools);
+  body.appendChild(el("p",{class:"vt-foot"},["Locks itself after 2 minutes of no use, or 45 seconds after you leave this tab. Clipboard is cleared 20 seconds after copying."]))}
+ function edit(x){body.textContent="";var n=!x;x=x||{id:"i"+Date.now().toString(36)+vRand(1e6).toString(36),site:"",url:"",user:"",email:"",phone:"",pw:"",notes:""};
+  body.appendChild(el("b",{class:"vt-et"},[n?"Add a login":"Edit login"]));
+  var f={};[["site","Portal or exam name","text","e.g. SSC CGL, JKSSB Constable"],["url","Website link (optional)","url","https://"],["user","Username or login ID","text",""],["regno","Registration or roll number","text",""],["email","Email ID","email",""],["phone","Phone number","tel",""],["dob","Date of birth used on the form","text","DD/MM/YYYY"]].forEach(function(r){f[r[0]]=el("input",{type:r[2],placeholder:r[3],autocomplete:"off",autocapitalize:"off",spellcheck:"false",value:x[r[0]]||""});body.appendChild(vF(r[1],f[r[0]]))});
+  var cat=el("select",{"aria-label":"Exam group"},V_CATS.map(function(c){return el("option",{value:c},[c])}));cat.value=x.cat||"Other";body.appendChild(vF("Exam group",cat));
+  var pw=el("input",{type:"text",autocomplete:"off",autocapitalize:"off",spellcheck:"false",value:x.pw||"",placeholder:"Password"});body.appendChild(vF("Password",pw));body.appendChild(vMeter(pw));
+  var g=el("div",{class:"vt-gen"},[]),len=el("input",{type:"range",min:"12",max:"32",value:"18","aria-label":"Password length"}),ln=el("span",{},["18"]),sy=el("input",{type:"checkbox",checked:"checked"}),gb=el("button",{class:"btn ghost vt-b",type:"button"},["Generate strong password"]);
+  len.oninput=function(){ln.textContent=len.value};gb.onclick=function(){pw.value=vGen(+len.value,sy.checked);pw.dispatchEvent(new Event("input"))};
+  g.appendChild(gb);g.appendChild(el("label",{},["Length ",ln,len]));g.appendChild(el("label",{class:"vt-ck"},[sy,el("span",{},["Include symbols (some portals reject them)"])]));body.appendChild(g);
+  f.notes=el("textarea",{rows:"3",placeholder:"Security question and answer, anything else",autocomplete:"off"});f.notes.value=x.notes||"";body.appendChild(vF("Notes",f.notes));
+  var msg=el("div",{class:"vt-err",role:"alert"},[]),sv=el("button",{class:"btn",type:"button"},["Save"]),cn=el("button",{class:"btn ghost",type:"button"},["Cancel"]);body.appendChild(msg);body.appendChild(sv);body.appendChild(cn);
+  cn.onclick=function(){paint()};
+  sv.onclick=function(){if(!f.site.value.trim()){msg.textContent="Please type the portal or exam name.";return}
+   x.site=f.site.value.trim();x.url=f.url.value.trim();x.user=f.user.value.trim();x.email=f.email.value.trim();x.phone=f.phone.value.trim();x.regno=f.regno.value.trim();x.dob=f.dob.value.trim();x.cat=cat.value;x.pw=pw.value;V.data.chg=Date.now();x.notes=f.notes.value;x.t=Date.now();
+   if(n)V.data.items.push(x);else V.data.items=V.data.items.map(function(i){return i.id===x.id?x:i});
+   vSave().then(function(){labToast("Saved and encrypted.");paint()})}}
+ function health(){body.textContent="";body.appendChild(hero("Password health"));var it=V.data.items,now=Date.now(),cnt={};it.forEach(function(x){if(x.pw)cnt[x.pw]=(cnt[x.pw]||0)+1});
+  var bad=[];it.forEach(function(x){var w=[];if(!x.pw)w.push("No password saved");else{if(vStrength(x.pw).lv<2)w.push("Weak password");if(cnt[x.pw]>1)w.push("Same password used on "+cnt[x.pw]+" portals");if(x.t&&now-x.t>15552e6)w.push("Not changed for 6+ months")}if(w.length)bad.push([x,w])});
+  body.appendChild(el("p",{class:bad.length?"tx-bad":"tx-ok",role:"status"},[bad.length?bad.length+" of "+it.length+" logins need attention.":"All "+it.length+" logins look healthy."]));
+  var box=el("div",{class:"vt-list"},[]);bad.forEach(function(r){var d=el("div",{class:"vt-row"},[el("div",{class:"vt-rh"},[el("b",{},[r[0].site]),el("span",{},[r[1].join(" · ")])])]);var eb=el("button",{class:"btn ghost vt-b",type:"button",style:"margin:0 12px 10px"},["Fix this"]);eb.onclick=function(){edit(r[0])};d.appendChild(eb);box.appendChild(d)});body.appendChild(box);
+  var ck=el("button",{class:"btn",type:"button"},["Check all for known leaks"]),res=el("div",{class:"vt-res",role:"status","aria-live":"polite"},[]);body.appendChild(ck);body.appendChild(res);
+  body.appendChild(el("p",{class:"tx-n"},["Leak check sends only the first 5 characters of a scrambled (hashed) copy of each password to haveibeenpwned.com. Your real passwords never leave this device."]));
+  var bk=el("button",{class:"btn ghost",type:"button"},["Back to vault"]);bk.onclick=function(){paint()};body.appendChild(bk);
+  ck.onclick=function(){ck.setAttribute("disabled","disabled");res.textContent="Checking "+it.filter(function(x){return x.pw}).length+" passwords...";var list=it.filter(function(x){return x.pw}),i=0,hits=[];
+   (function nx(){if(i>=list.length){ck.removeAttribute("disabled");res.textContent=hits.length?"Found in known leaks: "+hits.join(", ")+". Change these passwords.":"None of your passwords were found in known leaks.";return}
+    var x=list[i++];vPwned(x.pw).then(function(n){if(n)hits.push(x.site);nx()}).catch(function(){ck.removeAttribute("disabled");res.textContent="Could not check. Are you online?"})})()}}
+ function dl(name,text){var b=new Blob([text],{type:"application/json"}),a=el("a",{href:URL.createObjectURL(b),download:name});document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500)}
+ function doExport(){V.data.bk=Date.now();vSave().then(function(){exp2()})}
+ function exp2(){var r=vRaw();if(!r)return;var d=new Date(),n="tcs-vault-"+d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)+".tcsvault";dl(n,JSON.stringify(r));labToast("Encrypted backup saved. It is useless without your master password.");paint()}
+ function doImport(){var f=el("input",{type:"file",accept:".tcsvault,application/json"});f.onchange=function(){var fl=f.files&&f.files[0];if(!fl)return;var rd=new FileReader();rd.onload=function(){var o;try{o=JSON.parse(rd.result);if(!o.salt||!o.iv||!o.ct)throw 0}catch(e){labToast("That is not a vault backup file.");return}
+   body.textContent="";body.appendChild(hero("Restore backup"));var p=el("input",{type:"password",autocomplete:"current-password",placeholder:"Master password of that backup"}),msg=el("div",{class:"vt-err",role:"alert"},[]),go=el("button",{class:"btn",type:"button"},["Decrypt and restore"]),cn=el("button",{class:"btn ghost",type:"button"},["Cancel"]);
+   body.appendChild(vF("Backup password",p));body.appendChild(msg);body.appendChild(go);body.appendChild(cn);cn.onclick=function(){paint()};
+   body.appendChild(el("p",{class:"vt-note"},["This replaces the vault on this device with the backup."]));
+   go.onclick=function(){go.textContent="Decrypting...";var salt=vUn(o.salt);vDerive(p.value,salt).then(function(k){return vDec(k,o).then(function(d){if(!d||!d.items)throw 0;V.key=k;V.salt=salt;V.data=d;return vSave()})}).then(function(){vTouch();labToast("Backup restored.");paint()}).catch(function(){go.textContent="Decrypt and restore";msg.textContent="Wrong password or damaged file."})}};rd.readAsText(fl)};f.click()}
+ function changeMp(){body.textContent="";body.appendChild(hero("Change master password"));var p1=el("input",{type:"password",autocomplete:"new-password",placeholder:"New master password (12+ characters)"}),p2=el("input",{type:"password",autocomplete:"new-password",placeholder:"Type it again"}),msg=el("div",{class:"vt-err",role:"alert"},[]),go=el("button",{class:"btn",type:"button"},["Change password"]),cn=el("button",{class:"btn ghost",type:"button"},["Cancel"]);
+  body.appendChild(vF("New master password",p1));body.appendChild(vMeter(p1));body.appendChild(vF("Confirm",p2));body.appendChild(msg);body.appendChild(go);body.appendChild(cn);cn.onclick=function(){paint()};
+  go.onclick=function(){if(p1.value.length<12||vStrength(p1.value).lv<2){msg.textContent="Use 12+ characters and make it hard to guess.";return}if(p1.value!==p2.value){msg.textContent="The two passwords do not match.";return}
+   go.textContent="Re-encrypting...";var salt=crypto.getRandomValues(new Uint8Array(16));vDerive(p1.value,salt).then(function(k){V.key=k;V.salt=salt;return vSave()}).then(function(){labToast("Master password changed.");paint()}).catch(function(){msg.textContent="Something went wrong."})}}
+ paint()}
+
+/* ---- extra tools: exam countdown, age eligibility, photo and signature resizer ---- */
+function tdIso(d){return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)}
+function tdParse(s){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(s||"");return m?new Date(+m[1],+m[2]-1,+m[3]):null}
+function tdDays(s){var d=tdParse(s),n=new Date();n=new Date(n.getFullYear(),n.getMonth(),n.getDate());return d?Math.round((d-n)/864e5):null}
+function exGet(){try{var a=JSON.parse(localStorage.getItem("ed_exams")||"[]");return Array.isArray(a)?a:[]}catch(e){return[]}}
+function exSet(a){try{localStorage.setItem("ed_exams",JSON.stringify(a))}catch(e){}}
+function exNext(){var a=exGet().map(function(x){return {n:x.n,d:tdDays(x.d)}}).filter(function(x){return x.d!==null&&x.d>=0}).sort(function(a,b){return a.d-b.d});return a[0]||null}
+function openCountdown(){var body=el("div",{class:"tx"});openSheet("Exam countdown",body);
+ function paint(){body.textContent="";var a=exGet().slice().sort(function(x,y){return x.d<y.d?-1:1});
+  if(!a.length)body.appendChild(el("p",{class:"tx-n"},["Add the exams you are preparing for. You will see how many days are left, and how many study days that gives you."]));
+  a.forEach(function(x){var d=tdDays(x.d),past=d<0,box=el("div",{class:"tx-row"+(past?" past":"")},[]);
+   box.appendChild(el("div",{class:"tx-big"},[past?"Over":String(d)]));
+   box.appendChild(el("div",{class:"tx-mid"},[el("b",{},[x.n]),el("span",{},[tdParse(x.d).toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"})+(past?"":d===0?" · today":d===1?" · tomorrow":" · "+d+" days left"+(d>=7?" · "+Math.floor(d/7)+" weeks":""))])]));
+   var rm=el("button",{class:"btn ghost tx-b",type:"button","aria-label":"Remove "+x.n},["Remove"]);rm.onclick=function(){exSet(exGet().filter(function(y){return y.id!==x.id}));paint();labBar&&labBar()};box.appendChild(rm);body.appendChild(box)});
+  var n=el("input",{type:"text",placeholder:"Exam name, e.g. JKSSB Constable",maxlength:"60","aria-label":"Exam name"}),d=el("input",{type:"date","aria-label":"Exam date"}),err=el("div",{class:"tx-err",role:"alert"},[]),add=el("button",{class:"btn",type:"button"},["Add exam"]);
+  body.appendChild(el("label",{class:"tx-f"},[el("span",{},["Exam name"]),n]));body.appendChild(el("label",{class:"tx-f"},[el("span",{},["Exam date"]),d]));body.appendChild(err);body.appendChild(add);
+  add.onclick=function(){if(!n.value.trim()||!tdParse(d.value)){err.textContent="Type the exam name and pick a date.";return}
+   var l=exGet();if(l.length>=20){err.textContent="You can keep up to 20 exams. Remove one first.";return}l.push({id:"e"+Date.now().toString(36),n:n.value.trim(),d:d.value});exSet(l);paint()}}
+ paint()}
+function openAgeCalc(){var body=el("div",{class:"tx"});openSheet("Age and eligibility",body);
+ var dob=el("input",{type:"date","aria-label":"Date of birth"}),on=el("input",{type:"date",value:tdIso(new Date()),"aria-label":"Age as on"}),lim=el("input",{type:"number",min:"0",max:"60",placeholder:"e.g. 27","aria-label":"Upper age limit"}),rel=el("input",{type:"number",min:"0",max:"20",value:"0","aria-label":"Relaxation in years"}),out=el("div",{class:"tx-res",role:"status","aria-live":"polite"},[]);
+ body.appendChild(el("label",{class:"tx-f"},[el("span",{},["Date of birth"]),dob]));body.appendChild(el("label",{class:"tx-f"},[el("span",{},["Age as on (cut-off date in the notification)"]),on]));
+ body.appendChild(el("label",{class:"tx-f"},[el("span",{},["Upper age limit in years (optional)"]),lim]));body.appendChild(el("label",{class:"tx-f"},[el("span",{},["Age relaxation for your category, in years (optional)"]),rel]));body.appendChild(out);
+ body.appendChild(el("p",{class:"tx-n"},["Relaxation rules differ for each recruitment. Always confirm age limit, cut-off date and relaxation in the official notification."]));
+ function calc(){out.textContent="";var b=tdParse(dob.value),c=tdParse(on.value);if(!b||!c)return;if(b>c){out.textContent="Date of birth is after the cut-off date.";return}
+  var y=c.getFullYear()-b.getFullYear(),m=c.getMonth()-b.getMonth(),d=c.getDate()-b.getDate();if(d<0){m--;d+=new Date(c.getFullYear(),c.getMonth(),0).getDate()}if(m<0){y--;m+=12}
+  out.appendChild(el("div",{class:"tx-big2"},[y+" years, "+m+" months, "+d+" days"]));
+  var L=parseInt(lim.value,10);if(!isNaN(L)){var tot=L+(parseInt(rel.value,10)||0),last=new Date(b.getFullYear()+tot+1,b.getMonth(),b.getDate()-1),earliest=new Date(c.getFullYear()-tot-1,c.getMonth(),c.getDate()+1),ok=!(c>last);
+   out.appendChild(el("p",{class:ok?"tx-ok":"tx-bad"},[ok?"Within the age limit of "+tot+" years on this date.":"Over the age limit of "+tot+" years on this date."]));
+   out.appendChild(el("p",{class:"tx-n"},["Born on or after "+earliest.toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"})+" to be within "+tot+" years on the cut-off date."]))}}
+ [dob,on,lim,rel].forEach(function(i){i.addEventListener("input",calc)})}
+/* ---- form document checklist and progress card ---- */
+var DOCS_KEY="ed_docs";
+var DOCSETS=[
+["Always keep ready",["Aadhaar card","Active email ID you can log in to","Active mobile number (for OTP)","Recent passport-size photo (as per notice)","Scanned signature (as per notice)","Date of birth proof (10th certificate)","Bank account details for fee refund or payment"]],
+["Education and category",["Class 10 marksheet and certificate","Class 12 marksheet","Graduation marksheets and degree or provisional certificate","Category certificate (SC, ST, OBC, EWS, RBA, ALC, IB as applicable)","Income and asset certificate for EWS (valid year)","Disability certificate, if claiming PwD benefit","Ex-serviceman discharge certificate, if applicable"]],
+["For J&K recruitments (JKSSB, JKPSC)",["Permanent Resident or domicile certificate","Category certificate issued in J&K, if applicable","Left thumb impression, if the notice asks for it","Experience certificate, if the post needs it"]],
+["SSC, Banking and Railways extras",["One-time registration details (SSC) or login ID","Name on documents matching exactly across all of them","Local language or typing proficiency proof, if the post needs it","Fee payment option ready (UPI, card or net banking)","Exam city preference list"]],
+["Before you submit",["Read the official notification fully","Check age limit and cut-off date","Check educational qualification and final-year rules","Check photo and signature size and format","Take a screenshot or PDF of the submitted form and fee receipt"]]];
+function dcGet(){try{return JSON.parse(localStorage.getItem(DOCS_KEY)||"{}")||{}}catch(e){return{}}}
+function dcSet(o){try{localStorage.setItem(DOCS_KEY,JSON.stringify(o))}catch(e){}}
+function openDocChecklist(){var body=el("div",{class:"tx"});openSheet("Form document checklist",body);
+ function paint(){body.textContent="";var st=dcGet(),tot=0,done=0;DOCSETS.forEach(function(g){g[1].forEach(function(i){tot++;if(st[i])done++})});
+  body.appendChild(el("p",{class:"tx-n"},["Tick what you already have. This list is typical, so always check the official notification for your exam. "+done+" of "+tot+" ready."]));
+  var bar=el("div",{class:"tx-bar","aria-hidden":"true"},[el("i",{style:"width:"+Math.round(done*100/tot)+"%"},[])]);body.appendChild(bar);
+  DOCSETS.forEach(function(g){var f=el("fieldset",{class:"tx-fs"},[el("legend",{},[g[0]])]);
+   g[1].forEach(function(i){var cb=el("input",{type:"checkbox"});cb.checked=!!st[i];cb.onchange=function(){var s=dcGet();if(cb.checked)s[i]=1;else delete s[i];dcSet(s);paint()};f.appendChild(el("label",{class:"tx-ck"},[cb,el("span",{},[i])]))});body.appendChild(f)});
+  var miss=[];DOCSETS.forEach(function(g){g[1].forEach(function(i){if(!st[i])miss.push(i)})});
+  var sh=el("button",{class:"btn ghost",type:"button"},["Share missing items on WhatsApp"]);sh.onclick=function(){shareWA("Documents I still need for my application form:\n- "+miss.slice(0,15).join("\n- "))};
+  var rs=el("button",{class:"btn ghost",type:"button"},["Clear all ticks"]);rs.onclick=function(){dcSet({});paint()};
+  var bk=el("button",{class:"btn",type:"button"},["Book help with my form"]);bk.onclick=function(){closeSheet();openBooking()};
+  if(miss.length)body.appendChild(sh);body.appendChild(bk);body.appendChild(rs)}
+ paint()}
+function pcData(){var st=subjectStats(),ks=Object.keys(st).filter(function(k){return st[k].a>=5}).sort(function(a,b){return st[b].c/st[b].a-st[a].c/st[a].a}),A=0,C=0;Object.keys(st).forEach(function(k){A+=st[k].a;C+=st[k].c});
+ return {a:A,c:C,pct:A?Math.round(C*100/A):0,best:ks[0]?{n:ks[0],p:Math.round(st[ks[0]].c*100/st[ks[0]].a)}:null,weak:ks.length>1?{n:ks[ks.length-1],p:Math.round(st[ks[ks.length-1]].c*100/st[ks[ks.length-1]].a)}:null,streak:streakNow(),bestStreak:streak.best||0}}
+function openProgressCard(){var body=el("div",{class:"tx"});openSheet("My progress card",body);var d=pcData();
+ if(!d.a){body.appendChild(el("p",{class:"tx-n"},["Answer a few questions first. Your card then shows your accuracy, streak and strongest subject."]));return}
+ var cv=document.createElement("canvas");cv.width=1080;cv.height=1080;var x=cv.getContext("2d");
+ var g=x.createLinearGradient(0,0,1080,1080);g.addColorStop(0,"#0b2a5b");g.addColorStop(1,"#0a7a9a");x.fillStyle=g;x.fillRect(0,0,1080,1080);
+ x.fillStyle="#fff";x.font="700 54px system-ui,sans-serif";x.fillText("My exam prep progress",70,140);
+ x.font="400 34px system-ui,sans-serif";x.fillStyle="rgba(255,255,255,.8)";x.fillText(new Date().toLocaleDateString("en-IN",{day:"numeric",month:"long",year:"numeric"}),70,196);
+ x.fillStyle="#fff";x.font="800 250px system-ui,sans-serif";x.fillText(d.pct+"%",70,500);x.font="400 40px system-ui,sans-serif";x.fillText("accuracy over "+d.a+" answers",78,570);
+ var y=680;function row(l,v){x.fillStyle="rgba(255,255,255,.75)";x.font="400 34px system-ui,sans-serif";x.fillText(l,70,y);x.fillStyle="#fff";x.font="700 44px system-ui,sans-serif";x.fillText(v,70,y+52);y+=118}
+ row("Day streak",d.streak+" (best "+d.bestStreak+")");if(d.best)row("Strongest subject",d.best.n.slice(0,26)+" "+d.best.p+"%");if(d.weak)row("Working on",d.weak.n.slice(0,26)+" "+d.weak.p+"%");
+ x.fillStyle="rgba(255,255,255,.85)";x.font="600 34px system-ui,sans-serif";x.fillText("Free practice: The Computer Services",70,1050);
+ cv.style.cssText="width:100%;height:auto;border-radius:14px;border:1px solid var(--line)";cv.setAttribute("role","img");cv.setAttribute("aria-label","Progress card: "+d.pct+" percent accuracy, "+d.streak+" day streak");body.appendChild(cv);
+ var dl=el("button",{class:"btn",type:"button"},["Save as picture"]);dl.onclick=function(){cv.toBlob(function(b){if(!b)return;var a=el("a",{href:URL.createObjectURL(b),download:"my-progress.png"});document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500)})};
+ var sh=el("button",{class:"btn ghost",type:"button"},["Share on WhatsApp"]);sh.onclick=function(){shareWA("My exam prep so far: "+d.pct+"% accuracy over "+d.a+" answers, "+d.streak+"-day streak.")};
+ body.appendChild(dl);body.appendChild(sh)}
+window.addEventListener("offline",function(){labToast("You are offline. Saved questions and practice still work.")});
+
 var VIEWS={today:viewToday,progress:viewProgress,lab:viewLab,practice:viewPractice,quiz:viewQuiz,mock:viewMock,interesting:viewInteresting,saved:viewSaved,legal:viewLegal};
 var lastTab=null;
 function render(keepFocus){
@@ -1376,7 +1584,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.12.24",KEY="ed_ver",later="";
+var VER="2026.12.30",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
@@ -2002,5 +2210,81 @@ main>*+*{margin-top:0}
 .star{min-width:40px;min-height:40px;box-sizing:border-box}
 .row .btn,.cs .row .btn{align-self:stretch}
 </style>
-</body>
+<style id="ui-vault">
+.vt{display:flex;flex-direction:column;gap:10px}
+.vt-hero{display:flex;align-items:center;gap:12px}
+.vt-hero b{font-size:1.15rem;letter-spacing:.02em}
+.vt-sub{font-size:.85rem;color:var(--mut)}
+.vt-orb{position:relative;width:44px;height:44px;flex:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,#7df9ff,#0a3d62 70%);box-shadow:0 0 18px rgba(0,229,255,.55),inset 0 0 8px rgba(255,255,255,.35)}
+.vt-orb span{position:absolute;inset:-5px;border-radius:50%;border:1.5px solid rgba(0,229,255,.55);border-top-color:transparent;border-bottom-color:transparent;animation:vtspin 6s linear infinite}
+.vt-orb span:nth-child(2){inset:-10px;border-color:rgba(0,229,255,.3);border-left-color:transparent;border-right-color:transparent;animation-duration:9s;animation-direction:reverse}
+.vt-orb span:nth-child(3){display:none}
+@keyframes vtspin{to{transform:rotate(360deg)}}
+html[data-rm] .vt-orb span,.vt-orb.off span{animation:none}
+@media (prefers-reduced-motion:reduce){.vt-orb span{animation:none}}
+.vt-bd{display:flex;flex-wrap:wrap;gap:6px}
+.vt-bd span{font-size:.72rem;padding:4px 9px;border-radius:999px;border:1px solid rgba(0,170,200,.5);color:var(--ink);background:rgba(0,200,230,.1)}
+.vt-note,.vt-foot{font-size:.88rem;color:var(--mut);margin:0;line-height:1.45}
+.vt-foot{font-size:.78rem;text-align:center}
+.vt-f{display:flex;flex-direction:column;gap:4px;font-size:.85rem}
+.vt-f span{color:var(--mut)}
+.vt input[type=text],.vt input[type=password],.vt input[type=email],.vt input[type=tel],.vt input[type=url],.vt input[type=search],.vt textarea{width:100%;box-sizing:border-box;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;min-height:44px}
+.vt input:focus,.vt textarea:focus{outline:2px solid #00b8d9;outline-offset:1px;box-shadow:0 0 0 4px rgba(0,184,217,.18)}
+.vt-err{color:var(--bad);font-size:.88rem;min-height:1em}
+.vt-ck{display:flex;gap:8px;align-items:flex-start;font-size:.85rem;color:var(--ink)}
+.vt-ck input{margin-top:3px;flex:none;width:18px;height:18px}
+.vt-meter{display:flex;gap:4px}
+.vt-meter i{flex:1;height:5px;border-radius:3px;background:var(--line)}
+.vt-meter i.on.l0{background:#e5484d}.vt-meter i.on.l1{background:#f5a524}.vt-meter i.on.l2{background:#22c55e}.vt-meter i.on.l3{background:#00c2e0}
+.vt-ms{font-size:.78rem;color:var(--mut);margin-top:3px}
+.vt-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.vt-list{display:flex;flex-direction:column;gap:8px}
+.vt-row{border:1px solid var(--line);border-radius:14px;background:var(--bg);overflow:hidden;border-left:3px solid #00b8d9}
+.vt-rh{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;background:none;border:0;color:var(--ink);font:inherit;padding:11px 12px;min-height:48px;cursor:pointer}
+.vt-rh span{font-size:.82rem;color:var(--mut);overflow-wrap:anywhere}
+.vt-det{padding:4px 12px 12px;display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line)}
+.vt-det[hidden]{display:none}
+.vt-l{display:flex;flex-direction:column;gap:2px}
+.vt-l small{color:var(--mut)}
+.vt-v{font-family:ui-monospace,Menlo,Consolas,monospace;overflow-wrap:anywhere;font-size:.95rem}
+.vt-a{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.vt-b{padding:6px 12px;min-height:38px}
+.vt-del{color:var(--bad)}
+.vt-more{display:flex;flex-wrap:wrap;gap:8px}
+.vt-gen{display:flex;flex-direction:column;gap:8px;font-size:.85rem;padding:10px;border:1px dashed rgba(0,184,217,.6);border-radius:12px}
+.vt-gen label{display:flex;align-items:center;gap:8px}
+.vt-gen input[type=range]{flex:1}
+.vt-et{font-size:1.05rem}
+</style>
+<style id="ui-tx">
+.tx{display:flex;flex-direction:column;gap:10px}
+.tx-f{display:flex;flex-direction:column;gap:4px;font-size:.85rem}.tx-f span{color:var(--mut)}
+.tx input[type=text],.tx input[type=date],.tx input[type=number],.tx input[type=file]{width:100%;box-sizing:border-box;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;min-height:44px}
+.tx-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tx-n{font-size:.82rem;color:var(--mut);margin:0;line-height:1.45}
+.tx-err,.tx-bad{color:var(--bad);font-size:.9rem;margin:0}.tx-ok{color:var(--ok);font-size:.92rem;margin:0}
+.tx-row{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:14px;background:var(--bg);padding:10px 12px}
+.tx-row.past{opacity:.6}
+.tx-big{min-width:56px;text-align:center;font-size:1.7rem;font-weight:800;color:var(--acc)}
+.tx-mid{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0}.tx-mid span{font-size:.8rem;color:var(--mut)}
+.tx-b{padding:6px 10px;min-height:38px}
+.tx-big2{font-size:1.25rem;font-weight:700}
+.tx-res{display:flex;flex-direction:column;gap:8px}
+.tx-pv{max-width:100%;max-height:260px;object-fit:contain;border:1px solid var(--line);border-radius:10px;background:#fff;align-self:flex-start}
+.tx-seg{display:flex;gap:8px}.tx-seg .btn{flex:1}.tx-seg .btn[aria-pressed=true]{background:var(--acc);color:#fff;border-color:var(--acc)}
+</style>
+<style id="ui-tx2">
+.tx-bar{height:8px;border-radius:5px;background:var(--line);overflow:hidden}.tx-bar i{display:block;height:100%;background:var(--acc)}
+.tx-fs{border:1px solid var(--line);border-radius:14px;padding:6px 12px 10px;margin:0;display:flex;flex-direction:column;gap:2px}
+.tx-fs legend{padding:0 6px;font-weight:700;font-size:.9rem}
+.tx-ck{display:flex;gap:10px;align-items:flex-start;padding:7px 0;min-height:36px;font-size:.92rem;cursor:pointer}
+.tx-ck input{width:20px;height:20px;flex:none;margin-top:1px}
+</style>
+<style id="ui-vt2">
+.vt-chips{display:flex;gap:6px;flex-wrap:wrap}.vt-chips .btn{padding:4px 12px;min-height:36px}.vt-chips .btn[aria-pressed=true]{background:var(--acc);color:#fff;border-color:var(--acc)}
+.vt-warn{display:flex;flex-direction:column;gap:6px;align-items:flex-start;padding:10px 12px;border-radius:12px;background:var(--warnbg);color:var(--warn);font-size:.88rem;border:1px solid var(--warn)}
+.vt-pr{font-size:.85rem;align-self:center}.vt-pr.ok{color:var(--ok)}.vt-pr.bad{color:var(--bad)}
+.vt-res{font-size:.9rem}
+.vt select{width:100%;box-sizing:border-box;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;min-height:44px}
+</style></body>
 </html>
