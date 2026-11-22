@@ -1,7 +1,299 @@
 window.CA_DATA = {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "a504617a266",
+   "date": "2026-11-22",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Which film marked the beginning of the 'Films from BRICS' section at the 57th International Film Festival of India (IFFI)?",
+   "options": [
+    "Ramayana: Rise of a Legend (Part 1)",
+    "Ruby-Cube",
+    "Banaras",
+    "Baghuni"
+   ],
+   "answer": 0,
+   "explain": "At the 57th IFFI, the 'Films from BRICS' section opened with 'Ramayana: Rise of a Legend (Part 1)'. The announcement was made during the ongoing film festival.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340115",
+   "verified": false,
+   "why": [
+    "Correct, 'Ramayana: Rise of a Legend (Part 1)' was the opening film for the 'Films from BRICS' section at the 57th IFFI.",
+    "Incorrect, 'Ruby-Cube' is a film directed by P. Sheshadri presented at the 57th IFFI.",
+    "Incorrect, 'Banaras' is a project by Bharat Bala and A.R. Rahman announced for IFFI 2026.",
+    "Incorrect, 'Baghuni' is a film challenging gender stereotypes in traditional tiger dance."
+   ]
+  },
+  {
+   "id": "a0668fc97fe",
+   "date": "2026-11-22",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "According to a World Bank report mentioned in recent news, how many people in India have come out of poverty so far due to the policies of the Modi government?",
+   "options": [
+    "49.60 crore",
+    "35.50 crore",
+    "42.10 crore",
+    "55.80 crore"
+   ],
+   "answer": 0,
+   "explain": "A report by the World Bank highlights that 49.60 crore people in India have come out of the poverty line so far. This achievement is attributed to the policies implemented by the Modi government.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340024",
+   "verified": false,
+   "why": [
+    "Correct, the World Bank report states that 49.60 crore people have risen above the poverty line.",
+    "Incorrect, 35.50 crore is not the figure stated in the report.",
+    "Incorrect, 42.10 crore is not mentioned in the report.",
+    "Incorrect, 55.80 crore is not the figure cited by the World Bank."
+   ]
+  },
+  {
+   "id": "a9e9d5abef7",
+   "date": "2026-11-22",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the Skill Convocation Ceremony (कौशल दीक्षांत समारोह):\n1. Prime Minister Narendra Modi attended the 5th Skill Convocation Ceremony.\n2. The ceremony was held in Lucknow, Uttar Pradesh.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Prime Minister Narendra Modi attended the 5th Skill Convocation Ceremony organized in Lucknow, Uttar Pradesh. Thus, both statements 1 and 2 are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340113",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct as the venue was Lucknow, Uttar Pradesh.",
+    "Incorrect, statement 1 is also correct as PM Narendra Modi attended the event.",
+    "Correct, both statements accurately state the facts given in the news headline.",
+    "Incorrect, both statements 1 and 2 are factually correct."
+   ]
+  },
+  {
+   "id": "a23f3a2aa8b",
+   "date": "2026-11-22",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Who directed the film 'Ruby-Cube', which explores the complexities of human relationships and the Indian family system at the 57th IFFI?",
+   "options": [
+    "P. Sheshadri",
+    "Bharat Bala",
+    "A.R. Rahman",
+    "Amit Shah"
+   ],
+   "answer": 0,
+   "explain": "Director P. Sheshadri spoke to the media at the 57th IFFI about his film 'Ruby-Cube'. The film explores the complexities of human relationships and the Indian family structure.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340043",
+   "verified": false,
+   "why": [
+    "Correct, P. Sheshadri is the director of the film 'Ruby-Cube'.",
+    "Incorrect, Bharat Bala collaborated with A.R. Rahman for the project 'Banaras'.",
+    "Incorrect, A.R. Rahman is a music composer associated with 'Banaras'.",
+    "Incorrect, Amit Shah is the Union Minister for Home Affairs and Cooperation."
+   ]
+  },
+  {
+   "id": "a5d55bddb75",
+   "date": "2026-11-22",
+   "subject": "Defence",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the inauguration of NDRF's battalion campus:\n1. Union Home and Cooperation Minister Amit Shah inaugurated the campus.\n2. The campus belongs to the 12th Battalion of NDRF and was inaugurated in Itanagar.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Union Home and Cooperation Minister Amit Shah inaugurated the 12th Battalion campus of NDRF in Itanagar. Therefore, both statement 1 and statement 2 are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2339987",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct as it was the 12th Battalion campus in Itanagar.",
+    "Incorrect, statement 1 is also correct as Amit Shah inaugurated the campus.",
+    "Correct, both statement 1 and statement 2 are correct based on the news headline.",
+    "Incorrect, both statements are accurate."
+   ]
+  },
+  {
+   "id": "ae6c970050e",
+   "date": "2026-11-22",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Where was the first SCO (Shanghai Cooperation Organisation) Civilizational Dialogue Forum concluded?",
+   "options": [
+    "New Delhi",
+    "Itanagar",
+    "Lucknow",
+    "Varanasi"
+   ],
+   "answer": 0,
+   "explain": "The first SCO Civilizational Dialogue Forum concluded in New Delhi. The forum focused on reaffirming shared heritage and strengthening cultural cooperation among member states.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340068",
+   "verified": false,
+   "why": [
+    "Correct, the first SCO Civilizational Dialogue Forum took place and concluded in New Delhi.",
+    "Incorrect, Itanagar was the location for the inauguration of NDRF's 12th Battalion campus.",
+    "Incorrect, Lucknow hosted the 5th Skill Convocation Ceremony.",
+    "Incorrect, Varanasi is not mentioned as the venue for this SCO forum."
+   ]
+  },
+  {
+   "id": "a6099521de9",
+   "date": "2026-11-22",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Which pre-event activities were organized as part of Kashi Tamil Sangamam 5.0?",
+   "options": [
+    "Photography competition and Bhajan Sandhya",
+    "BRICS film festival roundtable",
+    "SCO Civilizational dialogue forum",
+    "Skill convocation ceremony"
+   ],
+   "answer": 0,
+   "explain": "A photography competition and Bhajan Sandhya were organized as part of the pre-event activities for Kashi Tamil Sangamam 5.0.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340042",
+   "verified": false,
+   "why": [
+    "Correct, photography competition and Bhajan Sandhya were held prior to Kashi Tamil Sangamam 5.0.",
+    "Incorrect, the BRICS film festival roundtable took place at the 57th IFFI.",
+    "Incorrect, the SCO Civilizational dialogue forum was held in New Delhi.",
+    "Incorrect, the Skill convocation ceremony took place in Lucknow."
+   ]
+  },
+  {
+   "id": "a81277e11b7",
+   "date": "2026-11-22",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Bharat Bala and A.R. Rahman joined hands for 'Banaras', which is set for showcase at which upcoming edition of IFFI?",
+   "options": [
+    "IFFI 2026",
+    "IFFI 2024",
+    "IFFI 2025",
+    "IFFI 2027"
+   ],
+   "answer": 0,
+   "explain": "Bharat Bala and A.R. Rahman reunited for 'Banaras' targeted for IFFI 2026. The work reflects thousands of years of living experiences nurtured by the River Ganga.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340069",
+   "verified": false,
+   "why": [
+    "Correct, Bharat Bala and A.R. Rahman came together for 'Banaras' for IFFI 2026.",
+    "Incorrect, IFFI 2024 is not the edition specified in the headline.",
+    "Incorrect, IFFI 2025 is not mentioned in the headline.",
+    "Incorrect, IFFI 2027 is not the year mentioned."
+   ]
+  },
+  {
+   "id": "a3a780ab413",
+   "date": "2026-11-22",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Which film/story depicts a young girl challenging gender stereotypes in the traditional 'Bagh Nrutya' (Tiger Dance)?",
+   "options": [
+    "Baghuni",
+    "Ruby-Cube",
+    "Banaras",
+    "Ramayana: Rise of a Legend"
+   ],
+   "answer": 0,
+   "explain": "'Baghuni' tells the story of a girl who challenges gender stereotypes in traditional 'Bagh Nrutya' (Tiger Dance). It questions the notion that only boys can roar like a tiger.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340030",
+   "verified": false,
+   "why": [
+    "Correct, 'Baghuni' features a girl challenging gender stereotypes in traditional tiger dance.",
+    "Incorrect, 'Ruby-Cube' is a film about human relationships and family complexities.",
+    "Incorrect, 'Banaras' is a musical collaboration project by Bharat Bala and A.R. Rahman.",
+    "Incorrect, 'Ramayana: Rise of a Legend' opened the BRICS section at 57th IFFI."
+   ]
+  },
+  {
+   "id": "ad984defddd",
+   "date": "2026-11-22",
+   "subject": "Environment",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the initiative to clean the Yamuna River:\n1. The Lok Sabha Speaker called for a mass movement to keep the Yamuna clean.\n2. The call was specifically aimed at generating public participation (जन आंदोलन).\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The Lok Sabha Speaker called for a mass movement (जन आंदोलन) to keep the Yamuna River clean. Hence, both statement 1 and statement 2 are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340140",
+   "verified": false,
+   "why": [
+    "Incorrect, statement 2 is also correct as it called for public participation (जन आंदोलन).",
+    "Incorrect, statement 1 is also correct as the call was made by the Lok Sabha Speaker.",
+    "Correct, both statements accurately state facts from the news headline.",
+    "Incorrect, both statements are correct."
+   ]
+  },
   {
    "id": "ac0849c5d11",
    "date": "2026-11-21",
@@ -5625,5 +5917,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-22"
+ "drafted_on": "2026-11-23"
 };
