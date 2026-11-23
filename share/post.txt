@@ -1,4 +1,4 @@
-📚 *Daily Quiz | 23 Nov 2026*
+📚 *Daily Quiz | 24 Nov 2026*
 The Computer Services
 
 *1. Rashtriya Ekta Diwas (31 October) marks the birth anniversary of which leader?*
@@ -13,17 +13,17 @@ B) Srinagar
 C) Leh
 D) Udhampur
 
-*3. The sum of the first 20 terms of the AP 7, 13, 19, ... is:*
-A) 1320
-B) 1340
-C) 1220
-D) 1280
-
-*4. The Union Territory of Jammu and Kashmir came into existence under the J&K Reorganisation Act, 2019 on which date?*
+*3. The Union Territory of Jammu and Kashmir came into existence under the J&K Reorganisation Act, 2019 on which date?*
 A) 5 August 2019
 B) 9 August 2019
 C) 31 October 2019
 D) 26 January 2020
+
+*4. A car travels at 30 km/h for 4 hours. The distance covered (in km) is:*
+A) 127
+B) 134
+C) 141
+D) 120
 
 Reply with your answers. Answers below 👇
 .
@@ -32,7 +32,7 @@ Reply with your answers. Answers below 👇
 .
 .
 
-✅ *Answers:* 1-B, 2-B, 3-D, 4-C
+✅ *Answers:* 1-B, 2-B, 3-C, 4-D
 
 📢 *Exam updates*
 • JKSSB Sub-Inspector exam scheduled for 29 Nov 2026

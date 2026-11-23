@@ -1,7 +1,177 @@
 window.CA_DATA = {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "a500cb1ff01",
+   "date": "2026-11-23",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "What was the total sales recorded by the Ministry of Social Justice and Empowerment pavilion at the 45th India International Trade Fair (IITF) 2026 up to November 22, 2026?",
+   "options": [
+    "Approximately ₹1.16 crore",
+    "Approximately ₹2.50 crore",
+    "Approximately ₹5.00 crore",
+    "Approximately ₹10.12 crore"
+   ],
+   "answer": 0,
+   "explain": "According to the official report, total sales recorded by the Ministry of Social Justice and Empowerment pavilion at the 45th IITF 2026 stood at approximately ₹1.16 crore till November 22, 2026.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340638",
+   "verified": false,
+   "why": [
+    "Correct as the total recorded sales up to November 22, 2026, was approximately ₹1.16 crore.",
+    "Incorrect; this figure is not mentioned in the headline.",
+    "Incorrect; this figure is not mentioned in the headline.",
+    "Incorrect; this figure is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a081f1d2a52",
+   "date": "2026-11-23",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "JKSSB"
+   ],
+   "q": "Which festival was described by Union Minister Shivraj Singh Chauhan as a powerful example of women empowerment and rural entrepreneurship?",
+   "options": [
+    "Saras Shakti Food Festival",
+    "Hunar Haat Food Festival",
+    "Gramin Vikas Utsav",
+    "Viksit Bharat Aahar Mela"
+   ],
+   "answer": 0,
+   "explain": "Union Minister Shivraj Singh Chauhan described the Saras Shakti Food Festival as a strong example of women empowerment and rural entrepreneurship.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340592",
+   "verified": false,
+   "why": [
+    "Correct as specifically stated by Union Minister Shivraj Singh Chauhan.",
+    "Incorrect; this festival is not mentioned in the headline.",
+    "Incorrect; this festival is not mentioned in the headline.",
+    "Incorrect; this festival is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a8b43c001ed",
+   "date": "2026-11-23",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the 10th week of the 'Nasha Mukt Yuva For Viksit Bharat' campaign:\n1. Over 73,500 people participated across the country.\n2. The participation was facilitated through MY Bharat-NSS.\nWhich of the statement(s) given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "During the 10th week of the 'Nasha Mukt Yuva For Viksit Bharat' campaign, more than 73,500 people participated nationwide. This participation took place through MY Bharat-NSS.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340690",
+   "verified": false,
+   "why": [
+    "Incorrect because statement 2 is also correct according to the headline.",
+    "Incorrect because statement 1 is also correct according to the headline.",
+    "Correct because both statements match the details given in the headline.",
+    "Incorrect because both statements 1 and 2 are true based on the headline."
+   ]
+  },
+  {
+   "id": "a6919a0a342",
+   "date": "2026-11-23",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "JKSSB",
+    "Railways"
+   ],
+   "q": "Where was the joint workshop of the two ministries on the role of agriculture and rural development in poverty alleviation held under the chairmanship of Union Minister Shivraj Singh Chauhan?",
+   "options": [
+    "Delhi",
+    "Bhopal",
+    "Jaipur",
+    "Lucknow"
+   ],
+   "answer": 0,
+   "explain": "The joint workshop of both ministries focusing on the role of agriculture and rural development in poverty alleviation concluded in Delhi under the chairmanship of Union Minister Shivraj Singh Chauhan.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340538",
+   "verified": false,
+   "why": [
+    "Correct as Delhi is explicitly specified as the location of the event.",
+    "Incorrect; Bhopal is not mentioned in the headline.",
+    "Incorrect; Jaipur is not mentioned in the headline.",
+    "Incorrect; Lucknow is not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "ac71613965f",
+   "date": "2026-11-23",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the 2026 guidelines issued by the Ministry of Coal:\n1. The guidelines pertain to coal and lignite mines.\n2. They cover the preparation of mining plans and mine closure plans.\nWhich of the statement(s) given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "The Ministry of Coal released guidelines in 2026 specifically related to coal and lignite mines. These guidelines address the preparation of mining plans and mine closure plans.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340547",
+   "verified": false,
+   "why": [
+    "Incorrect because statement 2 is also true as per the headline.",
+    "Incorrect because statement 1 is also true as per the headline.",
+    "Correct because both statements accurately reflect the guidelines issued by the Ministry of Coal.",
+    "Incorrect because both statements are correct based on the provided text."
+   ]
+  },
+  {
+   "id": "aff33134ae6",
+   "date": "2026-11-23",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "JKSSB",
+    "Universities & Entrances"
+   ],
+   "q": "Which two films presented deep dimensions of human conscience and selfless love at the 57th International Film Festival of India (IFFI)?",
+   "options": [
+    "'Pagla Ghoda' and 'Oh My Dog'",
+    "'Aki' and 'The Huntress'",
+    "'Saras' and 'Shakti'",
+    "'Nasha Mukt' and 'Viksit Bharat'"
+   ],
+   "answer": 0,
+   "explain": "At the 57th IFFI, the films 'Pagla Ghoda' and 'Oh My Dog' presented profound dimensions of human conscience and selfless love.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340644",
+   "verified": false,
+   "why": [
+    "Correct as explicitly stated in the headline.",
+    "Incorrect; these titles refer to a different IFFI discussion mentioned in headline 6.",
+    "Incorrect; these words are part of a food festival name in headline 1.",
+    "Incorrect; these terms belong to a youth campaign mentioned in headlines 4 and 5."
+   ]
+  },
   {
    "id": "a504617a266",
    "date": "2026-11-22",
@@ -5917,5 +6087,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-23"
+ "drafted_on": "2026-11-24"
 };
