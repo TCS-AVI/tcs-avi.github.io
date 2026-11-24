@@ -19,11 +19,11 @@ B) 9 August 2019
 C) 31 October 2019
 D) 26 January 2020
 
-*4. A car travels at 30 km/h for 4 hours. The distance covered (in km) is:*
-A) 127
-B) 134
-C) 141
-D) 120
+*4. The circumference (in cm) of a circle of radius 21 cm is (use pi = 22/7):*
+A) 125
+B) 132
+C) 160
+D) 111
 
 Reply with your answers. Answers below 👇
 .
@@ -32,7 +32,7 @@ Reply with your answers. Answers below 👇
 .
 .
 
-✅ *Answers:* 1-B, 2-B, 3-C, 4-D
+✅ *Answers:* 1-B, 2-B, 3-C, 4-B
 
 📢 *Exam updates*
 • JKSSB Sub-Inspector exam scheduled for 29 Nov 2026
