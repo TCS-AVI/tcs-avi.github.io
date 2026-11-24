@@ -1,7 +1,13 @@
 {
- "version": "2026.12.32",
- "date": "2026.12.32",
+ "version": "2026.12.38",
+ "date": "2026.12.38",
  "notes": [
+  "New heads-up notices for half days and closed days (Monday half day, Tuesday closed), shown on Today, booking and call screens",
+  "New Study mode: a quiet paper look with book-style type for long sessions (Aa settings, or the button on Practice)",
+  "Links from search results now open the exact subject and topic in the app",
+  "Practice is more varied: about 690 new Quant and Reasoning questions (blood relations, direction sense, series and coding, ranking, calendar and clock, syllogism, analogy) and fewer repeated Quant questions",
+  "160+ more questions for Health, Teaching and Hindi, and topic labels on question cards",
+  "New: J&K track with its own topics and mock test, topic filters inside big subjects, and new subjects: General Science, Hindi & Urdu, Teaching & Child Development, Health & Nursing",
   "More than 400 new questions across Geography, Economy and Banking, Science, Sports, Important Days and Awards",
   "Every tool now has a short How to use guide inside it",
   "160 more questions for History and Polity & Governance",

@@ -53,7 +53,7 @@ TYPE_WORDS = [("answer-key", ["answer key", "response sheet"]),
 
 SUBJECTS = ["National", "International", "Economy & Banking", "Science & Tech", "Sports",
             "Awards & Honours", "Defence", "Environment", "Polity & Governance",
-            "Schemes & Policies", "Important Days", "J&K Special", "Static GK"]
+            "Schemes & Policies", "Important Days", "J&K: General Awareness", "Static GK"]
 
 
 def fetch(url, timeout=25):

@@ -111,14 +111,59 @@ def main():
                         f'<p>{e(m.get("explain",""))}</p><span class="tag">{lab}</span></article>')
         rel = f"practice/{slug(sub)}.html"
         app = f"/#tab=practice&subject={quote(sub)}"
+        tcnt = {}
+        for m in qs:
+            t = m.get("topic")
+            if t and t != "Mixed":
+                tcnt[t] = tcnt.get(t, 0) + 1
+        tlinks = ""
+        if len([t for t, c in tcnt.items() if c >= 8]) > 1:
+            tlinks = ('<p>Practise by topic: ' + " &middot; ".join(
+                f'<a href="/practice/{slug(sub)}/{slug(t)}.html">{e(t)}</a> <span class="mut">({c})</span>'
+                for t, c in sorted(tcnt.items()) if c >= 8) + "</p>")
         others = " &middot; ".join(f'<a href="/practice/{slug(s)}.html">{e(s)}</a>' for s in subjects if s != sub)
         body = (f"<h1>{e(sub)} MCQs with answers</h1><p>{total} practice questions in this subject for SSC, Banking, Railways, "
                 f"JKSSB, JKPSC and entrance tests. Below are {len(pick)} of them with answers and explanations.</p>"
-                f'<p><a class="btn" href="{app}">Practise all {total} in the app (free)</a></p>' + "".join(arts) +
+                f'<p><a class="btn" href="{app}">Practise all {total} in the app (free)</a></p>' + tlinks + "".join(arts) +
                 f'<p><a class="btn" href="{app}">Practise all {total} in the app (free)</a></p><p class="mut">Other subjects: {others}</p>')
         title = f"{sub} MCQs with Answers for SSC, Banking, RRB and JKSSB | The Computer Services"
         write(rel, page(rel, title, f"{total} {sub} practice questions with answers and explanations for SSC, Banking, Railways, JKSSB and JKPSC. Free.", body))
         urls.append(("/" + rel, None))
+    # ---------- topic pages (subject > topic) ----------
+    ntopic = 0
+    for sub in subjects:
+        bt = {}
+        for m in mcqs:
+            if m["subject"] == sub and m.get("topic") and m["topic"] != "Mixed":
+                bt.setdefault(m["topic"], []).append(m)
+        good = {t: v for t, v in bt.items() if len(v) >= 8}
+        if len(good) < 2:
+            continue
+        for t, v in sorted(good.items()):
+            v = sorted(v, key=lambda m: (rank[m["_st"]], m["id"]))
+            total = len(v)
+            pick = v[:40]
+            arts = []
+            for i, m in enumerate(pick, 1):
+                lab = {"reviewed": "reviewed", "verified": "verified", "computed": "answer computed",
+                       "unreviewed": "not yet reviewed"}[m["_st"]]
+                opts = "".join(f"<li>{e(o)}</li>" for o in m["options"])
+                arts.append(f'<article id="q-{e(m["id"])}"><h3>{i}. {e(m["q"])}</h3><ol class="o" type="A">{opts}</ol>'
+                            f'<p class="ans">Answer: {"ABCD"[m["answer"]]}) {e(m["options"][m["answer"]])}</p>'
+                            f'<p>{e(m.get("explain",""))}</p><span class="tag">{lab}</span></article>')
+            rel = f"practice/{slug(sub)}/{slug(t)}.html"
+            app = f"/#tab=practice&subject={quote(sub)}&topic={quote(t)}"
+            sibs = " &middot; ".join(f'<a href="/practice/{slug(sub)}/{slug(x)}.html">{e(x)}</a>' for x in sorted(good) if x != t)
+            body = (f'<p class="mut"><a href="/practice/{slug(sub)}.html">{e(sub)}</a> &rsaquo; {e(t)}</p>'
+                    f"<h1>{e(sub)}: {e(t)} MCQs with answers</h1><p>{total} practice questions on {e(t)} for SSC, Banking, "
+                    f"Railways, JKSSB, JKPSC and entrance tests. Below are {len(pick)} with answers and explanations.</p>"
+                    f'<p><a class="btn" href="{app}">Practise all {total} in the app (free)</a></p>' + "".join(arts) +
+                    f'<p><a class="btn" href="{app}">Practise all {total} in the app (free)</a></p>'
+                    f'<p class="mut">Other {e(sub)} topics: {sibs}</p>')
+            title = f"{t} MCQs with Answers ({sub}) for SSC, Banking and JKSSB | The Computer Services"
+            write(rel, page(rel, title, f"{total} {t} practice questions with answers and explanations for {sub}: SSC, Banking, Railways, JKSSB and JKPSC. Free.", body))
+            urls.append(("/" + rel, None))
+            ntopic += 1
     idx = "".join(f'<li><a href="/practice/{slug(s)}.html">{e(s)}</a> <span class="mut">({cnt[s]} questions)</span></li>' for s in subjects)
     write("practice/index.html", page("practice/index.html", "Free MCQs by Subject for SSC, Banking, RRB and JKSSB | The Computer Services",
           "Browse practice MCQs by subject with answers: maths, reasoning, English, GK, J&K special and more.",
@@ -134,7 +179,7 @@ def main():
     write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /review.html\nDisallow: /share/\nSitemap: {SITE}/sitemap.xml\n")
 
     build_share(mcqs, data)
-    print(f"pages: {len(urls)} urls, {len(subjects)} subjects, {len(labels)} exams")
+    print(f"pages: {len(urls)} urls, {len(subjects)} subjects, {ntopic} topics, {len(labels)} exams")
 
 
 # ---------- daily share kit ----------
