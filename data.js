@@ -3,6 +3,246 @@ window.CA_DATA = {
  "seenUrls": [],
  "mcqs": [
   {
+   "id": "d40fef499f7",
+   "date": "2026-11-26",
+   "subject": "Quant",
+   "topic": "Average & Ratio",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The average age of 10 students is 24 years. When a new student joins, the average increases by 1 year(s). The age of the new student is:",
+   "options": [
+    "37",
+    "36",
+    "35",
+    "30"
+   ],
+   "answer": 2,
+   "explain": "New age = 24 + 1 x 11 = 35.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d5468d4dd51",
+   "date": "2026-11-26",
+   "subject": "Quant",
+   "topic": "Percentage, Profit & Loss",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The price of a book rises from Rs 50 by 10%. What is the new price (in Rs)?",
+   "options": [
+    "28",
+    "55",
+    "82",
+    "61"
+   ],
+   "answer": 1,
+   "explain": "New price = 50 x (100+10)/100 = 55.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "dd1bac89c5b",
+   "date": "2026-11-26",
+   "subject": "Quant",
+   "topic": "Simple & Compound Interest",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Rs 10000 gives simple interest of Rs 2500 in 5 years. The rate of interest per annum is:",
+   "options": [
+    "3%",
+    "5%",
+    "7%",
+    "9%"
+   ],
+   "answer": 1,
+   "explain": "r = 2500 x 100/(10000 x 5) = 5%.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d4e0616e258",
+   "date": "2026-11-26",
+   "subject": "Quant",
+   "topic": "Mensuration & Geometry",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The two perpendicular sides of a right-angled triangle are 6 cm and 8 cm. The hypotenuse is (cm):",
+   "options": [
+    "10",
+    "9",
+    "11",
+    "14"
+   ],
+   "answer": 0,
+   "explain": "sqrt(36+64) = 10.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d60536e20f7",
+   "date": "2026-11-26",
+   "subject": "Quant",
+   "topic": "Percentage, Profit & Loss",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "A trader buys a fan for Rs 300 and sells it at a loss of 20%. The selling price (in Rs) is:",
+   "options": [
+    "192",
+    "240",
+    "264",
+    "480"
+   ],
+   "answer": 1,
+   "explain": "SP = 300 x 80/100 = 240.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d8e5b6269df",
+   "date": "2026-11-26",
+   "subject": "Quant",
+   "topic": "Time, Speed & Distance",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Two trains of total length 300 m run in opposite directions at 50 km/h and 40 km/h. The time they take to cross each other is (in seconds):",
+   "options": [
+    "22",
+    "10",
+    "12",
+    "7"
+   ],
+   "answer": 2,
+   "explain": "Relative speed = 90 km/h = 25 m/s; time = 300/25 = 12 s.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "dcdb9c0f11b",
+   "date": "2026-11-26",
+   "subject": "Reasoning",
+   "topic": "Series & Coding",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "One number in this series is wrong. Find it: 2, 5, 8, 11, 15, 17",
+   "options": [
+    "15",
+    "2",
+    "8",
+    "5"
+   ],
+   "answer": 0,
+   "explain": "The series adds 3 each time, so the term at that place should be 14, not 15.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d0aeeb290fd",
+   "date": "2026-11-26",
+   "subject": "Reasoning",
+   "topic": "Direction Sense",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "A man walks 15 km south and then 8 km east. How far is he from the starting point (in km)?",
+   "options": [
+    "17",
+    "20",
+    "18",
+    "14"
+   ],
+   "answer": 0,
+   "explain": "Straight-line distance = sqrt(15^2 + 8^2) = 17 km.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d3d7414b4c8",
+   "date": "2026-11-26",
+   "subject": "Reasoning",
+   "topic": "Series & Coding",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Complete the series: 5, 8, 14, 23, 35, ?",
+   "options": [
+    "53",
+    "46",
+    "50",
+    "54"
+   ],
+   "answer": 2,
+   "explain": "Differences are 3, 6, 9, 12 (rising by 3); next difference 15, so 50.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d51c352e686",
+   "date": "2026-11-26",
+   "subject": "Reasoning",
+   "topic": "Series & Coding",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which number comes next: 17, 19, 23, 29, 31, ?",
+   "options": [
+    "36",
+    "38",
+    "37",
+    "39"
+   ],
+   "answer": 2,
+   "explain": "Consecutive prime numbers; the next prime after 31 is 37.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
    "id": "a083d58faff",
    "date": "2026-11-25",
    "subject": "Polity & Governance",
