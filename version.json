@@ -1,7 +1,10 @@
 {
- "version": "2026.12.38",
- "date": "2026.12.38",
+ "version": "2026.12.44",
+ "date": "2026.12.44",
  "notes": [
+  "New logo: plays once when the app opens, then rests (still in Study mode and Reduce motion)",
+  "New Hindi interface: open Aa and choose Language. Questions stay in English",
+  "10 fresh computed Quant and Reasoning questions are added every day",
   "New heads-up notices for half days and closed days (Monday half day, Tuesday closed), shown on Today, booking and call screens",
   "New Study mode: a quiet paper look with book-style type for long sessions (Aa settings, or the button on Practice)",
   "Links from search results now open the exact subject and topic in the app",

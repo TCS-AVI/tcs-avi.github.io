@@ -312,13 +312,28 @@ def main():
             data["drafted_on"] = today
     static = [m for m in data.get("mcqs", []) if m.get("static")]
     dynamic = [m for m in data.get("mcqs", []) if not m.get("static")]
-    dynamic = merge(dynamic, new_mcqs, keep_days=180, cap=1500)
+    # computed Quant + Reasoning practice (no AI, exact answers); kept for 45 days to keep data.js small
+    math_new = []
+    try:
+        sys.path.insert(0, ROOT)
+        import daily_math
+        seen = {m["q"].strip().lower() for m in dynamic}
+        if os.path.exists(BANK_JS):
+            bt = open(BANK_JS, encoding="utf-8").read()
+            seen |= {m["q"].strip().lower() for m in json.loads(bt[bt.index("{"):bt.rindex("}") + 1])["mcqs"]}
+        if not any(str(m.get("id", "")).startswith("d") and m.get("date") == today for m in dynamic):  # once per day
+            math_new = daily_math.daily(today, 6, 4, seen)
+    except Exception as e:  # never let this stop the daily update
+        print("daily math skipped:", e)
+    cut45 = (datetime.now(IST).date() - timedelta(days=45)).isoformat()
+    dynamic = [m for m in dynamic if not (str(m.get("id", "")).startswith("d") and m.get("date", "9") < cut45)]
+    dynamic = merge(dynamic, new_mcqs + math_new, keep_days=180, cap=1500)
     # when bank.js exists the static questions live there; keep data.js small
     data["mcqs"] = dynamic if os.path.exists(BANK_JS) else dynamic + static
     data["generated"] = today
     data["news"] = []  # headlines are used only to draft questions and are not published
     save(data)
-    print(f"news={len(data.get('news', []))} updates={len(data['updates'])} mcqs={len(data['mcqs'])} (+{len(new_mcqs)} new)")
+    print(f"news={len(data.get('news', []))} updates={len(data['updates'])} mcqs={len(data['mcqs'])} (+{len(new_mcqs)} new, +{len(math_new)} computed)")
 
 
 if __name__ == "__main__":
