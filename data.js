@@ -1,7 +1,247 @@
 window.CA_DATA = {
- "generated": "2026-11-26",
+ "generated": "2026-11-27",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "d637f333f6e",
+   "date": "2026-11-27",
+   "subject": "Quant",
+   "topic": "Mensuration & Geometry",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Two angles of a triangle are 65 degrees and 71 degrees. The third angle is:",
+   "options": [
+    "54 degrees",
+    "34 degrees",
+    "64 degrees",
+    "44 degrees"
+   ],
+   "answer": 3,
+   "explain": "180 - 65 - 71 = 44.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d81190c5878",
+   "date": "2026-11-27",
+   "subject": "Quant",
+   "topic": "Average & Ratio",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The average age of 5 students is 25 years. When a new student joins, the average increases by 3 year(s). The age of the new student is:",
+   "options": [
+    "48",
+    "43",
+    "45",
+    "53"
+   ],
+   "answer": 1,
+   "explain": "New age = 25 + 3 x 6 = 43.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d8de545511e",
+   "date": "2026-11-27",
+   "subject": "Quant",
+   "topic": "Simple & Compound Interest",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Rs 2000 gives simple interest of Rs 400 in 4 years. The rate of interest per annum is:",
+   "options": [
+    "3%",
+    "5%",
+    "7%",
+    "9%"
+   ],
+   "answer": 1,
+   "explain": "r = 400 x 100/(2000 x 4) = 5%.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "da67d74ca28",
+   "date": "2026-11-27",
+   "subject": "Quant",
+   "topic": "Number System",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The HCF of 72 and 56 is:",
+   "options": [
+    "9",
+    "13",
+    "10",
+    "8"
+   ],
+   "answer": 3,
+   "explain": "HCF(72,56) = 8.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d9f0be73900",
+   "date": "2026-11-27",
+   "subject": "Quant",
+   "topic": "Simple & Compound Interest",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The compound interest on Rs 2000 at 20% per annum for 2 years (compounded yearly) is (in Rs):",
+   "options": [
+    "440",
+    "792",
+    "1100",
+    "880"
+   ],
+   "answer": 3,
+   "explain": "A = 2000(1+20/100)^2 = 2880; CI = 880.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d3dfd62c04c",
+   "date": "2026-11-27",
+   "subject": "Quant",
+   "topic": "Mensuration & Geometry",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The circumference of a circle of radius 7 cm (pi = 22/7) is (cm):",
+   "options": [
+    "42",
+    "39",
+    "34",
+    "44"
+   ],
+   "answer": 3,
+   "explain": "2 x 22/7 x 7 = 44.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d9972e22ca4",
+   "date": "2026-11-27",
+   "subject": "Reasoning",
+   "topic": "Ranking & Arrangement",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "If today is Sunday, what day will it be after 52 days?",
+   "options": [
+    "Wednesday",
+    "Thursday",
+    "Tuesday",
+    "Monday"
+   ],
+   "answer": 0,
+   "explain": "52 days = 7 weeks and 3 day(s); Sunday + 3 = Wednesday.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d95d5211d8e",
+   "date": "2026-11-27",
+   "subject": "Reasoning",
+   "topic": "Ranking & Arrangement",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "How many days are there in February of the year 2000?",
+   "options": [
+    "29",
+    "28",
+    "30",
+    "31"
+   ],
+   "answer": 0,
+   "explain": "2000 is a leap year, so February has 29 days.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d9db680ed7b",
+   "date": "2026-11-27",
+   "subject": "Reasoning",
+   "topic": "Blood Relations",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Anita says, 'Mohan is my mother's brother's son.' How is Mohan related to Anita?",
+   "options": [
+    "Nephew",
+    "Uncle",
+    "Brother",
+    "Cousin"
+   ],
+   "answer": 3,
+   "explain": "Mother's brother is the maternal uncle; his son is a cousin.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "dd2eee80a2c",
+   "date": "2026-11-27",
+   "subject": "Reasoning",
+   "topic": "Series & Coding",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "In a certain code, each letter is moved 5 place(s) forward. How is NOTES written in that code?",
+   "options": [
+    "RSXIW",
+    "STYJX",
+    "TUZKY",
+    "UVALZ"
+   ],
+   "answer": 1,
+   "explain": "Move every letter 5 step(s) ahead: N O T E S gives S T Y J X.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
   {
    "id": "d40fef499f7",
    "date": "2026-11-26",
