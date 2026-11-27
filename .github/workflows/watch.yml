@@ -1,0 +1,33 @@
+name: Watch notices
+on:
+  schedule:
+    - cron: "15 */4 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Look for new notices
+        run: python3 watch.py
+      - name: Update the calendar page
+        run: python3 bots_pages.py
+      - name: Save memory
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add watch calendar.html digest.html share
+          git reset -q watch/report.md watch/title.txt 2>/dev/null; git diff --cached --quiet || (git commit -m "Watcher memory" && git pull --rebase && git push)
+      - name: Open an issue if something is new
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f watch/report.md ]; then
+            gh issue create --title "$( [ -f watch/title.txt ] && cat watch/title.txt || echo "New notices $(date -u +%Y-%m-%d)" )" --body-file watch/report.md
+          fi
