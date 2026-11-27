@@ -1,7 +1,247 @@
 window.CA_DATA = {
- "generated": "2026-11-27",
+ "generated": "2026-11-28",
  "seenUrls": [],
  "mcqs": [
+  {
+   "id": "d6be15116d0",
+   "date": "2026-11-28",
+   "subject": "Quant",
+   "topic": "Simple & Compound Interest",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Rs 2000 gives simple interest of Rs 640 in 4 years. The rate of interest per annum is:",
+   "options": [
+    "6%",
+    "8%",
+    "12%",
+    "10%"
+   ],
+   "answer": 1,
+   "explain": "r = 640 x 100/(2000 x 4) = 8%.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "db4d2a18b9e",
+   "date": "2026-11-28",
+   "subject": "Quant",
+   "topic": "Average & Ratio",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "A father is 3 times as old as his son. The sum of their ages is 60 years. The son's age is:",
+   "options": [
+    "15",
+    "17",
+    "19",
+    "13"
+   ],
+   "answer": 0,
+   "explain": "Let son = x: x + 3x = 60 so x = 15.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d433d89e5c3",
+   "date": "2026-11-28",
+   "subject": "Quant",
+   "topic": "Mensuration & Geometry",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Two angles of a triangle are 43 degrees and 71 degrees. The third angle is:",
+   "options": [
+    "66 degrees",
+    "56 degrees",
+    "86 degrees",
+    "76 degrees"
+   ],
+   "answer": 0,
+   "explain": "180 - 43 - 71 = 66.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d6b6e2d6762",
+   "date": "2026-11-28",
+   "subject": "Quant",
+   "topic": "Percentage, Profit & Loss",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The marked price of a shirt is Rs 1500. After a discount of 15%, the price paid (in Rs) is:",
+   "options": [
+    "1594",
+    "1912",
+    "1530",
+    "1275"
+   ],
+   "answer": 3,
+   "explain": "1500 x 85/100 = 1275.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d1eb7448750",
+   "date": "2026-11-28",
+   "subject": "Quant",
+   "topic": "Algebra & Series",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "If 7x + 13 = 62, the value of x is:",
+   "options": [
+    "8",
+    "7",
+    "9",
+    "6"
+   ],
+   "answer": 1,
+   "explain": "x = (62 - 13)/7 = 7.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d8c5eb85fcd",
+   "date": "2026-11-28",
+   "subject": "Quant",
+   "topic": "Number System",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The square root of 1156 is:",
+   "options": [
+    "33",
+    "34",
+    "35",
+    "36"
+   ],
+   "answer": 1,
+   "explain": "34 x 34 = 1156.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "dece5273683",
+   "date": "2026-11-28",
+   "subject": "Reasoning",
+   "topic": "Ranking & Arrangement",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Gopal is taller than Sohan. Sohan is taller than Shyam. Shyam is taller than Mohan. Mohan is taller than Ram. Who is the shortest?",
+   "options": [
+    "Shyam",
+    "Gopal",
+    "Sohan",
+    "Ram"
+   ],
+   "answer": 3,
+   "explain": "The order is Gopal > Sohan > Shyam > Mohan > Ram, so Ram is the shortest.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "dc89df975bd",
+   "date": "2026-11-28",
+   "subject": "Reasoning",
+   "topic": "Series & Coding",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which number comes next: 2, 3, 5, 7, 11, ?",
+   "options": [
+    "12",
+    "15",
+    "14",
+    "13"
+   ],
+   "answer": 3,
+   "explain": "Consecutive prime numbers; the next prime after 11 is 13.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d46fefa38a5",
+   "date": "2026-11-28",
+   "subject": "Reasoning",
+   "topic": "Analogy & Classification",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which number does not belong to the group: 16, 25, 87, 9",
+   "options": [
+    "25",
+    "87",
+    "16",
+    "9"
+   ],
+   "answer": 1,
+   "explain": "87 is not a perfect square; the others are.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
+  {
+   "id": "d523d969278",
+   "date": "2026-11-28",
+   "subject": "Reasoning",
+   "topic": "Blood Relations",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Who is 'My wife's brother' to the speaker?",
+   "options": [
+    "Brother-in-law",
+    "Niece",
+    "Maternal aunt",
+    "Grandfather"
+   ],
+   "answer": 0,
+   "explain": "My wife's brother is the speaker's brother-in-law.",
+   "source": "Daily practice (computed)",
+   "sourceUrl": "",
+   "verified": false
+  },
   {
    "id": "d637f333f6e",
    "date": "2026-11-27",
@@ -409,6 +649,181 @@ window.CA_DATA = {
     "Mass reading of the Preamble in local languages is the specific activity stated in the headline.",
     "Not mentioned in the headline.",
     "Not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "a499688f918",
+   "date": "2026-11-27",
+   "subject": "International",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKPSC"
+   ],
+   "q": "In which city did the Prime Minister meet the Foreign Ministers and Heads of Delegations of the Indian Ocean Rim Association (IORA) member countries?",
+   "options": [
+    "New Delhi",
+    "Haridwar",
+    "Bengaluru",
+    "Bhopal"
+   ],
+   "answer": 0,
+   "explain": "The Prime Minister met the Foreign Ministers and Heads of Delegations of IORA member countries in New Delhi. No other venue is mentioned in the headline.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342836",
+   "verified": false,
+   "why": [
+    "Correct, as the meeting took place in New Delhi.",
+    "Incorrect, Haridwar is associated with the launch of Navya 2.0.",
+    "Incorrect, Bengaluru is where the Spectral CT facility was inaugurated.",
+    "Incorrect, Bhopal is mentioned regarding TB cases."
+   ]
+  },
+  {
+   "id": "af56c8585b1",
+   "date": "2026-11-27",
+   "subject": "Science & Tech",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "Consider the following statements regarding the recent health infrastructure development:\n1. An advanced Spectral CT facility was inaugurated at NIMHANS, Bengaluru.\n2. The facility was inaugurated by Union Health Secretary Punya Salila Srivastava.\nWhich of the statements given above is/are correct?",
+   "options": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "answer": 2,
+   "explain": "Union Health Secretary Punya Salila Srivastava inaugurated the advanced Spectral CT facility at NIMHANS, Bengaluru, and reviewed mental health care initiatives. Hence, both statements are correct.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342839",
+   "verified": false,
+   "why": [
+    "Statement 1 is correct, but statement 2 is also correct.",
+    "Statement 2 is correct, but statement 1 is also correct.",
+    "Both statements are factually accurate according to the headline.",
+    "Both statements are correct, so this option is false."
+   ]
+  },
+  {
+   "id": "a49a9454967",
+   "date": "2026-11-27",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which Ministry celebrated the completion of two years of the 'Bal Vivah Mukt Bharat' campaign?",
+   "options": [
+    "Ministry of Women and Child Development",
+    "Ministry of Skill Development and Entrepreneurship",
+    "Ministry of Social Justice and Empowerment",
+    "Ministry of Health and Family Welfare"
+   ],
+   "answer": 0,
+   "explain": "The Ministry of Women and Child Development celebrated the occasion of the completion of two years of the 'Bal Vivah Mukt Bharat' campaign. No other ministry was mentioned for this event.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342763",
+   "verified": false,
+   "why": [
+    "Correct, as explicitly stated in the headline.",
+    "Incorrect, MSDE is a partner in Navya 2.0.",
+    "Incorrect, this ministry had a pavilion at IITF 2026.",
+    "Incorrect, this ministry is not mentioned in relation to this campaign."
+   ]
+  },
+  {
+   "id": "ac1652378b9",
+   "date": "2026-11-27",
+   "subject": "Awards & Honours",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "Which organization won the Bronze Medal for its performance at the India International Trade Fair (IITF) 2026?",
+   "options": [
+    "Central Board of Indirect Taxes and Customs (CBIC)",
+    "National Human Rights Commission (NHRC)",
+    "NIMHANS Bengaluru",
+    "Ministry of Women and Child Development"
+   ],
+   "answer": 0,
+   "explain": "The Central Board of Indirect Taxes and Customs (CBIC) won the Bronze Medal for its performance at the India International Trade Fair (IITF) 2026.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342824",
+   "verified": false,
+   "why": [
+    "Correct, CBIC won the Bronze Medal at IITF 2026.",
+    "Incorrect, NHRC took cognizance of prisoner deaths and TB cases.",
+    "Incorrect, NIMHANS received a Spectral CT facility.",
+    "Incorrect, MWCD launched Navya 2.0 and marked 2 years of Bal Vivah Mukt Bharat."
+   ]
+  },
+  {
+   "id": "a6fe1f7221e",
+   "date": "2026-11-27",
+   "subject": "Schemes & Policies",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "What is the maximum financial assistance provided to SC and ST patients for the treatment of life-threatening diseases under the Dr. Ambedkar Medical Aid Scheme?",
+   "options": [
+    "Up to Rs 3.50 lakh",
+    "Up to Rs 2.50 lakh",
+    "Up to Rs 5.00 lakh",
+    "Up to Rs 1.50 lakh"
+   ],
+   "answer": 0,
+   "explain": "Under the Dr. Ambedkar Medical Aid Scheme, financial assistance up to Rs 3.50 lakh is provided to SC and ST patients for the treatment of life-threatening diseases.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342826",
+   "verified": false,
+   "why": [
+    "Correct, the headline specifically mentions financial aid up to Rs 3.50 lakh.",
+    "Incorrect, the specified limit is Rs 3.50 lakh.",
+    "Incorrect, the headline specifies Rs 3.50 lakh, not Rs 5.00 lakh.",
+    "Incorrect, the headline specifies Rs 3.50 lakh."
+   ]
+  },
+  {
+   "id": "a7798838201",
+   "date": "2026-11-27",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "Universities & Entrances"
+   ],
+   "q": "Which Portuguese film showcased at the 57th International Film Festival of India (IFFI) depicts friendship and the shared experience of cinema?",
+   "options": [
+    "Come With Me",
+    "The River Train",
+    "Demography is Destiny",
+    "The Kerala Story 2: Goes Beyond"
+   ],
+   "answer": 0,
+   "explain": "The Portuguese film 'Come With Me' featured at the 57th IFFI portrays friendship and the shared experience of cinema.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342784",
+   "verified": false,
+   "why": [
+    "Correct, 'Come With Me' is the Portuguese film mentioned.",
+    "Incorrect, 'The River Train' is another film discussed at the 57th IFFI.",
+    "Incorrect, this is a film mentioned in another IFFI headline.",
+    "Incorrect, this is a film discussed by filmmakers at IFFI 2026."
    ]
   },
   {
@@ -7109,5 +7524,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-27"
+ "drafted_on": "2026-11-28"
 };
