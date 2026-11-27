@@ -1,0 +1,44 @@
+name: Weekly checks
+on:
+  schedule:
+    - cron: "30 21 * * 6"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Backup question banks (keeps the last 4)
+        run: |
+          mkdir -p backups
+          d=$(date -u +%Y-%m-%d)
+          gzip -c bank.js > backups/bank-$d.js.gz
+          gzip -c data.js > backups/data-$d.js.gz
+          ls -1t backups/bank-*.gz 2>/dev/null | tail -n +5 | xargs -r rm
+          ls -1t backups/data-*.gz 2>/dev/null | tail -n +5 | xargs -r rm
+      - name: Weekly digest page
+        run: python3 bots_pages.py
+      - name: Question quality
+        run: python3 quality_check.py
+      - name: Link check
+        run: python3 link_check.py
+      - name: Save results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add backups calendar.html digest.html share
+          git diff --cached --quiet || (git commit -m "Weekly backup and digest" && git pull --rebase origin main && git push)
+      - name: Open an issue if something needs attention
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat quality_report.md links_report.md > weekly_report.md 2>/dev/null || true
+          if [ -s weekly_report.md ]; then
+            gh issue create --title "Weekly check $(date -u +%Y-%m-%d)" --body-file weekly_report.md
+          fi
