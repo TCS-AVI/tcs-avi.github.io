@@ -1,0 +1,40 @@
+name: Smoke test
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "45 2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install a test browser
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Test this upload in a phone-sized browser
+        id: local
+        run: |
+          python3 -m http.server 8000 &
+          sleep 2
+          python3 smoke.py http://localhost:8000/
+        continue-on-error: true
+      - name: Test the live site (daily or manual)
+        if: github.event_name != 'push'
+        run: python3 smoke.py https://tcs-avi.github.io/
+        continue-on-error: true
+      - name: Open an issue if something broke
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f smoke_report.md ]; then
+            gh issue create --title "Smoke test failed $(date -u +%Y-%m-%d)" --body-file smoke_report.md
+          fi
