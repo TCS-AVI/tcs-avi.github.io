@@ -243,6 +243,175 @@ window.CA_DATA = {
    "verified": false
   },
   {
+   "id": "a451d42de67",
+   "date": "2026-11-27",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "What is the financial outlay approved by the Cabinet for accelerating the transformation process of India Post?",
+   "options": [
+    "Rs 1,632 crore",
+    "Rs 2,632 crore",
+    "Rs 3,632 crore",
+    "Rs 4,632 crore"
+   ],
+   "answer": 1,
+   "explain": "The Union Cabinet has approved a financial outlay of Rs 2,632 crore for India Post. This funding will be used to accelerate its transformation process.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342300",
+   "verified": false,
+   "why": [
+    "Incorrect amount as per the headline.",
+    "Rs 2,632 crore is the exact outlay approved by the Cabinet.",
+    "Incorrect amount as per the headline.",
+    "Incorrect amount as per the headline."
+   ]
+  },
+  {
+   "id": "af9e715b9d4",
+   "date": "2026-11-27",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "The Constitution Day celebration attended by the President of India was organized by which of the following?",
+   "options": [
+    "Election Commission of India",
+    "Supreme Court of India",
+    "Law Commission of India",
+    "Parliament of India"
+   ],
+   "answer": 1,
+   "explain": "The President of India attended the Constitution Day celebration. The event was organized by the Supreme Court of India.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342201",
+   "verified": false,
+   "why": [
+    "The event was organized by the Supreme Court of India, not the Election Commission.",
+    "The Supreme Court of India organized the Constitution Day celebration attended by the President.",
+    "Incorrect organizer according to the headline.",
+    "Incorrect organizer according to the headline."
+   ]
+  },
+  {
+   "id": "aa43a86d0a9",
+   "date": "2026-11-27",
+   "subject": "Economy & Banking",
+   "exams": [
+    "SSC",
+    "Banking",
+    "Railways"
+   ],
+   "q": "Union Minister Nirmala Sitharaman concluded comprehensive pre-budget consultations for which Union Budget?",
+   "options": [
+    "Union Budget 2025-26",
+    "Union Budget 2026-27",
+    "Union Budget 2027-28",
+    "Union Budget 2028-29"
+   ],
+   "answer": 2,
+   "explain": "Union Minister for Finance and Corporate Affairs Nirmala Sitharaman concluded comprehensive pre-budget consultations. These consultations were held specifically for the Union Budget 2027-28.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342267",
+   "verified": false,
+   "why": [
+    "The consultations were for the 2027-28 budget, not 2025-26.",
+    "The consultations were for the 2027-28 budget, not 2026-27.",
+    "Union Budget 2027-28 is explicitly mentioned in the headline.",
+    "The consultations were for the 2027-28 budget, not 2028-29."
+   ]
+  },
+  {
+   "id": "a222af12b1d",
+   "date": "2026-11-27",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "In which city did the Department of Drinking Water and Sanitation, Ministry of Jal Shakti, organize its 2nd Regional Conference?",
+   "options": [
+    "Varanasi",
+    "Jaipur",
+    "Agra",
+    "Lucknow"
+   ],
+   "answer": 2,
+   "explain": "The Department of Drinking Water and Sanitation, Ministry of Jal Shakti, organized its second Regional Conference. The conference was held in Agra.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342260",
+   "verified": false,
+   "why": [
+    "The conference was held in Agra, not Varanasi.",
+    "The conference was held in Agra, not Jaipur.",
+    "Agra is the city where the second regional conference was organized.",
+    "The conference was held in Agra, not Lucknow."
+   ]
+  },
+  {
+   "id": "a6a19e68811",
+   "date": "2026-11-27",
+   "subject": "National",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB"
+   ],
+   "q": "According to official announcements, the President of India is scheduled to visit which group of states from 27 November to 2 December, 2026?",
+   "options": [
+    "Keralam, Assam, and Manipur",
+    "Keralam, Mizoram, and Nagaland",
+    "Tamil Nadu, Mizoram, and Nagaland",
+    "Keralam, Tripura, and Meghalaya"
+   ],
+   "answer": 1,
+   "explain": "The President of India is scheduled to undertake a tour from 27 November to 2 December, 2026. The visit will cover Keralam, Mizoram, and Nagaland.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342177",
+   "verified": false,
+   "why": [
+    "Assam and Manipur are not mentioned in the headline.",
+    "Keralam, Mizoram, and Nagaland are the exact states listed for the President's visit.",
+    "Tamil Nadu is not mentioned in the headline.",
+    "Tripura and Meghalaya are not mentioned in the headline."
+   ]
+  },
+  {
+   "id": "ac9d10ebb01",
+   "date": "2026-11-27",
+   "subject": "Polity & Governance",
+   "exams": [
+    "SSC",
+    "Railways",
+    "JKSSB",
+    "JKPSC"
+   ],
+   "q": "On the occasion of Constitution Day celebrated by the Ministry of Panchayati Raj, what nationwide activity was undertaken by Panchayats and rural local bodies?",
+   "options": [
+    "Tree plantation drive across village secretariats",
+    "Mass reading of the Preamble in local languages",
+    "Distribution of printed copies of Fundamental Rights",
+    "Organization of mock village parliaments"
+   ],
+   "answer": 1,
+   "explain": "The Ministry of Panchayati Raj celebrated Constitution Day across the country. As part of the celebrations, Panchayats and rural local bodies conducted a mass reading of the Preamble in local languages.",
+   "source": "PIB",
+   "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342176",
+   "verified": false,
+   "why": [
+    "Not mentioned in the headline.",
+    "Mass reading of the Preamble in local languages is the specific activity stated in the headline.",
+    "Not mentioned in the headline.",
+    "Not mentioned in the headline."
+   ]
+  },
+  {
    "id": "d40fef499f7",
    "date": "2026-11-26",
    "subject": "Quant",
@@ -6940,5 +7109,5 @@ window.CA_DATA = {
   }
  ],
  "news": [],
- "drafted_on": "2026-11-26"
+ "drafted_on": "2026-11-27"
 };
