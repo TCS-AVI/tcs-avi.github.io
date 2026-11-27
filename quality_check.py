@@ -28,7 +28,9 @@ def main():
         if len(norm(m["q"])) > 30:
             byq.setdefault(norm(m["q"]) + "|" + "|".join(sorted(norm(o) for o in m["options"])), set()).add(norm(m["options"][m["answer"]]))
     amb = [q for q, a in byq.items() if len(a) > 1]
-    if amb: P.append(f"{len(amb)} questions appear twice with DIFFERENT correct answers. One is wrong. First: \"{amb[0].split("|")[0][:90]}\"")
+    if amb:
+        first = amb[0].split("|")[0][:90]
+        P.append(f"{len(amb)} questions appear twice with DIFFERENT correct answers. One is wrong. First: {first}")
     short = [m["id"] for m in ms if len(norm(m["q"])) < 12]
     if len(short) > 30: P.append(f"{len(short)} questions are very short, e.g. {short[0]}")
     inopt = [m["id"] for m in ms if any(norm(o) in norm(m["q"]) and len(norm(o)) > 25 for o in m["options"])]
