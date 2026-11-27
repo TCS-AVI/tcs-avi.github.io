@@ -22,8 +22,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
-          git add watch calendar.html digest.html share
-          git reset -q watch/report.md watch/title.txt 2>/dev/null; git diff --cached --quiet || (git commit -m "Watcher memory" && git pull --rebase && git push)
+          git add watch/state.json watch/notices.json calendar.html digest.html share
+          git diff --cached --quiet || (git commit -m "Watcher memory" && git pull --rebase origin main && git push)
       - name: Open an issue if something is new
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
