@@ -333,6 +333,15 @@ def main():
     data["generated"] = today
     data["news"] = []  # headlines are used only to draft questions and are not published
     save(data)
+    try:  # ready-to-copy WhatsApp post page; never allowed to stop the daily update
+        import daily_post
+        bank = []
+        if os.path.exists(BANK_JS):
+            bt = open(BANK_JS, encoding="utf-8").read()
+            bank = json.loads(bt[bt.index("{"):bt.rindex("}") + 1])["mcqs"]
+        daily_post.build(ROOT, data, bank, today)
+    except Exception as e:
+        print("daily post skipped:", e)
     print(f"news={len(data.get('news', []))} updates={len(data['updates'])} mcqs={len(data['mcqs'])} (+{len(new_mcqs)} new, +{len(math_new)} computed)")
 
 

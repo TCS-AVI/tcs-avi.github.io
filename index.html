@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://*.goatcounter.com https://gc.zgo.at; font-src 'self' data:; connect-src 'self' https://api.open-meteo.com https://api.pwnedpasswords.com https://*.goatcounter.com; media-src 'self' data: blob:; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://wa.me https://api.whatsapp.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script>if(window.top!==window.self){document.documentElement.style.display="none";try{window.top.location=window.self.location}catch(e){}}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="copyright" content="(c) 2026 Neeraj Kumar Dabgotra, The Computer Services. All rights reserved.">
 <title>The Computer Services - Current Affairs MCQs &amp; Mock Tests</title>
@@ -200,7 +203,7 @@ sp.querySelector("img").src=hi.src;try{sessionStorage.setItem("tcs_sp","1")}catc
 sp.addEventListener("click",kill);setTimeout(kill,2600);window.addEventListener("load",function(){setTimeout(kill,2200)})})();
 </script>
 <nav><div class="in" role="tablist" id="tabs"></div></nav>
-<main id="view"></main>
+<main id="view"><p class="ldq" role="status" style="padding:28px 16px;text-align:center;opacity:.8">Loading questions&hellip; The first visit on a slow connection can take a little while. Next visits open instantly.</p></main>
 <footer class="ft">
   <div class="ftb"><img src="logo.png" alt="" width="44" height="44"><div><b>The Computer Services</b><div class="fts">Free beta study aid &middot; Jakh, Samba, J&amp;K</div></div></div>
   <nav class="ftl" aria-label="Footer links">
@@ -1610,7 +1613,7 @@ render();
 </style>
 <script>
 (function(){
-var VER="2026.12.47",KEY="ed_ver",later="";
+var VER="2026.12.51",KEY="ed_ver",later="";
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}return null}
 function cmp(a,b){a=String(a).split(".");b=String(b).split(".");for(var i=0;i<Math.max(a.length,b.length);i++){var x=+a[i]||0,y=+b[i]||0;if(x!==y)return x>y?1:-1}return 0}
 function info(){return fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
@@ -1718,6 +1721,12 @@ document.body.insertBefore(d,document.body.firstChild)})}catch(e){}})();
 var CFG={tz:"Asia/Kolkata",lastTokenMins:30,
  days:{0:{o:600,c:1080,l:[840,900]},1:{o:600,c:840,l:null},2:null,3:{o:600,c:1080,l:[840,900]},4:{o:600,c:1080,l:[840,900]},5:{o:600,c:1080,l:[840,900]},6:{o:600,c:1080,l:[840,900]}},
  holidays:{} /* example: "2026-11-12":"Closed for Diwali" */ };
+/* shop hours come from hours.json so one file controls the site, the post bot and notices */
+(function(){function mm(s){var p=String(s).split(":");return +p[0]*60+ +p[1]}
+try{fetch("hours.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).then(function(j){
+if(!j||!j.days)return;var N=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],d={};
+for(var k=0;k<7;k++){var e=j.days[N[k]];d[k]=e?{o:mm(e.open),c:mm(e.close),l:e.lunch?[mm(e.lunch[0]),mm(e.lunch[1])]:null}:null}
+CFG.days=d;CFG.holidays=j.holidays||{};try{window.__hoursSynced=1;if(typeof render==="function")render()}catch(x){}}).catch(function(){})}catch(x){}})();
 var DN=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 function t12(m){var h=Math.floor(m/60),mm=m%60,s=h>=12?"PM":"AM";h=h%12||12;return h+(mm?":"+(mm<10?"0":"")+mm:"")+" "+s}
 function ist(d){var p={};new Intl.DateTimeFormat("en-GB",{timeZone:CFG.tz,year:"numeric",month:"2-digit",day:"2-digit",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(d).forEach(function(x){p[x.type]=x.value});

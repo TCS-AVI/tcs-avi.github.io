@@ -1,7 +1,11 @@
 {
- "version": "2026.12.47",
- "date": "2026.12.47",
+ "version": "2026.12.51",
+ "date": "2026.12.51",
  "notes": [
+  "Faster on slow connections: a loading message, and the question bank now opens instantly on repeat visits",
+  "Security: stricter content rules, clickjacking guard and a security contact file",
+  "New: exam calendar and weekly digest pages; shop hours now come from one file",
+  "Behind the scenes: a daily WhatsApp post is prepared automatically, new exam notices are watched, and the site checks itself for problems",
   "New logo: plays once when the app opens, then rests (still in Study mode and Reduce motion)",
   "New Hindi interface: open Aa and choose Language. Questions stay in English",
   "10 fresh computed Quant and Reasoning questions are added every day",

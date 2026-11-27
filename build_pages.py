@@ -170,6 +170,7 @@ def main():
           f'<h1>Practice MCQs by subject</h1><ul class="l">{idx}</ul>'))
     urls.append(("/practice/", None))
 
+    urls.append(("/calendar.html", None)); urls.append(("/digest.html", None))
     labels = []  # exam-update pages removed on purpose
 
     # ---------- sitemap ----------

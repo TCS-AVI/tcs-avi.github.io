@@ -1,0 +1,9 @@
+{"_help":"Change shop hours here only. Times are 24-hour HH:MM. null means closed. Holidays: add \"2026-12-25\": \"Closed for Christmas\". The website, the WhatsApp post bot and the Hindi notice all read this file.",
+"days":{"Sunday":{"open":"10:00","close":"18:00","lunch":["14:00","15:00"]},
+"Monday":{"open":"10:00","close":"14:00"},
+"Tuesday":null,
+"Wednesday":{"open":"10:00","close":"18:00","lunch":["14:00","15:00"]},
+"Thursday":{"open":"10:00","close":"18:00","lunch":["14:00","15:00"]},
+"Friday":{"open":"10:00","close":"18:00","lunch":["14:00","15:00"]},
+"Saturday":{"open":"10:00","close":"18:00","lunch":["14:00","15:00"]}},
+"holidays":{}}

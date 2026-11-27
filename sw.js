@@ -1,6 +1,6 @@
 // Service worker: opens the site offline and lets it install as an app.
 // Pages and data are fetched network-first (so daily updates show up); images are cache-first.
-var V = "tcs-v79";
+var V = "tcs-v84";
 var CORE = ["./", "index.html", "data.js", "bank.js", "reviewed.js", "thoughts.js", "feedback.js", "logo.png", "icon-192.png", "manifest.webmanifest"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(V).then(function (c) {
@@ -17,7 +17,15 @@ self.addEventListener("activate", function (e) {
 self.addEventListener("fetch", function (e) {
   var req = e.request, url = new URL(req.url);
   if (req.method !== "GET" || url.origin !== location.origin) return;
-  if (/\.(png|webmanifest)$/.test(url.pathname)) {
+  if (/\/bank\.js$/.test(url.pathname)) {
+    // The big question bank changes rarely: show the saved copy at once, refresh it quietly for next time.
+    e.respondWith(caches.open(V).then(function (c) {
+      return c.match(req).then(function (m) {
+        var net = fetch(req).then(function (r) { if (r && r.ok) c.put(req, r.clone()); return r; }).catch(function () { return m; });
+        return m || net;
+      });
+    }));
+  } else if (/\.(png|webmanifest)$/.test(url.pathname)) {
     e.respondWith(caches.match(req).then(function (m) { return m || fetch(req); }));
   } else {
     e.respondWith(fetch(req).then(function (r) {

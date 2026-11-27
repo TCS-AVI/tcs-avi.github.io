@@ -1,0 +1,5 @@
+Contact: mailto:baglajakh@gmail.com
+Expires: 2027-11-27T00:00:00.000Z
+Preferred-Languages: en, hi
+Canonical: https://tcs-avi.github.io/security.txt
+Policy: Please report security problems by email. This is a free, one-person project; we will reply as soon as we can.
