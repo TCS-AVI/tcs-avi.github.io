@@ -60,6 +60,14 @@ def live():
             bad.append(f"Daily update looks stuck: newest question is {newest}")
     except Exception as e: bad.append(f"could not check freshness: {e}")
     try:
+        st = json.loads(get(SITE + "share/status.json")[1])
+        if st.get("ai_fail_days", 0) >= 3:
+            bad.append(f"AI question drafting has produced nothing for {st['ai_fail_days']} days. Check the Gemini and Groq keys and their daily limits. Computed Quant and Reasoning questions still work.")
+        if st.get("computed_new", 1) == 0 and st.get("date") == today.isoformat() and st.get("total", 0) > 0 and st.get("ai_new", 0) == 0:
+            pass
+    except Exception as e:
+        bad.append(f"daily update heartbeat missing or unreadable: {e}")
+    try:
         sm = get(SITE + "sitemap.xml")[1]
         for u in re.findall(r"<loc>([^<]+)</loc>", sm)[:40]:
             try: get(u)

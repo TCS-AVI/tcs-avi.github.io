@@ -90,8 +90,41 @@ def load():
 
 
 def save(data):
-    with open(DATA_JS, "w", encoding="utf-8") as f:
+    """Write to a temporary file first, then swap it in, so an interrupted run can never leave a half-written data.js."""
+    tmp = DATA_JS + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         f.write("window.CA_DATA = " + json.dumps(data, indent=1, ensure_ascii=False) + ";\n")
+    os.replace(tmp, DATA_JS)
+
+
+def valid_mcq(m):
+    """A question must have text, four different options and an answer inside them."""
+    try:
+        o = m["options"]
+        return (len(o) == 4 and len({str(x).strip().lower() for x in o}) == 4 and all(str(x).strip() for x in o)
+                and isinstance(m["answer"], int) and 0 <= m["answer"] < 4 and len(str(m["q"]).strip()) >= 12)
+    except Exception:
+        return False
+
+
+def write_status(today, **kw):
+    """Small public heartbeat (share/status.json). The health bot reads it to spot a daily update that quietly stopped working."""
+    p = os.path.join(ROOT, "share", "status.json")
+    try:
+        old = json.load(open(p, encoding="utf-8"))
+    except Exception:
+        old = {}
+    if old.get("date") == today:   # later runs the same day must not erase the day's real counts
+        for k in ("ai_new", "computed_new"):
+            kw[k] = max(kw.get(k, 0), old.get(k, 0))
+    fails = old.get("ai_fail_days", 0)
+    if old.get("date") != today:
+        fails = (fails + 1) if kw.get("ai_new", 0) == 0 else 0
+    elif kw.get("ai_new", 0) > 0:
+        fails = 0
+    st = {"date": today, "ai_fail_days": fails, **kw}
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    json.dump(st, open(p, "w", encoding="utf-8"), indent=1)
 
 
 def classify(title):
@@ -329,10 +362,22 @@ def main():
     dynamic = [m for m in dynamic if not (str(m.get("id", "")).startswith("d") and m.get("date", "9") < cut45)]
     dynamic = merge(dynamic, new_mcqs + math_new, keep_days=180, cap=1500)
     # when bank.js exists the static questions live there; keep data.js small
+    bad = [m for m in dynamic if not valid_mcq(m)]
+    if bad:
+        print(f"[warn] dropped {len(bad)} invalid question(s) before saving")
+        dynamic = [m for m in dynamic if valid_mcq(m)]
+    before = len(load().get("mcqs", []))
     data["mcqs"] = dynamic if os.path.exists(BANK_JS) else dynamic + static
     data["generated"] = today
     data["news"] = []  # headlines are used only to draft questions and are not published
+    if before > 50 and len(data["mcqs"]) < before * 0.7:   # something went badly wrong; keep yesterday's file
+        print(f"[error] question count fell from {before} to {len(data['mcqs'])}; not saving", file=sys.stderr)
+        sys.exit(1)
     save(data)
+    try:
+        write_status(today, ai_new=len(new_mcqs), computed_new=len(math_new), total=len(data["mcqs"]))
+    except Exception as e:
+        print("status not written:", e)
     try:  # ready-to-copy WhatsApp post page; never allowed to stop the daily update
         import daily_post
         bank = []

@@ -71,7 +71,7 @@ def main(sources_path=None, state_path=None):
     sp = state_path or STATE
     os.makedirs(os.path.dirname(sp), exist_ok=True)
     st = json.load(open(sp)) if os.path.exists(sp) else {}
-    new_items, broken, baseline = [], [], 0
+    new_items, broken, baseline, changed, failed_now = [], [], 0, [], 0
     for s in src:
         key = s["u"]; rec = st.get(key, {})
         try:
@@ -89,11 +89,15 @@ def main(sources_path=None, state_path=None):
             for k, (t, h) in fresh:
                 new_items.append((s["g"], s["n"], t, h))
             ids = list(dict.fromkeys(list(relevant) + rec.get("ids", [])))[:KEEP_LINKS]
-            st[key] = {"n": s["n"], "ids": ids, "ok": int(time.time()), "fail": 0}
+            prev_rel = rec.get("rel", 0)
+            if prev_rel >= 5 and len(relevant) == 0:   # the page still opens but our links vanished: layout probably changed
+                changed.append((s["n"], s["u"], prev_rel))
+            st[key] = {"n": s["n"], "ids": ids, "ok": int(time.time()), "fail": 0, "rel": len(relevant)}
         except Exception as e:
+            failed_now += 1
             rec["fail"] = rec.get("fail", 0) + 1; rec["err"] = str(e)[:120]; rec["n"] = s["n"]
             st[key] = rec
-            if rec["fail"] == FAIL_LIMIT: broken.append((s["n"], s["u"], rec["err"]))
+            if rec["fail"] == FAIL_LIMIT and failed_now < len(src) * 0.5: broken.append((s["n"], s["u"], rec["err"]))
         time.sleep(1)
     json.dump(st, open(sp, "w"), indent=0)
     ist = timezone(timedelta(hours=5, minutes=30)); today = datetime.now(ist).date().isoformat()
@@ -107,7 +111,9 @@ def main(sources_path=None, state_path=None):
     ur = [x for x in new_items if URGENT.search(x[2])]
     rp = REPORT if not state_path else os.path.join(os.path.dirname(sp), "report.md")
     if os.path.exists(rp): os.remove(rp)
-    if new_items or broken:
+    if failed_now >= len(src) * 0.5:
+        print(f"WARNING: {failed_now} of {len(src)} sites failed; probably a network problem on the runner, not counting it against the sites")
+    if new_items or broken or changed:
         L = []
         if new_items:
             L.append(f"## {len(new_items)} new notice link(s)\n")
@@ -116,6 +122,9 @@ def main(sources_path=None, state_path=None):
                 if grp != g: L.append(f"\n### {grp}"); g = grp
                 L.append(f"- {'🔴 ' if URGENT.search(t) else ''}**{n}**: [{t}]({h})")
             L.append("\nCheck each on the official site before telling anyone.")
+        if changed:
+            L.append("\n## Pages that open but show no notice links any more (the site layout may have changed)\n")
+            for n, u, k in changed: L.append(f"- {n}: {u} (used to show {k})")
         if broken:
             L.append("\n## Sites that keep failing (fix the address in sources.json or ignore)\n")
             for n, u, e in broken: L.append(f"- {n}: {u} ({e})")
