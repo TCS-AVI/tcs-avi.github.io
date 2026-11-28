@@ -7,36 +7,36 @@
 "def4eb714c3c",
 "463eee582023"
 ],
-"ok": 1795784871,
+"ok": 1795824133,
 "fail": 0
 },
 "https://jkpsc.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "JKPSC"
 },
 "https://jkbose.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "JKBOSE"
 },
 "https://jkpolice.gov.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "J&K Police"
 },
 "https://www.jkbank.com/careers.php": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "JK Bank careers"
 },
 "https://jk.gov.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "J&K Govt portal"
 },
 "https://jkssb.nic.in/Notices.html": {
-"fail": 1,
+"fail": 2,
 "err": "HTTP Error 404: Not Found",
 "n": "JKSSB notices"
 },
@@ -64,102 +64,118 @@
 "16393ca45592",
 "375cc8ca83ef"
 ],
-"ok": 1795785008,
+"ok": 1795824269,
 "fail": 0
 },
 "https://upsc.gov.in/": {
-"fail": 2,
+"fail": 4,
 "err": "HTTP Error 403: Forbidden",
 "n": "CAPF (UPSC)"
 },
 "https://upsc.gov.in/examinations/active-examinations": {
-"fail": 1,
+"fail": 2,
 "err": "HTTP Error 403: Forbidden",
 "n": "UPSC exams"
 },
 "https://ssc.gov.in/": {
 "n": "SSC",
 "ids": [],
-"ok": 1795785014,
+"ok": 1795824276,
 "fail": 0
 },
 "https://www.ibps.in/": {
-"fail": 1,
-"err": "<urlopen error [SSL: UNEXPECTED_MESSAGE] unexpected message (_ssl.c:1018)>",
-"n": "IBPS"
+"n": "IBPS",
+"ids": [
+"f599316136f1",
+"553e9a9a286d",
+"6d0c8eae7f82",
+"82ecf621ed05",
+"80837ef0e35b",
+"29cea22ab722",
+"f79a688803db",
+"07fbae057a7d",
+"ddce60440a8b",
+"c68dc7eda1a4",
+"9ecb19154845",
+"29ec342a4766",
+"0f344ec7f08b",
+"51fa342920af"
+],
+"ok": 1795824279,
+"fail": 0
 },
 "https://sbi.co.in/web/careers": {
 "n": "SBI careers",
 "ids": [],
-"ok": 1795785019,
+"ok": 1795824283,
 "fail": 0
 },
 "https://opportunities.rbi.org.in/": {
 "n": "RBI opportunities",
 "ids": [],
-"ok": 1795785021,
+"ok": 1795824285,
 "fail": 0
 },
 "https://www.rrbcdg.gov.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "RRB (Railways)"
 },
 "https://www.cbse.gov.in/": {
-"fail": 1,
+"fail": 2,
 "err": "HTTP Error 403: Forbidden",
 "n": "CBSE"
 },
 "https://crpf.gov.in/": {
 "n": "CRPF",
 "ids": [],
-"ok": 1795785056,
+"ok": 1795824319,
 "fail": 0
 },
 "https://bsf.gov.in/": {
-"fail": 1,
+"fail": 2,
 "err": "HTTP Error 403: Forbidden",
 "n": "BSF"
 },
 "https://www.cisf.gov.in/": {
 "n": "CISF",
 "ids": [],
-"ok": 1795785063,
+"ok": 1795824327,
 "fail": 0
 },
 "https://joinindianarmy.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "Indian Army"
 },
 "https://www.joinindiannavy.gov.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "Indian Navy"
 },
 "https://indianairforce.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "Indian Air Force"
 },
 "https://afcat.cdac.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error timed out>",
 "n": "AFCAT"
 },
 "https://kvsangathan.nic.in/": {
 "n": "KVS",
 "ids": [],
-"ok": 1795785173,
+"ok": 1795824440,
 "fail": 0
 },
 "https://navodaya.gov.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error [Errno 101] Network is unreachable>",
 "n": "NVS"
 },
 "https://aissee.nta.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error [Errno -5] No address associated with hostname>",
 "n": "AISSEE (Sainik School)"
 },
@@ -176,41 +192,42 @@
 "93d19a33546b",
 "69615ffafe77"
 ],
-"ok": 1795785208,
+"ok": 1795824472,
 "fail": 0
 },
 "https://jeemain.nta.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "HTTP Error 403: Forbidden",
 "n": "JEE Main"
 },
 "https://neet.nta.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "HTTP Error 403: Forbidden",
 "n": "NEET"
 },
 "https://www.jammuuniversity.ac.in/": {
 "n": "University of Jammu",
 "ids": [
-"d15064a022fc",
-"eafb1a5757d8",
-"fab5953d0e3e",
-"5d51e2aa4952",
-"8ed5c07d5ff6",
+"55c6748dd8f6",
+"d1c030d185b8",
+"bd7c4e8dd97d",
+"c265ec601039",
+"6ac7ad10fdae",
 "c674be58c3ce",
 "909735b4ce5a",
 "a912484be334",
 "e43a3ae2a7e2",
-"d8fb6b55c38e",
-"80dfd4534afe",
-"95158b88742f",
-"50e30ce0a489",
-"fa987460218b",
-"2ff863492049",
+"4175c9340ff8",
+"e5019876574f",
+"ca797becc207",
+"143d0377ae78",
+"7d42b3161e10",
+"2d847f06081f",
 "0a5633609797",
-"2d2d5987d05c",
+"1ce2a37cb49e",
 "85db64f86e96",
 "a1c90319b008",
+"8ed5c07d5ff6",
 "06660329c4b5",
 "42565dbef1f7",
 "42b6f5084ab4",
@@ -225,9 +242,20 @@
 "0f21d5f15cef",
 "e5ff1becfd8a",
 "8ce1b0f6f2f1",
-"9fd5da9647b0"
+"9fd5da9647b0",
+"d15064a022fc",
+"eafb1a5757d8",
+"fab5953d0e3e",
+"5d51e2aa4952",
+"d8fb6b55c38e",
+"80dfd4534afe",
+"95158b88742f",
+"50e30ce0a489",
+"fa987460218b",
+"2ff863492049",
+"2d2d5987d05c"
 ],
-"ok": 1795785214,
+"ok": 1795824478,
 "fail": 0
 },
 "https://cujammu.ac.in/": {
@@ -251,15 +279,16 @@
 "6b974c78898c",
 "ee786249e88b",
 "fb3a3f4a5291",
+"8dd39bface5e",
 "4fb1109ca684",
 "7c157da9a04e",
 "cec807605ec8",
-"e5b50d705da0",
 "7d4f98aa21f6",
 "f990cffa784d",
-"ddb14204efeb"
+"ddb14204efeb",
+"e5b50d705da0"
 ],
-"ok": 1795785216,
+"ok": 1795824481,
 "fail": 0
 },
 "https://www.kashmiruniversity.net/": {
@@ -328,13 +357,13 @@
 "a2339a2458ed",
 "f0749fd8d886"
 ],
-"ok": 1795785219,
+"ok": 1795824483,
 "fail": 0
 },
 "https://www.cukashmir.ac.in/": {
 "n": "Central Univ. of Kashmir",
 "ids": [],
-"ok": 1795785221,
+"ok": 1795824486,
 "fail": 0
 },
 "https://www.smvdu.ac.in/": {
@@ -354,7 +383,7 @@
 "5200ccbf527f",
 "0c01f84a1cc1"
 ],
-"ok": 1795785224,
+"ok": 1795824488,
 "fail": 0
 },
 "https://www.skuast.org/": {
@@ -416,13 +445,13 @@
 "cc5a64e9703d",
 "f76b2350e49c"
 ],
-"ok": 1795785230,
+"ok": 1795824494,
 "fail": 0
 },
 "https://www.iitjammu.ac.in/": {
 "n": "IIT Jammu",
 "ids": [],
-"ok": 1795785232,
+"ok": 1795824496,
 "fail": 0
 },
 "https://nitsri.ac.in/": {
@@ -434,11 +463,11 @@
 "c9684b3b0569",
 "18b8e7b62a6e"
 ],
-"ok": 1795785235,
+"ok": 1795824499,
 "fail": 0
 },
 "https://clujammu.nic.in/": {
-"fail": 1,
+"fail": 2,
 "err": "<urlopen error [Errno -2] Name or service not known>",
 "n": "Cluster Univ. Jammu"
 },
@@ -569,7 +598,7 @@
 "5f254b5ac888",
 "4dfddba8ddb9"
 ],
-"ok": 1795785238,
+"ok": 1795824502,
 "fail": 0
 },
 "https://jnu.ac.in/": {
@@ -588,7 +617,7 @@
 "1b7d84f9471b",
 "5b76c920e60e"
 ],
-"ok": 1795785241,
+"ok": 1795824505,
 "fail": 0
 },
 "https://www.bhu.ac.in/": {
@@ -597,7 +626,7 @@
 "d61d065f5c58",
 "d66616a94c33"
 ],
-"ok": 1795785245,
+"ok": 1795824534,
 "fail": 0
 },
 "https://www.amu.ac.in/": {
@@ -611,7 +640,7 @@
 "1768a1f00682",
 "088d7331f54a"
 ],
-"ok": 1795785249,
+"ok": 1795824538,
 "fail": 0
 },
 "https://www.jmi.ac.in/": {
@@ -631,7 +660,7 @@
 "c2cdc70e1743",
 "078447c2cf6b"
 ],
-"ok": 1795785252,
+"ok": 1795824542,
 "fail": 0
 },
 "https://www.ignou.ac.in/": {
@@ -654,7 +683,7 @@
 "e8459d4bcb63",
 "4a1e018beb3d"
 ],
-"ok": 1795785256,
+"ok": 1795824570,
 "fail": 0
 }
 }
